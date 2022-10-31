@@ -1,0 +1,123 @@
+<footer class="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="footer-top-left">
+        <div class="footer-site-logo">
+          {{ $footerLogo := resources.GetMatch .Site.Params.FooterLogo }}
+          <a href="/">
+            <img src="{{ $footerLogo.Permalink }}" title="{{ .Site.Params.SiteName }}"
+              data-src="{{ $footerLogo.Permalink }}" alt="{{ .Site.Params.SiteName }}" width="124" height="63">
+          </a>
+        </div>
+        <div class="plus18-wrap">
+          <div class="plus18">+18</div>
+          {{ if .Site.IsMultiLingual }}
+          <div class="lang-selector">
+
+            {{ range .Site.Languages }}
+            {{ if eq . $.Site.Language }}
+            <div class="lang-current">
+              <div class="flag32x32 {{ .Lang }}" title="{{ .LanguageName }}"></div>
+            </div>
+            {{ else }}
+            {{ range $.Translations }}
+            <div class="lang-another" style="border-radius: 0; border-bottom: none;">
+              <a href="{{ .Permalink }}" class="flag32x32 {{ .Language.Lang }}"
+                title="{{ .Language.LanguageName }}"></a>
+            </div>
+            {{ end }}
+            {{ end }}
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      <div class="footer-top-right">
+        <div class="links-group">
+          <div class="caption">Casino Games</div>
+          <div class="links">
+            <a href="play-roulette-online-for-real-cash.html"
+              title="🥇Play Roulette for Real Money in UK Online Casinos" class="link-item">Roulette</a>
+            <a href="casino-table-games-list.html" title="🥇Free Casino Table Games List | Most Popular Table Games"
+              class="link-item">Table Games</a>
+            <a href="card-games-play-online-for-real-cash.html" title="🥇Play Casino Card Games Online For Real Money"
+              class="link-item">Card Games</a>
+          </div>
+        </div>
+        <div class="links-group">
+          <div class="caption">More</div>
+          <div class="links">
+            <a href="top-casino-sites.html" title="Top 15 Online Casinos. 🔥Best Gambling Sites [2022]"
+              class="link-item">Top Rated Casino </a>
+            <a href="how-to-play-online-casino-for-real-money-giude.html"
+              title="How to➡ Play UK Real Money Online Casino at Home Step-by-Step - Guide 2022" class="link-item">How
+              To</a>
+            <a href="casino-mobile-apps.html" title="🥇Casino Mobile Apps. Best Mobile Casino Sites for UK 2022"
+              class="link-item">Mobile Casino Apps 2022</a>
+            <a href="blog.html" title="🥇iMoneySlots Casino Blog - Articles & Latest News" class="link-item">Blog</a>
+            <a href="online-gambling-license-providers.html" title="Gambling License Providers - Online Reviews"
+              class="link-item">Regulators</a>
+            <a href="sitemap.html" title="Sitemap" class="link-item">Sitemap</a>
+          </div>
+        </div>
+        <div class="links-group">
+          <div class="caption">iMoneyslots</div>
+          <div class="links">
+            <a href="top-online-casinos-for-uk-2021.html"
+              title="🔥Top Rated UK Online Casinos - The Best Sites Play & Review 2022" class="link-item">UK Casino
+              Rating 2022</a>
+            <a href="best-online-casino-bonus-codes.html"
+              title="🔥No Deposit Online Casino Bonus UK - ✔See the Latest Bonuses 2022" class="link-item">Casino
+              Bonuses 2022</a>
+            <a href="about-us.html" title="About us | iMoneyslots.com" class="link-item">About Us</a>
+            <a href="terms-of-use.html" title="Terms of Use | iMoneyslots.com" class="link-item">Terms of use</a>
+            <a href="privacy-policy.html" title="Privacy | iMoneyslots.com" class="link-item">Privacy</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="footer-icons">
+        <div class="gpwa">
+          <a rel="nofollow" href="//certify.gpwa.org/verify/en/imoneyslots.com/" id="GPWASeal">
+            <img alt="GPWA" data-src="{{ .Site.BaseURL }}images/gpwa.gif" width="86" height="32">
+          </a>
+        </div>
+        <a href="//www.dmca.com/Protection/Status.aspx?ID=1f7de2e8-9aa6-4706-a82b-65fc8fb9c5cd"
+          title="DMCA.com Protection Status" class="dmca-badge" rel="nofollow">
+          <img alt="DMCA.com Protection Status" width="121" height="35"
+            data-src="https://images.dmca.com/Badges/dmca_protected_11_120.png?ID=1f7de2e8-9aa6-4706-a82b-65fc8fb9c5cd">
+        </a>
+        <!--noindex-->
+        <a rel="nofollow noreferrer noopener" href="https://www.begambleaware.org/" target="_blank">
+          <img alt="begamble" data-src="{{ .Site.BaseURL }}images/be-gamble.png" width="148" height="58">
+          <span class="hover">GambleAware offer players and their families advice and guidance on gambling. They offer
+            information and advice to encourage responsible gambling, both to players and casino operators, and give
+            help tothose whomight have a gambling problem.</span>
+        </a>
+        <a rel="nofollow noreferrer noopener" href="https://www.ecogra.org" target="_blank" class="with_hover">
+          <img alt="ecogra" data-src="{{ .Site.BaseURL }}images/ecogra.png" width="152" height="46">
+          <span class="hover">eCOGRA is an international testing agency that accredits and regulates the world of
+            online gambling. It checks to see whether online casinos are honest, fair and safe. eCOGRA is the word on
+            responsible gambling and protects players against unfair practices.</span>
+        </a>
+        <!--/noindex-->
+      </div>
+      <div class="copyright">
+        iMoneySlots.com is informative website related to the theme of gambling games and reviews of online casinos.
+        The information represented on our website is for guidance only. Authors of website are not responsible for
+        users and readers actions. Attentively look through our terms of use and privacy policy. © 2016 - 2022 All
+        rights are reserved.
+
+      </div>
+      <div class="btnTop_wrap">
+        <a href="#" class="btnTop"></a>
+      </div>
+    </div>
+  </div>
+</footer>
+{{ $main := resources.Get "js/main.js" | minify | fingerprint }}
+<script src="{{ $main.Permalink }}" defer></script>

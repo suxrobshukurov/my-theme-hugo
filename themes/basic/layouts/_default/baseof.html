@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html amp lang="{{ .Site.Language }}">
+{{- partial "head.html" . -}}
+
+<body>
+  <amp-script script="app">
+    {{- partial "header.html" . -}}
+    <div id="content">
+      {{- block "main" . }}{{- end }}
+    </div>
+    {{- partial "footer.html" . -}}
+  </amp-script>
+  {{- partial "amp-script.html" -}}
+</body>
+
+</html>

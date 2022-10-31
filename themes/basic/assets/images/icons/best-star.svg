@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="28px" viewBox="0 0 26 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>2E8BE7E5-3109-43BA-9F5B-8784BBC140BF</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="New-Review" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0.10.3-Recomended-DesktopHD-1440" transform="translate(-285.000000, -11.000000)" fill-rule="nonzero">
+            <g id="ic_best_star" transform="translate(286.000000, 12.000000)">
+                <circle id="Oval" fill="#000000" opacity="0.300000012" cx="12" cy="15" r="12"></circle>
+                <circle id="Oval" stroke="#FCCF6E" stroke-width="2" fill="#FBAE01" cx="12" cy="12" r="12"></circle>
+                <polygon id="Star" fill="#E29C00" points="12 17 7.29771798 19.472136 8.19577393 14.236068 4.39154787 10.527864 9.64885899 9.76393202 12 5 14.351141 9.76393202 19.6084521 10.527864 15.8042261 14.236068 16.702282 19.472136"></polygon>
+                <polygon id="Star" fill="#FCCF6E" points="12 16 7.29771798 18.472136 8.19577393 13.236068 4.39154787 9.52786405 9.64885899 8.76393202 12 4 14.351141 8.76393202 19.6084521 9.52786405 15.8042261 13.236068 16.702282 18.472136"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
