@@ -1,0 +1,22 @@
+[show]
+  other = 'Show'
+[hide]
+  other = 'Hide'
+[website]
+  other = "Url"
+[soft]
+  other = 'Soft'
+[reg-btn]
+  other = 'Visit Casino'
+[read-comment-btn]
+  other = 'Leave comment'
+[bonus-code]
+  other = 'Bonus Code'
+[casino-info]
+  other = 'Casino info'
+[casino-games]
+  other = 'Casino games'
+[welcome-bonus]
+  other = 'Welcome Bonus'
+[casino-rank]
+  other = 'Casino rank'

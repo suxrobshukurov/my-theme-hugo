@@ -2749,6 +2749,9 @@ body {
   margin-right: 8px;
   color: #8f8f8f;
 }
+.breadcrumbs li:not(:last-child)::after {
+  content: '/';
+}
 .breadcrumbs li:last-of-type {
   margin-right: 0;
 }

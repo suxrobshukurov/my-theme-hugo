@@ -5,12 +5,12 @@
     <div class="block-with-sidebar reverse">
       <div class="content flex">
         <div class="content-block content-text">
-          <h1 class="mb-0">Online Slots For Real Money In UK</h1>
+          <h1 class="mb-0">{{.Params.H1}}</h1>
           <div class="under-header-text">a trusted resource where you can play the best real money slots online</div>
           <p>
           <div class="toc-container">
-            <div class="toc-title">Table of content:<span class="show-toc" data-show="Show"
-                data-hide="Hide">[Show]</span></div>
+            <div class="toc-title">Table of content:<span class="show-toc" data-show="{{ i18n `show` . }}"
+                data-hide="{{ i18n `hide` . }}">{{ i18n "show" . }}</span></div>
             <div class="toc-list-wrap">
               <ol class="toc-list">
                 <li><span data-anchor="#how-do-we-evaluate-best-online-casinos"><img alt="✅" class="menu_emoji"
@@ -106,16 +106,16 @@
 
           </div>
           <div class="sb-top-casinos-list">
+            {{ range where .Site.RegularPages "Type" "casino"}}
+            {{if .Params.Sidebar }}
             <div class="tc-item">
-              <a href="slotocash-casino-review.html" class="item-logo logo-shine" rel="nofollow">
-                <img
-                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAA8AQMAAACXY+zrAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABBJREFUKM9jGAWjYBQMWQAAA8AAAWVZVQkAAAAASUVORK5CYII="
-                  placeholders="template/images/placeholders/casino-logo-120x60.png"
-                  data-src="/images/casino/sloto-cash.png" alt="SlotoCash Casino" width="120" height="60">
+              <a href="{{ .Permalink}}" class="item-logo logo-shine" rel="nofollow">
+                <img src="{{ .Params.Icon }}" placeholders="{{ .Params.Icon }}" data-src="{{ .Params.Icons }}"
+                  alt="{{ .Params.Name }}" width="120" height="60">
               </a>
 
               <div class="item-info">
-                <a href="slotocash-casino-review.html" class="item-title">SlotoCash Casino</a>
+                <a href="slotocash-casino-review.html" class="item-title">{{ .Params.Name }}</a>
 
                 <div class="btn-wrap">
                   <div class="rate">96</div>
@@ -125,7 +125,9 @@
                 </div>
               </div>
             </div>
-            <div class="tc-item">
+            {{end}}
+            {{end}}
+            {{/* <div class="tc-item">
               <a href="playamo-casino-review.html" class="item-logo logo-shine" rel="nofollow">
                 <img
                   src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAA8AQMAAACXY+zrAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABBJREFUKM9jGAWjYBQMWQAAA8AAAWVZVQkAAAAASUVORK5CYII="
@@ -220,7 +222,7 @@
 
                 </div>
               </div>
-            </div>
+            </div> */}}
           </div>
         </div>
       </aside>
@@ -1587,7 +1589,7 @@
             <a href="cashmio-casino-review.html" class="item-logo logo-shine" rel="nofollow">
               <span class="data-holder">Launched in 2015</span>
               <img src="template/images/placeholders/casino-logo-240x180.png"
-                data-src="images/casino/cashmio-casino-online.jpg" alt="Сashmio Casino" title="Сashmio Casino"
+                data-src="/images/casino/cashmio-casino-online.jpg" alt="Сashmio Casino" title="Сashmio Casino"
                 width="240" height="180">
             </a>
 
@@ -1623,7 +1625,7 @@
             <a href="sloty-casino-review.html" class="item-logo logo-shine" rel="nofollow">
               <span class="data-holder">Launched in 2017</span>
               <img src="template/images/placeholders/casino-logo-240x180.png"
-                data-src="images/casino/sloty-casino-review.jpg" alt="Sloty" title="Sloty" width="240" height="180">
+                data-src="/images/casino/sloty-casino-review.jpg" alt="Sloty" title="Sloty" width="240" height="180">
             </a>
 
             <div class="item-info">
@@ -1657,7 +1659,7 @@
           <div class="item-card">
             <a href="spinia-casino-review.html" class="item-logo logo-shine" rel="nofollow">
               <span class="data-holder">Launched in 2018</span>
-              <img src="template/images/placeholders/casino-logo-240x180.png" data-src="images/casino/spinia-logo.jpg"
+              <img src="template/images/placeholders/casino-logo-240x180.png" data-src="/images/casino/spinia-logo.jpg"
                 alt="Spinia" title="Spinia" width="240" height="180">
             </a>
 
@@ -1697,7 +1699,7 @@
             <a href="slotty-vegas-casino-review.html" class="item-logo logo-shine" rel="nofollow">
               <span class="data-holder">Launched in 2014</span>
               <img src="template/images/placeholders/casino-logo-240x180.png"
-                data-src="images/slotty/slotty-casino-logo.jpg" alt="Slotty Vegas Casino" title="Slotty Vegas Casino"
+                data-src="/images/slotty/slotty-casino-logo.jpg" alt="Slotty Vegas Casino" title="Slotty Vegas Casino"
                 width="240" height="180">
             </a>
 
@@ -1734,7 +1736,7 @@
             <a href="kozmo-casino-review.html" class="item-logo logo-shine" rel="nofollow">
               <span class="data-holder">Launched in 2017</span>
               <img src="template/images/placeholders/casino-logo-240x180.png"
-                data-src="images/kozmo/kozmo-casino-onlline.jpg" alt="Kozmo Casino" title="Kozmo Casino" width="240"
+                data-src="/images/kozmo/kozmo-casino-onlline.jpg" alt="Kozmo Casino" title="Kozmo Casino" width="240"
                 height="180">
             </a>
 
@@ -1774,7 +1776,7 @@
             <a href="slots-heaven-casino-review.html" class="item-logo logo-shine" rel="nofollow">
               <span class="data-holder">Launched in 2014</span>
               <img src="template/images/placeholders/casino-logo-240x180.png"
-                data-src="images/slots-heaven-casino/slots-heaven-casino.jpg" alt="Slots Heaven " title="Slots Heaven "
+                data-src="/images/slots-heaven-casino/slots-heaven-casino.jpg" alt="Slots Heaven " title="Slots Heaven "
                 width="240" height="180">
             </a>
 
@@ -1812,8 +1814,8 @@
             <a href="luckland-casino-review.html" class="item-logo logo-shine" rel="nofollow">
               <span class="data-holder">Launched in 2015</span>
               <img src="template/images/placeholders/casino-logo-240x180.png"
-                data-src="images/luckland/luckland-casino.jpg" alt="Luckland Casino" title="Luckland Casino" width="240"
-                height="180">
+                data-src="/images/luckland/luckland-casino.jpg" alt="Luckland Casino" title="Luckland Casino"
+                width="240" height="180">
             </a>
 
             <div class="item-info">
@@ -1850,7 +1852,7 @@
             <a href="casino-heroes-review.html" class="item-logo logo-shine" rel="nofollow">
               <span class="data-holder">Launched in 2013</span>
               <img src="template/images/placeholders/casino-logo-240x180.png"
-                data-src="images/casino-heroes/casino-heroes.jpg" alt="Casino Heroes" title="Casino Heroes" width="240"
+                data-src="/images/casino-heroes/casino-heroes.jpg" alt="Casino Heroes" title="Casino Heroes" width="240"
                 height="180">
             </a>
 
@@ -1887,7 +1889,7 @@
             <a href="playjango-casino-review.html" class="item-logo logo-shine" rel="nofollow">
               <span class="data-holder">Launched in 2020</span>
               <img src="template/images/placeholders/casino-logo-240x180.png"
-                data-src="images/playjango/playjango-logo.jpg" alt="Playjango " title="Playjango " width="240"
+                data-src="/images/playjango/playjango-logo.jpg" alt="Playjango " title="Playjango " width="240"
                 height="180">
             </a>
 
@@ -1925,7 +1927,7 @@
             <a href="regent-casino-review.html" class="item-logo logo-shine" rel="nofollow">
               <span class="data-holder">Launched in 2018</span>
               <img src="template/images/placeholders/casino-logo-240x180.png"
-                data-src="images/regent/regent-casino-online.jpg" alt="Regent" title="Regent" width="240" height="180">
+                data-src="/images/regent/regent-casino-online.jpg" alt="Regent" title="Regent" width="240" height="180">
             </a>
 
             <div class="item-info">
@@ -1964,7 +1966,7 @@
             <a href="karamba-casino-review.html" class="item-logo logo-shine" rel="nofollow">
               <span class="data-holder">Launched in 2005</span>
               <img src="template/images/placeholders/casino-logo-240x180.png"
-                data-src="images/casino/karamba-casino-online-logo.png" alt="Karamba Casino" title="Karamba Casino"
+                data-src="/images/casino/karamba-casino-online-logo.png" alt="Karamba Casino" title="Karamba Casino"
                 width="240" height="180">
             </a>
 
@@ -2002,7 +2004,7 @@
             <a href="ahti-games-casino-review.html" class="item-logo logo-shine" rel="nofollow">
               <span class="data-holder">Launched in 2015</span>
               <img src="template/images/placeholders/casino-logo-240x180.png"
-                data-src="images/casino/ahti-games-logo.jpg" alt="Ahti Games " title="Ahti Games " width="240"
+                data-src="/images/casino/ahti-games-logo.jpg" alt="Ahti Games " title="Ahti Games " width="240"
                 height="180">
             </a>
 
@@ -2100,7 +2102,7 @@
     <div class="content-block">
       <div class="players-trust-block">
         <h2 id="why-you-can-trust-our-rating" style="text-align: center;"><img class="content_emoji" alt="❓"
-            data-src="images/ficons/icons/svg/1533/1533913.svg"><span>Why Players Can Trust UK Slot Sites Rating at
+            data-src="/images/ficons/icons/svg/1533/1533913.svg"><span>Why Players Can Trust UK Slot Sites Rating at
             iMoneySlots</span></h2>
         <p style="text-align: center;">iMoneyslots is the place where an enthusiastic player can find all for
           thrilling gambling: real money online slots, their detailed reviews, different kinds of casino games for
@@ -2112,7 +2114,7 @@
           <li>
             <h3 class="justifyleft"><strong>Security &amp; Confidence</strong></h3>
             <img style="float: right; margin: 0% 0% 0% 1%;" alt="cup imoneyslots" width="17%"
-              data-src="images/all-slots/cup.png" height="200">The pages contain important and secure information
+              data-src="/images/all-slots/cup.png" height="200">The pages contain important and secure information
             about all up-to-date online money casinos and their objective ratings. Our team attentively gathers and
             selects information about the latest casino bonuses, no deposit bonuses, and other exciting promotions.
             For our readers, we pick only the most profitable and interesting offers that enable us to make the right
@@ -2136,10 +2138,10 @@
       </div>
       <div class="content-text">
         <h2 id="choose-free-slots-with-bonus-games" style="text-align: center;"><img class="content_emoji" alt="❓"
-            data-src="images/ficons/icons/svg/2130/2130047.svg">Huge Selection of Online Real Money Slots 2022 for UK
+            data-src="/images/ficons/icons/svg/2130/2130047.svg">Huge Selection of Online Real Money Slots 2022 for UK
           Players</h2>
         <p><img style="float: right; margin: 0% 0% 0% 1%;" alt="Slots with 777" width="15%"
-            data-src="images/all-slots/slots-imoneyslots.png" height="200"></p>
+            data-src="/images/all-slots/slots-imoneyslots.png" height="200"></p>
         <p>In the section ‘All Slots’ you can find many <a href="free-demo-slots.html">online slots</a> that are
           played whenever and wherever you are. All gaming machines are masterpieces of the famous leading producers
           like Novomatic, Casino Technology, Playtech, Microgaming, NetEnt,  Play’N go, IGT and prospective Amaya,
@@ -2619,7 +2621,7 @@
         </blockquote>
         <hr>
         <h2 id="meet-best-real-money-online-casinos" style="text-align: center;"><img class="content_emoji" alt="❓"
-            data-src="images/ficons/premium-icon/icons/png/2616/2616474.png" width="512" height="512">Look Forward
+            data-src="/images/ficons/premium-icon/icons/png/2616/2616474.png" width="512" height="512">Look Forward
           Meeting <span
             data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;H2: Best Slot Sites for UK Casino Players&quot;}"
             data-sheets-userformat="{&quot;2&quot;:21123,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:[null,2,16573901],&quot;10&quot;:2,&quot;12&quot;:0,&quot;15&quot;:&quot;Arial&quot;,&quot;17&quot;:1}">Best
@@ -2804,7 +2806,7 @@
         </blockquote>
         <hr>
         <h2 id="popular-real-money-slots-providers" style="text-align: center;"><img class="content_emoji" alt="❓"
-            data-src="images/ficons/icons/svg/2729/2729917.svg">The Most Popular Real Money Slots Providers of 2022
+            data-src="/images/ficons/icons/svg/2729/2729917.svg">The Most Popular Real Money Slots Providers of 2022
         </h2>
         <p dir="ltr"><span>We have gathered the best real money slots by the famous software developers. That is why
             you have the perfect opportunity to choose the top one from our list. Moreover, the reviews of providers
@@ -2844,7 +2846,7 @@
           </li>
         </ol>
         <h2 id="all-bonuses-in-one-place" style="text-align: center;"><img class="content_emoji" alt="❓"
-            data-src="images/ficons/premium-icon/icons/png/2363/2363359.png" width="512" height="512">Experience Slots
+            data-src="/images/ficons/premium-icon/icons/png/2363/2363359.png" width="512" height="512">Experience Slots
           Bonus When You Play for Real</h2>
         <p>For expanding the theme of gaming places, we decided to create one more comfortable and high- demand by
           many players section – ‘Bonuses’ from represented best casinos. You are able to learn how to meet the
@@ -2865,7 +2867,7 @@
             casinos, where you can activate the reward. So, go on to our page.</p>
         </blockquote>
         <h2 id="start-to-play-online-casino-real-money-games" style="text-align: center;"><img class="content_emoji"
-            alt="❓" data-src="images/ficons/premium-icon/icons/png/1714/1714090.png" width="512"
+            alt="❓" data-src="/images/ficons/premium-icon/icons/png/1714/1714090.png" width="512"
             height="512"><span>Learning More About Other Real Money Games 2022</span></h2>
         <p>The world of games is really various so, of course, one cannot wait to play real money games. But in order
           to learn all ends and outs of a game, you need time.  That’s why we collect the best casino games to win
@@ -2885,7 +2887,7 @@
           types of different casino games. They are Roulette, Card games, table games, and video poker. Every type can
           offer you its four representatives.</p>
         <h2 id="how-to-play-best-real-money-online-casino-to-win" style="text-align: center;"><img class="content_emoji"
-            alt="❓" data-src="images/ficons/icons/svg/1698/1698558.svg">How to  Play Online
+            alt="❓" data-src="/images/ficons/icons/svg/1698/1698558.svg">How to  Play Online
           Slots for Real Money in 2022</h2>
         <p>Our aim is to create a comfortable environment for each gambler. So, as experienced players, we decided to
           create the resource for users of any age and give our experience to newcomers. Our section ‘<a
@@ -2925,10 +2927,10 @@
           exist. But don’t be panic! We prepare for you some tips and advice on how to win playing online slots that
           really work. <span lang="en-US">All info you may find on the pages of our iMoneySlots website.</span></p>
         <h2 id="deposit-and-withdrawal-casino-methods" style="text-align: center;"><img class="content_emoji" alt="❓"
-            data-src="images/ficons/icons/svg/2693/2693324.svg">Play for Real Money Slots with Trusted Deposit &amp;
+            data-src="/images/ficons/icons/svg/2693/2693324.svg">Play for Real Money Slots with Trusted Deposit &amp;
           Withdrawal Methods</h2>
         <p><img style="margin: 1px 2px; float: left;" alt="handy payment" width="10%"
-            data-src="images/all-slots/payment-system.png" height="200">Our project takes care of secure and reliable
+            data-src="/images/all-slots/payment-system.png" height="200">Our project takes care of secure and reliable
           gambling. For that reason, we collect only the best online <a href="online-casino-payment-methods.html">casino
             payment methods</a> for our users. Various kinds of
           payment options allow doing easy deposits and withdrawals. Each of them has positive and negative sides. But
@@ -2948,7 +2950,7 @@
             online casino slots for real money, don't start with high-limit slots and big bets. </p>
         </blockquote>
         <h2 id="advantages-of-slots-for-money" style="text-align: center;"><img class="content_emoji" alt="❓"
-            data-src="images/ficons/icons/svg/2810/2810874.svg">Top 3 UK Mobile Slots App </h2>
+            data-src="/images/ficons/icons/svg/2810/2810874.svg">Top 3 UK Mobile Slots App </h2>
         <p lang="en-US"><span lang="en-US">A wide range of gamblers prefers to play slots for free in order to know
             the main options, themes, Bonuses, etc. However, you can also see the benefits of real money online slots
             by the famous casino software developers. </span><span lang="en-US">Money</span> slot machines do not
@@ -2972,7 +2974,7 @@
           from the first or last reel. In addition, the combination will be paid only if it appears on the active line
           with a bet.</p>
         <h2 id="slots-sites-responsible-gaming" style="text-align: center;"><img class="content_emoji" alt="❓"
-            data-src="images/ficons/icons/png/512/2927/2927808.png" width="512" height="512">Slots Sites &amp;
+            data-src="/images/ficons/icons/png/512/2927/2927808.png" width="512" height="512">Slots Sites &amp;
           Responsible Gaming</h2>
         <p>The high-octane thrill of exciting casino games and lucrative prizes sucks in millions of patrons into the
           iGaming scene. But while a section is on board for the epic entertainment, another is chasing losses, or in
@@ -2984,7 +2986,7 @@
         <p>However, if your gambling is becoming a compulsive habit that’s interfering with your daily
           responsibilities and burning a hole in your pockets, we advise you to seek help.</p>
         <h3 id="gambling-management-tools" style="text-align: center;"><img class="content_emoji" alt="❓"
-            data-src="images/ficons/icons/png/512/4988/4988387.png" width="512" height="512">Gambling Management Tools
+            data-src="/images/ficons/icons/png/512/4988/4988387.png" width="512" height="512">Gambling Management Tools
         </h3>
         <p>Punters need help from time to time to ensure they don’t fall into problematic gambling. Online bookmarkers
           provide an array of responsible gaming tools to help you gamble responsibly.</p>
@@ -3003,7 +3005,7 @@
           you’ll receive a report on your risk level, and suggestions and tools to help you in case you have a problem
           with gambling.</p>
         <h3 id="institutions-for-compulsive-gambling" style="text-align: center;"><img class="content_emoji" alt="❓"
-            data-src="images/ficons/icons/png/512/4988/4988355.png" width="512" height="512">Reputable Institutions
+            data-src="/images/ficons/icons/png/512/4988/4988355.png" width="512" height="512">Reputable Institutions
           for Compulsive Gambling</h3>
         <p>If you suspect your gambling is getting out of hand and the casino responsible gaming tools don’t seem to
           work, we recommend you seek professional therapy. There are reputable UK gambling organizations that offer
@@ -3013,7 +3015,7 @@
           <tbody>
             <tr>
               <td style="width: 70px;">
-                <p><img alt="GamCare" width="160" height="160" data-src="images/Gambling-20-Comission/gamcare3.png">
+                <p><img alt="GamCare" width="160" height="160" data-src="/images/Gambling-20-Comission/gamcare3.png">
                 </p>
               </td>
               <td>GamCare</td>
@@ -3023,7 +3025,7 @@
             </tr>
             <tr>
               <td><img style="margin: 1px 2px; vertical-align: middle;" alt="BeGambleAware" width="160" height="160"
-                  data-src="images/Gambling-20-Comission/be-gamble-(2).png"></td>
+                  data-src="/images/Gambling-20-Comission/be-gamble-(2).png"></td>
               <td>BeGambleAware</td>
               <td>Take control over your gambling and overcome your compulsive gambling habits by reaching out to
                 BeGambleAware for free confidential assistance and support.</td>
@@ -3031,7 +3033,7 @@
             </tr>
             <tr>
               <td><img style="vertical-align: middle; margin: 1px 2px;" alt="Gam-Anon" width="160" height="160"
-                  data-src="images/Gambling-20-Comission/gam-anon3.png"></td>
+                  data-src="/images/Gambling-20-Comission/gam-anon3.png"></td>
               <td>Gam-Anon</td>
               <td>Are you concerned about how gambling is affecting the life of your loved one? Or you’re in financial
                 turmoil over your gambling habits? Gam-Anon offers a 12-step emotional and spiritual program to help
@@ -3040,7 +3042,7 @@
             </tr>
             <tr>
               <td><img style="vertical-align: middle; margin: 1px 2px;" alt="Gamblers Anonymous" width="160"
-                  height="160" data-src="images/Gambling-20-Comission/gamblers-anonymous3.png"></td>
+                  height="160" data-src="/images/Gambling-20-Comission/gamblers-anonymous3.png"></td>
               <td>Gamblers Anonymous</td>
               <td>Admitting you have a problem is the first step to recovery. With the support of an able team and
                 fellowship with other persons suffering from obsessive gambling, you’ll gain strength and hope to
@@ -3049,7 +3051,7 @@
             </tr>
             <tr>
               <td><img style="margin: 1px 2px; vertical-align: middle;" alt="Gordon House Association" width="160"
-                  height="160" data-src="images/Gambling-20-Comission/gordon-moody3.png"></td>
+                  height="160" data-src="/images/Gambling-20-Comission/gordon-moody3.png"></td>
               <td>Gordon House Association</td>
               <td>You are not alone. Gordon House Association provides you with a therapeutic community that will
                 offer you all the support needed to help you get over problem gambling.</td>

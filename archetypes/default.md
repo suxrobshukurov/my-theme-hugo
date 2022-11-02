@@ -4,7 +4,7 @@ date: {{ .Date }}
 title: "{{ replace .Name "-" " " | title }}"
 description: ''
 h1: ""
-name: ""
+name: "{{ replace .Name "-" " " | title }}"
 canonicalUrl: ""
 keywords: ""
 thumbnail: ""

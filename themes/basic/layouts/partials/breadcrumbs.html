@@ -1,0 +1,48 @@
+<div class="breadcrumbs">
+  <div class="container">
+    <ul itemscope="" itemtype="https://schema.org/BreadcrumbList" id="breadcrumbs">
+      <li>
+        <span itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem">
+          <a itemprop="item" href="/">
+            <span itemprop="name">{{ .Site.Params.Sitename }}</span>
+            <meta itemprop="position" content="1">
+          </a>
+        </span>
+      </li>
+      {{- $.Scratch.Set "url" "" -}}
+      {{- range (split .RelPermalink "/") -}}
+      {{- if (gt (len .) 0) -}}
+      {{- $.Scratch.Set "isPage" "false" -}}
+      {{- $.Scratch.Add "url" (print "/" . ) -}}
+      {{- if $.Site.GetPage (print . ".md") -}}
+      {{- with $.Site.GetPage (print . ".md") -}}
+      {{- if .IsPage -}}
+      {{- $.Scratch.Set "isPage" "true" -}}
+      {{- end -}}
+      {{- end -}}
+      {{- end -}}
+      {{- if eq ($.Scratch.Get "isPage") "true" -}}
+      {{- with $.Site.GetPage (print . ".md") -}}
+      <li>
+        <span itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem">
+          <span itemprop="name">{{ .Params.Name }}</span>
+          <meta itemprop="position" content="3">
+          <meta itemprop="item" content="{{ $.Scratch.Get `url` }}">
+        </span>
+      </li>
+      {{- end -}}
+      {{- else -}}
+      <li>
+        <span itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem">
+          <a itemprop="item" href="{{ $.Scratch.Get `url` }}/">
+            <span itemprop="name">{{ humanize . }}</span>
+            <meta itemprop="position" content="2">
+          </a>
+        </span>
+      </li>
+      {{- end -}}
+      {{- end -}}
+      {{- end -}}
+    </ul>
+  </div>
+</div>

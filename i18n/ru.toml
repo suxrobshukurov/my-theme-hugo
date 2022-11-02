@@ -1,0 +1,22 @@
+[show]
+  other = 'Показать'
+[hide]
+  other = 'Скрыть'
+[website]
+  other = 'Веб-сайт'
+[soft]
+  other = 'Поставищик програмного обеспечения'
+[reg-btn]
+  other = 'Перейти'
+[read-comment-btn]
+  other = 'Написать отзыв'
+[bonus-code]
+  other = 'Бонус код'
+[casino-info]
+  other = 'Информация о казино'
+[casino-games]
+  other = 'Casino games'
+[welcome-bonus]
+  other = 'Welcome Bonus'
+[casino-rank]
+  other = 'Casino rank'

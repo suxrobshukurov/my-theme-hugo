@@ -1,341 +1,189 @@
 {{ define "main" }}
 {{ .Content }}
-<div style="color:grey; font-size:16px;">
-  {{ if .Params.software }}<strong>software:</strong>
-  {{range .Params.software }}
-
-  {{end}}
-  {{end}}
-</div>
-
-{{ printf "%#v" .Params.software }}
-
+{{/* {{ printf "%#v" .Params.software }} */}}
 <main class="main" itemscope="" itemtype="http://schema.org/Casino">
-  <div class="breadcrumbs">
-    <div class="container">
-      <ul itemscope="" itemtype="https://schema.org/BreadcrumbList" id="breadcrumbs">
-        <li>
-          <span itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem">
-            <a title="iMoneySlots" itemprop="item" href="/">
-              <span itemprop="name">iMoneySlots</span>
-              <meta itemprop="position" content="1">
-            </a>
-          </span>
-        </li>
-        <li><span class="separator">/</span></li>
-        <li>
-          <span itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem">
-            <a title="Casinos" itemprop="item" href="/real-money-online-casinos.html">
-              <span itemprop="name">Casinos</span>
-              <meta itemprop="position" content="2">
-            </a>
-          </span>
-        </li>
-        <li><span class="separator">/</span></li>
-        <li>
-          <span itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem">
-            <span itemprop="name">SlotoCash Casino</span>
-            <meta itemprop="position" content="3">
-            <meta itemprop="item" content="https://imoneyslots.com/slotocash-casino-review.html">
-          </span>
-        </li>
-      </ul>
-    </div>
-  </div>
+  {{ partial "breadcrumbs.html" . }}
   <div class="container">
     <div class="casino-main-info">
-      <meta itemprop="name" content="SlotoCash Casino">
-      <meta itemprop="url" content="/slotocash-casino-review.html">
+      <meta itemprop="name" content="{{ .Params.Name }}">
+      <meta itemprop="url" content="{{ .Site.BaseURL }}{{ .RelPermalink }}">
       <meta itemprop="priceRange" content="$$">
-      <meta itemprop="logo image" content="https://imoneyslots.com/images/casino/sloto-cash-casino.png">
+      <meta itemprop="logo image" content="{{ .Site.BaseURL }}{{ .Params.Thumbnail }}">
       <div style="display: none;" itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating">
-        <meta itemprop="itemReviewed" content="SlotoCash Casino">
+        <meta itemprop="itemReviewed" content="{{ .Params.Name }}">
         <meta itemprop="bestRating" content="100">
         <meta itemprop="worstRating" content="1">
-        <meta itemprop="ratingValue" content="96">
+        <meta itemprop="ratingValue" content="{{.Params.Rating }}">
         <meta itemprop="ratingCount" content="5">
       </div>
       <div class="cmi-left">
         <div class="casino-logo logo-shine" data-link="slotocash">
-          <img src="images/casino/sloto-cash-casino.png" data-src="images/casino/sloto-cash-casino.png"
-            alt="SlotoCash Casino" width="240" height="180" data-loaded="true">
+          {{$casinoImage := cond (gt (len .Params.Thumbnail) 1) .Params.Thumbnail .Site.Params.DefaultImg }}
+          <amp-img src="{{ $casinoImage }}" data-src="{{ $casinoImage }}" alt="{{ .Params.Name }}"
+            title="{{ .Params.Name }}" width="240" height="180" data-loaded="true"></amp-img>
         </div>
-        <div class="views"><i class="eye"></i>19901</div>
       </div>
       <div class="cmi-center">
-        <h1>SlotoCash Casino Review from iMoneyslots Experts for UK Players</h1>
+        <h1>{{ .Params.H1 }}</h1>
         <div class="params">
+          {{with .Params.Website }}
           <div class="param-row">
-            <div class="param-name"><i class="param-site"></i>Url:</div>
-            <div class="param-value"><span data-link="slotocash" class="site-link">slotocash.im</span></div>
+            <div class="param-name"><i class="param-site"></i>{{ i18n "website" . }}:</div>
+            <div class="param-value"><span data-link="slotocash" class="site-link">{{.}}</span></div>
           </div>
+          {{end}}
+          {{ with .Params.Software }}
           <div class="param-row">
-            <div class="param-name"><i class="param-soft"></i>Soft:</div>
+            <div class="param-name"><i class="param-soft"></i>{{ i18n "soft" . }}:</div>
             <div class="param-value">
-              <a href="/realtime-gaming-online-slots.html">RTG</a>
+              {{ range $ind,$val := . }}
+              {{ $path := print "/software/" $val ".md" | urlize}}
+              {{- with site.GetPage $path -}}
+              <a href="{{ .Permalink }}">{{ .Params.Name }}</a>
+              {{- else -}}
+              {{$val}}
+              {{- end -}}
+              {{if lt (add $ind 1) (len $.Params.Software ) }},{{end}}
+              {{ end }}
             </div>
           </div>
+          {{end}}
+
         </div>
         <div class="players-from-wrap">
-          <div class="players-from">
+          {{/* <div class="players-from">
             <div class="flag32x32 ua"></div>Players from UA
             accepted
-          </div>
-
+          </div> */}}
+          {{ with .Params.BonusCode }}
           <div class="casinopage-promocode param-promocode" data-copied="Copied">
-            <div class="casinopage-promocode-title">Bonus Code:</div>
-            <div class="casinopage-promocode-value code">100BANDITWIN</div>
+            <div class="casinopage-promocode-title">{{ i18n "bonus-code" . }}:</div>
+            <div class="casinopage-promocode-value code">{{.}}</div>
           </div>
+          {{ end }}
 
         </div>
       </div>
       <div class="cmi-right">
+        {{ with $arrayRating := .Params.CasinoRank}}
+        {{$rating := 0}}
         <div class="rating">
-          <div class="rate">96</div>
+          <div class="rate">
+            {{ range $item := . }}
+            {{$rank := echoParam $item `value`}}
+            {{$rating = add $rating $rank}}
+            {{ end }}
+            {{$rating = div $rating (len $arrayRating ) }}
+            {{$rating}}
+          </div>
         </div>
+        {{ end }}
         <div class="btns-wrap">
-
-          <button class="btn btn-yellow" data-link="slotocash" style="cursor: initial;">Visit Casino</button>
-
-          <div class="leave-comment" data-anchor="#leave-comment">Leave comment</div>
+          <button class="btn btn-yellow"
+            data-link="{{cond (gt  (len .Params.Referral) 1) .Params.Referral .Site.Params.Referral }}"
+            style="cursor: initial;">{{ i18n "reg-btn" .}}</button>
+          <div class="leave-comment" data-anchor="#leave-comment">{{ i18n "read-comment-btn" .}}</div>
         </div>
       </div>
     </div>
   </div>
+  {{ with $anchors := .Params.pageAnchor }}
   <div class="anchors-block-wrap">
     <div class="container">
       <div class="anchors-block">
+        {{ range $anchors }}
         <div class="anchor-item">
-          <span data-anchor="#navigation_review">Review</span>
+          {{ range $elem_key, $elem_val := . }}
+          <span data-anchor="#{{ $elem_key }}">{{ $elem_val }}</span>
+          {{ end }}
         </div>
-        <div class="anchor-item">
-          <span data-anchor="#navigation_bonus">Bonus</span>
-        </div>
-        <div class="anchor-item">
-          <span data-anchor="#navigation_mobile">Mobile</span>
-        </div>
-        <div class="anchor-item">
-          <span data-anchor="#navigation_support">Support</span>
-        </div>
-        <div class="anchor-item">
-          <span data-anchor="#navigation_banking">Banking</span>
-        </div>
-        <div class="anchor-item">
-          <span data-anchor="#navigation_games">Top Games</span>
-        </div>
-        <div class="anchor-item">
-          <span data-anchor="#navigation_hitngap">Hits &amp; Gaps</span>
-        </div>
-        <div class="anchor-item">
-          <span data-anchor="#navigation_faq">FAQ</span>
-        </div>
-        <div class="anchor-item">
-          <span data-anchor="#navigation_comments">Comments</span>
-        </div>
+        {{ end }}
       </div>
     </div>
   </div>
+  {{ end }}
+
   <div class="container">
     <div class="content-block">
+      {{ with i18n "casino-info" . }}
+      <h2>{{.}}</h2>
+      {{ end }}
       <div class="tabs l-2007">
         <div class="tabs-control">
-          <div class="tabs-switcher active" data-target="general"><i class="tabs-general"></i>General</div>
-          <div class="tabs-switcher" data-target="bonus"><i class="tabs-bonus"></i>Bonus</div>
-          <div class="tabs-switcher" data-target="more"><i class="tabs-more"></i>More</div>
+          {{ range $key, $item := .Params.tabs }}
+          <div class="tabs-switcher {{if eq $key 0}}active{{end}}" data-target="{{ echoParam $item `id`}}"><i
+              class="tabs-{{ echoParam $item `id`}}"></i>{{ echoParam $item "title"}}
+          </div>
+          {{ end }}
         </div>
         <div class="tabs-content">
-          <div class="tabs-item open" data-tab="general">
+          {{ range $key, $item := .Params.tabs }}
+          {{ $section := echoParam $item `id`}}
+          <div class="tabs-item {{if eq $key 0}}open{{end}}" data-tab="{{ $section }}">
             <div class="casino-tabs-params">
+              {{ range $params := $.Params.CasinoInfo }}
+              {{ $id := echoParam $params `id` }}
+              {{ $title := echoParam $params `title` }}
+              {{ $value := echoParam $params `value` }}
+              {{ $itemSection := echoParam $params `section` }}
+              {{if(eq $section $itemSection)}}
               <div class="param-row">
-                <div class="param-name"><i class="param-launched"></i>Launched:</div>
-                <div class="param-value">2007</div>
+                <div class="param-name"><i class="param-{{$id}}"></i>{{$title}}:</div>
+                <div class="param-value">{{$value}}</div>
               </div>
-              <div class="param-row">
-                <div class="param-name"><i class="param-platform"></i>Platform:</div>
-                <div class="param-value">Independent / No platform</div>
-              </div>
-              <div class="param-row">
-                <div class="param-name"><i class="param-currency"></i>Currency:</div>
-                <div class="param-value">US dollars</div>
-              </div>
-              <div class="param-row">
-                <div class="param-name"><i class="param-language"></i>Language:</div>
-                <div class="param-value">English, French, Russian</div>
-              </div>
-              <div class="param-row">
-                <div class="param-name"><i class="param-restricted"></i>Restricted Countries:</div>
-                <div class="param-value">Australia, Israel, Italy, Moldova, Spain, Sweden, Switzerland, UK, USA</div>
-              </div>
-              <div class="param-row">
-                <div class="param-name"><i class="param-game-type"></i>Type of Games:</div>
-                <div class="param-value">Slots, Table Games, Card Games</div>
-              </div>
-              <div class="param-row">
-                <div class="param-name"><i class="param-compatibility"></i>Compatibility:</div>
-                <div class="param-value">Android, BlackBerry, iOS, Windows</div>
-              </div>
-              <div class="param-row">
-                <div class="param-name"><i class="param-deposit"></i>Minimum deposit:</div>
-                <div class="param-value">$25</div>
-              </div>
-              <div class="param-row">
-                <div class="param-name"><i class="param-withdraw"></i>Max withdraw:</div>
-                <div class="param-value">2000 USD per week</div>
-              </div>
+              {{end}}
+              {{end}}
             </div>
           </div>
-          <div class="tabs-item" data-tab="bonus">
-            <div class="casino-tabs-params">
-              <div class="param-row">
-                <div class="param-name"><i class="param-bonus-type"></i>Types of Bonuses:</div>
-                <div class="param-value">Welcome, No Deposit, 1st Deposit , 2nd Deposit</div>
-              </div>
-              <div class="param-row">
-                <div class="param-name"><i class="param-first-bonus"></i>First Deposit:</div>
-                <div class="param-value">200% + 100 Spins up to $2000</div>
-              </div>
-              <div class="param-row">
-                <div class="param-name"><i class="param-bonus-code"></i>Bonus Code:</div>
-                <div class="param-value">SLOTO1MATCH</div>
-              </div>
-              <div class="param-row">
-                <div class="param-name"><i class="param-wager"></i>Wager requirements:</div>
-                <div class="param-value">25x</div>
-              </div>
-              <div class="param-row">
-                <div class="param-name"><i class="param-nodep"></i>No Deposit:</div>
-                <div class="param-value">100 FREE Spins</div>
-              </div>
-              <div class="param-row">
-                <div class="param-name"><i class="param-exclusive-bonus"></i>Exclusive Bonus:</div>
-                <div class="param-value">No</div>
-              </div>
-              <div class="param-row">
-                <div class="param-name"><i class="param-vip"></i>VIP Program:</div>
-                <div class="param-value">No</div>
-              </div>
-              <div class="param-row">
-                <div class="param-name"><i class="param-forfeitable"></i>Forfeitable:</div>
-                <div class="param-value">Yes</div>
-              </div>
-              <div class="param-row">
-                <div class="param-name"><i class="param-nodep-wager"></i>No deposit bonus wagering:</div>
-                <div class="param-value">25x</div>
-              </div>
-              <div class="param-row">
-                <div class="param-name"><i class="param-restricted"></i>Restricted Countries:</div>
-                <div class="param-value">Australia, Italy, Spain, Sweden, Switzerland, UK</div>
-              </div>
-              <div class="param-row">
-                <div class="param-name"><i class="param-cashable"></i>Cashable:</div>
-                <div class="param-value">Yes</div>
-              </div>
-            </div>
-          </div>
-          <div class="tabs-item" data-tab="more">
-            <div class="casino-tabs-params">
-              <div class="param-row">
-                <div class="param-name"><i class="param-casino-type"></i>Casino Type:</div>
-                <div class="param-value">Instant Play, Mobile</div>
-              </div>
-              <div class="param-row">
-                <div class="param-name"><i class="param-rtp"></i>RTP:</div>
-                <div class="param-value">Not publicly audited</div>
-              </div>
-              <div class="param-row">
-                <div class="param-name"><i class="param-support"></i>Support:</div>
-                <div class="param-value">Live Chat, email - support@slotocash.im, phone - 1 866-890-6745, 1 657-208-5477
-                </div>
-              </div>
-              <div class="param-row">
-                <div class="param-name"><i class="param-license"></i>License:</div>
-                <div class="param-value">Curacao</div>
-              </div>
-              <div class="param-row">
-                <div class="param-name"><i class="param-number-of-slots"></i>Number of slots:</div>
-                <div class="param-value">75</div>
-              </div>
-              <div class="param-row">
-                <div class="param-name"><i class="param-other-games"></i>Other Games:</div>
-                <div class="param-value">100</div>
-              </div>
-              <div class="param-row">
-                <div class="param-name"><i class="param-live-casino"></i>Live Casino:</div>
-                <div class="param-value">4</div>
-              </div>
-              <div class="param-row">
-                <div class="param-name"><i class="param-mobile"></i>Mobile:</div>
-                <div class="param-value">Yes</div>
-              </div>
-              <div class="param-row">
-                <div class="param-name"><i class="param-download"></i>Download available:</div>
-                <div class="param-value">No</div>
-              </div>
-              <div class="param-row">
-                <div class="param-name"><i class="param-protection"></i>Player Protection:</div>
-                <div class="param-value">GamCare, International Gamblers Anonymous</div>
-              </div>
-            </div>
-          </div>
+          {{ end }}
         </div>
       </div>
+
       <div class="casino-three-blocks">
+        {{ with $casinoGames := .Params.CasinoGames }}
         <div class="ctb-item">
+          {{ with i18n "casino-games" . }}
           <div class="block-title">
-            <h2>Casino Games</h2>
+            <h2>{{ . }}</h2>
           </div>
+          {{ end }}
           <div class="block-content casino-options">
-            <div class="option-item status-yes">
-              <div class="caption">Live Casino</div>
-              <i class="co-live"></i>
+            {{ range $value := $casinoGames }}
+            {{$title := echoParam $value "title"}}
+            {{$status := echoParam $value "status"}}
+            {{$image := echoParam $value "image"}}
+            <div class="option-item status-{{$status}}">
+              <div class="caption">{{$title}}</div>
+              <i {{with $image}} style="background-image:url({{.}}) ;" {{end}}></i>
             </div>
-            <div class="option-item status-yes">
-              <div class="caption">Black Jack</div>
-              <i class="co-blackjack"></i>
-            </div>
-            <div class="option-item status-no">
-              <div class="caption">Bingo</div>
-              <i class="co-bingo"></i>
-            </div>
-            <div class="option-item status-yes">
-              <div class="caption">Slots</div>
-              <i class="co-slot"></i>
-            </div>
-            <div class="option-item status-yes">
-              <div class="caption">Keno</div>
-              <i class="co-keno"></i>
-            </div>
-            <div class="option-item status-yes">
-              <div class="caption">Baccarat</div>
-              <i class="co-baccarat"></i>
-            </div>
-            <div class="option-item status-yes">
-              <div class="caption">Roulette</div>
-              <i class="co-roulette"></i>
-            </div>
-            <div class="option-item status-yes">
-              <div class="caption">Poker</div>
-              <i class="co-poker"></i>
-            </div>
-            <div class="option-item status-no">
-              <div class="caption">Sport</div>
-              <i class="co-sport"></i>
-            </div>
-            <div class="option-item status-yes">
-              <div class="caption">Videopoker</div>
-              <i class="co-videopoker"></i>
-            </div>
+            {{ end }}
           </div>
         </div>
+        {{ end }}
+        {{ with $casinoInfo := .Params.CasinoInfo }}
         <div class="ctb-item">
+          {{ with i18n "welcome-bonus" . }}
           <div class="block-title">
-            <h2>Welcome Bonus</h2>
+            <h2>{{ . }}</h2>
           </div>
+          {{ end }}
           <div class="block-content ctb-bonus">
             <div class="bonus">
-              <span>$7777 Bonus</span> Welcome Bonus + <span>300 Free Spins</span> on Slots!
+              {{ range $params := $casinoInfo}}
+              {{ $id := echoParam $params `id` }}
+              {{ $value := echoParam $params `value` }}
+              {{ if eq $id `welcome-bonus` }}
+              {{- $value | safeHTML -}}
+              {{ end }}
+              {{ end }}
             </div>
             <div class="bonus-param">
+              {{/* {{ range $params := .Params.CasinoInfo}}
+              {{ $id := echoParam $params `id` }}
+              {{ if eq $id `wager` }}
+              true
+              {{ end }}
+              {{ end }} */}}
               <div class="param-row">
                 <div class="param-name">Wager:</div>
                 <div class="param-value"> 25x</div>
@@ -370,6 +218,8 @@
 
           </div>
         </div>
+        {{ end }}
+
         <div class="ctb-item">
           <div class="block-title">
             <h2>Casino Rank</h2>
@@ -407,21 +257,21 @@
             </div>
             <div class="rating-total">
               <i class="sum-sign"></i>
-              <div class="rate">96</div>
+              <div class="rate">{{.Params.Rating }}</div>
               <div class="rating-status">Super</div>
             </div>
           </div>
         </div>
       </div>
-      <div class="h2" id="navigation_games">Most Popular SlotoCash Casino Online Slots</div>
+      <div class="h2" id="navigation_games">Most Popular {{ .Params.Name }} Online Slots</div>
       <div class="slots-list">
         <div class="slot-item">
           <a href="/chilli-gold-x2-stellar-jackpots-demo-slot-machine.html" class="item-head">
             <span class="item-logo">
               <img
                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKIAAAB+AQMAAACdwFgMAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABlJREFUSMftwQENAAAAwiD7pzbHN2AAABB3CtQAAfiiHI0AAAAASUVORK5CYII="
-                placeholders="template/images/placeholders/slot-logo-162x126.png"
-                data-src="/images/lightningboxgames/stellar-jackpots-with-chilli-gold-2.jpg"
+                placeholders="template//images/placeholders/slot-logo-162x126.png"
+                data-src="//images/lightningboxgames/stellar-jackpots-with-chilli-gold-2.jpg"
                 alt="Chilli Gold x2 - Stellar Jackpots" width="162" height="126">
             </span>
             <span class="item-title">Chilli Gold x2 - Stellar Jackpots</span>
@@ -446,8 +296,8 @@
             <span class="item-logo">
               <img
                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKIAAAB+AQMAAACdwFgMAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABlJREFUSMftwQENAAAAwiD7pzbHN2AAABB3CtQAAfiiHI0AAAAASUVORK5CYII="
-                placeholders="template/images/placeholders/slot-logo-162x126.png"
-                data-src="/images/booming-games/valley-of-pharaohs-logo-slot.jpg" alt="Valley Of Pharaohs " width="162"
+                placeholders="template//images/placeholders/slot-logo-162x126.png"
+                data-src="//images/booming-games/valley-of-pharaohs-logo-slot.jpg" alt="Valley Of Pharaohs " width="162"
                 height="126">
             </span>
             <span class="item-title">Valley Of Pharaohs </span>
@@ -472,8 +322,8 @@
             <span class="item-logo">
               <img
                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKIAAAB+AQMAAACdwFgMAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABlJREFUSMftwQENAAAAwiD7pzbHN2AAABB3CtQAAfiiHI0AAAAASUVORK5CYII="
-                placeholders="template/images/placeholders/slot-logo-162x126.png"
-                data-src="/images/evoplay/chinese-new-year logo.jpg" alt="Chinese New Year" width="162" height="126">
+                placeholders="template//images/placeholders/slot-logo-162x126.png"
+                data-src="//images/evoplay/chinese-new-year logo.jpg" alt="Chinese New Year" width="162" height="126">
             </span>
             <span class="item-title">Chinese New Year</span>
           </a>
@@ -497,9 +347,9 @@
             <span class="item-logo">
               <img
                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKIAAAB+AQMAAACdwFgMAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABlJREFUSMftwQENAAAAwiD7pzbHN2AAABB3CtQAAfiiHI0AAAAASUVORK5CYII="
-                placeholders="template/images/placeholders/slot-logo-162x126.png"
-                data-src="/images/yggdrasil-gaming/cazino-zeppelin-slot-yggdrasil.png" alt="Cazino Zeppelin" width="162"
-                height="126">
+                placeholders="template//images/placeholders/slot-logo-162x126.png"
+                data-src="//images/yggdrasil-gaming/cazino-zeppelin-slot-yggdrasil.png" alt="Cazino Zeppelin"
+                width="162" height="126">
             </span>
             <span class="item-title">Cazino Zeppelin</span>
           </a>
@@ -523,8 +373,8 @@
             <span class="item-logo">
               <img
                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKIAAAB+AQMAAACdwFgMAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABlJREFUSMftwQENAAAAwiD7pzbHN2AAABB3CtQAAfiiHI0AAAAASUVORK5CYII="
-                placeholders="template/images/placeholders/slot-logo-162x126.png"
-                data-src="/images/zeus/trojan-horse-slot-logo.png" alt="Trojan Horse" width="162" height="126">
+                placeholders="template//images/placeholders/slot-logo-162x126.png"
+                data-src="//images/zeus/trojan-horse-slot-logo.png" alt="Trojan Horse" width="162" height="126">
             </span>
             <span class="item-title">Trojan Horse</span>
           </a>
@@ -548,8 +398,8 @@
             <span class="item-logo">
               <img
                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKIAAAB+AQMAAACdwFgMAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABlJREFUSMftwQENAAAAwiD7pzbHN2AAABB3CtQAAfiiHI0AAAAASUVORK5CYII="
-                placeholders="template/images/placeholders/slot-logo-162x126.png"
-                data-src="/images/betsoft/weekend-in-vegas-slot-logo.png" alt="Weekend in Vegas" width="162"
+                placeholders="template//images/placeholders/slot-logo-162x126.png"
+                data-src="//images/betsoft/weekend-in-vegas-slot-logo.png" alt="Weekend in Vegas" width="162"
                 height="126">
             </span>
             <span class="item-title">Weekend in Vegas</span>
@@ -575,18 +425,18 @@
         <div class="slides slick-initialized slick-slider slick-dotted">
           <div class="slick-list draggable">
             <div class="slick-track" style="opacity: 1; width: 3180px;"><img
-                src="template/images/placeholders/casino-screen-1060x550.png"
-                data-src="images/casino/imoneyslots-review-slotocash.jpg" alt="Screenshot 1 SlotoCash Casino"
+                src="template//images/placeholders/casino-screen-1060x550.png"
+                data-src="/images/casino/imoneyslots-review-slotocash.jpg" alt="Screenshot 1 {{ .Params.Name }}"
                 class="screen-item slick-slide" data-slick-index="0" aria-hidden="true" tabindex="-1" role="tabpanel"
                 id="slick-slide00" aria-describedby="slick-slide-control00"
                 style="width: 1060px; position: relative; left: 0px; top: 0px; z-index: 998; opacity: 0; transition: opacity 500ms ease 0s;"><img
-                src="template/images/placeholders/casino-screen-1060x550.png"
-                data-src="images/casino/imoneyslots-review-slotocash-slots.jpg" alt="Screenshot 2 SlotoCash Casino"
+                src="template//images/placeholders/casino-screen-1060x550.png"
+                data-src="/images/casino/imoneyslots-review-slotocash-slots.jpg" alt="Screenshot 2 {{ .Params.Name }}"
                 class="screen-item slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1" role="tabpanel"
                 id="slick-slide01" aria-describedby="slick-slide-control01"
                 style="width: 1060px; position: relative; left: -1060px; top: 0px; z-index: 998; opacity: 0; transition: opacity 500ms ease 0s;"><img
-                src="template/images/placeholders/casino-screen-1060x550.png"
-                data-src="images/casino/imoneyslots-review-slotocash-bonuses.jpg" alt="Screenshot 3 SlotoCash Casino"
+                src="template//images/placeholders/casino-screen-1060x550.png"
+                data-src="/images/casino/imoneyslots-review-slotocash-bonuses.jpg" alt="Screenshot 3 {{ .Params.Name }}"
                 class="screen-item slick-slide slick-current slick-active" data-slick-index="2" aria-hidden="false"
                 tabindex="0" role="tabpanel" id="slick-slide02" aria-describedby="slick-slide-control02"
                 style="width: 1060px; position: relative; left: -2120px; top: 0px; z-index: 999; opacity: 1;"></div>
@@ -648,39 +498,39 @@
               <div class="adv-text">(min $25)</div>
             </div>
           </div>
-          <div class="param-value param-images">
+          <div class="param-value param-/images">
             <div class="image-item" title="Visa">
-              <img src="template/images/placeholders/paysys-100x40.png" data-src="/i/payments/visa.png" alt="visa">
+              <img src="template//images/placeholders/paysys-100x40.png" data-src="/i/payments/visa.png" alt="visa">
             </div>
             <div class="image-item" title="Mastercard">
-              <img src="template/images/placeholders/paysys-100x40.png" data-src="/i/payments/mastercard.png"
+              <img src="template//images/placeholders/paysys-100x40.png" data-src="/i/payments/mastercard.png"
                 alt="mastercard">
             </div>
             <div class="image-item" title="Skrill">
-              <img src="template/images/placeholders/paysys-100x40.png" data-src="/i/payments/skrill.png" alt="skrill">
+              <img src="template//images/placeholders/paysys-100x40.png" data-src="/i/payments/skrill.png" alt="skrill">
             </div>
             <div class="image-item" title="Neteller">
-              <img src="template/images/placeholders/paysys-100x40.png" data-src="/i/payments/neteller.png"
+              <img src="template//images/placeholders/paysys-100x40.png" data-src="/i/payments/neteller.png"
                 alt="neteller">
             </div>
             <div class="image-item" title="Ecocard">
-              <img src="template/images/placeholders/paysys-100x40.png" data-src="/i/payments/ecocard.png"
+              <img src="template//images/placeholders/paysys-100x40.png" data-src="/i/payments/ecocard.png"
                 alt="ecocard">
             </div>
             <div class="image-item" title="Litecoin">
-              <img src="template/images/placeholders/paysys-100x40.png" data-src="/i/payments/litecoin.png"
+              <img src="template//images/placeholders/paysys-100x40.png" data-src="/i/payments/litecoin.png"
                 alt="litecoin">
             </div>
             <div class="image-item" title="Bitcoin">
-              <img src="template/images/placeholders/paysys-100x40.png" data-src="/i/payments/bitcoin.png"
+              <img src="template//images/placeholders/paysys-100x40.png" data-src="/i/payments/bitcoin.png"
                 alt="bitcoin">
             </div>
             <div class="image-item" title="American_express">
-              <img src="template/images/placeholders/paysys-100x40.png" data-src="/i/payments/american_express.png"
+              <img src="template//images/placeholders/paysys-100x40.png" data-src="/i/payments/american_express.png"
                 alt="american_express">
             </div>
             <div class="image-item" title="Directmoney">
-              <img src="template/images/placeholders/paysys-100x40.png" data-src="/i/payments/directmoney.png"
+              <img src="template//images/placeholders/paysys-100x40.png" data-src="/i/payments/directmoney.png"
                 alt="directmoney">
             </div>
           </div>
@@ -693,20 +543,20 @@
               <div class="adv-text">(min $25)</div>
             </div>
           </div>
-          <div class="param-value param-images">
+          <div class="param-value param-/images">
             <div class="image-item" title="Skrill">
-              <img src="template/images/placeholders/paysys-100x40.png" data-src="/i/payments/skrill.png" alt="skrill">
+              <img src="template//images/placeholders/paysys-100x40.png" data-src="/i/payments/skrill.png" alt="skrill">
             </div>
             <div class="image-item" title="Neteller">
-              <img src="template/images/placeholders/paysys-100x40.png" data-src="/i/payments/neteller.png"
+              <img src="template//images/placeholders/paysys-100x40.png" data-src="/i/payments/neteller.png"
                 alt="neteller">
             </div>
             <div class="image-item" title="Ecocard">
-              <img src="template/images/placeholders/paysys-100x40.png" data-src="/i/payments/ecocard.png"
+              <img src="template//images/placeholders/paysys-100x40.png" data-src="/i/payments/ecocard.png"
                 alt="ecocard">
             </div>
             <div class="image-item" title="Directmoney">
-              <img src="template/images/placeholders/paysys-100x40.png" data-src="/i/payments/directmoney.png"
+              <img src="template//images/placeholders/paysys-100x40.png" data-src="/i/payments/directmoney.png"
                 alt="directmoney">
             </div>
           </div>
@@ -762,16 +612,17 @@
         <div id="navigation_review"></div>
         <p></p>
         <h2 style="text-align: center;"><img class="content_emoji" alt="❓" height="20"
-            data-src="images/ficons/icons/svg/1624/1624736.svg">A Detailed Review of SlotoCash Casino, All You Need to
+            data-src="/images/ficons/icons/svg/1624/1624736.svg">A Detailed Review of {{ .Params.Name }}, All You Need
+          to
           Know</h2>
-        <p>SlotoCash Casino is one of the brand new websites that offer numerous services in the gambling sphere and a
+        <p>{{ .Params.Name }} is one of the brand new websites that offer numerous services in the gambling sphere and a
           wide range of&nbsp;<a href="/">online slots for money</a>&nbsp;for lovers of such time spending. As casino
           games are owned by the best elite minds and continue to appeal to enterprise funds, nowadays really
           high-quality online casinos are upturning. Functioning in 2007, SlotoCash online casino is the heavy artillery
           in the international casino list that provides products corresponding to the requirements and demands of
           different players. Of course, we advise learning SlotoCash review before starting to play for real money.</p>
         <blockquote>
-          <p>Slotocash casino group&nbsp;is a legitimate online gambling club that readily acknowledges US players. It
+          <p>{{ .Params.Name }} group&nbsp;is a legitimate online gambling club that readily acknowledges US players. It
             has been in the business for enough time to set up strong notoriety and become a key figure in the internet
             betting business sector. Players value the assortment of games just like the security and decency the
             gambling club guarantees.</p>
@@ -779,13 +630,13 @@
         <p>The administrator is an authentic club possessed and worked by Deck Media, one more respectable name in the
           internet betting world. Deck Media is likewise accountable for a couple of more clubs, all of which are
           authorized by Curacao betting authorities.</p>
-        <p><img style="vertical-align: middle; margin: 1px auto; display: block;" alt="Slotocash Casino Games"
-            width="95%" data-src="images/casino/slotocash-casino-play-games.jpg" height="500"></p>
+        <p><img style="vertical-align: middle; margin: 1px auto; display: block;" alt="{{ .Params.Name }} Games"
+            width="95%" data-src="/images/casino/slotocash-casino-play-games.jpg" height="500"></p>
         <p>It is accessible in Instant play and downloadable configuration. Your unmatched gambling club experience is
           ensured as the fundamental programming supplier is Realtime Gaming. You will locate a far-reaching scope of
           games in spite of the fact that the absence of a live vendor segment is viewed as a slight impediment.</p>
         <h2 style="text-align: center;"><img class="content_emoji" alt="❓" height="22"
-            data-src="images/ficons/icons/svg/2321/2321485.svg">Numerous Profitable Slotocash Casino Games</h2>
+            data-src="/images/ficons/icons/svg/2321/2321485.svg">Numerous Profitable {{ .Params.Name }} Games</h2>
         <p>SlotoCash is the brand that gained the interest and trust of a great number of gamblers. It is one of the
           best online casinos, worked on the RealTime Gaming platform. The gambling place proposes a large range of
           top-grade casino games with progressive jackpots. Gamblers are able to enjoy every game from Craps to the
@@ -799,7 +650,7 @@
           <li>Other Games</li>
           <li>New Games</li>
         </ul>
-        <p>Slotocash casino online is the brand that gained the interest and trust of a great number of gamblers.
+        <p>{{ .Params.Name }} online is the brand that gained the interest and trust of a great number of gamblers.
           Slotocash cash casino is one of the best online casinos, worked on the RealTime Gaming platform. The gambling
           place proposes a large range of top-grade casino games with progressive jackpots. Gamblers are able to enjoy
           every game from Craps to the newest slot machines, and a selection of Roulette or types of Poker. Slotocash
@@ -843,7 +694,7 @@
                 <td style="text-align: center;">&nbsp;<strong>Bubble Bubble</strong></td>
                 <td style="text-align: center;">&nbsp;Magic</td>
                 <td style="text-align: center;">&nbsp;0.01 - 200</td>
-                <td style="text-align: center;">&nbsp;96.02%</td>
+                <td style="text-align: center;">&nbsp;{{.Params.Rating }}.02%</td>
                 <td style="text-align: center;">&nbsp;3000</td>
               </tr>
               <tr>
@@ -881,10 +732,10 @@
         <div id="navigation_bonus"></div>
         <p></p>
         <h2 style="text-align: center;"><img class="content_emoji" alt="❓" height="20"
-            data-src="images/ficons/icons/png/512/2108/2108639.png" width="512">Slotocash Casino Features &amp; Bonus
+            data-src="/images/ficons/icons/png/512/2108/2108639.png" width="512">{{ .Params.Name }} Features &amp; Bonus
           Codes</h2>
         <p>Of course, the most significant part of each online casino is the Bonus policy. Here the player will find
-          SlotoCash casino Bonus codes or&nbsp;<a href="/best-bonuses-online-casino.html">no deposit
+          {{ .Params.Name }} Bonus codes or&nbsp;<a href="/best-bonuses-online-casino.html">no deposit
             Bonuses</a>&nbsp;that are one of the best in the online gambling market and appeal to numerous newcomers and
           professional gamblers:</p>
         <ul class="info">
@@ -901,19 +752,20 @@
           <li>100% up to $500</li>
           <li>50% up to $500</li>
         </ul>
-        <p>The interesting stuff that presents slotocash casino no deposit bonus 2022 is Sloto points that can be
-          converted into real cash or Free Spins. Every time you make a $1 bet at slotocash casino.com, you are going to
+        <p>The interesting stuff that presents {{ .Params.Name }} no deposit bonus 2022 is Sloto points that can be
+          converted into real cash or Free Spins. Every time you make a $1 bet at {{ .Params.Name }}.com, you are going
+          to
           earn a special range of Sloto points, depending on the choice of the casino game: 100 points turn into $1 real
-          money. Slotocash casino free $31 is presented.</p>
+          money. {{ .Params.Name }} free $31 is presented.</p>
         <p></p>
         <div class="casino-bonuses-list">
           <div class="cb-wrap">
             <div class="cb-item">
               <div class="bonus-text">
                 <h2><img class="content_emoji" alt="❓" height="20"
-                    data-src="/images/ficons/icons/svg/1657/1657088.svg">Slotocash Casino Welcome Bonus&nbsp;<img
+                    data-src="//images/ficons/icons/svg/1657/1657088.svg">{{ .Params.Name }} Welcome Bonus&nbsp;<img
                     class="content_emoji" style="font-size: 12px; font-weight: normal;" alt="❓" height="20"
-                    data-src="/images/ficons/icons/png/512/2268/2268524.png">$7777 Bonus + 300 Free Spins On Top!</h2>
+                    data-src="//images/ficons/icons/png/512/2268/2268524.png">$7777 Bonus + 300 Free Spins On Top!</h2>
                 <p>Take it to another level with this astounding reward from Slotocash! Interesting slots by RTG,
                   energizing Bonuses and numerous different amazements are standing by only for you on this incredible
                   stage. Would you like to start your excursion in style? Join and you can appreciate 300 Free Spins
@@ -923,7 +775,8 @@
                     service bill is gotten, coordinating the location enlisted on your Sloto'Cash account</li>
                 </ul>
                 <p><span style="font-size: 74%; color: #000000;"><img class="content_emoji" alt="❓" height="20"
-                      data-src="/images/ficons/icons/svg/891/891387.svg">Advancements must be recovered all together and
+                      data-src="//images/ficons/icons/svg/891/891387.svg">Advancements must be recovered all together
+                    and
                     they require a $20 least buy to be reclaimed. Deposit Bonuses&nbsp;at Sloto'Cash Casino hold NO MAX
                     CASHOUT.</span></p>
                 <p>&nbsp;</p>
@@ -977,11 +830,11 @@
             <div class="cb-item">
               <div class="bonus-text">
                 <h2><img class="content_emoji" alt="❓" height="20"
-                    data-src="/images/ficons/icons/svg/1657/1657088.svg">Grab First Deposit Bonus&nbsp;<img
+                    data-src="//images/ficons/icons/svg/1657/1657088.svg">Grab First Deposit Bonus&nbsp;<img
                     class="content_emoji" style="font-size: 12px; font-weight: normal;" alt="❓" height="20"
-                    data-src="/images/ficons/icons/png/512/2268/2268524.png">200% Match Up to $2000 + 100 Free Spins!
+                    data-src="//images/ficons/icons/png/512/2268/2268524.png">200% Match Up to $2000 + 100 Free Spins!
                 </h2>
-                <p>Come aboard&nbsp;at SlotoCash Casino and let yourself be hypnotized by all the astonishing
+                <p>Come aboard&nbsp;at {{ .Params.Name }} and let yourself be hypnotized by all the astonishing
                   highlights! You can play slots anyplace you go, advantage from huge amounts of promotions, and have
                   some good times. Start your experience in an incredible manner with this 200% 1st Deposit up to $2000
                   in addition to 100 Free Spins. This can be gotten if you:</p>
@@ -1019,7 +872,7 @@
         <div id="navigation_mobile"></div>
         <p></p>
         <h2 style="text-align: center;"><img class="content_emoji" alt="❓" height="22"
-            data-src="images/ficons/icons/png/512/2187/2187694.png" width="512">&nbsp;SlotoCash Mobile Casino Gaming
+            data-src="/images/ficons/icons/png/512/2187/2187694.png" width="512">&nbsp;SlotoCash Mobile Casino Gaming
         </h2>
         <p>So, if you are not a newcomer to the internet betting world, you likely realize that the quantity of titles
           in a SlotoCash mobile version is somewhat restricted when contrasted with what the work area adaptation
@@ -1035,11 +888,12 @@
         <div id="navigation_support"></div>
         <p></p>
         <h2 style="text-align: center;"><img class="content_emoji" alt="❓" height="22"
-            data-src="images/ficons/icons/svg/1067/1067566.svg">SlotoCash Casino Customer Service</h2>
-        <p lang="en-US">Every online casino is willing to offer high-quality customer support and slotocash casino codes
+            data-src="/images/ficons/icons/svg/1067/1067566.svg">{{ .Params.Name }} Customer Service</h2>
+        <p lang="en-US">Every online casino is willing to offer high-quality customer support and {{ .Params.Name }}
+          codes
           is no exception. The team of this casino presents different kinds of services in order to help you to solve
           the most asked questions: how to create an account, how to deposit, how to withdraw, and what are the fees.
-          That is why slotocash casino coupons presents:</p>
+          That is why {{ .Params.Name }} coupons presents:</p>
         <ul class="info">
           <li>email</li>
           <li>live chat</li>
@@ -1053,20 +907,21 @@
         <div id="navigation_banking"></div>
         <p></p>
         <h2 style="text-align: center;"><img class="content_emoji" alt="❓" height="22"
-            data-src="images/ficons/icons/svg/1057/1057485.svg">Slotocash Casino Deposits &amp; Withdrawals by Most
+            data-src="/images/ficons/icons/svg/1057/1057485.svg">{{ .Params.Name }} Deposits &amp; Withdrawals by Most
           Famous World Payment Systems</h2>
         <p lang="en-US">Sloto cash casino free bonus codes provides a wide range of comfortable deposit and withdrawal
           methods to all its players. Along with the most famous Visa and MasterCard, you can choose different available
           e-wallets. Moreover, you must check the available methods in your country.</p>
         <blockquote>
-          <p lang="en-US">Deposit by such systems is instant but the slotocash casino login withdrawal is going to take
+          <p lang="en-US">Deposit by such systems is instant but the {{ .Params.Name }} login withdrawal is going to
+            take
             some time. Note that US players are not allowed to pay out their winnings by Visa or Mastercard. The
             accepted currency that only accepted currency is USD.</p>
         </blockquote>
         <p>Bank Wire is one more withdrawal technique that expects you to pull back between specific sums. One
           withdrawal demand for every week is permitted. A charge for each exchange applies. You can likewise money out
           your rewards by means of a Check. There are per expense sums and withdrawal limits. Withdrawals through
-          Transfer Money from slotocash casino no deposit bonus codes 2022 take around multi weeks to clear.</p>
+          Transfer Money from {{ .Params.Name }} no deposit bonus codes 2022 take around multi weeks to clear.</p>
         <p>There is a charge for every exchange and as far as possible are set too. For security purposes, you will be
           required to send archives confirming the Mastercard you utilized for making a store is really yours.</p>
         <div class="table-wrap">
@@ -1083,7 +938,7 @@
             <tbody>
               <tr align="center">
                 <td align="center" valign="middle"><img style="margin: 1px auto; display: block;" alt="Visa Slotocash"
-                    width="65%" data-src="images/administrative/visa-pay.png" height="40"></td>
+                    width="65%" data-src="/images/administrative/visa-pay.png" height="40"></td>
                 <td style="text-align: center;">&nbsp;<strong>Yes</strong></td>
                 <td style="text-align: center;">&nbsp;Instant</td>
                 <td style="text-align: center;">&nbsp;<strong>Yes</strong></td>
@@ -1091,7 +946,7 @@
               </tr>
               <tr>
                 <td align="center"><img style="margin: 1px auto; display: block;" alt="Mastercard Slotocash" width="65%"
-                    data-src="images/administrative/mastercard-pay.png" height="40"></td>
+                    data-src="/images/administrative/mastercard-pay.png" height="40"></td>
                 <td style="text-align: center;">&nbsp;<strong>Yes</strong></td>
                 <td style="text-align: center;">&nbsp;Instant</td>
                 <td style="text-align: center;">&nbsp;<strong>Yes</strong></td>
@@ -1100,7 +955,7 @@
               <tr>
                 <td align="center"><img style="display: block; margin-left: auto; margin-right: auto;"
                     alt="American Express Slotocash" width="68" height="27"
-                    data-src="images/administrative/american-express.png"></td>
+                    data-src="/images/administrative/american-express.png"></td>
                 <td style="text-align: center;">&nbsp;<strong>Yes</strong></td>
                 <td style="text-align: center;">&nbsp;Instant</td>
                 <td style="text-align: center;">&nbsp;<strong>Yes</strong></td>
@@ -1108,7 +963,7 @@
               </tr>
               <tr>
                 <td align="center"><img style="margin: 1px auto; display: block;" alt="Skrill Slotocash" width="65%"
-                    data-src="images/administrative/skrill-pay.png" height="40"></td>
+                    data-src="/images/administrative/skrill-pay.png" height="40"></td>
                 <td style="text-align: center;">&nbsp;<strong>Yes</strong></td>
                 <td style="text-align: center;">&nbsp;Instant</td>
                 <td style="text-align: center;"><strong>Yes</strong></td>
@@ -1116,7 +971,7 @@
               </tr>
               <tr>
                 <td align="center"><img style="margin: 1px auto; display: block;" alt="Neteller Slotocash" width="65%"
-                    data-src="images/administrative/neteller-pay.png" height="40"></td>
+                    data-src="/images/administrative/neteller-pay.png" height="40"></td>
                 <td style="text-align: center;">&nbsp;<strong>Yes</strong></td>
                 <td style="text-align: center;">&nbsp;Instant</td>
                 <td style="text-align: center;">&nbsp;<strong>Yes</strong></td>
@@ -1124,7 +979,7 @@
               </tr>
               <tr>
                 <td align="center"><img style="margin: 1px auto; display: block;" alt="Ecocard Slotocash" width="65%"
-                    data-src="images/administrative/ecocard.png" height="40"></td>
+                    data-src="/images/administrative/ecocard.png" height="40"></td>
                 <td style="text-align: center;">&nbsp;<strong>Yes</strong></td>
                 <td style="text-align: center;">&nbsp;Instant</td>
                 <td style="text-align: center;">&nbsp;<strong>Yes</strong></td>
@@ -1132,7 +987,7 @@
               </tr>
               <tr>
                 <td align="center"><img style="margin: 1px auto; display: block;" alt="DirectMoney Slotocash"
-                    width="65%" data-src="images/administrative/directmoney.png" height="40"></td>
+                    width="65%" data-src="/images/administrative/directmoney.png" height="40"></td>
                 <td style="text-align: center;">&nbsp;<strong>Yes</strong></td>
                 <td style="text-align: center;">&nbsp;Instant</td>
                 <td style="text-align: center;">&nbsp;<strong>Yes</strong></td>
@@ -1140,7 +995,7 @@
               </tr>
               <tr>
                 <td align="center"><img style="margin: 1px auto; display: block;" alt="Litecoin Slotocash" width="65%"
-                    data-src="images/administrative/litecoin.png" height="40"></td>
+                    data-src="/images/administrative/litecoin.png" height="40"></td>
                 <td style="text-align: center;">&nbsp;<strong>Yes</strong></td>
                 <td style="text-align: center;">&nbsp;Instant to up to 1 Hour</td>
                 <td style="text-align: center;">&nbsp;<strong>Yes</strong></td>
@@ -1148,7 +1003,7 @@
               </tr>
               <tr>
                 <td align="center"><img style="margin: 1px auto; display: block;" alt="Bitcoin Slotocash" width="65%"
-                    data-src="images/administrative/bitcoin.png" height="40"></td>
+                    data-src="/images/administrative/bitcoin.png" height="40"></td>
                 <td style="text-align: center;">&nbsp;<strong>Yes</strong></td>
                 <td style="text-align: center;">&nbsp;Instant to up to 1 Hour</td>
                 <td style="text-align: center;">&nbsp;<strong>Yes</strong></td>
@@ -1164,7 +1019,7 @@
 
     <div class="casino-reviewer">
       <div class="reviewer-info">
-        <img alt="Anastasiya Belova" class="reviewer-img" data-src="images/about-us/anastasiya-belova-author.png"
+        <img alt="Anastasiya Belova" class="reviewer-img" data-src="/images/about-us/anastasiya-belova-author.png"
           width="80" height="80">
         <div class="reviewed-by">
           <div class="caption">Reviewed by:</div>
@@ -1178,8 +1033,8 @@
       <div class="casino-info">
 
         <div class="casino-logo logo-shine">
-          <img src="template/images/placeholders/casino-logo-120x60.png" data-src="images/casino/sloto-cash.png"
-            alt="SlotoCash Casino">
+          <img src="template//images/placeholders/casino-logo-120x60.png" data-src="/images/casino/sloto-cash.png"
+            alt="{{ .Params.Name }}">
         </div>
 
 
@@ -1191,12 +1046,12 @@
 
     <div class="content-block">
       <div class="comments-wrap" id="navigation_comments">
-        <div class="h2" id="leave-comment">Leave a Feedback of SlotoCash Casino</div>
+        <div class="h2" id="leave-comment">Leave a Feedback of {{ .Params.Name }}</div>
         <div id="comment-form-placeholder">
           <form role="form" id="comment-form" class="comment-form" action="" method="post">
             <input type="hidden" name="thread" value="resource-533">
             <input type="hidden" name="parent" value="0">
-            <input type="hidden" name="ava" value="images/avatars/28.jpg">
+            <input type="hidden" name="ava" value="/images/avatars/28.jpg">
             <input type="hidden" name="id" value="0">
             <div class="input-group">
               <div class="field-group">
@@ -1227,7 +1082,7 @@
             itemprop="review" itemscope="" itemtype="http://schema.org/Review">
             <div class="comment-wrap">
               <div class="comment-item-left">
-                <img src="template/images/ava.png" data-src="images/avatars/3.jpg" alt="avatar" width="50" height="50"
+                <img src="template//images/ava.png" data-src="/images/avatars/3.jpg" alt="avatar" width="50" height="50"
                   class="user-avatar">
               </div>
               <div class="comment-item-right">
@@ -1236,7 +1091,7 @@
                     itemtype="http://schema.org/Person"><span itemprop="name">GeorgeH</span></span>
                   <span class="comment-date">13 december 2020, 12:10</span>
                   <meta itemprop="datePublished" content="2020.12.13">
-                  <meta itemprop="itemreviewed" content="SlotoCash Casino">
+                  <meta itemprop="itemreviewed" content="{{ .Params.Name }}">
                 </div>
                 <div class="comment-content" itemprop="reviewBody">
                   Cool online casino, I've been playing for more than 2 months after work and I get very decent
@@ -1253,8 +1108,8 @@
             itemprop="review" itemscope="" itemtype="http://schema.org/Review">
             <div class="comment-wrap">
               <div class="comment-item-left">
-                <img src="template/images/ava.png" data-src="images/avatars/11.jpg" alt="avatar" width="50" height="50"
-                  class="user-avatar">
+                <img src="template//images/ava.png" data-src="/images/avatars/11.jpg" alt="avatar" width="50"
+                  height="50" class="user-avatar">
               </div>
               <div class="comment-item-right">
                 <div class="comment-author-info">
@@ -1262,7 +1117,7 @@
                     itemtype="http://schema.org/Person"><span itemprop="name">Bill Bob</span></span>
                   <span class="comment-date">11 december 2020, 14:19</span>
                   <meta itemprop="datePublished" content="2020.12.11">
-                  <meta itemprop="itemreviewed" content="SlotoCash Casino">
+                  <meta itemprop="itemreviewed" content="{{ .Params.Name }}">
                 </div>
                 <div class="comment-content" itemprop="reviewBody">
                   Played so far only in the demo version. Very cool slots, I will make my first deposit from my salary)
@@ -1278,7 +1133,7 @@
             itemprop="review" itemscope="" itemtype="http://schema.org/Review">
             <div class="comment-wrap">
               <div class="comment-item-left">
-                <img src="template/images/ava.png" data-src="images/avatars/9.jpg" alt="avatar" width="50" height="50"
+                <img src="template//images/ava.png" data-src="/images/avatars/9.jpg" alt="avatar" width="50" height="50"
                   class="user-avatar">
               </div>
               <div class="comment-item-right">
@@ -1287,7 +1142,7 @@
                     itemtype="http://schema.org/Person"><span itemprop="name">NarutoFan</span></span>
                   <span class="comment-date">07 december 2020, 16:37</span>
                   <meta itemprop="datePublished" content="2020.12.07">
-                  <meta itemprop="itemreviewed" content="SlotoCash Casino">
+                  <meta itemprop="itemreviewed" content="{{ .Params.Name }}">
                 </div>
                 <div class="comment-content" itemprop="reviewBody">
                   Thanks to your site administration for recommending this magical casino. It is magic, because I have
@@ -1304,8 +1159,8 @@
             itemprop="review" itemscope="" itemtype="http://schema.org/Review">
             <div class="comment-wrap">
               <div class="comment-item-left">
-                <img src="template/images/ava.png" data-src="images/avatars/10.jpg" alt="avatar" width="50" height="50"
-                  class="user-avatar">
+                <img src="template//images/ava.png" data-src="/images/avatars/10.jpg" alt="avatar" width="50"
+                  height="50" class="user-avatar">
               </div>
               <div class="comment-item-right">
                 <div class="comment-author-info">
@@ -1313,7 +1168,7 @@
                     itemtype="http://schema.org/Person"><span itemprop="name">Anna Grey</span></span>
                   <span class="comment-date">07 december 2020, 15:30</span>
                   <meta itemprop="datePublished" content="2020.12.07">
-                  <meta itemprop="itemreviewed" content="SlotoCash Casino">
+                  <meta itemprop="itemreviewed" content="{{ .Params.Name }}">
                 </div>
                 <div class="comment-content" itemprop="reviewBody">
                   Nice casino. The devices fill up quite well, there were no problems with the withdrawal of money,
@@ -1330,7 +1185,7 @@
             itemprop="review" itemscope="" itemtype="http://schema.org/Review">
             <div class="comment-wrap">
               <div class="comment-item-left">
-                <img src="template/images/ava.png" data-src="images/avatars/8.jpg" alt="avatar" width="50" height="50"
+                <img src="template//images/ava.png" data-src="/images/avatars/8.jpg" alt="avatar" width="50" height="50"
                   class="user-avatar">
               </div>
               <div class="comment-item-right">
@@ -1339,7 +1194,7 @@
                     itemtype="http://schema.org/Person"><span itemprop="name">AmaliaS</span></span>
                   <span class="comment-date">27 november 2020, 12:09</span>
                   <meta itemprop="datePublished" content="2020.11.27">
-                  <meta itemprop="itemreviewed" content="SlotoCash Casino">
+                  <meta itemprop="itemreviewed" content="{{ .Params.Name }}">
                 </div>
                 <div class="comment-content" itemprop="reviewBody">
                   SlotoCash I really like the concept of this casino and the design is incredibly interesting. It can be
@@ -1369,8 +1224,8 @@
               <a href="/playamo-casino-review.html" class="item-logo logo-shine" rel="nofollow">
                 <img
                   src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAyAQMAAACQ++z9AAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAAAPSURBVHicY2AYBaNgaAIAArwAAbhhFwAAAAAASUVORK5CYII="
-                  placeholders="template/images/placeholders/casino-logo-120x60.png"
-                  data-src="/images/casino/play-amo-120-60 (2).png" alt="Playamo Casino" width="100" height="50">
+                  placeholders="template//images/placeholders/casino-logo-120x60.png"
+                  data-src="//images/casino/play-amo-120-60 (2).png" alt="Playamo Casino" width="100" height="50">
               </a>
               <a href="/playamo-casino-review.html" class="item-title">Playamo Casino</a>
             </div>
@@ -1390,8 +1245,8 @@
               <a href="/joy-casino-review.html" class="item-logo logo-shine" rel="nofollow">
                 <img
                   src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAyAQMAAACQ++z9AAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAAAPSURBVHicY2AYBaNgaAIAArwAAbhhFwAAAAAASUVORK5CYII="
-                  placeholders="template/images/placeholders/casino-logo-120x60.png"
-                  data-src="/images/casino/joycasino-2.jpg" alt="JoyCasino" width="100" height="50">
+                  placeholders="template//images/placeholders/casino-logo-120x60.png"
+                  data-src="//images/casino/joycasino-2.jpg" alt="JoyCasino" width="100" height="50">
               </a>
               <a href="/joy-casino-review.html" class="item-title">JoyCasino</a>
             </div>
@@ -1411,8 +1266,8 @@
               <a href="/playojo-casino-review.html" class="item-logo logo-shine" rel="nofollow">
                 <img
                   src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAyAQMAAACQ++z9AAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAAAPSURBVHicY2AYBaNgaAIAArwAAbhhFwAAAAAASUVORK5CYII="
-                  placeholders="template/images/placeholders/casino-logo-120x60.png"
-                  data-src="/images/casino/playojo-online-casino-play-no-download.jpg" alt="Playojo Casino" width="100"
+                  placeholders="template//images/placeholders/casino-logo-120x60.png"
+                  data-src="//images/casino/playojo-online-casino-play-no-download.jpg" alt="Playojo Casino" width="100"
                   height="50">
               </a>
               <a href="/playojo-casino-review.html" class="item-title">Playojo Casino</a>
@@ -1433,8 +1288,8 @@
               <a href="/kozmo-casino-review.html" class="item-logo logo-shine" rel="nofollow">
                 <img
                   src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAyAQMAAACQ++z9AAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAAAPSURBVHicY2AYBaNgaAIAArwAAbhhFwAAAAAASUVORK5CYII="
-                  placeholders="template/images/placeholders/casino-logo-120x60.png"
-                  data-src="/images/kozmo/kozmo-casino.jpg" alt="Kozmo Casino" width="100" height="50">
+                  placeholders="template//images/placeholders/casino-logo-120x60.png"
+                  data-src="//images/kozmo/kozmo-casino.jpg" alt="Kozmo Casino" width="100" height="50">
               </a>
               <a href="/kozmo-casino-review.html" class="item-title">Kozmo Casino</a>
             </div>
@@ -1454,8 +1309,8 @@
               <a href="/rizk-casino-review.html" class="item-logo logo-shine" rel="nofollow">
                 <img
                   src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAyAQMAAACQ++z9AAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAAAPSURBVHicY2AYBaNgaAIAArwAAbhhFwAAAAAASUVORK5CYII="
-                  placeholders="template/images/placeholders/casino-logo-120x60.png"
-                  data-src="/images/casino/rizk-casino-logo-mini.png" alt="Rizk Casino" width="100" height="50">
+                  placeholders="template//images/placeholders/casino-logo-120x60.png"
+                  data-src="//images/casino/rizk-casino-logo-mini.png" alt="Rizk Casino" width="100" height="50">
               </a>
               <a href="/rizk-casino-review.html" class="item-title">Rizk Casino</a>
             </div>
@@ -1475,8 +1330,8 @@
               <a href="/luckland-casino-review.html" class="item-logo logo-shine" rel="nofollow">
                 <img
                   src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAyAQMAAACQ++z9AAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAAAPSURBVHicY2AYBaNgaAIAArwAAbhhFwAAAAAASUVORK5CYII="
-                  placeholders="template/images/placeholders/casino-logo-120x60.png"
-                  data-src="/images/luckland/luckland-casino-online.jpg" alt="Luckland Casino" width="100" height="50">
+                  placeholders="template//images/placeholders/casino-logo-120x60.png"
+                  data-src="//images/luckland/luckland-casino-online.jpg" alt="Luckland Casino" width="100" height="50">
               </a>
               <a href="/luckland-casino-review.html" class="item-title">Luckland Casino</a>
             </div>
@@ -1496,8 +1351,8 @@
               <a href="/casumo-casino-review.html" class="item-logo logo-shine" rel="nofollow">
                 <img
                   src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAyAQMAAACQ++z9AAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAAAPSURBVHicY2AYBaNgaAIAArwAAbhhFwAAAAAASUVORK5CYII="
-                  placeholders="template/images/placeholders/casino-logo-120x60.png"
-                  data-src="/images/casumo/casumo-logo-2.jpg" alt="Casumo Casino" width="100" height="50">
+                  placeholders="template//images/placeholders/casino-logo-120x60.png"
+                  data-src="//images/casumo/casumo-logo-2.jpg" alt="Casumo Casino" width="100" height="50">
               </a>
               <a href="/casumo-casino-review.html" class="item-title">Casumo Casino</a>
             </div>
@@ -1517,8 +1372,8 @@
               <a href="/bitstarz-casino-review.html" class="item-logo logo-shine" rel="nofollow">
                 <img
                   src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAyAQMAAACQ++z9AAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAAAPSURBVHicY2AYBaNgaAIAArwAAbhhFwAAAAAASUVORK5CYII="
-                  placeholders="template/images/placeholders/casino-logo-120x60.png"
-                  data-src="/images/bitstarz/bitstarz-logo-2.jpg" alt="Bitstarz" width="100" height="50">
+                  placeholders="template//images/placeholders/casino-logo-120x60.png"
+                  data-src="//images/bitstarz/bitstarz-logo-2.jpg" alt="Bitstarz" width="100" height="50">
               </a>
               <a href="/bitstarz-casino-review.html" class="item-title">Bitstarz</a>
             </div>
@@ -1538,8 +1393,8 @@
               <a href="/casino-room-review.html" class="item-logo logo-shine" rel="nofollow">
                 <img
                   src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAyAQMAAACQ++z9AAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAAAPSURBVHicY2AYBaNgaAIAArwAAbhhFwAAAAAASUVORK5CYII="
-                  placeholders="template/images/placeholders/casino-logo-120x60.png"
-                  data-src="/images/casino/casino-room-mini.png" alt="Casino Room" width="100" height="50">
+                  placeholders="template//images/placeholders/casino-logo-120x60.png"
+                  data-src="//images/casino/casino-room-mini.png" alt="Casino Room" width="100" height="50">
               </a>
               <a href="/casino-room-review.html" class="item-title">Casino Room</a>
             </div>
@@ -1559,8 +1414,8 @@
               <a href="/dunder-casino-review.html" class="item-logo logo-shine" rel="nofollow">
                 <img
                   src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAyAQMAAACQ++z9AAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAAAPSURBVHicY2AYBaNgaAIAArwAAbhhFwAAAAAASUVORK5CYII="
-                  placeholders="template/images/placeholders/casino-logo-120x60.png"
-                  data-src="/images/casino/dunder-mini.png" alt="Dunder Casino" width="100" height="50">
+                  placeholders="template//images/placeholders/casino-logo-120x60.png"
+                  data-src="//images/casino/dunder-mini.png" alt="Dunder Casino" width="100" height="50">
               </a>
               <a href="/dunder-casino-review.html" class="item-title">Dunder Casino</a>
             </div>
@@ -1580,8 +1435,8 @@
               <a href="/casoo-casino-review.html" class="item-logo logo-shine" rel="nofollow">
                 <img
                   src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAyAQMAAACQ++z9AAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAAAPSURBVHicY2AYBaNgaAIAArwAAbhhFwAAAAAASUVORK5CYII="
-                  placeholders="template/images/placeholders/casino-logo-120x60.png"
-                  data-src="/images/casoo/casoo-logo-2.jpg" alt="Casoo" width="100" height="50">
+                  placeholders="template//images/placeholders/casino-logo-120x60.png"
+                  data-src="//images/casoo/casoo-logo-2.jpg" alt="Casoo" width="100" height="50">
               </a>
               <a href="/casoo-casino-review.html" class="item-title">Casoo</a>
             </div>
@@ -1601,8 +1456,8 @@
               <a href="/kaboo-casino-review.html" class="item-logo logo-shine" rel="nofollow">
                 <img
                   src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAyAQMAAACQ++z9AAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAAAPSURBVHicY2AYBaNgaAIAArwAAbhhFwAAAAAASUVORK5CYII="
-                  placeholders="template/images/placeholders/casino-logo-120x60.png"
-                  data-src="/images/kaboo/kaboo-logo-2.jpg" alt="Kaboo Casino" width="100" height="50">
+                  placeholders="template//images/placeholders/casino-logo-120x60.png"
+                  data-src="//images/kaboo/kaboo-logo-2.jpg" alt="Kaboo Casino" width="100" height="50">
               </a>
               <a href="/kaboo-casino-review.html" class="item-title">Kaboo Casino</a>
             </div>

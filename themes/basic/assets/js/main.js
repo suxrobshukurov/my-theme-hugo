@@ -6854,7 +6854,7 @@
   };
 })(jQuery);
 var x_pid = 0;
-var wp = '_self',
+var wp = '_blank',
   p = 'goto',
   q = '[data-link]';
 $(q).hover(
@@ -6867,7 +6867,7 @@ $(q).hover(
 ),
   $(q).mousedown(function (n) {
     var i = $(this).data('link');
-    return 2 === n.which ? window.open('/' + p + '/' + i) : window.open('/' + p + '/' + i, wp), !1;
+    return 2 === n.which ? window.open(i, '_blank') : window.open(i, wp), !1;
   });
 /*! lozad.js - v1.14.0 - 2019-10-19
  * https://github.com/ApoorvSaxena/lozad.js
