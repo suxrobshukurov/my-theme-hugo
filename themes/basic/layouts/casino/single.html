@@ -29,7 +29,7 @@
           {{with .Params.Website }}
           <div class="param-row">
             <div class="param-name"><i class="param-site"></i>{{ i18n "website" . }}:</div>
-            <div class="param-value"><span data-link="slotocash" class="site-link">{{.}}</span></div>
+            <div class="param-value"><span data-link="https://{{.}}" class="site-link">{{.}}</span></div>
           </div>
           {{end}}
           {{ with .Params.Software }}
@@ -178,286 +178,113 @@
               {{ end }}
             </div>
             <div class="bonus-param">
-              {{/* {{ range $params := .Params.CasinoInfo}}
+              {{ range $params := $casinoInfo}}
               {{ $id := echoParam $params `id` }}
-              {{ if eq $id `wager` }}
-              true
+              {{ $title := echoParam $params "title" }}
+              {{ $value := echoParam $params `value` }}
+              {{ $section := echoParam $params `section2` }}
+              {{ if (eq $section "welcome")}}
+              <div class="param-row">
+                <div class="param-name">{{$title}}:</div>
+                <div class="param-value">{{$value}}</div>
+              </div>
+              {{end}}
               {{ end }}
-              {{ end }} */}}
-              <div class="param-row">
-                <div class="param-name">Wager:</div>
-                <div class="param-value"> 25x</div>
-              </div>
-              <div class="param-row">
-                <div class="param-name">Canceled:</div>
-                <div class="param-value">Yes</div>
-              </div>
-              <div class="param-row">
-                <div class="param-name">Min deposit:</div>
-                <div class="param-value"> $25</div>
-              </div>
-
-              <div class="param-row">
-                <div class="param-name">Deposit Method:</div>
-                <div class="param-value">All are available</div>
-              </div>
-
-
             </div>
 
             <div class="bonus-terms">
-              New players only. 18+. Deposit + Bonus must be wagered 25x on slots or keno prior requesting a pay out.
-              Promotions must be redeemed in order and they require a $20 minimum purchase to be redeemed. ALL deposit
-              bonuses at Sloto'Cash Casino hold NO MAX CASHOUT
+              {{- with $.Params.Term -}}{{ . }}{{- end -}}
             </div>
 
 
             <div class="btn-wrap">
-              <button class="btn btn-yellow" data-link="slotocash">Get Bonus</button>
+              <button class="btn btn-yellow"
+                data-link="{{cond (gt  (len $.Params.Referral) 1) $.Params.Referral $.Site.Params.Referral }}"
+                style="cursor: initial;">{{ i18n "get-bonus" .}}</button>
             </div>
 
           </div>
         </div>
         {{ end }}
-
+        {{ with $casinoRank := .Params.CasinoRank }}
+        {{$rating := 0}}
         <div class="ctb-item">
+          {{ with i18n "casino-rank" . }}
           <div class="block-title">
-            <h2>Casino Rank</h2>
+            <h2>{{ . }}</h2>
           </div>
+          {{ end }}
           <div class="block-content casino-ratings">
             <div class="ratings-list">
+              {{ range $item := $casinoRank }}
+              {{$title := echoParam $item "title" }}
+              {{$value := echoParam $item "value" }}
+              {{$rating = add $rating $value}}
               <div class="rating-row">
-                <div class="rating-name">Games:</div>
-                <div class="rating-value">99</div>
+                <div class="rating-name">{{$title}}:</div>
+                <div class="rating-value">{{$value}}</div>
               </div>
-              <div class="rating-row">
-                <div class="rating-name">Software:</div>
-                <div class="rating-value">92</div>
-              </div>
-              <div class="rating-row">
-                <div class="rating-name">Bonuses:</div>
-                <div class="rating-value">99</div>
-              </div>
-              <div class="rating-row">
-                <div class="rating-name">Customer support:</div>
-                <div class="rating-value">94</div>
-              </div>
-              <div class="rating-row">
-                <div class="rating-name">Payout Speed:</div>
-                <div class="rating-value">99</div>
-              </div>
-              <div class="rating-row">
-                <div class="rating-name">Usability:</div>
-                <div class="rating-value">92</div>
-              </div>
-              <div class="rating-row">
-                <div class="rating-name">Worldwide:</div>
-                <div class="rating-value">98</div>
-              </div>
+              {{ end }}
             </div>
             <div class="rating-total">
               <i class="sum-sign"></i>
-              <div class="rate">{{.Params.Rating }}</div>
-              <div class="rating-status">Super</div>
+              {{$rating = div $rating (len $casinoRank ) }}
+              <div class="rate">{{$rating}}</div>
             </div>
           </div>
         </div>
+        {{ end }}
+
       </div>
-      <div class="h2" id="navigation_games">Most Popular {{ .Params.Name }} Online Slots</div>
+      {{ with i18n "popular-slots-for-casino" (dict "Name" .Params.Name)}}
+      <h2>{{.}}</h2>
+      {{ end }}
       <div class="slots-list">
-        <div class="slot-item">
-          <a href="/chilli-gold-x2-stellar-jackpots-demo-slot-machine.html" class="item-head">
-            <span class="item-logo">
-              <img
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKIAAAB+AQMAAACdwFgMAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABlJREFUSMftwQENAAAAwiD7pzbHN2AAABB3CtQAAfiiHI0AAAAASUVORK5CYII="
-                placeholders="template//images/placeholders/slot-logo-162x126.png"
-                data-src="//images/lightningboxgames/stellar-jackpots-with-chilli-gold-2.jpg"
-                alt="Chilli Gold x2 - Stellar Jackpots" width="162" height="126">
-            </span>
-            <span class="item-title">Chilli Gold x2 - Stellar Jackpots</span>
-          </a>
-          <div class="item-params">
-            <div class="param-row">
-              <div class="param-name">Lines:</div>
-              <div class="param-value">1024</div>
-            </div>
-            <div class="param-row">
-              <div class="param-name">Reels:</div>
-              <div class="param-value">5</div>
-            </div>
-            <div class="param-row">
-              <div class="param-name">FreeSpins:</div>
-              <div class="param-value">0</div>
-            </div>
-          </div>
-        </div>
-        <div class="slot-item">
-          <a href="/play-valley-of-pharaohs-online-gaming-machine-for-fun.html" class="item-head">
-            <span class="item-logo">
-              <img
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKIAAAB+AQMAAACdwFgMAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABlJREFUSMftwQENAAAAwiD7pzbHN2AAABB3CtQAAfiiHI0AAAAASUVORK5CYII="
-                placeholders="template//images/placeholders/slot-logo-162x126.png"
-                data-src="//images/booming-games/valley-of-pharaohs-logo-slot.jpg" alt="Valley Of Pharaohs " width="162"
-                height="126">
-            </span>
-            <span class="item-title">Valley Of Pharaohs </span>
-          </a>
-          <div class="item-params">
-            <div class="param-row">
-              <div class="param-name">Lines:</div>
-              <div class="param-value">10</div>
-            </div>
-            <div class="param-row">
-              <div class="param-name">Reels:</div>
-              <div class="param-value">5</div>
-            </div>
-            <div class="param-row">
-              <div class="param-name">FreeSpins:</div>
-              <div class="param-value">10</div>
-            </div>
-          </div>
-        </div>
-        <div class="slot-item">
-          <a href="/chinese-new-year-demo-slot-machine.html" class="item-head">
-            <span class="item-logo">
-              <img
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKIAAAB+AQMAAACdwFgMAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABlJREFUSMftwQENAAAAwiD7pzbHN2AAABB3CtQAAfiiHI0AAAAASUVORK5CYII="
-                placeholders="template//images/placeholders/slot-logo-162x126.png"
-                data-src="//images/evoplay/chinese-new-year logo.jpg" alt="Chinese New Year" width="162" height="126">
-            </span>
-            <span class="item-title">Chinese New Year</span>
-          </a>
-          <div class="item-params">
-            <div class="param-row">
-              <div class="param-name">Lines:</div>
-              <div class="param-value">25</div>
-            </div>
-            <div class="param-row">
-              <div class="param-name">Reels:</div>
-              <div class="param-value">5</div>
-            </div>
-            <div class="param-row">
-              <div class="param-name">FreeSpins:</div>
-              <div class="param-value">5-10</div>
-            </div>
-          </div>
-        </div>
-        <div class="slot-item">
-          <a href="/cazino-zeppelin-demo-slot-machine.html" class="item-head">
-            <span class="item-logo">
-              <img
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKIAAAB+AQMAAACdwFgMAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABlJREFUSMftwQENAAAAwiD7pzbHN2AAABB3CtQAAfiiHI0AAAAASUVORK5CYII="
-                placeholders="template//images/placeholders/slot-logo-162x126.png"
-                data-src="//images/yggdrasil-gaming/cazino-zeppelin-slot-yggdrasil.png" alt="Cazino Zeppelin"
-                width="162" height="126">
-            </span>
-            <span class="item-title">Cazino Zeppelin</span>
-          </a>
-          <div class="item-params">
-            <div class="param-row">
-              <div class="param-name">Lines:</div>
-              <div class="param-value">20</div>
-            </div>
-            <div class="param-row">
-              <div class="param-name">Reels:</div>
-              <div class="param-value">5</div>
-            </div>
-            <div class="param-row">
-              <div class="param-name">FreeSpins:</div>
-              <div class="param-value">20</div>
-            </div>
-          </div>
-        </div>
-        <div class="slot-item">
-          <a href="/play-trojan-horse-online-gaming-machine-for-fun.html" class="item-head">
-            <span class="item-logo">
-              <img
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKIAAAB+AQMAAACdwFgMAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABlJREFUSMftwQENAAAAwiD7pzbHN2AAABB3CtQAAfiiHI0AAAAASUVORK5CYII="
-                placeholders="template//images/placeholders/slot-logo-162x126.png"
-                data-src="//images/zeus/trojan-horse-slot-logo.png" alt="Trojan Horse" width="162" height="126">
-            </span>
-            <span class="item-title">Trojan Horse</span>
-          </a>
-          <div class="item-params">
-            <div class="param-row">
-              <div class="param-name">Lines:</div>
-              <div class="param-value">9</div>
-            </div>
-            <div class="param-row">
-              <div class="param-name">Reels:</div>
-              <div class="param-value">5</div>
-            </div>
-            <div class="param-row">
-              <div class="param-name">FreeSpins:</div>
-              <div class="param-value">10</div>
-            </div>
-          </div>
-        </div>
-        <div class="slot-item">
-          <a href="/play-weekend-in-vegas-online-video-game-for-fun.html" class="item-head">
-            <span class="item-logo">
-              <img
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKIAAAB+AQMAAACdwFgMAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABlJREFUSMftwQENAAAAwiD7pzbHN2AAABB3CtQAAfiiHI0AAAAASUVORK5CYII="
-                placeholders="template//images/placeholders/slot-logo-162x126.png"
-                data-src="//images/betsoft/weekend-in-vegas-slot-logo.png" alt="Weekend in Vegas" width="162"
-                height="126">
-            </span>
-            <span class="item-title">Weekend in Vegas</span>
-          </a>
-          <div class="item-params">
-            <div class="param-row">
-              <div class="param-name">Lines:</div>
-              <div class="param-value">243</div>
-            </div>
-            <div class="param-row">
-              <div class="param-name">Reels:</div>
-              <div class="param-value">5</div>
-            </div>
-            <div class="param-row">
-              <div class="param-name">FreeSpins:</div>
-              <div class="param-value">20</div>
-            </div>
-          </div>
-        </div>
+        {{ range $pageTerms := (.GetTerms "software") }}
+        {{ range $slotsArray := first 6 (shuffle (where $pageTerms.Pages "Section" "slot")) }}
+        {{ partial "partials/parts/slots-6.html" . }}
+        {{ end }}
+        {{ end }}
       </div>
-      <h2>Screenshots</h2>
+      {{ with i18n "screenshot" . }}
+      <h2>{{.}}</h2>
+
+      {{ end }}
+      {{ with $screemshot := .Params.screenshot }}
       <div class="casino-screenshots">
-        <div class="slides slick-initialized slick-slider slick-dotted">
-          <div class="slick-list draggable">
-            <div class="slick-track" style="opacity: 1; width: 3180px;"><img
-                src="template//images/placeholders/casino-screen-1060x550.png"
-                data-src="/images/casino/imoneyslots-review-slotocash.jpg" alt="Screenshot 1 {{ .Params.Name }}"
-                class="screen-item slick-slide" data-slick-index="0" aria-hidden="true" tabindex="-1" role="tabpanel"
-                id="slick-slide00" aria-describedby="slick-slide-control00"
-                style="width: 1060px; position: relative; left: 0px; top: 0px; z-index: 998; opacity: 0; transition: opacity 500ms ease 0s;"><img
-                src="template//images/placeholders/casino-screen-1060x550.png"
-                data-src="/images/casino/imoneyslots-review-slotocash-slots.jpg" alt="Screenshot 2 {{ .Params.Name }}"
-                class="screen-item slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1" role="tabpanel"
-                id="slick-slide01" aria-describedby="slick-slide-control01"
-                style="width: 1060px; position: relative; left: -1060px; top: 0px; z-index: 998; opacity: 0; transition: opacity 500ms ease 0s;"><img
-                src="template//images/placeholders/casino-screen-1060x550.png"
-                data-src="/images/casino/imoneyslots-review-slotocash-bonuses.jpg" alt="Screenshot 3 {{ .Params.Name }}"
-                class="screen-item slick-slide slick-current slick-active" data-slick-index="2" aria-hidden="false"
-                tabindex="0" role="tabpanel" id="slick-slide02" aria-describedby="slick-slide-control02"
-                style="width: 1060px; position: relative; left: -2120px; top: 0px; z-index: 999; opacity: 1;"></div>
-          </div>
-          <ul class="slick-dots" style="" role="tablist">
-            <li class="" role="presentation"><button type="button" role="tab" id="slick-slide-control00"
-                aria-controls="slick-slide00" aria-label="1 of 3" tabindex="-1">1</button></li>
-            <li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control01"
-                aria-controls="slick-slide01" aria-label="2 of 3" tabindex="-1">2</button></li>
-            <li role="presentation" class="slick-active"><button type="button" role="tab" id="slick-slide-control02"
-                aria-controls="slick-slide02" aria-label="3 of 3" tabindex="0" aria-selected="true">3</button></li>
-          </ul>
-        </div>
+        <amp-inline-gallery layout="container">
+          <amp-base-carousel class="casino-screenshots" width="1060" height="560" layout="responsive"
+            snap-align="center" loop visible-count="1" lightbox>
+            {{ range $item := $screemshot }}
+            {{$title := echoParam $item "title"}}
+            {{$alt := echoParam $item "alt"}}
+            {{$src := echoParam $item "src"}}
+            <amp-img src="{{$src}}" data-src="{{$src}}" width="1060" height="560" class="screen-item" data-loaded="true"
+              layout="responsive" alt="{{$alt}}">
+            </amp-img>
+            {{ end }}
+          </amp-base-carousel>
+          <amp-inline-gallery-pagination layout="nodisplay" inset>
+          </amp-inline-gallery-pagination>
+        </amp-inline-gallery>
 
         <div class="hidden">
-          <button class="btn btn-yellow" data-link="slotocash">Visit Casino</button>
+          <button class="btn btn-yellow"
+            data-link="{{cond (gt  (len $.Params.Referral) 1) $.Params.Referral $.Site.Params.Referral }}"
+            style="cursor: initial;">{{ i18n "reg-btn" .}}</button>
         </div>
 
       </div>
-      <h2>Financial info</h2>
+      {{ end }}
+
+      {{ with i18n "financial" . }}
+      <h2>{{.}}</h2>
+      {{ end }}
+      {{ with $finance := .Params.finance }}
       <div class="financial-info">
+        {{ range $key, $value := $finance }}
+
+        {{ end }}
         <div class="param-row">
           <div class="param-name"><i class="fi-cashout-time"></i>Withdrawal Time:</div>
           <div class="param-value withdrawal-methods">
@@ -498,7 +325,7 @@
               <div class="adv-text">(min $25)</div>
             </div>
           </div>
-          <div class="param-value param-/images">
+          <div class="param-value  ">
             <div class="image-item" title="Visa">
               <img src="template//images/placeholders/paysys-100x40.png" data-src="/i/payments/visa.png" alt="visa">
             </div>
@@ -543,7 +370,7 @@
               <div class="adv-text">(min $25)</div>
             </div>
           </div>
-          <div class="param-value param-/images">
+          <div class="param-value param-images">
             <div class="image-item" title="Skrill">
               <img src="template//images/placeholders/paysys-100x40.png" data-src="/i/payments/skrill.png" alt="skrill">
             </div>
@@ -578,6 +405,8 @@
           </div>
         </div>
       </div>
+      {{ end }}
+
       <div class="pluses-minuses-wrap" id="navigation_hitngap">
         <div class="pluses-minuses">
           <div class="pm-group pluses">

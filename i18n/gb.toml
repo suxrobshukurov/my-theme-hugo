@@ -8,6 +8,8 @@
   other = 'Soft'
 [reg-btn]
   other = 'Visit Casino'
+[get-bonus]
+  other = 'Get Bonus'
 [read-comment-btn]
   other = 'Leave comment'
 [bonus-code]
@@ -20,3 +22,17 @@
   other = 'Welcome Bonus'
 [casino-rank]
   other = 'Casino rank'
+[popular-slots-for-casino]
+  other = "Most Popular {{ .Name }} Online Slots"
+[screenshot]
+  other = "Screenshots"
+[financial]
+  other = "Financial info"
+
+#slots
+[lines]
+  other = "Lines"
+[reels]
+  other = "Reels"
+[freeSpins]
+  other = "Free Spins"

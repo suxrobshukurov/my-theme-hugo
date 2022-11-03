@@ -120,4 +120,17 @@
   </div>
 </footer>
 {{ $main := resources.Get "js/main.js" | minify | fingerprint }}
-<script src="{{ $main.Permalink }}" defer></script>
+{{/* {{ $default := resources.Get "js/default.js" | minify | fingerprint }}
+{{ $sortable := resources.Get "js/Sortable.js" | minify | fingerprint }}
+{{ $binding := resources.Get "js/jquery.binding.js" | minify | fingerprint }}
+{{ $form := resources.Get "js/jquery.form.js" | minify | fingerprint }}
+{{ $jgrowl := resources.Get "js/jquery.jgrowl.js" | minify | fingerprint }}
+{{ $sisyphus := resources.Get "js/jquery.sisyphus.js" | minify | fingerprint }} */}}
+<script src="{{ $main.Permalink }}" defer="defer"></script>
+{{/*
+<script src="{{ $default.Permalink }}" defer="defer"></script>
+<script src="{{ $sortable.Permalink }}" defer="defer"></script>
+<script src="{{ $binding.Permalink }}" defer="defer"></script>
+<script src="{{ $form.Permalink }}" defer="defer"></script>
+<script src="{{ $jgrowl.Permalink }}" defer="defer"></script>
+<script src="{{ $sisyphus.Permalink }}" defer="defer"></script> */}}

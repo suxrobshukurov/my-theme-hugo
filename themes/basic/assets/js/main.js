@@ -1,3 +1,4 @@
+/*! jQuery v3.6.0 | (c) OpenJS Foundation and other contributors | jquery.org/license */
 !(function (e, t) {
   'use strict';
   'object' == typeof module && 'object' == typeof module.exports
@@ -35,7 +36,12 @@
       return null != e && e === e.window;
     },
     E = C.document,
-    c = { type: !0, src: !0, nonce: !0, noModule: !0 };
+    c = {
+      type: !0,
+      src: !0,
+      nonce: !0,
+      noModule: !0,
+    };
   function b(e, t, n) {
     var r,
       i,
@@ -176,7 +182,13 @@
         return !0;
       },
       globalEval: function (e, t, n) {
-        b(e, { nonce: t && t.nonce }, n);
+        b(
+          e,
+          {
+            nonce: t && t.nonce,
+          },
+          n,
+        );
       },
       each: function (e, t) {
         var n,
@@ -355,7 +367,10 @@
         function (e) {
           return !0 === e.disabled && 'fieldset' === e.nodeName.toLowerCase();
         },
-        { dir: 'parentNode', next: 'legend' },
+        {
+          dir: 'parentNode',
+          next: 'legend',
+        },
       );
     try {
       H.apply((t = O.call(p.childNodes)), p.childNodes), t[p.childNodes.length].nodeType;
@@ -780,10 +795,20 @@
         attrHandle: {},
         find: {},
         relative: {
-          '>': { dir: 'parentNode', first: !0 },
-          ' ': { dir: 'parentNode' },
-          '+': { dir: 'previousSibling', first: !0 },
-          '~': { dir: 'previousSibling' },
+          '>': {
+            dir: 'parentNode',
+            first: !0,
+          },
+          ' ': {
+            dir: 'parentNode',
+          },
+          '+': {
+            dir: 'previousSibling',
+            first: !0,
+          },
+          '~': {
+            dir: 'previousSibling',
+          },
         },
         preFilter: {
           ATTR: function (e) {
@@ -1077,9 +1102,19 @@
           }),
         },
       }).pseudos.nth = b.pseudos.eq),
-    { radio: !0, checkbox: !0, file: !0, password: !0, image: !0 }))
+    {
+      radio: !0,
+      checkbox: !0,
+      file: !0,
+      password: !0,
+      image: !0,
+    }))
       b.pseudos[e] = de(e);
-    for (e in { submit: !0, reset: !0 }) b.pseudos[e] = he(e);
+    for (e in {
+      submit: !0,
+      reset: !0,
+    })
+      b.pseudos[e] = he(e);
     function me() {}
     function xe(e) {
       for (var t = 0, n = e.length, r = ''; t < n; t++) r += e[t].value;
@@ -1208,10 +1243,11 @@
             return Ce(
               1 < s && we(c),
               1 < s &&
-                xe(e.slice(0, s - 1).concat({ value: ' ' === e[s - 2].type ? '*' : '' })).replace(
-                  $,
-                  '$1',
-                ),
+                xe(
+                  e.slice(0, s - 1).concat({
+                    value: ' ' === e[s - 2].type ? '*' : '',
+                  }),
+                ).replace($, '$1'),
               t,
               s < n && Ee(e.slice(s, n)),
               n < r && Ee((e = e.slice(n))),
@@ -1243,13 +1279,20 @@
             (n = !1),
             (r = z.exec(a)) &&
               ((n = r.shift()),
-              i.push({ value: n, type: r[0].replace($, ' ') }),
+              i.push({
+                value: n,
+                type: r[0].replace($, ' '),
+              }),
               (a = a.slice(n.length))),
             b.filter))
               !(r = G[o].exec(a)) ||
                 (u[o] && !(r = u[o](r))) ||
                 ((n = r.shift()),
-                i.push({ value: n, type: o, matches: r }),
+                i.push({
+                  value: n,
+                  type: o,
+                  matches: r,
+                }),
                 (a = a.slice(n.length)));
             if (!n) break;
           }
@@ -1502,7 +1545,12 @@
   }).prototype = S.fn),
     (D = S(E));
   var L = /^(?:parents|prev(?:Until|All))/,
-    H = { children: !0, contents: !0, next: !0, prev: !0 };
+    H = {
+      children: !0,
+      contents: !0,
+      next: !0,
+      prev: !0,
+    };
   function O(e, t) {
     while ((e = e[t]) && 1 !== e.nodeType);
     return e;
@@ -1930,7 +1978,10 @@
             V(e) &&
               (e.nodeType
                 ? (e[this.expando] = t)
-                : Object.defineProperty(e, this.expando, { value: t, configurable: !0 }))),
+                : Object.defineProperty(e, this.expando, {
+                    value: t,
+                    configurable: !0,
+                  }))),
           t
         );
       },
@@ -2135,7 +2186,9 @@
     ie = function (e) {
       return S.contains(e.ownerDocument, e);
     },
-    oe = { composed: !0 };
+    oe = {
+      composed: !0,
+    };
   re.getRootNode &&
     (ie = function (e) {
       return S.contains(e.ownerDocument, e) || e.getRootNode(oe) === e.ownerDocument;
@@ -2498,9 +2551,21 @@
                   ? -1 < S(i, this).index(l)
                   : S.find(i, this, null, [l]).length),
                 a[i] && o.push(r);
-            o.length && s.push({ elem: l, handlers: o });
+            o.length &&
+              s.push({
+                elem: l,
+                handlers: o,
+              });
           }
-      return (l = this), u < t.length && s.push({ elem: l, handlers: t.slice(u) }), s;
+      return (
+        (l = this),
+        u < t.length &&
+          s.push({
+            elem: l,
+            handlers: t.slice(u),
+          }),
+        s
+      );
     },
     addProp: function (t, e) {
       Object.defineProperty(S.Event.prototype, t, {
@@ -2527,7 +2592,9 @@
       return e[S.expando] ? e : new S.Event(e);
     },
     special: {
-      load: { noBubble: !0 },
+      load: {
+        noBubble: !0,
+      },
       click: {
         setup: function (e) {
           var t = this || e;
@@ -2626,20 +2693,26 @@
       },
       S.event.addProp,
     ),
-    S.each({ focus: 'focusin', blur: 'focusout' }, function (e, t) {
-      S.event.special[e] = {
-        setup: function () {
-          return Se(this, e, Ce), !1;
-        },
-        trigger: function () {
-          return Se(this, e), !0;
-        },
-        _default: function () {
-          return !0;
-        },
-        delegateType: t,
-      };
-    }),
+    S.each(
+      {
+        focus: 'focusin',
+        blur: 'focusout',
+      },
+      function (e, t) {
+        S.event.special[e] = {
+          setup: function () {
+            return Se(this, e, Ce), !1;
+          },
+          trigger: function () {
+            return Se(this, e), !0;
+          },
+          _default: function () {
+            return !0;
+          },
+          delegateType: t,
+        };
+      },
+    ),
     S.each(
       {
         mouseenter: 'mouseover',
@@ -2764,7 +2837,13 @@
               (u.src && 'module' !== (u.type || '').toLowerCase()
                 ? S._evalUrl &&
                   !u.noModule &&
-                  S._evalUrl(u.src, { nonce: u.nonce || u.getAttribute('nonce') }, l)
+                  S._evalUrl(
+                    u.src,
+                    {
+                      nonce: u.nonce || u.getAttribute('nonce'),
+                    },
+                    l,
+                  )
                 : b(u.textContent.replace(Ne, ''), u, l));
     }
     return n;
@@ -3071,8 +3150,15 @@
   }
   var Ue = /^(none|table(?!-c[ea]).+)/,
     Xe = /^--/,
-    Ve = { position: 'absolute', visibility: 'hidden', display: 'block' },
-    Ge = { letterSpacing: '0', fontWeight: '400' };
+    Ve = {
+      position: 'absolute',
+      visibility: 'hidden',
+      display: 'block',
+    },
+    Ge = {
+      letterSpacing: '0',
+      fontWeight: '400',
+    };
   function Ye(e, t, n) {
     var r = te.exec(t);
     return r ? Math.max(0, r[2] - (n || 0)) + (r[3] || 'px') : t;
@@ -3233,21 +3319,34 @@
         return (
           (parseFloat(We(e, 'marginLeft')) ||
             e.getBoundingClientRect().left -
-              Me(e, { marginLeft: 0 }, function () {
-                return e.getBoundingClientRect().left;
-              })) + 'px'
+              Me(
+                e,
+                {
+                  marginLeft: 0,
+                },
+                function () {
+                  return e.getBoundingClientRect().left;
+                },
+              )) + 'px'
         );
     })),
-    S.each({ margin: '', padding: '', border: 'Width' }, function (i, o) {
-      (S.cssHooks[i + o] = {
-        expand: function (e) {
-          for (var t = 0, n = {}, r = 'string' == typeof e ? e.split(' ') : [e]; t < 4; t++)
-            n[i + ne[t] + o] = r[t] || r[t - 2] || r[0];
-          return n;
-        },
-      }),
-        'margin' !== i && (S.cssHooks[i + o].set = Ye);
-    }),
+    S.each(
+      {
+        margin: '',
+        padding: '',
+        border: 'Width',
+      },
+      function (i, o) {
+        (S.cssHooks[i + o] = {
+          expand: function (e) {
+            for (var t = 0, n = {}, r = 'string' == typeof e ? e.split(' ') : [e]; t < 4; t++)
+              n[i + ne[t] + o] = r[t] || r[t - 2] || r[0];
+            return n;
+          },
+        }),
+          'margin' !== i && (S.cssHooks[i + o].set = Ye);
+      },
+    ),
     S.fn.extend({
       css: function (e, t) {
         return $(
@@ -3358,7 +3457,9 @@
   function st(e, t) {
     var n,
       r = 0,
-      i = { height: e };
+      i = {
+        height: e,
+      };
     for (t = t ? 1 : 0; r < 4; r += 2 - t) i['margin' + (n = ne[r])] = i['padding' + n] = e;
     return t && (i.opacity = i.width = e), i;
   }
@@ -3398,7 +3499,14 @@
       l = s.promise({
         elem: o,
         props: S.extend({}, e),
-        opts: S.extend(!0, { specialEasing: {}, easing: S.easing._default }, t),
+        opts: S.extend(
+          !0,
+          {
+            specialEasing: {},
+            easing: S.easing._default,
+          },
+          t,
+        ),
         originalProperties: e,
         originalOptions: t,
         startTime: Ze || at(),
@@ -3447,7 +3555,13 @@
         .done(l.opts.done, l.opts.complete)
         .fail(l.opts.fail)
         .always(l.opts.always),
-      S.fx.timer(S.extend(u, { elem: o, anim: l, queue: l.opts.queue })),
+      S.fx.timer(
+        S.extend(u, {
+          elem: o,
+          anim: l,
+          queue: l.opts.queue,
+        }),
+      ),
       l
     );
   }
@@ -3529,7 +3643,11 @@
           (u = !1),
           d))
             u ||
-              (v ? 'hidden' in v && (g = v.hidden) : (v = Y.access(e, 'fxshow', { display: l })),
+              (v
+                ? 'hidden' in v && (g = v.hidden)
+                : (v = Y.access(e, 'fxshow', {
+                    display: l,
+                  })),
               o && (v.hidden = !g),
               g && le([e], !0),
               p.done(function () {
@@ -3569,7 +3687,14 @@
     }),
     S.fn.extend({
       fadeTo: function (e, t, n, r) {
-        return this.filter(ae).css('opacity', 0).show().end().animate({ opacity: t }, e, n, r);
+        return this.filter(ae).css('opacity', 0).show().end().animate(
+          {
+            opacity: t,
+          },
+          e,
+          n,
+          r,
+        );
       },
       animate: function (t, e, n, r) {
         var i = S.isEmptyObject(t),
@@ -3641,9 +3766,15 @@
         slideDown: st('show'),
         slideUp: st('hide'),
         slideToggle: st('toggle'),
-        fadeIn: { opacity: 'show' },
-        fadeOut: { opacity: 'hide' },
-        fadeToggle: { opacity: 'toggle' },
+        fadeIn: {
+          opacity: 'show',
+        },
+        fadeOut: {
+          opacity: 'hide',
+        },
+        fadeToggle: {
+          opacity: 'toggle',
+        },
       },
       function (e, r) {
         S.fn[e] = function (e, t, n) {
@@ -3669,7 +3800,11 @@
     (S.fx.stop = function () {
       et = null;
     }),
-    (S.fx.speeds = { slow: 600, fast: 200, _default: 400 }),
+    (S.fx.speeds = {
+      slow: 600,
+      fast: 200,
+      _default: 400,
+    }),
     (S.fn.delay = function (r, e) {
       return (
         (r = (S.fx && S.fx.speeds[r]) || r),
@@ -3805,7 +3940,10 @@
           },
         },
       },
-      propFix: { for: 'htmlFor', class: 'className' },
+      propFix: {
+        for: 'htmlFor',
+        class: 'className',
+      },
     }),
     y.optSelected ||
       (S.propHooks.selected = {
@@ -4076,7 +4214,10 @@
       }
     },
     simulate: function (e, t, n) {
-      var r = S.extend(new S.Event(), n, { type: e, isSimulated: !0 });
+      var r = S.extend(new S.Event(), n, {
+        type: e,
+        isSimulated: !0,
+      });
       S.event.trigger(r, null, t);
     },
   }),
@@ -4092,25 +4233,33 @@
       },
     }),
     y.focusin ||
-      S.each({ focus: 'focusin', blur: 'focusout' }, function (n, r) {
-        var i = function (e) {
-          S.event.simulate(r, e.target, S.event.fix(e));
-        };
-        S.event.special[r] = {
-          setup: function () {
-            var e = this.ownerDocument || this.document || this,
-              t = Y.access(e, r);
-            t || e.addEventListener(n, i, !0), Y.access(e, r, (t || 0) + 1);
-          },
-          teardown: function () {
-            var e = this.ownerDocument || this.document || this,
-              t = Y.access(e, r) - 1;
-            t ? Y.access(e, r, t) : (e.removeEventListener(n, i, !0), Y.remove(e, r));
-          },
-        };
-      });
+      S.each(
+        {
+          focus: 'focusin',
+          blur: 'focusout',
+        },
+        function (n, r) {
+          var i = function (e) {
+            S.event.simulate(r, e.target, S.event.fix(e));
+          };
+          S.event.special[r] = {
+            setup: function () {
+              var e = this.ownerDocument || this.document || this,
+                t = Y.access(e, r);
+              t || e.addEventListener(n, i, !0), Y.access(e, r, (t || 0) + 1);
+            },
+            teardown: function () {
+              var e = this.ownerDocument || this.document || this,
+                t = Y.access(e, r) - 1;
+              t ? Y.access(e, r, t) : (e.removeEventListener(n, i, !0), Y.remove(e, r));
+            },
+          };
+        },
+      );
   var bt = C.location,
-    wt = { guid: Date.now() },
+    wt = {
+      guid: Date.now(),
+    },
     Tt = /\?/;
   S.parseXML = function (e) {
     var t, n;
@@ -4187,9 +4336,15 @@
               ? null
               : Array.isArray(n)
               ? S.map(n, function (e) {
-                  return { name: t.name, value: e.replace(Et, '\r\n') };
+                  return {
+                    name: t.name,
+                    value: e.replace(Et, '\r\n'),
+                  };
                 })
-              : { name: t.name, value: n.replace(Et, '\r\n') };
+              : {
+                  name: t.name,
+                  value: n.replace(Et, '\r\n'),
+                };
           })
           .get();
       },
@@ -4264,15 +4419,26 @@
           xml: 'application/xml, text/xml',
           json: 'application/json, text/javascript',
         },
-        contents: { xml: /\bxml\b/, html: /\bhtml/, json: /\bjson\b/ },
-        responseFields: { xml: 'responseXML', text: 'responseText', json: 'responseJSON' },
+        contents: {
+          xml: /\bxml\b/,
+          html: /\bhtml/,
+          json: /\bjson\b/,
+        },
+        responseFields: {
+          xml: 'responseXML',
+          text: 'responseText',
+          json: 'responseJSON',
+        },
         converters: {
           '* text': String,
           'text html': !0,
           'text json': JSON.parse,
           'text xml': S.parseXML,
         },
-        flatOptions: { url: !0, context: !0 },
+        flatOptions: {
+          url: !0,
+          context: !0,
+        },
       },
       ajaxSetup: function (e, t) {
         return t ? Ft(Ft(e, S.ajaxSettings), t) : Ft(S.ajaxSettings, e);
@@ -4500,7 +4666,10 @@
                           };
                         }
                   }
-              return { state: 'success', data: t };
+              return {
+                state: 'success',
+                data: t,
+              };
             })(v, s, T, i)),
             i
               ? (v.ifModified &&
@@ -4536,7 +4705,13 @@
           m(t) && ((r = r || n), (n = t), (t = void 0)),
           S.ajax(
             S.extend(
-              { url: e, type: i, dataType: r, data: t, success: n },
+              {
+                url: e,
+                type: i,
+                dataType: r,
+                data: t,
+                success: n,
+              },
               S.isPlainObject(e) && e,
             ),
           )
@@ -4556,7 +4731,9 @@
         cache: !0,
         async: !1,
         global: !1,
-        converters: { 'text script': function () {} },
+        converters: {
+          'text script': function () {},
+        },
         dataFilter: function (e) {
           S.globalEval(e, t, n);
         },
@@ -4619,7 +4796,10 @@
         return new C.XMLHttpRequest();
       } catch (e) {}
     });
-  var Bt = { 0: 200, 1223: 204 },
+  var Bt = {
+      0: 200,
+      1223: 204,
+    },
     $t = S.ajaxSettings.xhr();
   (y.cors = !!$t && 'withCredentials' in $t),
     (y.ajax = $t = !!$t),
@@ -4657,8 +4837,12 @@
                         Bt[r.status] || r.status,
                         r.statusText,
                         'text' !== (r.responseType || 'text') || 'string' != typeof r.responseText
-                          ? { binary: r.response }
-                          : { text: r.responseText },
+                          ? {
+                              binary: r.response,
+                            }
+                          : {
+                              text: r.responseText,
+                            },
                         r.getAllResponseHeaders(),
                       ));
               };
@@ -4693,7 +4877,9 @@
         script:
           'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript',
       },
-      contents: { script: /\b(?:java|ecma)script\b/ },
+      contents: {
+        script: /\b(?:java|ecma)script\b/,
+      },
       converters: {
         'text script': function (e) {
           return S.globalEval(e), e;
@@ -4710,7 +4896,10 @@
           send: function (e, t) {
             (r = S('<script>')
               .attr(n.scriptAttrs || {})
-              .prop({ charset: n.scriptCharset, src: n.url })
+              .prop({
+                charset: n.scriptCharset,
+                src: n.url,
+              })
               .on(
                 'load error',
                 (i = function (e) {
@@ -4799,7 +4988,12 @@
         -1 < s && ((r = ht(e.slice(s))), (e = e.slice(0, s))),
         m(t) ? ((n = t), (t = void 0)) : t && 'object' == typeof t && (i = 'POST'),
         0 < a.length &&
-          S.ajax({ url: e, type: i || 'GET', dataType: 'html', data: t })
+          S.ajax({
+            url: e,
+            type: i || 'GET',
+            dataType: 'html',
+            data: t,
+          })
             .done(function (e) {
               (o = arguments), a.html(r ? S('<div>').append(S.parseHTML(e)).find(r) : e);
             })
@@ -4858,8 +5052,14 @@
           ? r.getClientRects().length
             ? ((e = r.getBoundingClientRect()),
               (n = r.ownerDocument.defaultView),
-              { top: e.top + n.pageYOffset, left: e.left + n.pageXOffset })
-            : { top: 0, left: 0 }
+              {
+                top: e.top + n.pageYOffset,
+                left: e.left + n.pageXOffset,
+              })
+            : {
+                top: 0,
+                left: 0,
+              }
           : void 0;
       },
       position: function () {
@@ -4868,7 +5068,10 @@
             t,
             n,
             r = this[0],
-            i = { top: 0, left: 0 };
+            i = {
+              top: 0,
+              left: 0,
+            };
           if ('fixed' === S.css(r, 'position')) t = r.getBoundingClientRect();
           else {
             (t = this.offset()), (n = r.ownerDocument), (e = r.offsetParent || n.documentElement);
@@ -4898,61 +5101,80 @@
         });
       },
     }),
-    S.each({ scrollLeft: 'pageXOffset', scrollTop: 'pageYOffset' }, function (t, i) {
-      var o = 'pageYOffset' === i;
-      S.fn[t] = function (e) {
-        return $(
-          this,
-          function (e, t, n) {
-            var r;
-            if ((x(e) ? (r = e) : 9 === e.nodeType && (r = e.defaultView), void 0 === n))
-              return r ? r[i] : e[t];
-            r ? r.scrollTo(o ? r.pageXOffset : n, o ? n : r.pageYOffset) : (e[t] = n);
-          },
-          t,
-          e,
-          arguments.length,
-        );
-      };
-    }),
+    S.each(
+      {
+        scrollLeft: 'pageXOffset',
+        scrollTop: 'pageYOffset',
+      },
+      function (t, i) {
+        var o = 'pageYOffset' === i;
+        S.fn[t] = function (e) {
+          return $(
+            this,
+            function (e, t, n) {
+              var r;
+              if ((x(e) ? (r = e) : 9 === e.nodeType && (r = e.defaultView), void 0 === n))
+                return r ? r[i] : e[t];
+              r ? r.scrollTo(o ? r.pageXOffset : n, o ? n : r.pageYOffset) : (e[t] = n);
+            },
+            t,
+            e,
+            arguments.length,
+          );
+        };
+      },
+    ),
     S.each(['top', 'left'], function (e, n) {
       S.cssHooks[n] = Fe(y.pixelPosition, function (e, t) {
         if (t) return (t = We(e, n)), Pe.test(t) ? S(e).position()[n] + 'px' : t;
       });
     }),
-    S.each({ Height: 'height', Width: 'width' }, function (a, s) {
-      S.each({ padding: 'inner' + a, content: s, '': 'outer' + a }, function (r, o) {
-        S.fn[o] = function (e, t) {
-          var n = arguments.length && (r || 'boolean' != typeof e),
-            i = r || (!0 === e || !0 === t ? 'margin' : 'border');
-          return $(
-            this,
-            function (e, t, n) {
-              var r;
-              return x(e)
-                ? 0 === o.indexOf('outer')
-                  ? e['inner' + a]
-                  : e.document.documentElement['client' + a]
-                : 9 === e.nodeType
-                ? ((r = e.documentElement),
-                  Math.max(
-                    e.body['scroll' + a],
-                    r['scroll' + a],
-                    e.body['offset' + a],
-                    r['offset' + a],
-                    r['client' + a],
-                  ))
-                : void 0 === n
-                ? S.css(e, t, i)
-                : S.style(e, t, n, i);
-            },
-            s,
-            n ? e : void 0,
-            n,
-          );
-        };
-      });
-    }),
+    S.each(
+      {
+        Height: 'height',
+        Width: 'width',
+      },
+      function (a, s) {
+        S.each(
+          {
+            padding: 'inner' + a,
+            content: s,
+            '': 'outer' + a,
+          },
+          function (r, o) {
+            S.fn[o] = function (e, t) {
+              var n = arguments.length && (r || 'boolean' != typeof e),
+                i = r || (!0 === e || !0 === t ? 'margin' : 'border');
+              return $(
+                this,
+                function (e, t, n) {
+                  var r;
+                  return x(e)
+                    ? 0 === o.indexOf('outer')
+                      ? e['inner' + a]
+                      : e.document.documentElement['client' + a]
+                    : 9 === e.nodeType
+                    ? ((r = e.documentElement),
+                      Math.max(
+                        e.body['scroll' + a],
+                        r['scroll' + a],
+                        e.body['offset' + a],
+                        r['offset' + a],
+                        r['client' + a],
+                      ))
+                    : void 0 === n
+                    ? S.css(e, t, i)
+                    : S.style(e, t, n, i);
+                },
+                s,
+                n ? e : void 0,
+                n,
+              );
+            };
+          },
+        );
+      },
+    ),
     S.each(
       ['ajaxStart', 'ajaxStop', 'ajaxComplete', 'ajaxError', 'ajaxSuccess', 'ajaxSend'],
       function (e, t) {
@@ -5179,9 +5401,13 @@
   })()).prototype.activateADA = function () {
     this.$slideTrack
       .find('.slick-active')
-      .attr({ 'aria-hidden': 'false' })
+      .attr({
+        'aria-hidden': 'false',
+      })
       .find('a, input, button, select')
-      .attr({ tabindex: '0' });
+      .attr({
+        tabindex: '0',
+      });
   }),
     (e.prototype.addSlide = e.prototype.slickAdd =
       function (e, t, o) {
@@ -5215,7 +5441,12 @@
         !1 === i.options.vertical
       ) {
         var e = i.$slides.eq(i.currentSlide).outerHeight(!0);
-        i.$list.animate({ height: e }, i.options.speed);
+        i.$list.animate(
+          {
+            height: e,
+          },
+          i.options.speed,
+        );
       }
     }),
     (e.prototype.animateSlide = function (e, t) {
@@ -5225,12 +5456,30 @@
         !0 === s.options.rtl && !1 === s.options.vertical && (e = -e),
         !1 === s.transformsEnabled
           ? !1 === s.options.vertical
-            ? s.$slideTrack.animate({ left: e }, s.options.speed, s.options.easing, t)
-            : s.$slideTrack.animate({ top: e }, s.options.speed, s.options.easing, t)
+            ? s.$slideTrack.animate(
+                {
+                  left: e,
+                },
+                s.options.speed,
+                s.options.easing,
+                t,
+              )
+            : s.$slideTrack.animate(
+                {
+                  top: e,
+                },
+                s.options.speed,
+                s.options.easing,
+                t,
+              )
           : !1 === s.cssTransitions
           ? (!0 === s.options.rtl && (s.currentLeft = -s.currentLeft),
-            i({ animStart: s.currentLeft }).animate(
-              { animStart: e },
+            i({
+              animStart: s.currentLeft,
+            }).animate(
+              {
+                animStart: e,
+              },
               {
                 duration: s.options.speed,
                 easing: s.options.easing,
@@ -5315,10 +5564,10 @@
             e.htmlExpr.test(e.options.nextArrow) && e.$nextArrow.appendTo(e.options.appendArrows),
             !0 !== e.options.infinite &&
               e.$prevArrow.addClass('slick-disabled').attr('aria-disabled', 'true'))
-          : e.$prevArrow
-              .add(e.$nextArrow)
-              .addClass('slick-hidden')
-              .attr({ 'aria-disabled': 'true', tabindex: '-1' }));
+          : e.$prevArrow.add(e.$nextArrow).addClass('slick-hidden').attr({
+              'aria-disabled': 'true',
+              tabindex: '-1',
+            }));
     }),
     (e.prototype.buildDots = function () {
       var e,
@@ -5396,7 +5645,10 @@
             .children()
             .children()
             .children()
-            .css({ width: 100 / l.options.slidesPerRow + '%', display: 'inline-block' });
+            .css({
+              width: 100 / l.options.slidesPerRow + '%',
+              display: 'inline-block',
+            });
       }
     }),
     (e.prototype.checkResponsive = function (e, t) {
@@ -5585,10 +5837,22 @@
     (e.prototype.fadeSlide = function (i, e) {
       var t = this;
       !1 === t.cssTransitions
-        ? (t.$slides.eq(i).css({ zIndex: t.options.zIndex }),
-          t.$slides.eq(i).animate({ opacity: 1 }, t.options.speed, t.options.easing, e))
+        ? (t.$slides.eq(i).css({
+            zIndex: t.options.zIndex,
+          }),
+          t.$slides.eq(i).animate(
+            {
+              opacity: 1,
+            },
+            t.options.speed,
+            t.options.easing,
+            e,
+          ))
         : (t.applyTransition(i),
-          t.$slides.eq(i).css({ opacity: 1, zIndex: t.options.zIndex }),
+          t.$slides.eq(i).css({
+            opacity: 1,
+            zIndex: t.options.zIndex,
+          }),
           e &&
             setTimeout(function () {
               t.disableTransition(i), e.call();
@@ -5597,14 +5861,19 @@
     (e.prototype.fadeSlideOut = function (i) {
       var e = this;
       !1 === e.cssTransitions
-        ? e.$slides
-            .eq(i)
-            .animate(
-              { opacity: 0, zIndex: e.options.zIndex - 2 },
-              e.options.speed,
-              e.options.easing,
-            )
-        : (e.applyTransition(i), e.$slides.eq(i).css({ opacity: 0, zIndex: e.options.zIndex - 2 }));
+        ? e.$slides.eq(i).animate(
+            {
+              opacity: 0,
+              zIndex: e.options.zIndex - 2,
+            },
+            e.options.speed,
+            e.options.easing,
+          )
+        : (e.applyTransition(i),
+          e.$slides.eq(i).css({
+            opacity: 0,
+            zIndex: e.options.zIndex - 2,
+          }));
     }),
     (e.prototype.filterSlides = e.prototype.slickFilter =
       function (i) {
@@ -5777,7 +6046,15 @@
     }),
     (e.prototype.goTo = e.prototype.slickGoTo =
       function (i, e) {
-        this.changeSlide({ data: { message: 'index', index: parseInt(i) } }, e);
+        this.changeSlide(
+          {
+            data: {
+              message: 'index',
+              index: parseInt(i),
+            },
+          },
+          e,
+        );
       }),
     (e.prototype.init = function (e) {
       var t = this;
@@ -5805,22 +6082,35 @@
         });
       e.$slides
         .add(e.$slideTrack.find('.slick-cloned'))
-        .attr({ 'aria-hidden': 'true', tabindex: '-1' })
+        .attr({
+          'aria-hidden': 'true',
+          tabindex: '-1',
+        })
         .find('a, input, button, select')
-        .attr({ tabindex: '-1' }),
+        .attr({
+          tabindex: '-1',
+        }),
         null !== e.$dots &&
           (e.$slides.not(e.$slideTrack.find('.slick-cloned')).each(function (t) {
             var s = o.indexOf(t);
-            i(this).attr({ role: 'tabpanel', id: 'slick-slide' + e.instanceUid + t, tabindex: -1 }),
+            i(this).attr({
+              role: 'tabpanel',
+              id: 'slick-slide' + e.instanceUid + t,
+              tabindex: -1,
+            }),
               -1 !== s &&
-                i(this).attr({ 'aria-describedby': 'slick-slide-control' + e.instanceUid + s });
+                i(this).attr({
+                  'aria-describedby': 'slick-slide-control' + e.instanceUid + s,
+                });
           }),
           e.$dots
             .attr('role', 'tablist')
             .find('li')
             .each(function (s) {
               var n = o[s];
-              i(this).attr({ role: 'presentation' }),
+              i(this).attr({
+                role: 'presentation',
+              }),
                 i(this)
                   .find('button')
                   .first()
@@ -5835,7 +6125,10 @@
             })
             .eq(e.currentSlide)
             .find('button')
-            .attr({ 'aria-selected': 'true', tabindex: '0' })
+            .attr({
+              'aria-selected': 'true',
+              tabindex: '0',
+            })
             .end());
       for (var s = e.currentSlide, n = s + e.options.slidesToShow; s < n; s++)
         e.$slides.eq(s).attr('tabindex', 0);
@@ -5845,8 +6138,20 @@
       var i = this;
       !0 === i.options.arrows &&
         i.slideCount > i.options.slidesToShow &&
-        (i.$prevArrow.off('click.slick').on('click.slick', { message: 'previous' }, i.changeSlide),
-        i.$nextArrow.off('click.slick').on('click.slick', { message: 'next' }, i.changeSlide),
+        (i.$prevArrow.off('click.slick').on(
+          'click.slick',
+          {
+            message: 'previous',
+          },
+          i.changeSlide,
+        ),
+        i.$nextArrow.off('click.slick').on(
+          'click.slick',
+          {
+            message: 'next',
+          },
+          i.changeSlide,
+        ),
         !0 === i.options.accessibility &&
           (i.$prevArrow.on('keydown.slick', i.keyHandler),
           i.$nextArrow.on('keydown.slick', i.keyHandler)));
@@ -5854,7 +6159,13 @@
     (e.prototype.initDotEvents = function () {
       var e = this;
       !0 === e.options.dots &&
-        (i('li', e.$dots).on('click.slick', { message: 'index' }, e.changeSlide),
+        (i('li', e.$dots).on(
+          'click.slick',
+          {
+            message: 'index',
+          },
+          e.changeSlide,
+        ),
         !0 === e.options.accessibility && e.$dots.on('keydown.slick', e.keyHandler)),
         !0 === e.options.dots &&
           !0 === e.options.pauseOnDotsHover &&
@@ -5873,10 +6184,34 @@
       e.initArrowEvents(),
         e.initDotEvents(),
         e.initSlideEvents(),
-        e.$list.on('touchstart.slick mousedown.slick', { action: 'start' }, e.swipeHandler),
-        e.$list.on('touchmove.slick mousemove.slick', { action: 'move' }, e.swipeHandler),
-        e.$list.on('touchend.slick mouseup.slick', { action: 'end' }, e.swipeHandler),
-        e.$list.on('touchcancel.slick mouseleave.slick', { action: 'end' }, e.swipeHandler),
+        e.$list.on(
+          'touchstart.slick mousedown.slick',
+          {
+            action: 'start',
+          },
+          e.swipeHandler,
+        ),
+        e.$list.on(
+          'touchmove.slick mousemove.slick',
+          {
+            action: 'move',
+          },
+          e.swipeHandler,
+        ),
+        e.$list.on(
+          'touchend.slick mouseup.slick',
+          {
+            action: 'end',
+          },
+          e.swipeHandler,
+        ),
+        e.$list.on(
+          'touchcancel.slick mouseleave.slick',
+          {
+            action: 'end',
+          },
+          e.swipeHandler,
+        ),
         e.$list.on('click.slick', e.clickHandler),
         i(document).on(e.visibilityChange, i.proxy(e.visibility, e)),
         !0 === e.options.accessibility && e.$list.on('keydown.slick', e.keyHandler),
@@ -5902,10 +6237,18 @@
       var e = this;
       i.target.tagName.match('TEXTAREA|INPUT|SELECT') ||
         (37 === i.keyCode && !0 === e.options.accessibility
-          ? e.changeSlide({ data: { message: !0 === e.options.rtl ? 'next' : 'previous' } })
+          ? e.changeSlide({
+              data: {
+                message: !0 === e.options.rtl ? 'next' : 'previous',
+              },
+            })
           : 39 === i.keyCode &&
             !0 === e.options.accessibility &&
-            e.changeSlide({ data: { message: !0 === e.options.rtl ? 'previous' : 'next' } }));
+            e.changeSlide({
+              data: {
+                message: !0 === e.options.rtl ? 'previous' : 'next',
+              },
+            }));
     }),
     (e.prototype.lazyLoad = function () {
       function e(e) {
@@ -5916,13 +6259,25 @@
             s = i(this).attr('data-sizes') || n.$slider.attr('data-sizes'),
             r = document.createElement('img');
           (r.onload = function () {
-            e.animate({ opacity: 0 }, 100, function () {
-              o && (e.attr('srcset', o), s && e.attr('sizes', s)),
-                e.attr('src', t).animate({ opacity: 1 }, 200, function () {
-                  e.removeAttr('data-lazy data-srcset data-sizes').removeClass('slick-loading');
-                }),
-                n.$slider.trigger('lazyLoaded', [n, e, t]);
-            });
+            e.animate(
+              {
+                opacity: 0,
+              },
+              100,
+              function () {
+                o && (e.attr('srcset', o), s && e.attr('sizes', s)),
+                  e.attr('src', t).animate(
+                    {
+                      opacity: 1,
+                    },
+                    200,
+                    function () {
+                      e.removeAttr('data-lazy data-srcset data-sizes').removeClass('slick-loading');
+                    },
+                  ),
+                  n.$slider.trigger('lazyLoaded', [n, e, t]);
+              },
+            );
           }),
             (r.onerror = function () {
               e
@@ -5970,14 +6325,20 @@
     (e.prototype.loadSlider = function () {
       var i = this;
       i.setPosition(),
-        i.$slideTrack.css({ opacity: 1 }),
+        i.$slideTrack.css({
+          opacity: 1,
+        }),
         i.$slider.removeClass('slick-loading'),
         i.initUI(),
         'progressive' === i.options.lazyLoad && i.progressiveLazyLoad();
     }),
     (e.prototype.next = e.prototype.slickNext =
       function () {
-        this.changeSlide({ data: { message: 'next' } });
+        this.changeSlide({
+          data: {
+            message: 'next',
+          },
+        });
       }),
     (e.prototype.orientationChange = function () {
       var i = this;
@@ -6011,7 +6372,11 @@
     }),
     (e.prototype.prev = e.prototype.slickPrev =
       function () {
-        this.changeSlide({ data: { message: 'previous' } });
+        this.changeSlide({
+          data: {
+            message: 'previous',
+          },
+        });
       }),
     (e.prototype.preventDefault = function (i) {
       i.preventDefault();
@@ -6064,9 +6429,20 @@
         s.slideCount <= s.options.slidesToShow && (s.currentSlide = 0),
         (t = s.currentSlide),
         s.destroy(!0),
-        i.extend(s, s.initials, { currentSlide: t }),
+        i.extend(s, s.initials, {
+          currentSlide: t,
+        }),
         s.init(),
-        e || s.changeSlide({ data: { message: 'index', index: t } }, !1);
+        e ||
+          s.changeSlide(
+            {
+              data: {
+                message: 'index',
+                index: t,
+              },
+            },
+            !1,
+          );
     }),
     (e.prototype.registerBreakpoints = function () {
       var e,
@@ -6162,10 +6538,15 @@
     (e.prototype.setDimensions = function () {
       var i = this;
       !1 === i.options.vertical
-        ? !0 === i.options.centerMode && i.$list.css({ padding: '0px ' + i.options.centerPadding })
+        ? !0 === i.options.centerMode &&
+          i.$list.css({
+            padding: '0px ' + i.options.centerPadding,
+          })
         : (i.$list.height(i.$slides.first().outerHeight(!0) * i.options.slidesToShow),
           !0 === i.options.centerMode &&
-            i.$list.css({ padding: i.options.centerPadding + ' 0px' })),
+            i.$list.css({
+              padding: i.options.centerPadding + ' 0px',
+            })),
         (i.listWidth = i.$list.width()),
         (i.listHeight = i.$list.height()),
         !1 === i.options.vertical && !1 === i.options.variableWidth
@@ -6206,7 +6587,10 @@
                 opacity: 0,
               });
       }),
-        t.$slides.eq(t.currentSlide).css({ zIndex: t.options.zIndex - 1, opacity: 1 });
+        t.$slides.eq(t.currentSlide).css({
+          zIndex: t.options.zIndex - 1,
+          opacity: 1,
+        });
     }),
     (e.prototype.setHeight = function () {
       var i = this;
@@ -6859,15 +7243,19 @@ var wp = '_blank',
   q = '[data-link]';
 $(q).hover(
   function () {
-    $(this).css({ cursor: 'pointer' });
+    $(this).css({
+      cursor: 'pointer',
+    });
   },
   function () {
-    $(this).css({ cursor: 'initial' });
+    $(this).css({
+      cursor: 'initial',
+    });
   },
 ),
   $(q).mousedown(function (n) {
     var i = $(this).data('link');
-    return 2 === n.which ? window.open(i, '_blank') : window.open(i, wp), !1;
+    return 2 === n.which ? window.open(i) : window.open(i, wp), !1;
   });
 /*! lozad.js - v1.14.0 - 2019-10-19
  * https://github.com/ApoorvSaxena/lozad.js
@@ -6884,7 +7272,8 @@ $(q).hover(
    * Detect IE browser
    * @const {boolean}
    * @private
-   */ var d = 'undefined' != typeof document && document.documentMode,
+   */
+  var d = 'undefined' != typeof document && document.documentMode,
     c = {
       rootMargin: '0px',
       threshold: 0,
@@ -6909,7 +7298,8 @@ $(q).hover(
             "url('" + t.getAttribute('data-background-image').split(',').join("'),url('") + "')";
         else if (t.getAttribute('data-background-image-set')) {
           var i = t.getAttribute('data-background-image-set').split(','),
-            n = i[0].substr(0, i[0].indexOf(' ')) || i[0]; // Substring before ... 1x
+            n = i[0].substr(0, i[0].indexOf(' ')) || i[0];
+          // Substring before ... 1x
           (n = -1 === n.indexOf('url(') ? 'url(' + n + ')' : n),
             1 === i.length
               ? (t.style.backgroundImage = n)
@@ -6960,7 +7350,11 @@ $(q).hover(
                 (e.unobserve(t.target), b(t.target) || (r(t.target), l(t.target), a(t.target)));
             });
           }),
-          { root: i, rootMargin: n, threshold: d },
+          {
+            root: i,
+            rootMargin: n,
+            threshold: d,
+          },
         )),
       {
         observe: function () {
@@ -7081,13 +7475,22 @@ $(q).hover(
           if (template === 'mini_poll') {
             $form
               .find('.graph')
-              .css({ opacity: 0, width: 0 })
+              .css({
+                opacity: 0,
+                width: 0,
+              })
               .show()
               .filter('.up')
-              .animate({ opacity: 1, width: data.item.votes_pct_up + '%' })
+              .animate({
+                opacity: 1,
+                width: data.item.votes_pct_up + '%',
+              })
               .end()
               .filter('.down')
-              .animate({ opacity: 1, width: data.item.votes_pct_down + '%' });
+              .animate({
+                opacity: 1,
+                width: data.item.votes_pct_down + '%',
+              });
           }
         },
         complete: function () {
@@ -7159,7 +7562,9 @@ function anchors() {
         header = $(anchor);
       if (header.length > 0) {
         $('body,html').animate(
-          { scrollTop: header.offset().top - 10 },
+          {
+            scrollTop: header.offset().top - 10,
+          },
           {
             duration: 2000,
             step: function (now, fx) {
@@ -7197,8 +7602,21 @@ function bonusesSlider() {
       slidesToShow: 3,
       slidesToScroll: 3,
       responsive: [
-        { breakpoint: 961, settings: { slidesToShow: 2, slidesToScroll: 2 } },
-        { breakpoint: 691, settings: { arrows: false, slidesToShow: 1, slidesToScroll: 1 } },
+        {
+          breakpoint: 961,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+          },
+        },
+        {
+          breakpoint: 691,
+          settings: {
+            arrows: false,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
       ],
     });
   }
@@ -7220,7 +7638,11 @@ function videoLoader() {
     videoSize();
     video.each(function () {
       $(this).css('background-image', 'url(https://i.ytimg.com/vi/' + this.id + '/sddefault.jpg)');
-      $(this).append($('<div/>', { class: 'play' }));
+      $(this).append(
+        $('<div/>', {
+          class: 'play',
+        }),
+      );
       $(document).on('click', '#' + this.id, function () {
         var iframe_url = 'https://www.youtube.com/embed/' + this.id + '?autoplay=1&autohide=1';
         if ($(this).data('params')) {
@@ -7249,7 +7671,9 @@ function goTop() {
     300 <= $(window).scrollTop() ? $(buttonTop).fadeIn('slow') : $(buttonTop).fadeOut('slow');
   });
   $(buttonTop).on('click', function () {
-    $('body,html').animate({ scrollTop: 0 });
+    $('body,html').animate({
+      scrollTop: 0,
+    });
     return false;
   });
 }
@@ -7420,7 +7844,15 @@ function report() {
     btnReport.on('click', function () {
       var id = $(this).data('id'),
         url = $(this).data('url');
-      $.ajax({ type: 'POST', url: '/report.php', async: true, data: { id: id, url: url } });
+      $.ajax({
+        type: 'POST',
+        url: '/report.php',
+        async: true,
+        data: {
+          id: id,
+          url: url,
+        },
+      });
       return false;
     });
   }
@@ -7559,7 +7991,11 @@ function floatSidebar() {
   if (sidebar.length > 0) {
     sidebar.wrapInner('<div class="sidewrap"></div>');
     var sidebarWrap = sidebar.find('.sidewrap');
-    sidebarWrap.css({ position: 'relative' }).width(sidebar.width());
+    sidebarWrap
+      .css({
+        position: 'relative',
+      })
+      .width(sidebar.width());
     var last = 0;
     $(window).bind('scroll resize', function (e) {
       if (e.type == 'resize') {
@@ -7570,12 +8006,18 @@ function floatSidebar() {
         }
       }
       if ($(window).width() <= 768) {
-        sidebarWrap.css({ top: 0, position: 'relative' });
+        sidebarWrap.css({
+          top: 0,
+          position: 'relative',
+        });
         return;
       }
       var sbH = sidebarWrap.height();
       if (main.height() < sbH) {
-        sidebar.css({ top: 0, position: 'relative' });
+        sidebar.css({
+          top: 0,
+          position: 'relative',
+        });
         return;
       }
       if (last != window.pageYOffset) {
@@ -7587,23 +8029,42 @@ function floatSidebar() {
       if (sbH < $(window).height()) {
         if (scrollTop + padding > main.offset().top) {
           if (scrollTop + padding > main.offset().top + main.height() - sbH) {
-            sidebarWrap.css({ top: main.height() - sbH, position: 'relative' });
+            sidebarWrap.css({
+              top: main.height() - sbH,
+              position: 'relative',
+            });
           } else {
-            sidebarWrap.css({ top: padding, position: 'fixed' });
+            sidebarWrap.css({
+              top: padding,
+              position: 'fixed',
+            });
           }
         } else {
-          sidebarWrap.css({ top: '0', position: 'relative' });
+          sidebarWrap.css({
+            top: '0',
+            position: 'relative',
+          });
         }
       } else {
         if (scrollTop - padding > main.offset().top - $(window).height() + sbH) {
           var H = main.height() - sbH;
           if (scrollTop - padding > -$(window).height() + main.height() + main.offset().top) {
-            sidebarWrap.css({ top: H, position: 'relative' });
+            sidebarWrap.css({
+              top: H,
+              position: 'relative',
+            });
           } else {
-            sidebarWrap.css({ top: 'auto', position: 'fixed', bottom: padding });
+            sidebarWrap.css({
+              top: 'auto',
+              position: 'fixed',
+              bottom: padding,
+            });
           }
         } else {
-          sidebarWrap.css({ top: 0, position: 'relative' });
+          sidebarWrap.css({
+            top: 0,
+            position: 'relative',
+          });
         }
       }
     });

@@ -16,9 +16,30 @@ term: "New players only. 18+. Deposit + Bonus must be wagered 25x on slots or ke
 
 software:
   - RTG
-  - Novomatic
-  - test
-  - EGT
+
+
+
+pageAnchor:
+  - navigation_review: Review
+  - navigation_bonus: Bonus
+  - navigation_mobile: Mobile
+  - navigation_support: Support
+  - navigation_banking: Banking
+  - navigation_games: Top Games
+  - navigation_hitngap: Hits & Gaps
+  - navigation_faq: FAQ
+  - navigation_comments: Comments
+
+tabs:
+  -
+    id: general
+    title: General
+  -
+    id: bonus
+    title: Bonus
+  -
+    id: more
+    title: More
 
 casinoRank:
   - 
@@ -85,29 +106,6 @@ casinoGames:
     status: 'yes'
     image: /images/icons/co-videopoker.svg
 
-
-pageAnchor:
-  - navigation_review: Review
-  - navigation_bonus: Bonus
-  - navigation_mobile: Mobile
-  - navigation_support: Support
-  - navigation_banking: Banking
-  - navigation_games: Top Games
-  - navigation_hitngap: Hits & Gaps
-  - navigation_faq: FAQ
-  - navigation_comments: Comments
-
-tabs:
-  -
-    id: general
-    title: General
-  -
-    id: bonus
-    title: Bonus
-  -
-    id: more
-    title: More
-
 casinoInfo:
     - 
       id: launched
@@ -147,8 +145,9 @@ casinoInfo:
     - 
       section: general
       id: deposit
-      title: Minimum deposit
+      title: Min deposit
       value: $25
+      section2: welcome
     - 
       section: general
       id: withdraw
@@ -173,8 +172,9 @@ casinoInfo:
     - 
       section: bonus
       id: wager
-      title: Wager requirements
+      title: Wager
       value: 25x
+      section2: welcome
     - 
       section: bonus
       id: nodep
@@ -267,16 +267,92 @@ casinoInfo:
       id: canceled
       title: Canceled
       value: 'Yes'
+      section2: welcome
     -
       section: nil
       id: deposit-method
       title: Deposit Method
       value: All are available
+      section2: welcome
     -
       section: nil
       id: welcome-bonus
       title: ""
       value: '<div class="bonus"><span>$7777 Bonus</span> Welcome Bonus + <span>300 Free Spins</span> on Slots!</div>'
 
+screenshot: 
+  - 
+    alt: "Screenshot 1 SlotoCash Casino"
+    title: "Screenshot 1 SlotoCash Casino"
+    src: "/images/casino/imoneyslots-review-slotocash-bonuses.jpg"
+  - 
+    alt: "Screenshot 2 SlotoCash Casino"
+    title: "Screenshot 2 SlotoCash Casino"
+    src: "/images/casino/imoneyslots-review-slotocash-slots.jpg"
+  -
+    alt: "Screenshot 3 SlotoCash Casino"
+    title: "Screenshot 3 SlotoCash Casino"
+    src: "/images/casino/imoneyslots-review-slotocash.jpg"
+
+finance:
+  - withdrawal:
+    title: "Withdrawal Time"
+    items:
+    -
+      title: "E-wallet"
+      subtitle: "24-48h"
+      img: "/images/icons/fi-e-wallet.svg"
+    -
+      title: "Credit Cards"
+      subtitle: "24h"
+      img: "/images/icons/fi-credit-card.svg"
+    -
+      title: "Bank Transfer"
+      subtitle: "1-3 banking days"
+      img: "/images/icons/fi-bank.svg"
+  - deposit:
+    title: "Deposit Methods"
+    subtitle: "(min $25)"
+    items:
+      - 
+        src: "/i/payments/visa.png"
+        alt: "Visa"
+      - 
+        src: "/i/payments/mastercard.png"
+        alt: "Mastercard"
+      - 
+        src: "/i/payments/skrill.png"
+        alt: "Skrill"
+      - 
+        src: "/i/payments/neteller.png"
+        alt: "Neteller"
+      - 
+        src: "/i/payments/ecocard.png"
+        alt: "Ecocard"
+      - 
+        src: "/i/payments/litecoin.png"
+        alt: "Litecoin"
+      - 
+        src: "/i/payments/american_express.png"
+        alt: "American_express"
+      - 
+        src: "/i/payments/directmoney.png"
+        alt: "Directmoney"
+  - withdrawal:
+    title: "Withdrawal Methods"
+    subtitle: "(min $25)"
+    items: 
+      -
+        src: "/i/payments/skrill.png"
+        alt: "Skrill"
+      - 
+        src: "/i/payments/neteller.png"
+        alt: "Neteller"
+      - 
+        src: "/i/payments/ecocard.png"
+        alt: "Ecocard"
+      - 
+        src: "/i/payments/directmoney.png"
+        alt: "Directmoney"
 ---
 
