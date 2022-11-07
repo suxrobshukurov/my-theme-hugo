@@ -28,6 +28,14 @@
   other = "Screenshots"
 [financial]
   other = "Financial info"
+[hits]
+  other = "Hits"
+[gaps]
+  other = "Gaps"
+[provider]
+  other = "Provider"
+[author]
+  other = "Reviewed by"
 
 #slots
 [lines]

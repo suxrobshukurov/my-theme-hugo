@@ -10750,3 +10750,7 @@ body {
     padding: 0 5px;
   }
 }
+td amp-img {
+  width: 100px;
+  height: 40px;
+}

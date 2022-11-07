@@ -1,0 +1,67 @@
+<div class="casino-bonuses-list">
+  <div class="cb-wrap">
+    <div class="cb-item">
+      <div class="bonus-text">
+        {{.Inner}}
+      </div>
+      {{ with $path := .Get "page" }}
+      <div class="bonus-params">
+        {{ with $page := $.Site.GetPage $path }}
+        {{ with $casinoInfo := $page.Params.CasinoInfo }}
+        {{ range $params := $casinoInfo}}
+        {{ $id := echoParam $params `id` }}
+        {{ $title := echoParam $params "title" }}
+        {{ $value := echoParam $params `value` }}
+        {{ if eq $id `bonus-type` }}
+        <div class="param-row">
+          <div class="param-name">{{$title}}:</div>
+          <div class="param-value">{{range first 1 (split $value ", ") }} {{.}}{{end}}</div>
+        </div>
+        {{ end }}
+        {{ if eq $id `deposit` }}
+        <div class="param-row">
+          <div class="param-name">{{$title}}:</div>
+          <div class="param-value">{{$value}}</div>
+        </div>
+        {{ end }}
+        {{ if eq $id `valid-for-games` }}
+        <div class="param-row">
+          <div class="param-name">{{$title}}:</div>
+          <div class="param-value">{{$value}}</div>
+        </div>
+        {{ end }}
+        {{ if eq $id `valid-for-games-type` }}
+        <div class="param-row">
+          <div class="param-name">{{$title}}:</div>
+          <div class="param-value">{{$value}}</div>
+        </div>
+        {{ end }}
+        {{ if eq $id `valid-for-pay` }}
+        <div class="param-row">
+          <div class="param-name">{{$title}}:</div>
+          <div class="param-value">{{$value}}</div>
+        </div>
+        {{ end }}
+        {{ end }}
+        <div class="param-row">
+          <div class="param-name">{{ with i18n "provider" }}
+            {{.}}
+            {{ end }}:</div>
+          <div class="param-value">{{range $page.Params.Software}} {{.}} {{end}}</div>
+        </div>
+        {{ end }}
+        {{ end }}
+      </div>
+
+
+      {{ end }}
+
+      <div class="btn-wrap">
+        <button class="btn btn-yellow"
+          data-link="{{cond (gt (len .Page.Params.Referral) 1) .Page.Params.Referral .Site.Params.Referral }}"
+          style="cursor: initial;">{{ with .Get "button" }}{{.}} {{else}}{{ i18n "reg-btn" .}} {{ end }}</button>
+      </div>
+
+    </div>
+  </div>
+</div>

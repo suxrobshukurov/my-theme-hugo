@@ -1,0 +1,37 @@
+{{$authorName := .Get "name"}}
+{{$path := .Get "page"}}
+<div class="casino-reviewer">
+  <div class="reviewer-info">
+    {{ with $src := .Get "img" }}
+    <amp-img alt="{{$authorName}}" title="{{$authorName}}" class="reviewer-img" data-src="{{$src}}" src="{{$src}}"
+      width="80" height="80"></amp-img>
+    {{ end }}
+
+    <div class="reviewed-by">
+      {{ with i18n "author" }}
+      <div class="caption">{{.}}:</div>
+      {{ end }}
+      {{ with $authorName }}
+      <div class="reviewer-name">{{.}}</div>
+      {{ end }}
+    </div>
+  </div>
+  {{ with .Get "text" }}
+  <div class="quote">{{.}}</div>
+  {{ end }}
+  <div class="casino-info">
+    {{ with $path }}
+    {{ with $page := $.Site.GetPage . }}
+    <div class="casino-logo logo-shine">
+      <amp-img src="" data-src="{{ $page.Params.icon }}" src="{{ $page.Params.icon }}" width="120" height="60"
+        alt="{{ $page.Params.Name }}" title="{{ $page.Params.Name }}"></amp-img>
+    </div>
+    {{ end }}
+    {{ end }}
+
+
+    <button class="btn btn-yellow"
+      data-link="{{cond (gt (len .Page.Params.Referral) 1) .Page.Params.Referral .Site.Params.Referral }}"
+      style="cursor: initial;">{{ with .Get "button" }}{{.}} {{else}}{{ i18n "reg-btn" .}} {{ end }}</button>
+  </div>
+</div>

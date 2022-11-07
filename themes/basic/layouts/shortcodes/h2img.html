@@ -1,0 +1,11 @@
+{{$text := .Get "text"}}
+
+<h2 {{ with .Get "id" }} id="{{.}}" {{ end }} style="text-align: center;">
+  {{ with .Get "img" }}
+  <amp-img style="display:inline-block;" class="content_emoji" alt="❓" widht="32" height="32" data-src="{{.}}"
+    src="{{.}}" data-loaded="true">
+  </amp-img>
+  {{ end }}
+
+  {{$text}}
+</h2>

@@ -1,0 +1,24 @@
+{{ with $items := .Params.Deposit }}
+{{$header := echoParam . "header"}}
+{{$subtitle := echoParam . "subtitle"}}
+{{$img := echoParam . "img"}}
+<div class="param-row">
+  <div class="param-name">
+    <i style="background-image:url({{$img}})"></i>
+    <div class="text">
+      {{$header}}:
+      <div class="adv-text">{{$subtitle}}</div>
+    </div>
+  </div>
+  <div class="param-value param-images ">
+    {{ range $.Params.DepositItems }}
+    {{$src := echoParam . "src"}}
+    {{$alt := echoParam . "alt"}}
+    <div class="image-item">
+      <amp-img src="{{$src}}" data-src="{{$src}}" width="50" height="20" alt="{{$alt}}" title="{{$alt}}">
+      </amp-img>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

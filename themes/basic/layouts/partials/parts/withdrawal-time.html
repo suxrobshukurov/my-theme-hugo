@@ -1,0 +1,23 @@
+{{$header := echoParam .Params.WithdrawalT "header"}}
+{{$img := echoParam .Params.WithdrawalT "img"}}
+<div class="param-row">
+  <div class="param-name"><i style="background-image:url({{$img}})"></i>{{$header}}:</div>
+  <div class="param-value withdrawal-methods">
+    {{ with $wTItems := .Params.WithdrawalTItems }}
+    {{ range $wTItems }}
+    {{$title := echoParam . "title" }}
+    {{$subtitle := echoParam . "subtitle" }}
+    {{$img := echoParam . "img" }}
+    <div class="method-item">
+      <div class="icon">
+        <i style="background-image:url({{$img}})"></i>
+      </div>
+      <div class="method-info">
+        <span class="method-name">{{$title}}</span>
+        <span class="method-value">{{$subtitle}}</span>
+      </div>
+    </div>
+    {{ end }}
+    {{ end }}
+  </div>
+</div>

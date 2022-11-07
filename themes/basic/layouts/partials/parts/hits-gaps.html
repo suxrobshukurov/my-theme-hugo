@@ -1,0 +1,27 @@
+<div class="pluses-minuses-wrap">
+  <div class="pluses-minuses">
+    <div class="pm-group pluses">
+      {{ with i18n "hits" . }}
+      <div class="caption">{{.}}</div>
+      {{ end }}
+      <ul class="pm-list">
+        {{ range .Params.hits }}
+        <li class="pm-item"><i class="arrow-green"></i>{{.}}</li>
+        {{ end }}
+      </ul>
+    </div>
+    <div class="icon">
+      <i class="libra"></i>
+    </div>
+    <div class="pm-group minuses">
+      {{ with i18n "gaps" . }}
+      <div class="caption">{{.}}</div>
+      {{ end }}
+      <ul class="pm-list minuses">
+        {{ range .Params.gaps }}
+        <li class="pm-item"><i class="arrow-red"></i>{{.}}</li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</div>

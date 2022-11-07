@@ -48,3 +48,6 @@ DefaultContentLanguage = 'gb'
   category = 'categories'
   software = 'software'
   tag = 'tags'
+
+# [markup.goldmark.renderer]
+#   unsafe = true
