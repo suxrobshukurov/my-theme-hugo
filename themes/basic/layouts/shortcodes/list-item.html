@@ -1,0 +1,23 @@
+{{$title := .Get "title"}}
+{{$text := .Get "text"}}
+{{$img := .Get "img"}}
+{{$alt := .Get "alt"}}
+
+<li>
+  {{ with $title }}
+  <h3>{{.}}</h3>
+  {{ end }}
+  {{ if $img }}
+  <div class="list-grid-4-1">
+    <p>
+      {{$text | safeHTML}}
+    </p>
+    <div class="list-item--img" style="background-image:url({{$img}})"></div>
+  </div>
+  {{else}}
+  <p>
+    {{$text | safeHTML}}
+  </p>
+  {{ end }}
+
+</li>

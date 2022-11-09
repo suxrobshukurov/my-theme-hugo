@@ -1,0 +1,81 @@
+<div class="tabs">
+  <div class="tabs-content container-off">
+    <div class="tabs-item ">
+      {{$page := shuffle (where site.RegularPages "Type" "in" "casino") }}
+      {{ range $item := $page }}
+      <div class="casino-main-info accepted">
+        <div class="cmi-left">
+          <a href="{{.Permalink}}" rel="nofollow" class="casino-logo logo-shine">
+            <amp-img src="{{.Params.thumbnail}}" data-src="{{.Params.thumbnail}}" alt="{{.Params.Name}}"
+              title="{{.Params.Name}}" width="240" height="180">
+            </amp-img>
+          </a>
+        </div>
+        <div class="cmi-center">
+          <div class="params">
+            {{ with .Params.welcome_bonus }}
+            <div class="param-row">
+              {{ with i18n "bonus" }}
+              <div class="param-name"><i class="tabs-bonus"></i>{{.}}:</div>
+              {{end}}
+              <div class="param-value">{{. | safeHTML }}</div>
+            </div>
+            {{ end }}
+            {{ with .Params.games.slots }}
+            <div class="param-row">
+              {{ with i18n "slots" }}
+              <div class="param-name"><i class="param-number-of-slots"></i>{{.}}:</div>
+              {{end}}
+              <div class="param-value">{{.}}</div>
+            </div>
+            {{ end }}
+            {{ with .Params.games.other }}
+            <div class="param-row">
+              {{ with i18n "other-games" }}
+              <div class="param-name"><i class="param-other-games"></i>{{.}}:</div>
+              {{end}}
+              <div class="param-value">{{.}}</div>
+            </div>
+            {{end}}
+            {{ with .Params.games.live }}
+            <div class="param-row">
+              {{ with i18n "live-games" }}
+              <div class="param-name"><i class="param-live-casino"></i>{{.}}:</div>
+              {{ end }}
+              <div class="param-value">{{.}}</div>
+            </div>
+            {{end}}
+            {{ with .Params.Software }}
+            <div class="param-row soft-row">
+              <div class="param-name"><i class="param-soft"></i>{{ i18n "soft" . }}:</div>
+              <div class="param-value soft-list">
+                {{ range $pageTerms := ($item.GetTerms "software") }}
+                {{$path := $pageTerms.Path}}
+                {{ with .Site.GetPage $path }}
+                <div class="image-item">
+                  <amp-img title="{{.Params.Name}}" src="{{.Params.thumbnail}}" data-src="{{.Params.thumbnail}}"
+                    alt="{{.Params.title}}" width="100" height="25"></amp-img>
+                </div>
+                {{ end }}
+                {{ end }}
+              </div>
+            </div>
+            {{end}}
+          </div>
+        </div>
+        <div class="cmi-right">
+          <div class="rating">
+            <div class="rate">{{.Params.rating}}</div>
+          </div>
+          <div class="btns-wrap">
+            <button class="btn btn-yellow"
+              data-link="{{cond (gt  (len .Params.Referral) 1) .Params.Referral .Site.Params.Referral }}"
+              style="cursor: initial;">{{ i18n "reg-btn" .}}</button>
+            <a href="{{.Permalink}}" class="item-link">{{i18n "review"}}</a>
+          </div>
+        </div>
+      </div>
+      {{end}}
+    </div>
+  </div>
+</div>

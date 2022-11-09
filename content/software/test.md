@@ -9,5 +9,5 @@ keywords: ""
 thumbnail: ""
 icon: ""
 name: "Test"
-sidebar: true
+sidebar: false
 ---

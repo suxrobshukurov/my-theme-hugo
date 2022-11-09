@@ -10,19 +10,31 @@
   other = 'Visit Casino'
 [get-bonus]
   other = 'Get Bonus'
+[play-now]
+  other = "Play now"
+[review]
+  other = 'Review'
 [read-comment-btn]
   other = 'Leave comment'
 [bonus-code]
   other = 'Bonus Code'
 [casino-info]
   other = 'Casino info'
+[bonus]
+  other = 'Bonus'
+[slots]
+  other = 'Slots'
+[other-games]
+  other = 'Other Games'
+[live-games]
+  other = 'Live Games'
 [casino-games]
   other = 'Casino games'
 [welcome-bonus]
   other = 'Welcome Bonus'
 [casino-rank]
   other = 'Casino rank'
-[popular-slots-for-casino]
+[popular-slots-for-casino] 
   other = "Most Popular {{ .Name }} Online Slots"
 [screenshot]
   other = "Screenshots"
@@ -36,11 +48,48 @@
   other = "Provider"
 [author]
   other = "Reviewed by"
-
+[online-casino]
+  other = "Online Casino"
+[rating]
+  other = "Rating"
+[term]
+  other = "T&Cs Apply"
+[compatible]
+  other = "Compatible with"
 #slots
 [lines]
   other = "Lines"
 [reels]
   other = "Reels"
-[freeSpins]
+[free-spins]
   other = "Free Spins"
+[wild-symbol]
+  other = "Wild Symbol"
+[risk-symbol]
+  other = "Risk Game"
+[minmax-bet]
+  other = "Min/Max Bet"
+[max-win]
+  other = "Max Win"
+[play]
+  other = "Play"
+[popular-casino-for-slot] 
+  other = "Play {{.Name}} slot for real money at these casinos"
+[symbol] 
+  other = "{{.Name}} Symbols" 
+[screenshots] 
+  other = "{{.Name}} Screenshots" 
+[slot-info]
+  other = "Special Features of {{.Name}}"
+[software]
+  other = "Software"
+[all-slots]
+  other = "All Online Slots"
+
+
+[slot-sidebar]
+  other = "Top Casinos"
+[software-sidebar]
+  other = "Slots by software"
+[page-nav]
+  other = "Table of content"

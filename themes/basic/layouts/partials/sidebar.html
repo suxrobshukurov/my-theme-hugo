@@ -1,0 +1,65 @@
+<aside class="sidebar">
+  <div class="sb-block">
+    {{ with i18n "slot-sidebar" }}
+    <div class="sb-block-title mh-62">{{.}}</div>
+    {{ end }}
+    <div class="sb-top-casinos-list">
+      {{$casinos := where .Site.RegularPages "Type" "casino" }}
+      {{$casinos = where $casinos "Params.sidebar" true }}
+      {{ range sort $casinos ".Params.rating" "desc" }}
+      <div class="tc-item">
+        <a href="{{ .Permalink}}" class="item-logo logo-shine" rel="nofollow">
+          <amp-img src="{{ .Params.Icon | default `/images/default.png`}}"
+            data-src="{{ .Params.Icon | default `/images/default.png` }}" title="{{ .Params.Name }}"
+            alt="{{ .Params.Name }}" width="120" height="60" layout="responsive">
+          </amp-img>
+        </a>
+        <div class="item-info">
+          <a href="{{ .Permalink}}" class="item-title">{{ .Params.Name }}</a>
+          <div class="btn-wrap">
+            <div class="rate">{{.Params.Rating}}</div>
+            <button class="btn btn-yellow"
+              data-link="{{cond (gt  (len .Params.Referral) 1) .Params.Referral .Site.Params.Referral }}"
+              style="cursor: initial;">{{ i18n "play" .}}</button>
+          </div>
+        </div>
+      </div>
+      {{end}}
+    </div>
+  </div>
+  <div class="sb-block">
+    {{ with i18n "software-sidebar" }}
+    <div class="sb-block-title">{{.}}</div>
+    {{ end }}
+    <div class="sb-software-list">
+      {{$software := where .Site.RegularPages "Type" "software" }}
+      {{$software = where $software "Params.sidebar" true }}
+      {{ range $item := $software.ByWeight }}
+      {{$tagCount := 0}}
+      {{$softName := lower .Params.Name}}
+      <a href="{{.Permalink}}" rel="nofollow" class="software-item">
+        <span class="item-info">
+          <span class="item-logo">
+            <amp-img src="{{.Params.Icon | default `/images/default.png`}}"
+              data-src="{{.Params.Icon | default `/images/default.png`}}" alt="{{.Params.Name}}"
+              title="{{.Params.Name}}" width="30" height="30" data-loaded="true"></amp-img>
+          </span>
+          <span class="item-title">{{.Params.Name}}</span>
+        </span>
+        <span class="item-game-count">
+          {{ range $name, $taxonomy := $.Site.Taxonomies.software }}
+          {{ if eq $softName $name }}
+          {{ range $soft := $taxonomy.Pages }}
+          {{ if eq $soft.Type "slots" }}
+          {{$tagCount = add $tagCount 1 }}
+          {{ end }}
+          {{ end }}
+          {{ end }}
+          {{ end }}
+          {{$tagCount}}
+        </span>
+      </a>
+      {{end}}
+    </div>
+  </div>
+</aside>

@@ -1,0 +1,18 @@
+{{$folder := .Get "folder"}}
+<div class="content-block">
+  {{ with .Get "title" }}
+  <div class="h2">{{.}}</div>
+  {{ end }}
+  <div class="paysys-list">
+    {{$page := shuffle (where site.RegularPages "Type" "in" $folder) }}
+    {{ range $item := $page }}
+    <a href="{{.Permalink}}" class="paysys-item-wrap">
+      <span class="paysys-item">
+        <amp-img src="{{.Params.thumbnail}}" data-src="{{.Params.thumbnail}}" alt="{{.Params.Name}}"
+          title="{{.Params.Name}}" class="paysys-img" data-loaded="true" width="100" height="50">
+        </amp-img>
+      </span>
+    </a>
+    {{end}}
+  </div>
+</div>

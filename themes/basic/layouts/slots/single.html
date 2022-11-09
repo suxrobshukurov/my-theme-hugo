@@ -1,0 +1,187 @@
+{{ define "main" }}
+<main class="main">
+  {{ partial "breadcrumbs.html" . }}
+
+  <div class="container">
+    <div class="game-block">
+      <h1 class="mb-0">{{.Params.H1}}</h1>
+      <div class="under-header-text">{{.Params.Subtitle | safeHTML}}</div>
+      <div class="game-placeholder">
+        <amp-img src="{{.Params.thumbnail}}" data-src="{{.Params.thumbnail}}" alt="{{.Params.Name}}" class="img"
+          width="1050" height="811" data-loaded="true" layout="responsive"></amp-img>
+        <span id="loadFrame" class="btn btn-yellow start-game" data-iframe="{{.Params.Iframe}}">{{i18n "play"}}</span>
+      </div>
+    </div>
+  </div>
+  {{ if .Params.Casino }}
+  <div class="white-block">
+    <div class="container">
+      <div class="title-with-soft">
+        {{$path := print "/software/" .Params.Software ".md" | urlize}}
+        {{ with .Site.GetPage $path }}
+        <a href="{{.Permalink}}" class="soft">
+          <amp-img src="{{.Params.Thumbnail}}" data-src="{{.Params.Thumbnail}}" title="{{.Params.Name}}"
+            alt="{{.Params.Name}}" width="100" height="25" data-loaded="true"></amp-img>
+        </a>
+        {{ end }}
+
+        <div class="h2 title">{{i18n "popular-casino-for-slot" (dict "Name" .Params.Name)}}</div>
+      </div>
+      <div class="casinos-cards-list">
+        {{ range $casino := .Params.Casino }}
+        {{ with $.Site.GetPage $casino }}
+        <div class="item-card">
+          <span class="item-logo logo-shine" rel="nofollow">
+            <amp-img src="{{.Params.Thumbnail}}" data-src="{{.Params.Thumbnail}}" alt="{{.Params.Name}}"
+              title="{{.Params.Name}}" width="200" height="150" data-loaded="true"></amp-img>
+          </span>
+
+          <div class="item-info">
+            <div class="item-top-info">
+              <div class="item-bonus">
+                <div class="bonus-text">{{.Params.welcome_bonus | safeHTML}}</div>
+                {{ with .Params.Term }}
+                <div class="popover-block close-pop">
+                  <div class="popover-link-btn">{{i18n "term"}}</div>
+                  <div class="hider">{{.}}</div>
+                </div>
+                {{ end }}
+              </div>
+              <div class="review-link-holder">
+                <div class="rate">{{.Params.Rating}}</div>
+              </div>
+            </div>
+            <div class="btn-wrap">
+              <button class="btn btn-yellow"
+                data-link="{{cond (gt  (len $.Params.Referral) 1) $.Params.Referral $.Site.Params.Referral }}"
+                style="cursor: initial;">{{ i18n "reg-btn" .}}</button>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+  {{ end }}
+
+  <div class="container">
+    <div class="content-block">
+      <h2>{{i18n "slot-info" (dict "Name" .Params.Name)}}</h2>
+      <div class="game-params-wrap">
+        <div class="game-params">
+          <div class="params-group">
+            {{ with .Params.Software }}
+            <div class="param-row">
+              <div class="param-name"><i class="param-soft"></i>{{i18n "software"}}:</div>
+              <div class="param-value">{{.}}</div>
+            </div>
+            {{ end }}
+            {{ with .Params.Lines }}
+            <div class="param-row">
+              <div class="param-name"><i class="param-lines"></i>{{i18n "lines"}}:</div>
+              <div class="param-value">{{.}}</div>
+            </div>
+            {{ end }}
+            {{ with .Params.reels }}
+            <div class="param-row">
+              <div class="param-name"><i class="param-reels"></i>{{i18n "reels"}}:</div>
+              <div class="param-value">{{.}}</div>
+            </div>
+            {{ end }}
+
+          </div>
+          <div class="params-group">
+            {{ with .Params.FreeSpins }}
+            <div class="param-row">
+              <div class="param-name"><i class="param-freespins"></i>{{i18n "free-spins"}}:</div>
+              <div class="param-value">{{.}}</div>
+            </div>
+            {{ end }}
+            {{ with .Params.wildSymbol }}
+            <div class="param-row">
+              <div class="param-name"><i class="param-wild"></i>{{i18n "wild-symbol"}}:</div>
+              <div class="param-value">{{.}}</div>
+            </div>
+            {{ end }}
+            {{ with .Params.riskGame }}
+            <div class="param-row">
+              <div class="param-name"><i class="param-risk"></i>{{i18n "risk-symbol"}}:</div>
+              <div class="param-value">{{.}}</div>
+            </div>
+            {{ end }}
+          </div>
+          <div class="params-group">
+            {{ with .Params.minMaxBet }}
+            <div class="param-row">
+              <div class="param-name"><i class="param-bet"></i>{{i18n "minmax-bet"}}:</div>
+              <div class="param-value">{{.}}</div>
+            </div>
+            {{ end }}
+            {{ with .Params.maxWin }}
+            <div class="param-row">
+              <div class="param-name"><i class="param-win"></i>{{i18n "max-win"}}:</div>
+              <div class="param-value">{{.}}</div>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      {{ if .Params.Screenshots }}
+      <h2>{{i18n "screenshots" (dict "Name" .Params.Name)}}</h2>
+      <div class="game-screenshots">
+        {{ range $key, $item :=.Params.Screenshots }}
+        <amp-img src="{{$item}}" data-src="{{$item}}"
+          alt="{{i18n `screenshots` (dict `Name` $.Params.Name)}} {{add $key 1}}"
+          title="{{i18n `screenshots` (dict `Name` $.Params.Name)}} {{add $key 1}}" class="game-screen" width="320"
+          height="250" data-loaded="true" layout="responsive"></amp-img>
+        {{ end }}
+      </div>
+      {{ end }}
+      {{ if .Params.Symbols }}
+      <h2>{{i18n "symbol" (dict "Name" .Params.Name)}}</h2>
+      <div class="game-symbols">
+        {{ range $item := .Params.Symbols }}
+        <div class="item-symbol">
+          <div class="symbol-info">
+            <amp-img src="{{$item.img}}" data-src="{{$item.img}}" alt="{{.Params.Name}} - {{$item.title}}"
+              title="{{.Params.Name}} - {{$item.title}}" class="symbol-img" width="64" height="64" data-loaded="true">
+            </amp-img>
+            <div class="symbol-params">
+              <div class="param-row">
+                <div class="param-name">х2</div>
+                <div class="param-value">{{$item.x2}}</div>
+              </div>
+              <div class="param-row">
+                <div class="param-name">х3</div>
+                <div class="param-value">{{$item.x3}}</div>
+              </div>
+              <div class="param-row">
+                <div class="param-name">х4</div>
+                <div class="param-value">{{$item.x4}}</div>
+              </div>
+              <div class="param-row">
+                <div class="param-name">х5</div>
+                <div class="param-value">{{$item.x5}}</div>
+              </div>
+            </div>
+          </div>
+          <div class="caption">{{$item.title}}</div>
+        </div>
+        {{ end }}
+
+      </div>
+      {{ end }}
+    </div>
+
+    {{ if .Content }}
+    <div class="content-block">
+      <div class="content-text">
+        {{.Content}}
+      </div>
+    </div>
+    {{ end }}
+
+  </div>
+</main>
+{{ end }}

@@ -1,0 +1,20 @@
+{{$count := .Get "count"}}
+{{$software := .Get "software"}}
+{{$slotsArray := "" }}
+
+{{ if $software}}
+{{$slotsArray = shuffle (where .Site.Pages "Params.software" $software) }}
+{{else}}
+{{$slotsArray = shuffle (where .Site.RegularPages "Section" "slots") }}
+{{ end }}
+
+{{ if $count }}
+{{$slotsArray = first $count $slotsArray }}
+{{ end }}
+<div class="slots-list">
+  {{ range $item := $slotsArray }}
+  {{ if ne $item.Title $.Page.Title }}
+  {{ partial "parts/slot-card.html" . }}
+  {{ end }}
+  {{ end }}
+</div>

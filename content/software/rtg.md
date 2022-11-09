@@ -10,5 +10,6 @@ thumbnail: "/images/real-time-gaming/real-time-gaming-online-casino-soft.png"
 icon: "/images/real-time-gaming/rtg-small.svg"
 name: "RTG"
 sidebar: true
+weight: 1
 ---
 

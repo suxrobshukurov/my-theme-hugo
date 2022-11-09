@@ -5,6 +5,7 @@ theme = 'basic'
 DefaultContentLanguage = 'gb'
 
 [params]
+  mainSections = ['casino', 'slots', 'software']
   favicon = 'images/favicons/icon-57.png'
   logo = 'images/logo.png'
   defaultImg = '/images/default.png'
@@ -22,15 +23,22 @@ DefaultContentLanguage = 'gb'
   weight = 1
 [[languages.gb.menu.main]]
   name = 'Free Slots'
-  pageref = '/slot'
+  pageref = '/slots'
   weight = 1
   [languages.gb.menu.main.params]
     icon = "images/icons/nav-slot.svg"
 [[languages.gb.menu.main]]
     name = 'Casinos'
     pageref = '/casino'
+    weight = 2
   [languages.gb.menu.main.params]
       icon = "images/icons/nav-chip.svg"
+[[languages.gb.menu.main]]
+    name = 'Banking'
+    pageref = '/banking'
+    weight = 3
+  [languages.gb.menu.main.params]
+      icon = "images/icons/nav-banking.svg"
 
 [languages.ru]
   languageName = 'Русский'
@@ -50,4 +58,5 @@ DefaultContentLanguage = 'gb'
   tag = 'tags'
 
 # [markup.goldmark.renderer]
+
 #   unsafe = true

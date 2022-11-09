@@ -6,8 +6,9 @@ description: ''
 h1: ""
 subtitle: ""
 keywords: "" 
-thumbnail: ""
-icon: ""
+thumbnail: "/images/novomatic/novomatic-green-tube.png"
+icon: "/images/novomatic/novomatic-small.svg"
 name: "Novomatic"
 sidebar: true
+weight: 1
 ---

@@ -1,0 +1,8 @@
+<div class="grid-1-4">
+  {{ with .Get "img" }}
+  <div style="background-image:url({{.}})" class="item-img"></div>
+  {{ end }}
+  <div>
+    {{.Inner}}
+  </div>
+</div>

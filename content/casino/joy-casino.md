@@ -1,14 +1,14 @@
 ---
 draft: false
 date: 2022-10-31T12:15:36+03:00
-title: "🥇SlotoCash Casino Review. SlotoCash Casino 300 FreeSpins Bonus for UK"
+title: "Joy Casino Review."
 id:
 description: 'Play▶ SlotoCash online casino instantly, taking into account✅ no deposit Bonus codes and get 100 Free Spins ➕ 200% for Enchanted Garden slot with the frequent withdrawals'
 h1: "SlotoCash Casino Review from iMoneyslots Experts for UK Players"
 keywords: "slotocash casino, slotocash review, slotocash login, slotocash bonus, slotocash bonus codes, slotocash mobile app, slotocash casino no deposit bonus" 
-thumbnail: "/images/casino/sloto-cash-casino.png"
-icon: "/images/casino/sloto-cash.png"
-name: "SlotoCash Casino"
+thumbnail: "/images/casino/joycasino-online-review.png"
+icon: "/images/casino/joycasino-2.jpg"
+name: "Joy Casino"
 bonusCode: "100BANDITWIN"
 referral: ''
 website: 'slotocash.im'
@@ -17,6 +17,7 @@ term: "New players only. 18+. Deposit + Bonus must be wagered 25x on slots or ke
 
 software:
   - RTG
+  - Novomatic
 
 pageAnchor:
   - navigation_review: Review
@@ -30,13 +31,12 @@ pageAnchor:
   - navigation_comments: Comments
   
 slots:
-  - "/slots/achilies.md"
-  
+  - "/slot/achilies.md"
 
 games:
-  slots: 1000+
-  other: 300+
-  live: 9
+  slots: 100+
+  other: 150+
+  live: 24
 
 tabs:
   -
@@ -49,8 +49,8 @@ tabs:
     id: more
     title: "More"
 
-welcome_bonus: "<span>$7777 Bonus</span> Welcome Bonus + <span>300 Free Spins</span> on Slots!"
-rating: 96
+welcome_bonus: "<span>€2000</span> Welcome Bonus + <span>200 Free Spins!</span>"
+rating: 91
 
 
 casinoRank:
@@ -335,7 +335,6 @@ deposit:
   header: "Deposit Methods"
   subtitle: "(min $25)"
   img: "/images/icons/fi-deposit-methods.svg"
-
 depositItems:
   - 
     src: "/i/payments/visa.png"
@@ -385,8 +384,6 @@ advantages:
   - Verification needed
   - Withdrawals approval within 72 business hours
   - Limit for first withdrawal is 2000 USD per week
-
-compatible: [android, apple]
 
 hits:
   - Players from USA are accepted
@@ -529,15 +526,3 @@ button="Play Here!"
 ## WHERE YOU CAN PLAY FOR REAL MONEY
 
 {{< casino-rating >}}
-
-{{< h2img text="Frequently Asked Questions" id="navigation_faq">}}
-
-{{< faq >}}
-{{< question >}}⚡How to make a deposit at SlotoCash?{{</ question >}}
-{{< answer >}} In the event that you wish to make a store click on the "Clerk" button in the gambling club customer. You have a few store strategies to browse.{{</ answer >}}
-
-{{< question >}}⚡How to withdraw winnings?{{</ question >}}
-{{< answer >}}  To pull back your rewards, go to the "clerk" segment and adhere to the easy to understand guidelines. The withdrawal strategies we as of now offer are:, NETeller, EcoCard, Moneybookers and wire move (For US players as it were).{{</ answer >}}
-
-
-{{</ faq >}}

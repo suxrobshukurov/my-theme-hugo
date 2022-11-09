@@ -6,8 +6,9 @@ description: ''
 h1: ""
 subtitle: ""
 keywords: "" 
-thumbnail: ""
-icon: ""
+thumbnail: "/images/default.png"
+icon: "/images/default.png"
+weight: 0
 name: "{{ replace .Name "-" " " | title }}"
 sidebar: true
 ---

@@ -1,17 +1,22 @@
+{{$name := .Get "name"}}
+{{$date := .Get "date" }}
+
 <div class="comment ticket-comment" id="comment-71" data-parent="0" data-newparent="0" data-id="71" itemprop="review"
   itemscope="" itemtype="http://schema.org/Review">
   <div class="comment-wrap">
+    {{ with .Get "img"}}
     <div class="comment-item-left">
-      <img src="template/images/ava.png" data-src="/images/avatars/3.jpg" alt="avatar" width="50" height="50"
-        class="user-avatar">
+      <img src="{{.}}" data-src="{{.}}" alt="{{$name}}" title="{{$name}}" width="50" height="50" class="user-avatar">
     </div>
+    {{ end }}
+
     <div class="comment-item-right">
       <div class="comment-author-info">
-        <span class="comment-author-name" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span
-            itemprop="name">GeorgeH</span></span>
-        <span class="comment-date">13 december 2020, 12:10</span>
-        <meta itemprop="datePublished" content="2020.12.13">
-        <meta itemprop="itemreviewed" content="{{ .Params.Name }}">
+        <span class="comment-author-name" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+          <span itemprop="name">{{$name}}</span></span>
+        <span class="comment-date">{{.Get "date"}}</span>
+        <meta itemprop="datePublished" content="{{$date}}">
+        <meta itemprop="itemreviewed" content="{{ .Page.Params.Name }}">
       </div>
       <div class="comment-content" itemprop="reviewBody">
         Cool online casino, I've been playing for more than 2 months after work and I get very decent

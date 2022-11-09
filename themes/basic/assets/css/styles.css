@@ -10754,3 +10754,31 @@ td amp-img {
   width: 100px;
   height: 40px;
 }
+.list-grid-4-1,
+.grid-4-1 {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+.grid-1-4 {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+.grid-1-4 .item-img {
+  background-position: left;
+}
+
+.list-item--img,
+.item-img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+img[alt$='&gt'] {
+  float: right;
+}
+td strong {
+  display: block;
+}
+.best-online-casinos {
+  margin: 20px 0;
+}

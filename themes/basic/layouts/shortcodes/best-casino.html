@@ -1,0 +1,60 @@
+{{$path := .Get "casino"}}
+{{$casino := .Site.GetPage $path}}
+<div class="best-online-casinos">
+  <div class="boc-wrap">
+    {{ with .Get "title" }}
+    <div class="h2 boc-head"><i class="gold-medal"></i>{{.}}</div>
+    {{ end }}
+    {{ with $casino }}
+    <div class="boc-item">
+      <div class="boc-left">
+        <div class="casino-logo logo-shine">
+          <amp-img src="{{.Params.thumbnail | default `/images/default.png`}}"
+            data-src="{{.Params.thumbnail | default `/images/default.png`}}" title="{{.Params.Name}}"
+            alt="{{.Params.Name}}" data-loaded="true" width="240" height="180" layout="responsive"></amp-img>
+        </div>
+        <div class="btn-wrap">
+          {{ partial "parts/reg-btn.html" . }}
+        </div>
+      </div>
+      <div class="boc-right">
+        <div class="boc-title-wrap">
+          <div class="btw-left">
+            <div class="casino-title">{{.Params.Name}}</div>
+            {{ with .Params.welcome_bonus }}
+            <div class="casino-bonus">{{. | safeHTML}}</div>
+            {{ end }}
+          </div>
+          <div class="btw-right compatible-block">
+            {{ with i18n "compatible" }}
+            <div class="caption">{{.}}:</div>
+            {{ end }}
+            <div class="compatible-list">
+              {{ range .Params.compatible }}
+              <i class="{{.}}-gray"></i>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+        {{ with .Params.advantages }}
+        <div class="casino-features">
+          {{ range . }}
+          <div class="feature-item"><i class="check"></i>{{.}}</div>
+          {{ end }}
+        </div>
+        {{ end }}
+
+        <div class="casino-paysys">
+          <div class="caption">{{.Params.Deposit.header}}</div>
+          <div class="paysys-list">
+            {{ range .Params.depositItems }}
+            {{ partial "parts/paysys-list-item.html" . }}
+            {{ end }}
+          </div>
+        </div>
+
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>

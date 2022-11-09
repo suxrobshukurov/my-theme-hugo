@@ -1,0 +1,28 @@
+{{$pluses := .Get "plus_list" }}
+{{$minuses := .Get "minus_list" }}
+
+{{$pluses = split $pluses "; "}}
+{{$minuses = split $minuses "; "}}
+<div class="pluses-minuses-wrap">
+  <div class="pluses-minuses">
+    <div class="pm-group pluses">
+      <div class="caption">{{.Get "plus_title"}}</div>
+      <ul class="pm-list">
+        {{ range $pluses }}
+        <li class="pm-item"><i class="arrow-green"></i>{{.}}</li>
+        {{ end }}
+      </ul>
+    </div>
+    <div class="icon">
+      <i class="libra"></i>
+    </div>
+    <div class="pm-group minuses">
+      <div class="caption">{{.Get "minus_title"}}</div>
+      <ul class="pm-list minuses">
+        {{ range $minuses }}
+        <li class="pm-item"><i class="arrow-red"></i>{{.}}</li>
+        {{end}}
+      </ul>
+    </div>
+  </div>
+</div>
