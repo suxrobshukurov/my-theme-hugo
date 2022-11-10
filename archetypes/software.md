@@ -11,4 +11,5 @@ icon: "/images/default.png"
 weight: 0
 name: "{{ replace .Name "-" " " | title }}"
 sidebar: true
+faqs: [{}]
 ---

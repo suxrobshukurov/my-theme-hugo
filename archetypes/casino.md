@@ -6,7 +6,36 @@ description: ""
 weight: 0
 h1: ""
 name: "{{ replace .Name "-" " " | title }}"
-canonicalUrl: ""
 keywords: ""
 thumbnail: ""
+icon: ""
+bonusCode: ""
+referral: ""
+website: ""
+sidebar: false
+term: ""
+welcome_bonus: ""
+rating: 0
+casinoRank: [{
+  title: "",
+  value: 0
+}]
+software: [""]
+pageAnchor: [{
+  url: "title"
+}]
+slots: ["path"]
+games: [{
+  slots: "",
+  other: "",
+  live: ""
+}]
+tabs: [{
+  id: "",
+  title: ""
+}]
+casinoGames: [{
+  title:
+}]
+
 ---

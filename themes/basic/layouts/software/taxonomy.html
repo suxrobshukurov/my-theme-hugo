@@ -25,24 +25,86 @@
       <div class="content">
         <div class="content-block">
           <div class="soft-page-logo">
-            <img src="{{.Params.thumbnail}}" data-src="{{.Params.thumbnail}}" alt="Novomatic" width="200" height="50"
-              data-loaded="true">
+            <amp-img src="{{.Params.thumbnail}}" data-src="{{.Params.thumbnail}}" alt="{{.Params.Name}}"
+              title="{{.Params.Name}}" width="200" height="50" data-loaded="true"></amp-img>
           </div>
           <div class="rows slots-list">
+
             {{$slots := where .Site.RegularPages "Type" "slots"}}
-            {{ range $slots.ByDate }}
+            {{ range $item := $slots.ByDate }}
+            {{ if eq $item.Params.software $.Params.Name }}
             {{ partial "parts/slot-card.html" . }}
 
             {{ end }}
+            {{ end }}
           </div>
+        </div>
+        <div class="content-block content-text">
+          <p style="text-align: center;"><strong>{{i18n "popular-casino-for-slot" (dict "Name" .Params.Name)}}:</strong>
+          </p>
+          <div class="table-casinos">
+            <div class="table-head">
+              <div class="head-title">{{i18n "online-casino"}}</div>
+              <div class="head-rating">{{i18n "rating"}}</div>
+              <div class="head-bonus">{{i18n "welcome-bonus"}}</div>
+              <div class="head-btns"></div>
+            </div>
+            <div class="table-body">
+              {{$casino := shuffle (where site.RegularPages "Type" "in" "casino") }}
+              {{ range $item := $casino }}
+              {{ if in $item.Params.software $.Params.Name }}
+              <div class="casino-item">
+                <div class="item-logo-wrap">
+                  <a href="{{.Permalink}}" class="item-logo logo-shine" rel="nofollow">
+                    <amp-img src="{{.Params.Icon}}" title="{{.Params.Name}}" data-src="{{.Params.Icon}}"
+                      alt="{{.Params.Name}}" width="100" height="50">
+                    </amp-img>
+                  </a>
+                  <a href="{{.Permalink}}" class="item-title">{{.Params.Name}}</a>
+                </div>
+                <div class="item-rating">
+                  <div class="rate">{{.Params.Rating}}</div>
+                </div>
+                <div class="item-bonus">
+                  {{.Params.welcome_bonus | safeHTML}}
+                </div>
+                <div class="item-btns">
+                  <button class="btn btn-yellow"
+                    data-link="{{cond (gt  (len .Params.Referral) 1) .Params.Referral .Site.Params.Referral }}"
+                    style="cursor: initial;">{{ i18n "play-now" .}}</button>
+                  <a href="{{.Permalink}}" rel="nofollow" class="item-link">{{i18n "review"}}</a>
+                </div>
+              </div>
+              {{ end }}
+              {{ end }}
+            </div>
+          </div>
+          {{.Content}}
         </div>
       </div>
       {{ partial "sidebar.html" . }}
     </div>
-    {{ with .Content }}
-    <div class="content-block content-text">{{.}}</div>
-    {{ end }}
+    <div class="content-block">
+      {{ with i18n "other-games" }}
+      <div class="h2">{{.}}</div>
+      {{ end }}
+      <div class="slots-list">
+        {{$slots := where .Site.RegularPages "Type" "slots"}}
+        {{ range $item := first 6 (shuffle $slots.ByDate) }}
+        {{ partial "parts/slot-card.html" . }}
+        {{ end }}
+      </div>
+      {{ with i18n "faq" }}
+      <h2 id="navigation_faq">{{.}}</h2>
+      {{ end }}
+      <div class="faq-blocks" itemscope="" itemtype="https://schema.org/FAQPage">
+        {{ range .Params.Faqs }}
+        {{ partial "parts/faq.html" . }}
+        {{ end }}
 
+      </div>
+
+    </div>
   </div>
 </main>
 {{ end }}
