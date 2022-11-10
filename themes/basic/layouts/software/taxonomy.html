@@ -24,9 +24,10 @@
     <div class="block-with-sidebar reverse">
       <div class="content">
         <div class="content-block">
-          {{ with i18n "all-slots"}}
-          <div class="h2">{{.}}</div>
-          {{ end }}
+          <div class="soft-page-logo">
+            <img src="{{.Params.thumbnail}}" data-src="{{.Params.thumbnail}}" alt="Novomatic" width="200" height="50"
+              data-loaded="true">
+          </div>
           <div class="rows slots-list">
             {{$slots := where .Site.RegularPages "Type" "slots"}}
             {{ range $slots.ByDate }}

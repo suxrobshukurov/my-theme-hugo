@@ -1,0 +1,32 @@
+{{$path := .Get 0}}
+{{$casino := .Site.GetPage $path }}
+
+{{ with $casino }}
+<div class="single-card">
+  <div class="casino-mobile-card">
+    <a href="{{.Permalink}}" class="casino-logo logo-shine">
+      <amp-img src="{{ .Params.icon | default `/images/default.png`}}"
+        data-src="{{ .Params.icon | default `/images/default.png`}}" alt="{{.Params.Name}}" title="{{.Params.Name}}"
+        data-loaded="true" width="120" height="60"></amp-img>
+    </a>
+
+    {{ with .Params.welcome_bonus }}
+    <div class="casino-bonus">
+      {{. | safeHTML}}
+    </div>
+    {{ end }}
+
+    {{ with .Params.advantages }}
+    <div class="casino-advantages">
+      {{ range . }}
+      <div class="adv-item"><i class="check"></i><span>{{.}}</span></div>
+      {{ end }}
+    </div>
+    {{ end }}
+    <div class="btn-wrap">
+      {{ partial "parts/reg-btn.html" . }}
+    </div>
+
+  </div>
+</div>
+{{ end }}

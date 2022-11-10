@@ -10779,6 +10779,9 @@ img[alt$='&gt'] {
 td strong {
   display: block;
 }
-.best-online-casinos {
+.best-online-casinos, .casino-reviewer {
   margin: 20px 0;
+}
+.empty {
+  display: none;
 }

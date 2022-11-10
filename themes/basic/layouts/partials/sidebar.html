@@ -32,7 +32,7 @@
     <div class="sb-block-title">{{.}}</div>
     {{ end }}
     <div class="sb-software-list">
-      {{$software := where .Site.RegularPages "Type" "software" }}
+      {{$software := where .Site.Pages "Type" "software" }}
       {{$software = where $software "Params.sidebar" true }}
       {{ range $item := $software.ByWeight }}
       {{$tagCount := 0}}

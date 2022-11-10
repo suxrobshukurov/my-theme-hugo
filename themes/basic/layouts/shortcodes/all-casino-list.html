@@ -50,13 +50,11 @@
               <div class="param-name"><i class="param-soft"></i>{{ i18n "soft" . }}:</div>
               <div class="param-value soft-list">
                 {{ range $pageTerms := ($item.GetTerms "software") }}
-                {{$path := $pageTerms.Path}}
-                {{ with .Site.GetPage $path }}
                 <div class="image-item">
-                  <amp-img title="{{.Params.Name}}" src="{{.Params.thumbnail}}" data-src="{{.Params.thumbnail}}"
-                    alt="{{.Params.title}}" width="100" height="25"></amp-img>
+                  <amp-img title="{{$pageTerms.Params.Name}}" src="{{$pageTerms.Params.thumbnail}}"
+                    data-src="{{$pageTerms.Params.thumbnail}}" alt="{{$pageTerms.Params.title}}" width="100"
+                    height="25"></amp-img>
                 </div>
-                {{ end }}
                 {{ end }}
               </div>
             </div>

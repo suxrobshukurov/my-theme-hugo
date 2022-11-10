@@ -1,0 +1,17 @@
+<tr>
+  {{ with .Get 0 }}
+  <td valign="top">
+    <ul class="info">
+      <li>{{.}}</li>
+    </ul>
+  </td>
+  {{ end }}
+  {{ with .Get 1 }}
+  <td valign="top">
+    <ul class="info">
+      <li>{{.}}</li>
+    </ul>
+  </td>
+  {{ end }}
+
+</tr>

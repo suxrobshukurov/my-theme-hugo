@@ -1,0 +1,16 @@
+<div class="{{if .Get `text`}}features-item-wrap{{else}}empty{{end}}" data-id="{{ .Get `id`}}">
+  <div class="features-item">
+    {{ with .Get "img" }}
+    <div class="feature-img">
+      <amp-img src="{{.}}" data-src="{{.}}" alt="{{ $.Get `title`}}" title="{{$.Get `title`}}" data-loaded="true"
+        width="175" height="87"></amp-img>
+    </div>
+    {{ end }}
+    {{ with .Get "title"}}
+    <div class="feature-name">{{.}}</div>
+    {{ end }}
+    {{ with .Get "text" }}
+    <div class="feature-text">{{. | safeHTML}}</div>
+    {{ end }}
+  </div>
+</div>

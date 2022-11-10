@@ -1,0 +1,17 @@
+<div class="table-wrap">
+  <table class="ctable" border="0">
+    <thead>
+      <tr>
+        {{ with .Get "first_title" }}
+        <td style="text-align: center;">{{.}}</td>
+        {{ end }}
+        {{ with .Get "second_title" }}
+        <td style="text-align: center;">{{.}}</td>
+        {{ end }}
+      </tr>
+    </thead>
+    <tbody>
+      {{.Inner}}
+    </tbody>
+  </table>
+</div>

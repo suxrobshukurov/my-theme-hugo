@@ -1,5 +1,47 @@
-{{ define "main"}}
-<h1>{{.Params.h1}}</h1>
-{{.Content}}
-<span>{{.Date.Format "23 January, 2006"}}</span>
-{{end}}
+{{ define "main" }}
+<main class="main">
+  {{/* {{ partial "breadcrumbs.html" . }} */}}
+  <div class="container">
+    <div class="content-block content-text">
+      {{ with .Params.H1 }}
+      <h1>{{.}}</h1>
+      {{ end }}
+      {{ with .Content }}
+      <div class="toc-container">
+        <div class="toc-title">{{i18n "page-nav"}}:<span class="show-toc" data-show="Show"
+            data-hide="Hide">[Show]</span>
+        </div>
+        <div class="toc-list-wrap" id="page-navigation"></div>
+      </div>
+      {{ end }}
+      {{ with .Params.Subtitle }}
+      <p style="text-align: center;">{{. | safeHTML}}</p>
+      {{ end }}
+      {{ with .Params.blockquote }}
+      <blockquote>{{. | safeHTML}}</blockquote>
+      {{ end }}
+    </div>
+    <div class="block-with-sidebar reverse">
+      <div class="content">
+        <div class="content-block">
+          {{ with i18n "all-slots"}}
+          <div class="h2">{{.}}</div>
+          {{ end }}
+          <div class="rows slots-list">
+            {{$slots := where .Site.RegularPages "Type" "slots"}}
+            {{ range $slots.ByDate }}
+            {{ partial "parts/slot-card.html" . }}
+
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      {{ partial "sidebar.html" . }}
+    </div>
+    {{ with .Content }}
+    <div class="content-block content-text">{{.}}</div>
+    {{ end }}
+
+  </div>
+</main>
+{{ end }}
