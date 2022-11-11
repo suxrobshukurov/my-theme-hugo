@@ -1,0 +1,8 @@
+<div class="faq">
+  {{ with .Get "title" }}
+  <div class="faq-header">{{.}}</div>
+  {{ end }}
+  {{ with .Get "text" }}
+  <div class="faq-content" style="display: none;">{{.}}</div>
+  {{ end }}
+</div>

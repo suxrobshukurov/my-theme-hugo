@@ -14,7 +14,8 @@ name: "{{ replace .Name "-" " " | title }}"
 bonusCode: ""
 referral: ''
 website: ''
-sidebar: false
+home: false
+weight: 0
 term: ""
 software: ""
 lines: "0"

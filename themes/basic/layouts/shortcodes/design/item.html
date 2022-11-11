@@ -1,0 +1,15 @@
+<div class="card-contributor">
+  {{ with .Get "img" }}
+  <div class="card-img">
+    <amp-img src="{{.}}" data-src="{{.}}" alt="{{ $.Get `name` | default `author`}}" width="80" height="80"
+      data-loaded="true"></amp-img>
+  </div>
+  {{ end }}
+
+  <div class="card-body">
+    {{ with .Get "name" }}
+    <div class="card-title">{{.}}</div>
+    {{ end }}
+    <div class="card-text">{{.Inner}}</div>
+  </div>
+</div>

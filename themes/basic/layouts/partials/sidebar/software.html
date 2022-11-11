@@ -1,0 +1,37 @@
+<aside class="sidebar">
+  <div class="sb-block">
+    {{ with i18n "software-sidebar" }}
+    <div class="sb-block-title">{{.}}</div>
+    {{ end }}
+    <div class="sb-software-list">
+      {{$software := where .Site.Pages "Type" "software" }}
+      {{$software = where $software "Params.sidebar" true }}
+      {{ range $item := $software.ByWeight }}
+      {{$tagCount := 0}}
+      {{$softName := lower .Params.Name}}
+      <a href="{{.Permalink}}" rel="nofollow" class="software-item">
+        <span class="item-info">
+          <span class="item-logo">
+            <amp-img src="{{.Params.Icon | default `/images/default.png`}}"
+              data-src="{{.Params.Icon | default `/images/default.png`}}" alt="{{.Params.Name}}"
+              title="{{.Params.Name}}" width="30" height="30" data-loaded="true"></amp-img>
+          </span>
+          <span class="item-title">{{.Params.Name}}</span>
+        </span>
+        <span class="item-game-count">
+          {{ range $name, $taxonomy := $.Site.Taxonomies.software }}
+          {{ if eq $softName $name }}
+          {{ range $soft := $taxonomy.Pages }}
+          {{ if eq $soft.Type "slots" }}
+          {{$tagCount = add $tagCount 1 }}
+          {{ end }}
+          {{ end }}
+          {{ end }}
+          {{ end }}
+          {{$tagCount}}
+        </span>
+      </a>
+      {{end}}
+    </div>
+  </div>
+</aside>

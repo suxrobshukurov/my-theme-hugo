@@ -14,7 +14,8 @@ name: "Sparta"
 bonusCode: ""
 referral: ''
 website: ''
-sidebar: false
+home: false
+weight: 0
 term: ""
 software: "RTG"
 lines: "0"

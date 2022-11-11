@@ -1,11 +1,53 @@
 {{ define "main" }}
 <main class="main">
-
+  {{/* {{ partial "breadcrumbs.html" . }} */}}
   <div class="container">
     <div class="content-block content-text">
-      {{with .Params.H1}}
+      {{ with .Params.H1 }}
       <h1>{{.}}</h1>
-      {{end}}
+      {{ end }}
+      {{ with .Content }}
+      <div class="toc-container">
+        <div class="toc-title">{{i18n "page-nav"}}:<span class="show-toc" data-show="Show"
+            data-hide="Hide">[Show]</span>
+        </div>
+        <div class="toc-list-wrap" id="page-navigation"></div>
+      </div>
+      {{ end }}
+      {{ with .Params.Subtitle }}
+      <p style="text-align: center;">{{. | safeHTML}}</p>
+      {{ end }}
+      {{ with .Params.blockquote }}
+      <blockquote>{{. | safeHTML}}</blockquote>
+      {{ end }}
+    </div>
+    <div class="block-with-sidebar reverse">
+      <div class="content">
+
+        <div class="content-block content-text">
+          {{.Content}}
+        </div>
+      </div>
+      {{ partial "sidebar.html" . }}
+    </div>
+    <div class="content-block">
+      {{ with i18n "other-games" }}
+      <div class="h2">{{.}}</div>
+      {{ end }}
+      <div class="slots-list">
+        {{$slots := where .Site.RegularPages "Type" "slots"}}
+        {{ range $item := first 6 (shuffle $slots.ByDate) }}
+        {{ partial "parts/slot-card.html" . }}
+        {{ end }}
+      </div>
+      {{ with i18n "faq" }}
+      <h2 id="navigation_faq">{{.}}</h2>
+      {{ end }}
+      <div class="faq-blocks" itemscope="" itemtype="https://schema.org/FAQPage">
+        {{ range .Params.Faqs }}
+        {{ partial "parts/faq.html" . }}
+        {{ end }}
+      </div>
     </div>
   </div>
 </main>

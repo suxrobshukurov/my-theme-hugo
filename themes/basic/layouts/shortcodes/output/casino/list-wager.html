@@ -1,0 +1,20 @@
+{{$count := .Get "count" | default 6}}
+{{$casino := shuffle (where .Site.RegularPages "Type" "in" "casino")}}
+{{if and $count $casino}}
+<div class="table table-best-tops">
+  <div class="table-head">
+    {{ with i18n "head-casino" }}<div class="head-casino">{{.}}</div>{{ end }}
+    {{ with i18n "head-rating" }}<div class="head-rating">{{.}}</div>{{ end }}
+    {{ with i18n "head-bonus" }}<div class="head-bonus">{{.}}</div>{{ end }}
+    {{ with i18n "head-wager" }}<div class="head-param">{{.}}</div>{{ end }}
+    {{ with i18n "head-valid" }}<div class="head-param">{{.}}</div>{{ end }}
+    {{ with i18n "head-btns" }}<div class="head-btns">{{.}}</div>{{ end }}
+  </div>
+  <div class="table-body">
+    {{ range first $count (sort $casino ".Params.Rating" "desc" )}}
+    {{ partial "parts/casino/list-item-6.html" . }}
+    {{ end }}
+
+  </div>
+</div>
+{{end}}

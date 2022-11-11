@@ -13,7 +13,8 @@ name: "Book of Ra"
 bonusCode: ""
 referral: ''
 website: ''
-sidebar: false
+home: true
+weight: 1
 term: ""
 software: "Novomatic"
 lines: 20

@@ -1,11 +1,10 @@
 {{$title := .Get "title"}}
 {{$text := .Get "text"}}
 {{$img := .Get "img"}}
-{{$alt := .Get "alt"}}
 
 <li>
   {{ with $title }}
-  <h3>{{.}}</h3>
+  <h3 class="justifyleft">{{.}}</h3>
   {{ end }}
   {{ if $img }}
   <div class="list-grid-4-1">

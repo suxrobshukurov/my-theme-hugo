@@ -2324,7 +2324,7 @@ body {
   margin: 0;
 }
 .editors-chose .ec-icon i:before {
-  content: '3';
+  content: attr(data-count);
   position: absolute;
   bottom: -5px;
   left: -5px;
@@ -10779,9 +10779,13 @@ img[alt$='&gt'] {
 td strong {
   display: block;
 }
-.best-online-casinos, .casino-reviewer {
+.best-online-casinos,
+.casino-reviewer {
   margin: 20px 0;
 }
 .empty {
   display: none;
+}
+.players-trust-block {
+  margin: 20px 0;
 }

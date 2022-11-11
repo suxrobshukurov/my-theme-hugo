@@ -1,0 +1,9 @@
+{{$count := .Get "count"}}
+{{ if $count }}
+<div class="casinos-cards-list">
+  {{$casino := shuffle (where site.RegularPages "Type" "in" "casino")}}
+  {{ range first $count ($casino) }}
+  {{ partial "parts/casino-cart.html" . }}
+  {{ end }}
+</div>
+{{ end }}

@@ -33,47 +33,46 @@
         </div>
       </div>
       <div class="footer-top-right">
+        {{ if or (.Site.Menus.footer) (i18n "fm-title")}}
         <div class="links-group">
-          <div class="caption">Casino Games</div>
+          {{ with i18n "fm-title" }}
+          <div class="caption">{{.}}</div>
+          {{ end }}
           <div class="links">
-            <a href="play-roulette-online-for-real-cash.html"
-              title="🥇Play Roulette for Real Money in UK Online Casinos" class="link-item">Roulette</a>
-            <a href="casino-table-games-list.html" title="🥇Free Casino Table Games List | Most Popular Table Games"
-              class="link-item">Table Games</a>
-            <a href="card-games-play-online-for-real-cash.html" title="🥇Play Casino Card Games Online For Real Money"
-              class="link-item">Card Games</a>
+            {{ $currentPage := . }}
+            {{ range .Site.Menus.footer }}
+            <a href="{{.URL }}" class="link-item">{{ .Name }}</a>
+            {{ end }}
           </div>
         </div>
+        {{end}}
+        {{ if or (.Site.Menus.second) (i18n "sm-title")}}
         <div class="links-group">
-          <div class="caption">More</div>
+          {{ with i18n "sm-title" }}
+          <div class="caption">{{.}}</div>
+          {{ end }}
           <div class="links">
-            <a href="top-casino-sites.html" title="Top 15 Online Casinos. 🔥Best Gambling Sites [2022]"
-              class="link-item">Top Rated Casino </a>
-            <a href="how-to-play-online-casino-for-real-money-giude.html"
-              title="How to➡ Play UK Real Money Online Casino at Home Step-by-Step - Guide 2022" class="link-item">How
-              To</a>
-            <a href="casino-mobile-apps.html" title="🥇Casino Mobile Apps. Best Mobile Casino Sites for UK 2022"
-              class="link-item">Mobile Casino Apps 2022</a>
-            <a href="blog.html" title="🥇iMoneySlots Casino Blog - Articles & Latest News" class="link-item">Blog</a>
-            <a href="online-gambling-license-providers.html" title="Gambling License Providers - Online Reviews"
-              class="link-item">Regulators</a>
-            <a href="sitemap.html" title="Sitemap" class="link-item">Sitemap</a>
+            {{ $currentPage := . }}
+            {{ range .Site.Menus.second}}
+            <a href="{{.URL }}" class="link-item">{{ .Name }}</a>
+            {{ end }}
           </div>
         </div>
+        {{end}}
+        {{ if or (.Site.Menus.three) (i18n "thm-title")}}
         <div class="links-group">
-          <div class="caption">iMoneyslots</div>
+          {{ with i18n "thm-title" }}
+          <div class="caption">{{.}}</div>
+          {{ end }}
           <div class="links">
-            <a href="top-online-casinos-for-uk-2021.html"
-              title="🔥Top Rated UK Online Casinos - The Best Sites Play & Review 2022" class="link-item">UK Casino
-              Rating 2022</a>
-            <a href="best-online-casino-bonus-codes.html"
-              title="🔥No Deposit Online Casino Bonus UK - ✔See the Latest Bonuses 2022" class="link-item">Casino
-              Bonuses 2022</a>
-            <a href="about-us.html" title="About us | iMoneyslots.com" class="link-item">About Us</a>
-            <a href="terms-of-use.html" title="Terms of Use | iMoneyslots.com" class="link-item">Terms of use</a>
-            <a href="privacy-policy.html" title="Privacy | iMoneyslots.com" class="link-item">Privacy</a>
+            {{ $currentPage := . }}
+            {{ range .Site.Menus.three}}
+            <a href="{{.URL }}" class="link-item">{{ .Name }}</a>
+            {{ end }}
           </div>
         </div>
+        {{ end }}
+
 
       </div>
     </div>
@@ -106,13 +105,12 @@
         </a>
         <!--/noindex-->
       </div>
-      <div class="copyright">
-        iMoneySlots.com is informative website related to the theme of gambling games and reviews of online casinos.
-        The information represented on our website is for guidance only. Authors of website are not responsible for
-        users and readers actions. Attentively look through our terms of use and privacy policy. © 2016 - 2022 All
-        rights are reserved.
+      {{$todayYear := now.Format "2006" }}
+      {{$siteName := .Site.Params.SiteName }}
+      {{ with i18n "footer-copyright" (dict "Name" $siteName "Date" $todayYear)}}
+      <div class="copyright">{{.}}</div>
+      {{ end }}
 
-      </div>
       <div class="btnTop_wrap">
         <a href="#" class="btnTop"></a>
       </div>

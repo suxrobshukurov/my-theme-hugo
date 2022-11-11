@@ -27,99 +27,44 @@
         {{ end }}
       </ul>
     </nav>
+    {{$casino := where (where .Site.RegularPages "Type" "in" "casino") "Params.header" "==" true }}
+    {{ if $casino }}
     <div class="header-right">
       <div class="editors-chose">
         <div class="ec-icon">
-          <i class="best-star"></i>
+          <i class="best-star" data-count="{{len $casino}}"></i>
         </div>
         <div class="ec-content">
           <div class="ec-header">
-            <div class="title">Editor's choice</div>
-            <div class="text">List of Top Online Casinos that you should pay attention to. Our team thinks they stand
-              out in a crowd!</div>
+            {{ with i18n "header-card-title" }}<div class="title">{{.}}</div>{{ end }}
+            {{ with i18n "header-card-subtitle" }}<div class="text">{{.}}</div>{{ end }}
             <div class="ec-close"></div>
           </div>
+
           <div class="ec-body">
+            {{ range $item := $casino }}
             <div class="ec-item">
-              <div class="item-type">
-                Best Mobile-Friendly Casino
-              </div>
+              {{ with .Params.Best }}
+              <div class="item-type">{{.}}</div>
+              {{ end }}
 
-              <a href="slotocash-casino-review.html" class="item-body">
-
+              <a href="{{.Permalink}}" class="item-body">
                 <span class="item-logo logo-shine">
-                  <img
-                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAA8AQMAAACXY+zrAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABBJREFUKM9jGAWjYBQMWQAAA8AAAWVZVQkAAAAASUVORK5CYII="
-                    data-src="/images/casino/sloto-cash.png" alt="editors choice SlotoCash Casino" width="120"
-                    height="60">
+                  <img src="{{.Params.Icon}}" data-src="{{.Params.Icon}}" title="{{.Params.name}}"
+                    alt="{{.Params.name}}" width="120" height="60" data-loaded="true">
                 </span>
                 <span class="item-info">
                   <span class="item-title-block">
-                    <span class="item-title">SlotoCash Casino</span>
-                    <span class="rate item-rate">96</span>
+                    {{ with .Params.Name }}<span class="item-title">{{.}}</span>{{ end }}
+                    {{ with .Params.rating }}<span class="rate item-rate">{{.}}</span>{{ end }}
                   </span>
-                  <span class="item-text">
-                    Hey, do you spend most of your time in smartphone? Then it is a great chance to grab money. This
-                    guys are really awesome!
-                  </span>
+                  {{ with .Params.Hello_text }}<span class="item-text">{{.}}</span>{{ end }}
                 </span>
               </a>
 
             </div>
-            <div class="ec-item">
-              <div class="item-type">
-                Best Welcome Bonus
-              </div>
+            {{ end }}
 
-              <a href="playojo-casino-review.html" class="item-body">
-
-                <span class="item-logo logo-shine">
-                  <img
-                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAA8AQMAAACXY+zrAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABBJREFUKM9jGAWjYBQMWQAAA8AAAWVZVQkAAAAASUVORK5CYII="
-                    data-src="/images/casino/playojo-online-casino-play-no-download.jpg"
-                    alt="editors choice Playojo Casino" width="120" height="60">
-                </span>
-                <span class="item-info">
-                  <span class="item-title-block">
-                    <span class="item-title">Playojo Casino</span>
-                    <span class="rate item-rate">90</span>
-                  </span>
-                  <span class="item-text">
-                    Say hello to Welcome Bonus and quickly put them in your pants until everyone has sorted out such a
-                    freebie. After all, you have come to the right place, there is a bonanza that is able to realize
-                    all your dreams!
-                  </span>
-                </span>
-              </a>
-
-            </div>
-            <div class="ec-item">
-              <div class="item-type">
-                Top Game Collection
-              </div>
-
-              <a href="casumo-casino-review.html" class="item-body">
-
-                <span class="item-logo logo-shine">
-                  <img
-                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAA8AQMAAACXY+zrAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABBJREFUKM9jGAWjYBQMWQAAA8AAAWVZVQkAAAAASUVORK5CYII="
-                    data-src="/images/casumo/casumo-logo-2.jpg" alt="editors choice Casumo Casino" width="120"
-                    height="60">
-                </span>
-                <span class="item-info">
-                  <span class="item-title-block">
-                    <span class="item-title">Casumo Casino</span>
-                    <span class="rate item-rate">88</span>
-                  </span>
-                  <span class="item-text">
-                    Look carefully! This is not a load of crap, but the official selection of the most mega popular
-                    games of all mankind. Stop whining that there is no money, make yourself a cup of teal and start
-                    earning awesome amounts right now!
-                  </span>
-                </span>
-              </a>
-
-            </div>
           </div>
         </div>
       </div>
@@ -129,5 +74,7 @@
         <span></span>
       </div>
     </div>
+    {{ end }}
+
   </div>
 </header>

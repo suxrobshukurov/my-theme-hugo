@@ -1,0 +1,48 @@
+<div class="table-item">
+  <div class="item-top">
+    <div class="item-logo-wrap">
+
+      <a href="{{.Permalink}}" class="item-logo logo-shine" rel="nofollow">
+        <amp-img src="{{.Params.Icon | default `/images/default.png`}}"
+          data-src="{{.Params.Icon | default `/images/default.png`}}" alt="{{.Params.Name}}" title="{{.Params.Name}}"
+          width="120" height="60" data-loaded="true"></amp-img>
+      </a>
+
+    </div>
+    {{ with .Params.Rating }}
+    <div class="item-rating">
+      <div class="rate">{{.}}</div>
+    </div>
+    {{ end }}
+
+    {{ with .Params.welcome_bonus }}
+    <div class="item-bonus">{{. | safeHTML}}</div>
+    {{ end }}
+    {{$wager := ""}}
+    {{$valid := ""}}
+    {{ range $item := .Params.casinoInfo }}
+    {{$id := echoParam $item "id"}}
+    {{$value := echoParam $item "value"}}
+    {{ if eq $id "wager" }}
+    {{$wager = $value}}
+    {{ end }}
+    {{ if eq $id "validity" }}
+    {{$valid = $value}}
+    {{ end }}
+    {{ end }}
+
+    {{ with $wager }}
+    <div class="item-param" data-title="{{i18n `head-wager`}}">{{.}} </div>
+    {{ end }}
+    {{ with $valid }}
+    <div class="item-param" data-title="{{i18n `head-valid`}}">{{.}}</div>
+    {{ end }}
+    <div class="item-btns">
+      {{ partial "parts/reg-btn.html" . }}
+      <a href="{{.Permalink}}" class="item-link">{{i18n "review"}}</a>
+    </div>
+  </div>
+  {{ with .Params.Term }}
+  <div class="item-terms">{{.}}</div>
+  {{ end }}
+</div>

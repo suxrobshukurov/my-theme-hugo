@@ -1,30 +1,144 @@
+#header
+[header-card-title]
+  other = "Выбор редактора"
+[header-card-subtitle]
+  other = "Список лучших онлайн-казино, на которые вам стоит обратить внимание. Наша команда считает, что они выделяются в толпе!"
+
+#footer
+[footer-copyright]
+  other = "{{.Name}} - информационный сайт, связанный с темой азартных игр и обзорами онлайн-казино. Информация, представленная на нашем сайте, носит исключительно ознакомительный характер. Авторы сайта не несут ответственности за действия пользователей и читателей. Внимательно изучите наши условия использования и политику конфиденциальности. © {{.Date}} Все права защищены."
+[fm-title]
+  other = "Игры казино"
+[sm-title]
+  other = "Подробнее"
+[thm-title]
+  other = "BestMoneySlots"
+
+#home
+[see-all]
+  other = "Смотреть все"
+[top-slot]
+  other = "Лучшие слоты для игры онлайн в {{.Date}}"
+[top-casino]
+  other = "Список казино со слотами на реальные деньги"
+
+#blog
+[also-like]
+  other = "Вам также может понравиться"
+[last-update]
+  other = "Последнее обновление"
+[read-btn]
+  other = "Продолжить чтение"
+
+#casino
 [show]
   other = 'Показать'
 [hide]
   other = 'Скрыть'
 [website]
-  other = 'Веб-сайт'
+  other = "Url"
 [soft]
-  other = 'Поставищик програмного обеспечения'
+  other = 'Soft'
 [reg-btn]
-  other = 'Перейти'
+  other = 'Посетите казино'
 [get-bonus]
   other = 'Получить бонус'
+[play-now]
+  other = "Играть сейчас"
+[review]
+  other = 'Обзор'
 [read-comment-btn]
-  other = 'Написать отзыв'
+  other = 'Перейти к комментариям'
 [bonus-code]
-  other = 'Бонус код'
+  other = 'Бонусный код'
 [casino-info]
   other = 'Информация о казино'
+[bonus]
+  other = 'Бонус'
+[slots]
+  other = 'Слоты'
+[other-games]
+  other = 'Другие игры'
+[live-games]
+  other = 'Живые игры'
 [casino-games]
-  other = 'Casino games'
+  other = 'Игры казино'
 [welcome-bonus]
-  other = 'Welcome Bonus'
+  other = 'Приветственный бонус'
 [casino-rank]
-  other = 'Casino rank'
-[popular-slots-for-casino]
-  other = "Самые популярные онлайн-слоты {{ .Name }}"
-
+  other = 'Рейтинг казино'
+[popular-slots-for-casino] 
+  other = "Самые популярные {{ .Name }} Онлайн-слоты"
+[screenshot]
+  other = "Скриншоты"
+[financial]
+  other = "Финансовая информация"
+[hits]
+  other = "Хиты"
+[gaps]
+  other = "Пробелы"
+[provider]
+  other = "Провайдер"
+[author]
+  other = "Проверено"
+[online-casino]
+  other = "Онлайн казино"
+[rating]
+  other = "Рейтинг"
+[term]
+  other = "Правила и условия применяются"
+[compatible]
+  other = "Совместимость "
 #slots
 [lines]
   other = "Линии"
+[reels]
+  other = "Барабаны"
+[free-spins]
+  other = "Бесплатные спины"
+[wild-symbol]
+  other = "Wild Символ"
+[risk-symbol]
+  other = "Рискованная игра"
+[minmax-bet]
+  other = "Минимальная/максимальная ставка"
+[max-win]
+  other = "Максимальная победа"
+[play]
+  other = "Играть"
+[popular-casino-for-slot] 
+  other = "Играйте в слот {{.Name}} на реальные деньги в этих казино"
+[symbol] 
+  other = "{{.Name}} Символы" 
+[screenshots] 
+  other = "{{.Name}} Скриншоты" 
+[slot-info]
+  other = "Особенности {{.Name}}"
+[software]
+  other = "ПО"
+[all-slots]
+  other = "Все онлайн слоты"
+
+
+[slot-sidebar]
+  other = "Лучшие казино"
+[software-sidebar]
+  other = "Слоты по ПО"
+[page-nav]
+  other = "Оглавление"
+[faq]
+  other = "ЧаВо"
+
+#shordcode
+[head-casino]
+  other = "Лучшие казино"
+[head-rating]
+  other = "Рейтинг"
+[head-bonus]
+  other = "Приветственный бонус"
+[head-wager]
+  other = "Отыгрыш"
+[head-valid]
+  other = "Валидность"
+[head-btns]
+  other = "Безопасная ссылка"

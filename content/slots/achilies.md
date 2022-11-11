@@ -13,7 +13,8 @@ name: "Achilies"
 bonusCode: ""
 referral: ''
 website: ''
-sidebar: false
+home: true
+weight: 2
 term: ""
 software: RTG
 

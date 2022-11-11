@@ -13,7 +13,8 @@ name: "Book of Stars"
 bonusCode: ""
 referral: ''
 website: ''
-sidebar: false
+home: true
+weight: 0
 term: ""
 software: "Novomatic"
 lines: 10

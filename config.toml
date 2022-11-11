@@ -4,6 +4,8 @@ title = 'Real Money Slots Online 2022. Play Slots And Win Real Money!'
 theme = 'basic'
 DefaultContentLanguage = 'gb'
 
+summaryLength = 30
+
 [params]
   mainSections = ['casino', 'slots', 'software']
   favicon = 'images/favicons/icon-57.png'
@@ -18,27 +20,50 @@ DefaultContentLanguage = 'gb'
   email = "contact@bestmoneyslots.com"
   referral = 'https://redirectid.com/click.php?key=42t5uehm7vx8tk6nibtr&split='
 
+
 [languages.gb]
   languageName = 'English'
   weight = 1
+
 [[languages.gb.menu.main]]
   name = 'Free Slots'
   pageref = '/slots'
   weight = 1
   [languages.gb.menu.main.params]
     icon = "images/icons/nav-slot.svg"
+
 [[languages.gb.menu.main]]
-    name = 'Casinos'
-    pageref = '/casino'
-    weight = 2
+  name = 'Casinos'
+  pageref = '/casino'
+  weight = 2
   [languages.gb.menu.main.params]
       icon = "images/icons/nav-chip.svg"
+
 [[languages.gb.menu.main]]
-    name = 'Banking'
-    pageref = '/banking'
-    weight = 3
+  name = 'Blog'
+  pageref = '/blog'
+  weight = 3
   [languages.gb.menu.main.params]
-      icon = "images/icons/nav-banking.svg"
+      icon = "images/icons/nav-bonus.svg"
+
+# FOOTER 1 MENU
+[[languages.gb.menu.footer]]
+  name = 'Free Slots'
+  pageref = '/slots'
+  weight = 1
+
+# FOOTER 2 MENU
+[[languages.gb.menu.second]]
+  name = 'Free Slosts'
+  pageref = '/slots'
+  weight = 1
+
+# FOOTER 3 MENU
+[[languages.gb.menu.three]]
+  name = 'Free Slosts'
+  pageref = '/slots'
+  weight = 1
+
 
 [languages.ru]
   languageName = 'Русский'

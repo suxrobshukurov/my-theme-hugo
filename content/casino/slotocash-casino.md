@@ -2,400 +2,500 @@
 draft: false
 date: 2022-10-31T12:15:36+03:00
 title: "🥇SlotoCash Casino Review. SlotoCash Casino 300 FreeSpins Bonus for UK"
-id:
 description: 'Play▶ SlotoCash online casino instantly, taking into account✅ no deposit Bonus codes and get 100 Free Spins ➕ 200% for Enchanted Garden slot with the frequent withdrawals'
 h1: "SlotoCash Casino Review from iMoneyslots Experts for UK Players"
 keywords: "slotocash casino, slotocash review, slotocash login, slotocash bonus, slotocash bonus codes, slotocash mobile app, slotocash casino no deposit bonus" 
 thumbnail: "/images/casino/sloto-cash-casino.png"
 icon: "/images/casino/sloto-cash.png"
 name: "SlotoCash Casino"
-bonusCode: "100BANDITWIN"
 referral: ''
-website: 'slotocash.im'
 sidebar: true
+home: true
+header: true
+hello_text: "Hey, do you spend most of your time in smartphone? Then it is a great chance to grab money. This guys are really awesome!"
+best: "Best Mobile-Friendly Casino"
+
+bonusCode: "100BANDITWIN"
+website: 'slotocash.im'
 term: "New players only. 18+. Deposit + Bonus must be wagered 25x on slots or keno prior requesting a pay out. Promotions must be redeemed in order and they require a $20 minimum purchase to be redeemed. ALL deposit bonuses at Sloto'Cash Casino hold NO MAX CASHOUT"
-
-software:
-  - RTG
-
-pageAnchor:
-  - navigation_review: Review
-  - navigation_bonus: Bonus
-  - navigation_mobile: Mobile
-  - navigation_support: Support
-  - navigation_banking: Banking
-  - navigation_games: Top Games
-  - navigation_hitngap: Hits & Gaps
-  - navigation_faq: FAQ
-  - navigation_comments: Comments
-  
-slots:
-  - "/slots/achilies.md"
-  
-
-games:
-  slots: 1000+
-  other: 300+
-  live: 9
-
-tabs:
-  -
-    id: general
-    title: "General"
-  -
-    id: bonus
-    title: "Bonus"
-  -
-    id: more
-    title: "More"
 
 welcome_bonus: "<span>$7777 Bonus</span> Welcome Bonus + <span>300 Free Spins</span> on Slots!"
 rating: 96
 
+software: ["RTG"]
 
-casinoRank:
-  - 
-    title: "Games"
-    value: 99
-  - 
-    title: "Software"
-    value: 92
-  - 
-    title: "Bonuses"
-    value: 99
-  - 
-    title: "Customer support"
-    value: 94
-  - 
-    title: "Payout Speed"
-    value: 99
-  - 
-    title: "Usability"
-    value: 92
-  - 
-    title: "Worldwide"
+pageAnchor: [
+  {navigation_review: "Review"},
+  {navigation_mobile: "Mobile"},
+  {navigation_support: "Support"},
+  {navigation_banking: 'Banking'},
+  {navigation_games: "Top Games"},
+  {navigation_hitngap: "Hits & Gaps"},
+  {navigation_comments: "Comments"},
+  {navigation_faq: "FAQ"}
+]
+
+slots: ["slots/achilies.md"]
+
+games: {
+  slots: "1000+",
+  other: "300+",
+  live: 9,
+}
+
+tabs: [
+  {
+    id: general,
+    title: "General"
+  },
+  {
+    id: bonus,
+    title: "Bonus"
+  },
+  {
+    id: more,
+    title: "More"
+  },
+  {
+    id: nil,
+    title: "Other"
+  }
+]
+
+casinoInfo: [
+  {
+    section: general,
+    id: launched,
+    title: "Launched",
+    value: "2007",
+  },
+  {
+    section: general,
+    id: platform,
+    title: "Platform",
+    value: "Independent / No platform"
+  },
+  {
+    section: general,
+    id: currency,
+    title: "Currency",
+    value: "US dollars",
+  },
+  {
+    section: general,
+    id: language,
+    title: "Language",
+    value: "English, French, Russian"
+  },
+  {
+    section: general,
+    id: restricted,
+    title: "Restricted Countries",
+    value: "EAustralia, Israel, Italy, Moldova, Spain, Sweden, Switzerland, UK, USA"
+  },
+  {
+    section: general,
+    id: game-type,
+    title: "Type of Games",
+    value: "Slots, Table Games, Card Games"
+  },
+  {
+    section: general,
+    id: compatibility,
+    title: "Compatibility",
+    value: "Android, BlackBerry, iOS, Windows"
+  },
+  {
+    section: general,
+    section2: welcome,
+    id: deposit,
+    title: "Min deposit",
+    value: "$25"
+  },
+  {
+    section: general,
+    id: withdraw,
+    title: "Max withdraw",
+    value: "2000 USD per week"
+  },
+  {
+    section: bonus,
+    id: bonus-type,
+    title: "Types of Bonuses",
+    value: "Welcome, No Deposit, 1st Deposit, 2nd Deposit"
+  },
+  {
+    section: bonus,
+    id: first-bonus,
+    title: "First Deposit",
+    value: "200% + 100 Spins up to $2000"
+  },
+  {
+    section: bonus,
+    id: bonus-code,
+    title: "Bonus Code",
+    value: "SLOTO1MATCH"
+  },
+  {
+    section: bonus,
+    section2: welcome,
+    id: wager,
+    title: "Wager",
+    value: "25x",
+  },
+  {
+    section: bonus,
+    id: nodep,
+    title: "No Deposit",
+    value: "100 FREE Spins"
+  },
+  {
+    section: bonus,
+    id: exclusive-bonus,
+    title: "Exclusive Bonus",
+    value: "No"
+  },
+  {
+    section: bonus,
+    id: vip,
+    title: "VIP Program",
+    value: "No"
+  },
+  {
+    section: bonus,
+    id: forfeitable,
+    title: "Forfeitable",
+    value: "Yes"
+  },
+  {
+    section: bonus,
+    id: nodep-wager,
+    title: "No deposit bonus wagering",
+    value: 25x
+  },
+  {
+    section: bonus,
+    id: restricted,
+    title: "Restricted Countries",
+    value: "Australia, Italy, Spain, Sweden, Switzerland, UK",
+  },
+  {
+    section: bonus,
+    id: cashable,
+    title: "Cashable",
+    value: "Yes"
+  },
+  {
+    section: more,
+    id: casino-type,
+    title: "Casino Type",
+    value: "Instant Play, Mobile",
+  },
+  {
+    section: more,
+    id: rtp,
+    title: RTP,
+    value: "Not publicly audited",
+  },
+  {
+    section: more,
+    id: support,
+    title: "Support",
+    value: "Live Chat, email - support@slotocash.im, phone - 1 866-890-6745, 1 657-208-5477"
+  },
+  {
+    section: more,
+    id: license,
+    title: "License",
+    value: "Curacao",
+  },
+  {
+    section: more,
+    id: number-of-slots,
+    title: "Number of slots",
+    value: "75",
+  },
+  {
+    section: more,
+    id: other-games,
+    title: "Other Games",
+    value: "100"
+  },
+  {
+    section: more,
+    id: live-casino,
+    title: "Live Casino",
+    value: "4",
+  },
+  {
+    section: more,
+    id: mobile,
+    title: "Mobile",
+    value: "Yes"
+  },
+  {
+    section: more,
+    id: download,
+    title: "Download available",
+    value: "No",
+  },
+  {
+    section: more,
+    id: protection,
+    title: "Player Protection",
+    value: "GamCare, International Gamblers Anonymous",
+  },
+  {
+    section: nil,
+    section2: welcome,
+    id: canceled,
+    title: "Canceled",
+    value: 'Yes'
+  },
+  {
+    section: nil,
+    section2: welcome,
+    id: deposit-method,
+    title: "Deposit Method",
+    value: "All are available",
+  },
+  {
+    section: nil,
+    id: valid-for-games,
+    title: "Valid Only for Games",
+    value: "All slots",
+  },
+  {
+    section: nil,
+    id: valid-for-games-type,
+    title: "Valid Only for Games Types",
+    value: "Slots",
+  },
+  {
+    section: nil,
+    id: valid-for-pay,
+    title: "Valid Only for Payments",
+    value: "All are available",
+  },
+  {
+    section: nil,
+    id: validity,
+    title: "Validity",
+    value: "5-7 days",
+  }
+]
+
+
+casinoGames: [
+  {
+    title: Live Casino,
+    status: 'yes',
+    image: /images/icons/co-live.svg,
+  },
+  {
+    title: Black Jack,
+    status: 'yes',
+    image: /images/icons/co-blackjack.svg,
+  },
+  {
+    title: Bingo,
+    status: 'no',
+    image: /images/icons/co-bingo.svg,
+  },
+  {
+    title: Slots,
+    status: 'yes',
+    image: /images/icons/co-slot.svg,
+  },
+  {
+    title: Keno,
+    status: 'yes',
+    image: /images/icons/co-keno.svg,
+  },
+  {
+    title: Baccarat,
+    status: 'yes',
+    image: /images/icons/co-baccarat.svg,
+  },
+  {
+    title: Roulette,
+    status: 'yes',
+    image: /images/icons/co-roulette.svg,
+  },
+  {
+    title: Poker,
+    status: 'yes',
+    image: /images/icons/co-poker.svg,
+  },
+  {
+    title: Sport,
+    status: 'no',
+    image: /images/icons/co-sport.svg,
+  },
+  {
+    title: Videopoker,
+    status: 'yes',
+    image: /images/icons/co-videopoker.svg,
+  }
+]
+
+casinoRank: [
+  {
+    title: "Games",
+    value: 99,
+  },
+  {
+    title: "Software",
+    value: 92,
+  },
+  {
+    title: "Bonuses",
+    value: 99,
+  },
+  {
+    title: "Customer support",
+    value: 94,
+  },
+  {
+    title: "Payout Speed",
+    value: 99,
+  },
+  {
+    title: "Usability",
+    value: 92,
+  },
+  {
+    title: "Worldwide",
     value: 98
+  }
+]
 
+screenshot: [
+  {
+    alt: "Screenshot 1 SlotoCash Casino",
+    title: "Screenshot 1 SlotoCash Casino",
+    src: /images/casino/imoneyslots-review-slotocash-bonuses.jpg,
+  },
+  {
+    alt: "Screenshot 2 SlotoCash Casino",
+    title: "Screenshot 2 SlotoCash Casino",
+    src: /images/casino/imoneyslots-review-slotocash-slots.jpg
+  },
+  {
+    alt: "Screenshot 3 SlotoCash Casino",
+    title: "Screenshot 3 SlotoCash Casino",
+    src: /images/casino/imoneyslots-review-slotocash.jpg
+  }
+]
 
-casinoGames:
-  -
-    title: Live Casino
-    status: 'yes'
-    image: /images/icons/co-live.svg
-  -
-    title: Black Jack
-    status: 'yes'
-    image: /images/icons/co-blackjack.svg
-  -
-    title: Bingo
-    status: 'no'
-    image: /images/icons/co-bingo.svg
-  -
-    title: Slots
-    status: 'yes'
-    image: /images/icons/co-slot.svg
-  -
-    title: Keno
-    status: 'yes'
-    image: /images/icons/co-keno.svg
-  -
-    title: Baccarat
-    status: 'yes'
-    image: /images/icons/co-baccarat.svg
-  -
-    title: Roulette
-    status: 'yes'
-    image: /images/icons/co-roulette.svg
-  -
-    title: Poker
-    status: 'yes'
-    image: /images/icons/co-poker.svg
-  -
-    title: Sport
-    status: 'no'
-    image: /images/icons/co-sport.svg
-  -
-    title: Videopoker
-    status: 'yes'
-    image: /images/icons/co-videopoker.svg
+withdrawalT: {
+  header: "Withdrawal Time",
+  img: /images/icons/fi-cashout-time.svg
+}
 
-casinoInfo:
-    - 
-      id: launched
-      title: Launched
-      value: 2007
-      section: general
-    - 
-      id: platform
-      title: Platform
-      value: Independent / No platform
-      section: general
-    - 
-      id: currency
-      title: Currency
-      value: US dollars
-      section: general
-    - 
-      section: general
-      id: language
-      title: Language
-      value: English, French, Russian
-    - 
-      section: general
-      id: restricted
-      title: "Restricted Countries"
-      value: "EAustralia, Israel, Italy, Moldova, Spain, Sweden, Switzerland, UK, USA"
-    - 
-      section: general
-      id: game-type
-      title: "Type of Games"
-      value: "Slots, Table Games, Card Games"
-    - 
-      section: general
-      id: compatibility
-      title: "Compatibility"
-      value: "Android, BlackBerry, iOS, Windows"
-    - 
-      section: general
-      id: deposit
-      title: Min deposit
-      value: $25
-      section2: welcome
-    - 
-      section: general
-      id: withdraw
-      title: Max withdraw
-      value: 2000 USD per week
+WithdrawalTItems: [
+  {
+    title: "E-wallet",
+    subtitle: "24-48h",
+    img: /images/icons/fi-e-wallet.svg,
+  },
+  {
+    title: "Credit Cards",
+    subtitle: "24h",
+    img: /images/icons/fi-credit-card.svg
+  },
+  {
+    title: "Bank Transfer",
+    subtitle: "1-3 banking days",
+    img: /images/icons/fi-bank.svg
+  }
+]
 
-    - 
-      section: bonus
-      id: bonus-type
-      title: Types of Bonuses
-      value: Welcome, No Deposit, 1st Deposit, 2nd Deposit
-    - 
-      section: bonus
-      id: first-bonus
-      title: First Deposit
-      value: 200% + 100 Spins up to $2000
-    - 
-      section: bonus
-      id: bonus-code
-      title: Bonus Code
-      value: SLOTO1MATCH
-    - 
-      section: bonus
-      id: wager
-      title: Wager
-      value: 25x
-      section2: welcome
-    - 
-      section: bonus
-      id: nodep
-      title: No Deposit
-      value: 100 FREE Spins
-    - 
-      section: bonus
-      id: exclusive-bonus
-      title: Exclusive Bonus
-      value: "No"
-    - 
-      section: bonus
-      id: vip
-      title: VIP Program
-      value: "No"
-    - 
-      section: bonus
-      id: forfeitable
-      title: Forfeitable
-      value: "Yes"
-    - 
-      section: bonus
-      id: nodep-wager
-      title: No deposit bonus wagering
-      value: 25x
-    - 
-      section: bonus
-      id: restricted
-      title: Restricted Countries
-      value: Australia, Italy, Spain, Sweden, Switzerland, UK
-    - 
-      section: bonus
-      id: cashable
-      title: Cashable
-      value: "Yes"
+deposit: {
+  header: "Deposit Methods",
+  subtitle: "(min $25)",
+  img: /images/icons/fi-deposit-methods.svg
+}
 
-    - 
-      section: more
-      id: casino-type
-      title: Casino Type
-      value: Instant Play, Mobile
-    - 
-      section: more
-      id: rtp
-      title: RTP
-      value: Not publicly audited
-    - 
-      section: more
-      id: support
-      title: Support
-      value: Live Chat, email - support@slotocash.im, phone - 1 866-890-6745, 1 657-208-5477
-    - 
-      section: more
-      id: license
-      title: License
-      value: Curacao
-    - 
-      section: more
-      id: number-of-slots
-      title: Number of slots
-      value: 75
-    - 
-      section: more
-      id: other-games
-      title: Other Games
-      value: 100
-    - 
-      section: more
-      id: live-casino
-      title: Live Casino
-      value: 4
-    - 
-      section: more
-      id: mobile
-      title: Mobile
-      value: "Yes"
-    - 
-      section: more
-      id: download
-      title: Download available
-      value: "No"
-    - 
-      section: more
-      id: protection
-      title: Player Protection
-      value: GamCare, International Gamblers Anonymous
-      
-    -
-      section: nil
-      id: canceled
-      title: Canceled
-      value: 'Yes'
-      section2: welcome
-    -
-      section: nil
-      id: deposit-method
-      title: Deposit Method
-      value: All are available
-      section2: welcome
-    -
-      section: nil
-      id: valid-for-games
-      title: "Valid Only for Games"
-      value: "All slots"
-    -
-      section: nil
-      id: valid-for-games-type
-      title: "Valid Only for Games Types"
-      value: "Slots"
-    -
-      section: nil
-      id: valid-for-pay
-      title: "Valid Only for Payments"
-      value: "All are available"
-
-screenshot: 
-  - 
-    alt: "Screenshot 1 SlotoCash Casino"
-    title: "Screenshot 1 SlotoCash Casino"
-    src: "/images/casino/imoneyslots-review-slotocash-bonuses.jpg"
-  - 
-    alt: "Screenshot 2 SlotoCash Casino"
-    title: "Screenshot 2 SlotoCash Casino"
-    src: "/images/casino/imoneyslots-review-slotocash-slots.jpg"
-  -
-    alt: "Screenshot 3 SlotoCash Casino"
-    title: "Screenshot 3 SlotoCash Casino"
-    src: "/images/casino/imoneyslots-review-slotocash.jpg"
-
-withdrawalT:
-  header: "Withdrawal Time"
-  img: "/images/icons/fi-cashout-time.svg"
-WithdrawalTItems:
-- title: "E-wallet"
-  subtitle: "24-48h"
-  img: "/images/icons/fi-e-wallet.svg"
-- title: "Credit Cards"
-  subtitle: "24h"
-  img: "/images/icons/fi-credit-card.svg"
-- title: "Bank Transfer"
-  subtitle: "1-3 banking days"
-  img: "/images/icons/fi-bank.svg"
-
-deposit:
-  header: "Deposit Methods"
-  subtitle: "(min $25)"
-  img: "/images/icons/fi-deposit-methods.svg"
-
-depositItems:
-  - 
-    src: "/i/payments/visa.png"
+depositItems: [
+  {
+    src: /i/payments/visa.png,
     alt: "Visa"
-  - 
-    src: "/i/payments/mastercard.png"
+  },
+  {
+    src: /i/payments/mastercard.png,
     alt: "Mastercard"
-  - 
-    src: "/i/payments/skrill.png"
+  },
+  {
+    src: /i/payments/skrill.png,
     alt: "Skrill"
-  - 
-    src: "/i/payments/neteller.png"
+  },
+  {
+    src: /i/payments/neteller.png,
     alt: "Neteller"
-  - 
-    src: "/i/payments/ecocard.png"
+  },
+  {
+    src: /i/payments/ecocard.png,
     alt: "Ecocard"
-  - 
-    src: "/i/payments/litecoin.png"
-    alt: "Litecoin"
-  - 
-    src: "/i/payments/american_express.png"
+  },
+  {
+    src: /i/payments/litecoin.png,
+    alt: "Litecoin",
+  },
+  {
+    src: /i/payments/american_express.png,
     alt: "American_express"
-  - 
-    src: "/i/payments/directmoney.png"
+  },
+  {
+    src: /i/payments/directmoney.png,
     alt: "Directmoney"
+  }
+]
 
-withdrawalM:
-  header: "Withdrawal Methods"
-  img: "/images/icons/fi-withdraw-methods.svg"
+withdrawalM: {
+  header: "Withdrawal Methods",
+  img: ,/images/icons/fi-withdraw-methods.svg,
   subtitle: "(min $25)"
-withdrawalMItems: 
-  -
-    src: "/i/payments/skrill.png"
-    alt: "Skrill"
-  - 
-    src: "/i/payments/neteller.png"
-    alt: "Neteller"
-  - 
-    src: "/i/payments/ecocard.png"
-    alt: "Ecocard"
-  - 
-    src: "/i/payments/directmoney.png"
-    alt: "Directmoney"
+}
 
-advantages:
-  - Withdrawal in weekends
-  - Verification needed
-  - Withdrawals approval within 72 business hours
-  - Limit for first withdrawal is 2000 USD per week
+withdrawalMItems: [
+  {
+    src: /i/payments/skrill.png,
+    alt: "Skrill"
+  },
+  {
+    src: /i/payments/neteller.png,
+    alt: "Neteller"
+  },
+  {
+    src: /i/payments/ecocard.png,
+    alt: "Ecocard"
+  },
+  {
+    src: /i/payments/directmoney.png,
+    alt: "Directmoney"
+  }
+]
+
+advantages: [
+  "Withdrawal in weekends",
+  "Verification needed",
+  "Withdrawals approval within 72 business hours",
+  "Limit for first withdrawal is 2000 USD per week"
+]
 
 compatible: [android, apple]
 
-hits:
-  - Players from USA are accepted
-  - 24/7 support through live chat, phone, email or Skype
-  - Live Dealer lobby
+hits: [
+  "Players from USA are accepted",
+  "24/7 support through live chat, phone, email or Skype",
+  "Live Dealer lobby"
+]
 
-gaps:
-  - Players from Moldova and Israel are not accepted
-  - Not all games available in the instant-play lobby
+gaps: [
+  "Players from Moldova and Israel are not accepted",
+  "Not all games available in the instant-play lobby"
+]
 
 ---
 
@@ -457,7 +557,7 @@ The interesting stuff that presents slotocash casino no deposit bonus 2022 is Sl
 
 <img class="content_emoji" alt="❓" height="20" data-src="/images/ficons/icons/svg/891/891387.svg">
 Advancements must be recovered all together and they require a $20 least buy to be. & at Sloto'Cash Casino hold NO MAX CASHOUT.
-{{</ casino-bonus-list >}}
+{{< / casino-bonus-list >}}
 
 {{< casino-bonus-list button="Get Bonus" >}}
 
@@ -497,7 +597,7 @@ Bank Wire is one more withdrawal technique that expects you to pull back between
 
 There is a charge for every exchange and as far as possible are set too. For security purposes, you will be required to send archives confirming the Mastercard you utilized for making a store is really yours.
 
-|**Payment System**|  **Bonus  On Deposit** | **Processing Time** | **Deposit** | **Withdrawal** |
+|**Payment System** |  **Bonus  On Deposit** | **Processing Time** | **Deposit** | **Withdrawal** |
 |:------------------:|:------------------:|:---------------:|:-------:|:----------:|
 |![Visa](/images/administrative/visa-pay.png "Visa")|**Yes**|Instant|**Yes**|**No**|
 |![Mastercard](/images/administrative/mastercard-pay.png "Mastercard")|**Yes**|Instant|**Yes**|**No**|

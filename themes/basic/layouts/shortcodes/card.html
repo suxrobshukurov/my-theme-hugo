@@ -1,0 +1,13 @@
+<div class="card-item">
+  {{ with .Get "img" }}
+  <div class="card-icon">
+    <i style="background-image:url({{.}})"></i>
+  </div>
+  {{ end }}
+  {{ with .Get "title" }}
+  <h3 class="card-title">{{.}}</h3>
+  {{ end }}
+  {{ with .Get "text" }}
+  <div class="card-text">{{.}}</div>
+  {{ end }}
+</div>

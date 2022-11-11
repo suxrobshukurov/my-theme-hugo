@@ -1,0 +1,22 @@
+<div class="casino-item">
+  <div class="item-logo-wrap">
+    <a href="{{.Permalink}}" class="item-logo logo-shine" rel="nofollow">
+      <amp-img src="{{.Params.Icon}}" title="{{.Params.Name}}" data-src="{{.Params.Icon}}" alt="{{.Params.Name}}"
+        width="100" height="50">
+      </amp-img>
+    </a>
+    <a href="{{.Permalink}}" class="item-title">{{.Params.Name}}</a>
+  </div>
+  <div class="item-rating">
+    <div class="rate">{{.Params.Rating}}</div>
+  </div>
+  <div class="item-bonus">
+    {{.Params.welcome_bonus | safeHTML}}
+  </div>
+  <div class="item-btns">
+    <button class="btn btn-yellow"
+      data-link="{{cond (gt  (len .Params.Referral) 1) .Params.Referral .Site.Params.Referral }}"
+      style="cursor: initial;">{{ i18n "play-now" .}}</button>
+    <a href="{{.Permalink}}" rel="nofollow" class="item-link">{{i18n "review"}}</a>
+  </div>
+</div>

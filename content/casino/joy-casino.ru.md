@@ -4,11 +4,11 @@ date: 2022-10-31T12:15:36+03:00
 title: "Joy Casino Review."
 id:
 description: 'Play▶ SlotoCash online casino instantly, taking into account✅ no deposit Bonus codes and get 100 Free Spins ➕ 200% for Enchanted Garden slot with the frequent withdrawals'
-h1: "SlotoCash Casino Review from iMoneyslots Experts for UK Players"
+h1: "SlotoCash Casino Review from iMoneyslots Experts for UK Players ru"
 keywords: "slotocash casino, slotocash review, slotocash login, slotocash bonus, slotocash bonus codes, slotocash mobile app, slotocash casino no deposit bonus" 
 thumbnail: "/images/casino/joycasino-online-review.png"
 icon: "/images/casino/joycasino-2.jpg"
-name: "Joy Casino"
+name: "Joy Casino ru"
 bonusCode: "100BANDITWIN"
 referral: ''
 website: 'slotocash.im'

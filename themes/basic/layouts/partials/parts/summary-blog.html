@@ -1,0 +1,18 @@
+<div class="bog-item">
+  <div class="item-header">
+    <a href="{{.Permalink}}" class="item-title">{{.Params.Name}}</a>
+    <div class="article-meta">
+      <div class="date"><i class="meta-clock"></i>{{.Date.Format "2006-01-02"}}</div>
+      <div class="author"><i class="meta-author"></i>{{.Site.Params.author}}</div>
+    </div>
+  </div>
+  <a href="{{.Permalink}}" rel="nofollow" class="item-img">
+    <img src="{{.Params.Icon | default `/images/default/png`}}"
+      data-src="{{.Params.Icon | default `/images/default/png`}}" title="{{.Params.Name}}" alt="{{.Params.Name}}"
+      data-loaded="true">
+  </a>
+  <div class="item-text">{{.Summary}}{{ if .Truncated }}...{{end}}</div>
+  <div class="btn-wrap">
+    <a href="{{.Permalink}}" rel="nofollow" class="btn btn-yellow">{{i18n "read-btn"}}</a>
+  </div>
+</div>

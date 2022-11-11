@@ -13,6 +13,8 @@ bonusCode: ""
 referral: ""
 website: ""
 sidebar: false
+home: false
+weight: 0
 term: ""
 welcome_bonus: ""
 rating: 0

@@ -1,0 +1,37 @@
+{{$count := .Get "count"}}
+{{$casinos := shuffle (where site.RegularPages "Type" "in" "casino")}}
+<div class="bonuses-list {{if gt (len $casinos) 3 }}bonuses-slider{{end}}  ">
+  {{ range first $count $casinos }}
+  <div class="item-wrap">
+    <div class="item-card">
+      <a href="{{.Permalink}}" class="item-logo logo-shine" rel="nofollow">
+        <amp-img src="{{.Params.Thumbnail}}" data-src="{{.Params.Thumbnail}}" alt="{{.Params.Name}}"
+          title="{{.Params.Name}}" width="240" height="180"></amp-img>
+      </a>
+
+      <div class="item-info">
+        <div class="item-top-info">
+          <div class="item-bonus">
+            {{ with .Params.welcome_bonus }}
+            <div class="bonus-text">{{. | safeHTML}}</div>
+            {{ end }}
+            <div class="popover-block close-pop">
+              <div class="popover-link-btn">{{i18n "term"}}</div>
+              <div class="hider">{{.Params.Term}}</div>
+            </div>
+          </div>
+          <div class="review-link-holder">
+            <div class="rate">{{.Params.Rating}}</div>
+            <a href="{{.Permalink}}" class="review-link" title="{{.}}">{{i18n "review"}}</a>
+          </div>
+        </div>
+
+        <div class="btn-wrap">{{ partial "parts/reg-btn.html" . }}</div>
+
+      </div>
+    </div>
+  </div>
+
+  {{ end }}
+
+</div>

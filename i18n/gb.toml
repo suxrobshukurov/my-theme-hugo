@@ -1,3 +1,36 @@
+#header
+[header-card-title]
+  other = "Editor's choice"
+[header-card-subtitle]
+  other = "List of Top Online Casinos that you should pay attention to. Our team thinks they stand out in a crowd!"
+
+#footer
+[footer-copyright]
+  other = "{{.Name}} is informative website related to the theme of gambling games and reviews of online casinos. The information represented on our website is for guidance only. Authors of website are not responsible for users and readers actions. Attentively look through our terms of use and privacy policy. © {{.Date}} All rights are reserved."
+[fm-title]
+  other = "Casino Games"
+[sm-title]
+  other = "More"
+[thm-title]
+  other = "BestMoneySlots"
+
+#home
+[see-all]
+  other = "See all"
+[top-slot]
+  other = "Top Slots To Play Online In {{.Date}}"
+[top-casino]
+  other = "Casino list with slots for real money"
+
+#blog
+[also-like]
+  other = "You Might Also Like"
+[last-update]
+  other = "Last Updated"
+[read-btn]
+  other = "Continue reading"
+
+#casino
 [show]
   other = 'Show'
 [hide]
@@ -95,3 +128,17 @@
   other = "Table of content"
 [faq]
   other = "Frequently Asked Questions"
+
+#shordcode
+[head-casino]
+  other = "Top Casinos"
+[head-rating]
+  other = "Rating"
+[head-bonus]
+  other = "Welcome Bonus"
+[head-wager]
+  other = "Wagering"
+[head-valid]
+  other = "Validity"
+[head-btns]
+  other = "Secure Link"
