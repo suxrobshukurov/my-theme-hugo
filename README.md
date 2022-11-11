@@ -22,3 +22,8 @@ choco install hugo-extended
 ```
 hugo server -D
 ```
+
+## Build project
+```
+hugo --minify
+```
