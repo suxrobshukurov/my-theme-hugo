@@ -16,7 +16,8 @@
         <meta itemprop="ratingCount" content="5">
       </div>
       <div class="cmi-left">
-        <div class="casino-logo logo-shine" data-link="slotocash">
+        <div class="casino-logo logo-shine"
+          data-link="{{cond (gt  (len $.Params.Referral) 1) $.Params.Referral $.Site.Params.Referral }}">
           {{$casinoImage := cond (gt (len .Params.Thumbnail) 1) .Params.Thumbnail .Site.Params.DefaultImg }}
           <amp-img src="{{ $casinoImage }}" data-src="{{ $casinoImage }}" alt="{{ .Params.Name }}"
             title="{{ .Params.Name }}" width="240" height="180" data-loaded="true"></amp-img>

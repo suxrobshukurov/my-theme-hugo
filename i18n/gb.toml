@@ -142,3 +142,11 @@
   other = "Validity"
 [head-btns]
   other = "Secure Link"
+
+#404
+[404-title]
+  other = "Error 404. This page can not be found"
+[404-subtitle]
+  other = "This page can not be found"
+[404-button]
+  other = "Go to home page"

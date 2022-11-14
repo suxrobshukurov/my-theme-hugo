@@ -13,11 +13,8 @@
 <link rel="stylesheet" href="{{ $style.Permalink }}" type="text/css">
 <link rel="stylesheet" href="{{ $i18n.Permalink }}" type="text/css">
 
-{{ if .Params.canonicalUrl }}
-<link rel="canonical" href="http:{{ .Params.canonicalUrl }}">
-{{ else }}
-<link rel="canonical" href="http:{{ .Permalink }}">
-{{ end }}
+
+<link rel="canonical" href="{{ .Permalink }}" />
 
 <link rel="alternate" href="http:{{ .Permalink }}" hreflang="x-default">
 

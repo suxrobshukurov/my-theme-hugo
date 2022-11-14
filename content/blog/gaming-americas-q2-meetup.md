@@ -8,7 +8,6 @@ h1: "Gaming Americas Q2 Meetup brings together top C-Level Executives for a very
 subtitle: "<p>To keep the momentum going, the team has once again decided to highlight some of the most talked-about topics in the regions, and will stress on keeping the relaxed format which allows the audience to join in on the panels and add their own insights."
 blockquote: ""
 name: "Gaming Americas Q2 Meetup"
-canonicalUrl: ""
 keywords: ""
 thumbnail: "/blog/1024x512 Save the date Q2.jpg"
 icon: "/blog/gaming-americas-q2-meetup-1.jpg"

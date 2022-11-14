@@ -5,7 +5,6 @@ draft: false
 description: ''
 h1: "Онлайн-слоты на реальные деньги в Великобритании"
 name: ""
-canonicalUrl: ""
 keywords: ""
 thumbnail: ""
 ---

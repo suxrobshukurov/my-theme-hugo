@@ -21,23 +21,7 @@
       <blockquote>{{. | safeHTML}}</blockquote>
       {{ end }}
     </div>
-    <div class="block-with-sidebar reverse">
-      <div class="content">
-        <div class="content-block">
-          {{ with i18n "all-slots"}}
-          <div class="h2">{{.}}</div>
-          {{ end }}
-          <div class="rows slots-list">
-            {{$slots := where .Site.RegularPages "Type" "slots"}}
-            {{ range $slots.ByDate }}
-            {{ partial "parts/slot-card.html" . }}
 
-            {{ end }}
-          </div>
-        </div>
-      </div>
-      {{ partial "sidebar.html" . }}
-    </div>
     {{ with .Content }}
     <div class="content-block content-text">{{.}}</div>
     {{ end }}

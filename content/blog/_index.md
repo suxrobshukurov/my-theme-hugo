@@ -8,7 +8,6 @@ h1: "iMoneySlots Casino Blog"
 subtitle: ""
 blockquote: ""
 name: "Blog"
-canonicalUrl: ""
 keywords: ""
 thumbnail: ""
 ---

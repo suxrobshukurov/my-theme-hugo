@@ -8,7 +8,6 @@ h1: "TECH Conference Europe Spring Edition has just revealed the final agenda of
 subtitle: "<p>Europe – 10 March 2022 – With less than a week to go until the Spring Edition of TECH Conference Europe (TCE) will open its virtual doors, the team at Hipther Agency, organizers of the TCE series, are ready to unveil the final agenda for the event.</p><p>The conference will take place on the 16th of March, and has 45 expert speakers confirmed. View more details | Register for free</p>"
 blockquote: ""
 name: "Tech Conference Europe"
-canonicalUrl: ""
 keywords: ""
 thumbnail: "/blog/Save the date 1024x512.jpg"
 icon: "/blog/tech-conference-europe.jpg"

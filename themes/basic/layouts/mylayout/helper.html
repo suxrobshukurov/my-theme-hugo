@@ -1,0 +1,766 @@
+{{ define "main" }}
+<style>
+  .grid-table {
+    border: 1px solid #333;
+  }
+
+  .grid-table .row {
+    border-bottom: 1px solid #333;
+  }
+
+  .grid-table .row .col {
+    border-left: 1px solid #333;
+    padding: 10px
+  }
+
+  .row {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+  }
+
+  .grid-table .casino-main-info {
+    display: block;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+</style>
+<main class="main">
+  <div class="container">
+    <div class="content-block content-text">
+
+      <h2 id="shortcode">Шорткоды</h2>
+      <div class="grid-table">
+        {{/* header */}}
+        <div class="row">
+          <div class="col"><strong>IMG</strong></div>
+          <div class="col"><strong>Shortcode</strong></div>
+          <div class="col"><strong>Parametr</strong></div>
+        </div>
+        {{/* casino-card-list */}}
+        <div class="row">
+          <div class="col">
+            <a class="shordcode-link" href="https://monosnap.com/file/my3pnFMsL3imbUUoj5JMQcha2Jf95K" target="_blank"
+              ref="nofollow">
+              <img class="shordcode-img" src="https://api.monosnap.com/file/download?id=my3pnFMsL3imbUUoj5JMQcha2Jf95K"
+                alt="View">
+            </a>
+          </div>
+          <div class="col casino-main-info">
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                casino-card-list
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shordcode-descr">
+              <p>
+                <strong>count</strong> -> Количество записей на вывод
+              </p>
+            </div>
+          </div>
+        </div>
+        {{/* casino-carousel */}}
+        <div class="row">
+          <div class="col">
+            <a class="shordcode-link" href="https://monosnap.com/file/9OzSQaCKgDknr9SXmylOw6xFXuRHJw" target="_blank"
+              ref="nofollow">
+              <img class="shordcode-img" src="https://api.monosnap.com/file/download?id=9OzSQaCKgDknr9SXmylOw6xFXuRHJw"
+                alt="View">
+            </a>
+          </div>
+          <div class="col casino-main-info">
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                casino-carousel
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shordcode-descr">
+              <p>
+                <strong>count</strong> -> Количество записей на вывод
+              </p>
+            </div>
+          </div>
+        </div>
+        {{/* card-container */}}
+        <div class="row">
+          <div class="col">
+            <a class="shordcode-link" href="https://monosnap.com/file/WvQo53UuOyJNP92FwaC1SrsGrJ8NZ1" target="_blank"
+              ref="nofollow">
+              <img class="shordcode-img" src="https://api.monosnap.com/file/download?id=WvQo53UuOyJNP92FwaC1SrsGrJ8NZ1"
+                alt="View">
+            </a>
+          </div>
+          <div class="col casino-main-info">
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                card-container
+              </div>
+            </div>
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                card
+              </div>
+            </div>
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                / card-container
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shordcode-descr">
+              <p>
+                Поля для шорткода <strong>card</strong>
+              </p>
+              <p><strong>title</strong> -> заголовок карточик</p>
+              <p><strong>img</strong> -> картинка карточик</p>
+              <p><strong>text</strong> -> тект карточки</p>
+            </div>
+          </div>
+        </div>
+        {{/* accordion */}}
+        <div class="row">
+          <div class="col">
+            <a class="shordcode-link" href="https://monosnap.com/file/Z1gZ6BQsyiEw19JtMJw0AwKhvLn4Ed" target="_blank"
+              ref="nofollow">
+              <img class="shordcode-img" src="https://api.monosnap.com/file/download?id=Z1gZ6BQsyiEw19JtMJw0AwKhvLn4Ed"
+                alt="View">
+            </a>
+          </div>
+          <div class="col casino-main-info">
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                accordion
+              </div>
+            </div>
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                ac-item
+              </div>
+            </div>
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                / accordion
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shordcode-descr">
+              <p>
+                Поля для шорткода <strong>ac-item</strong>
+              </p>
+              <p><strong>title</strong> -> заголовок карточик</p>
+              <p><strong>text</strong> -> тект карточки</p>
+            </div>
+          </div>
+        </div>
+        {{/* grey-container */}}
+        <div class="row">
+          <div class="col">
+            <a class="shordcode-link" href="https://monosnap.com/file/EX5v7bNCB6oo7HItV0X6dyfIGflFOO" target="_blank"
+              ref="nofollow">
+              <img class="shordcode-img" src="https://api.monosnap.com/file/download?id=EX5v7bNCB6oo7HItV0X6dyfIGflFOO"
+                alt="View">
+            </a>
+          </div>
+          <div class="col casino-main-info">
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                grey-container
+              </div>
+            </div>
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                / grey-container
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shordcode-descr">
+              Полей у этого поля нет
+            </div>
+          </div>
+        </div>
+        {{/* h2img */}}
+        <div class="row">
+          <div class="col">
+            <a class="shordcode-link" href="https://monosnap.com/file/bFAzsFnqvBnBZytim6uOKCL4VAMW5H" target="_blank"
+              ref="nofollow">
+              <img class="shordcode-img" src="https://api.monosnap.com/file/download?id=bFAzsFnqvBnBZytim6uOKCL4VAMW5H"
+                alt="View">
+            </a>
+          </div>
+          <div class="col casino-main-info">
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                h2img
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shordcode-descr">
+              <p><strong>text</strong> - Заголовок h2</p>
+              <p> <strong>img</strong> - ссылка на изображение</p>
+            </div>
+          </div>
+        </div>
+        {{/* p-center */}}
+        <div class="row">
+          <div class="col">
+            <a class="shordcode-link" href="https://monosnap.com/file/rHve8gThOm42XWrEeb9buRPJt4DMEd" target="_blank"
+              ref="nofollow">
+              <img class="shordcode-img" src="https://api.monosnap.com/file/download?id=rHve8gThOm42XWrEeb9buRPJt4DMEd"
+                alt="View">
+            </a>
+          </div>
+          <div class="col casino-main-info">
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                p-center
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shordcode-descr">
+              в "Указать свой текст"
+            </div>
+          </div>
+        </div>
+        {{/* number-list */}}
+        <div class="row">
+          <div class="col">
+            <a class="shordcode-link" href="https://monosnap.com/file/D6Fw4ejTaQHe5wHqlAPN8HPqREiHW0" target="_blank"
+              ref="nofollow">
+              <img class="shordcode-img" src="https://api.monosnap.com/file/download?id=D6Fw4ejTaQHe5wHqlAPN8HPqREiHW0"
+                alt="View">
+            </a>
+          </div>
+          <div class="col casino-main-info">
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                number-list
+              </div>
+            </div>
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                list-item
+              </div>
+            </div>
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                / number-list
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shordcode-descr">
+              <p>Поля для шорткода <strong>list-item</strong></p>
+              <p><strong>title</strong> -> заголовок карточик</p>
+              <p><strong>text</strong> -> тект карточки</p>
+            </div>
+          </div>
+        </div>
+        {{/* text-right-img */}}
+        <div class="row">
+          <div class="col">
+            <a class="shordcode-link" href="https://monosnap.com/file/ZsUhg30vWAttBc3PcAckc23ePCRMn8" target="_blank"
+              ref="nofollow">
+              <img class="shordcode-img" src="https://api.monosnap.com/file/download?id=ZsUhg30vWAttBc3PcAckc23ePCRMn8"
+                alt="View">
+            </a>
+          </div>
+          <div class="col casino-main-info">
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                text-right-img
+              </div>
+            </div>
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                / text-right-img
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shordcode-descr">
+              <p><strong>img</strong> ссылка на изображение</p>
+              <p>Текст надо писать между открывающим тегом шорткода и закрывающим тегом</p>
+            </div>
+          </div>
+        </div>
+        {{/* text-left-img */}}
+        <div class="row">
+          <div class="col">
+            <a class="shordcode-link" href="https://monosnap.com/file/tG29B1YExm6Yko0J1nFaxUvuFgFelr" target="_blank"
+              ref="nofollow">
+              <img class="shordcode-img" src="https://api.monosnap.com/file/download?id=tG29B1YExm6Yko0J1nFaxUvuFgFelr"
+                alt="View">
+            </a>
+          </div>
+          <div class="col casino-main-info">
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                text-left-img
+              </div>
+            </div>
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                / text-left-img
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shordcode-descr">
+              <p><strong>img</strong> ссылка на изображение</p>
+              <p>Текст надо писать между открывающим тегом шорткода и закрывающим тегом</p>
+            </div>
+          </div>
+        </div>
+        {{/* card-slots */}}
+        <div class="row">
+          <div class="col">
+            <a class="shordcode-link" href="https://monosnap.com/file/QoseT9QodunDKxB4VCTanHNpbdpp7C" target="_blank"
+              ref="nofollow">
+              <img class="shordcode-img" src="https://api.monosnap.com/file/download?id=QoseT9QodunDKxB4VCTanHNpbdpp7C"
+                alt="View">
+            </a>
+          </div>
+          <div class="col casino-main-info">
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                card-slots
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shordcode-descr">
+              <p><strong>count</strong> -> Количество записей на вывод</p>
+              <p><strong>software</strong> -> По категории ПО</p>
+            </div>
+          </div>
+        </div>
+        {{/* card-slots */}}
+        <div class="row">
+          <div class="col">
+            <a class="shordcode-link" href="https://monosnap.com/file/VzMOymIE5vcN1xJb260opTrmV4JUyd" target="_blank"
+              ref="nofollow">
+              <img class="shordcode-img" src="https://api.monosnap.com/file/download?id=VzMOymIE5vcN1xJb260opTrmV4JUyd"
+                alt="View">
+            </a>
+          </div>
+          <div class="col casino-main-info">
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                output/casino/list-wager
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shordcode-descr">
+              <p><strong>count</strong> -> Количество записей на вывод</p>
+            </div>
+          </div>
+        </div>
+        {{/* code */}}
+        <div class="row">
+          <div class="col">
+            <a class="shordcode-link" href="https://monosnap.com/file/Bzt8NnLlZpgvXzJGsyBAfPJPGVpxpL" target="_blank"
+              ref="nofollow">
+              <img class="shordcode-img" src="https://api.monosnap.com/file/download?id=Bzt8NnLlZpgvXzJGsyBAfPJPGVpxpL"
+                alt="View">
+            </a>
+          </div>
+          <div class="col casino-main-info">
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                code
+              </div>
+            </div>
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                / code
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shordcode-descr">
+              <p>шорткод для написания html кода в markdown странице</p>
+            </div>
+          </div>
+        </div>
+        {{/* design/recall */}}
+        <div class="row">
+          <div class="col">
+            <a class="shordcode-link" href="https://monosnap.com/file/xYwQBrgyJY3clUjGjCbg3khv4Azgtc" target="_blank"
+              ref="nofollow">
+              <img class="shordcode-img" src="https://api.monosnap.com/file/download?id=xYwQBrgyJY3clUjGjCbg3khv4Azgtc"
+                alt="View">
+            </a>
+          </div>
+          <div class="col casino-main-info">
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                design/recall
+              </div>
+            </div>
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                design/item
+              </div>
+            </div>
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                / design/item
+              </div>
+            </div>
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                / design/recall
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shordcode-descr">
+              <p>Поля для шорткода <strong>design/item</strong></p>
+              <p><strong>img</strong> -> ссылка на изображение</p>
+              <p><strong>name</strong> -> Заголовок</p>
+              <p>содержание карточки писать между открывающим тегом шорткода и закрывающим тегом </p>
+            </div>
+          </div>
+        </div>
+        {{/* faq */}}
+        <div class="row">
+          <div class="col">
+            <a class="shordcode-link" href="https://monosnap.com/file/Z1gZ6BQsyiEw19JtMJw0AwKhvLn4Ed" target="_blank"
+              ref="nofollow">
+              <img class="shordcode-img" src="https://api.monosnap.com/file/download?id=Z1gZ6BQsyiEw19JtMJw0AwKhvLn4Ed"
+                alt="View">
+            </a>
+          </div>
+          <div class="col casino-main-info">
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                faq
+              </div>
+            </div>
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                question
+              </div>
+            </div>
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                / question
+              </div>
+            </div>
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                answer
+              </div>
+            </div>
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                / answer
+              </div>
+            </div>
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                / faq
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shordcode-descr">
+              <p>Текст надо писать между открывающим тегом шорткода и закрывающим тегом</p>
+              <p>Этот шорткод создает блок FAQ с schema FAQPage </p>
+            </div>
+          </div>
+        </div>
+        {{/* best-casino */}}
+        <div class="row">
+          <div class="col">
+            <a class="shordcode-link" href="https://monosnap.com/file/L0cDKaQFrp1ycmDkLfEen20AFtZLW5" target="_blank"
+              ref="nofollow">
+              <img class="shordcode-img" src="https://api.monosnap.com/file/download?id=L0cDKaQFrp1ycmDkLfEen20AFtZLW5"
+                alt="View">
+            </a>
+          </div>
+          <div class="col casino-main-info">
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                best-casino
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shordcode-descr">
+              <p><strong>title</strong> -> Заголовок</p>
+              <p><strong>casino</strong> -> Путь до файла. Пример <mark>casino="/casino/slotocash-casino.md"</mark></p>
+            </div>
+          </div>
+        </div>
+        {{/* two-cols */}}
+        <div class="row">
+          <div class="col">
+            <a class="shordcode-link" href="https://monosnap.com/file/PSgN5gO3FbsGl7uuPpqj8mxvdPz3YN" target="_blank"
+              ref="nofollow">
+              <img class="shordcode-img" src="https://api.monosnap.com/file/download?id=PSgN5gO3FbsGl7uuPpqj8mxvdPz3YN"
+                alt="View">
+            </a>
+          </div>
+          <div class="col casino-main-info">
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                two-cols
+              </div>
+            </div>
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                rows-2-cols
+              </div>
+            </div>
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                / two-cols
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shordcode-descr">
+
+              <p>Поля шорткода <strong>two-cols</strong></p>
+              <p><strong>first_title</strong> заголовок первой колонки</p>
+              <p><strong>second_title</strong> заголовок второй колонки</p>
+              <p>Поля шорткода <strong>rows-2-cols</strong></p>
+              <p><img src="https://api.monosnap.com/file/download?id=gNdbLNUcavECqtxDZ4hf9N5RXY2WW4" alt=""></p>
+              <p>Указать значение в двойных кавычках</p>
+            </div>
+          </div>
+        </div>
+        {{/* slots-features */}}
+        <div class="row">
+          <div class="col">
+            <a class="shordcode-link" href="https://monosnap.com/file/994O8HmRA6SPql9QufCpHgoTpQXVGy" target="_blank"
+              ref="nofollow">
+              <img class="shordcode-img" src="https://api.monosnap.com/file/download?id=994O8HmRA6SPql9QufCpHgoTpQXVGy"
+                alt="View">
+            </a>
+          </div>
+          <div class="col casino-main-info">
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                slots-features
+              </div>
+            </div>
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                features-item
+              </div>
+            </div>
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                / slots-features
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shordcode-descr">
+              <p>Поля шорткода <strong>features-item</strong></p>
+              <p><strong>title</strong> - Заголовок</p>
+              <p><strong>img</strong> - Путь до картинки</p>
+              <p><strong>text</strong> - содержание</p>
+              <p><strong>id</strong> - Ид номер плашки от 1 до 6</p>
+              <p>этот блок работает только с 3 или 6 карточками </p>
+            </div>
+          </div>
+        </div>
+        {{/* casino */}}
+        <div class="row">
+          <div class="col">
+            <a class="shordcode-link" href="https://monosnap.com/file/uk0CqRKqId0A9BGpaKoLJyZ3oYpSIb" target="_blank"
+              ref="nofollow">
+              <img class="shordcode-img" src="https://api.monosnap.com/file/download?id=uk0CqRKqId0A9BGpaKoLJyZ3oYpSIb"
+                alt="View">
+            </a>
+          </div>
+          <div class="col casino-main-info">
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                casino
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shordcode-descr">
+              <p> Путь до файла. Пример <mark>"/casino/slotocash-casino.md"</mark></p>
+              <p><img src="https://api.monosnap.com/file/download?id=xSzKy6IaDV8LmDEypJhZyOpX00NBE1" alt=""></p>
+            </div>
+          </div>
+        </div>
+        {{/* reviewer-info */}}
+        <div class="row">
+          <div class="col">
+            <a class="shordcode-link" href="https://monosnap.com/file/KwpStGVAlUNmy2FBUm1wIGCSxmd9uC" target="_blank"
+              ref="nofollow">
+              <img class="shordcode-img" src="https://api.monosnap.com/file/download?id=KwpStGVAlUNmy2FBUm1wIGCSxmd9uC"
+                alt="View">
+            </a>
+          </div>
+          <div class="col casino-main-info">
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                reviewer-info
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shordcode-descr">
+              <p><strong>name</strong> - Имя автора</p>
+              <p><strong>img</strong> - путь до картинки</p>
+              <p><strong>text</strong> - текст отзыва</p>
+            </div>
+          </div>
+        </div>
+        {{/* comment */}}
+        <div class="row">
+          <div class="col">
+            <a class="shordcode-link" href="https://monosnap.com/file/yS72HvPdgnxfpackZDHZGwXfrgpg5M" target="_blank"
+              ref="nofollow">
+              <img class="shordcode-img" src="https://api.monosnap.com/file/download?id=yS72HvPdgnxfpackZDHZGwXfrgpg5M"
+                alt="View">
+            </a>
+          </div>
+          <div class="col casino-main-info">
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                comment
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shordcode-descr">
+              <p><strong>name</strong> - Имя автора</p>
+              <p><strong>img</strong> - путь до картинки</p>
+              <p><strong>text</strong> - текст отзыва</p>
+              <p><strong>date</strong> - Дата</p>
+            </div>
+          </div>
+        </div>
+        {{/* casino-bonus-list */}}
+        <div class="row">
+          <div class="col">
+            <a class="shordcode-link" href="https://monosnap.com/file/cud2M2M5Z6kudbTafzxiMCSrw6PPjR" target="_blank"
+              ref="nofollow">
+              <img class="shordcode-img" src="https://api.monosnap.com/file/download?id=cud2M2M5Z6kudbTafzxiMCSrw6PPjR"
+                alt="View">
+            </a>
+          </div>
+          <div class="col casino-main-info">
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                casino-bonus-list
+              </div>
+            </div>
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                / casino-bonus-list
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shordcode-descr">
+              <p>Поля шорткода <strong>casino-bonus-list</strong></p>
+              <p><strong>Page</strong> - Путь до файла. Пример <mark>"/casino/slotocash-casino.md"</mark></p>
+            </div>
+          </div>
+        </div>
+        {{/* h2-2-img */}}
+        <div class="row">
+          <div class="col">
+            <a class="shordcode-link" href="https://monosnap.com/file/Nmb6r8s6nJSmKZSvw4JJrtDErynRgF" target="_blank"
+              ref="nofollow">
+              <img class="shordcode-img" src="https://api.monosnap.com/file/download?id=Nmb6r8s6nJSmKZSvw4JJrtDErynRgF"
+                alt="View">
+            </a>
+          </div>
+          <div class="col casino-main-info">
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                h2-2-img
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shordcode-descr">
+              <p>Поля шорткода <strong>h2-2-img</strong></p>
+              <p><strong>text1</strong> - Заголовок 1</p>
+              <p><strong>text2</strong> - Заголовок 2</p>
+              <p><strong>img1</strong> - Путь до изображения 1</p>
+              <p><strong>img2</strong> - Путь до изображения 2</p>
+            </div>
+          </div>
+        </div>
+        {{/* list */}}
+        <div class="row">
+          <div class="col">
+            <a class="shordcode-link" href="https://monosnap.com/file/ss9MTRAuRgsbp7EZroV5bcLeHyZV9s" target="_blank"
+              ref="nofollow">
+              <img class="shordcode-img" src="https://api.monosnap.com/file/download?id=ss9MTRAuRgsbp7EZroV5bcLeHyZV9s"
+                alt="View">
+            </a>
+          </div>
+          <div class="col casino-main-info">
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                list
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shordcode-descr">
+              <p>Поля шорткода <strong>h2-2-img</strong></p>
+              <p>В двойных кавычках указать список</p>
+              <p>
+                <img src="https://api.monosnap.com/file/download?id=ApMLrsPWhA9QPB9sEIUayYFAaxaEAn" alt="">
+              </p>
+            </div>
+          </div>
+        </div>
+        {{/* pluses-minuses */}}
+        <div class="row">
+          <div class="col">
+            <a class="shordcode-link" href="https://monosnap.com/file/ODdDmRYfPDnKLbyHHJfjPTGWQwSZ7d" target="_blank"
+              ref="nofollow">
+              <img class="shordcode-img" src="https://api.monosnap.com/file/download?id=ODdDmRYfPDnKLbyHHJfjPTGWQwSZ7d"
+                alt="View">
+            </a>
+          </div>
+          <div class="col casino-main-info">
+            <div class="casinopage-promocode param-promocode" data-copied="Copied">
+              <div class="casinopage-promocode-value code">
+                pluses-minuses
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shordcode-descr">
+              <p>Поля шорткода <strong>pluses-minuses</strong></p>
+              <p><strong>plus_title</strong> -> Заголовок Plus</p>
+              <p><strong>plus_list</strong> -> Список Plus пример <mark>plus_list="The game features simple gameplay; It
+                  generates massive payouts;"</mark> Указывать спискок внутри двойных кавычек через ; </p>
+              <p><strong>minus_title</strong> -> Заголовок Minus </p>
+              <p><strong>minus_list</strong> -> Список Plus пример <mark>minus_list="The game features simple gameplay;
+                  It generates massive payouts;"</mark> Указывать спискок внутри двойных кавычек через ; </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</main>
+{{ end }}

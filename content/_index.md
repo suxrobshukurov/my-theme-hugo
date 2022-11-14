@@ -10,7 +10,6 @@ thumbnail: "/images/default.png"
 icon: "/images/default.png"
 weight: 0
 keywords: ""
-thumbnail: ""
 ---
 
 
@@ -140,6 +139,7 @@ As you become a reader of that article, you are interested in strategies how to 
 <img style="margin: 1px 2px; float: left;" alt="handy payment" width="10%" height="200" src="/images/all-slots/payment-system.png" data-loaded="true">
 <p>Our project takes care of secure and reliable gambling. For that reason, we collect only the best online casino payment methods for our users. Various kinds of payment options allow doing easy deposits and withdrawals. Each of them has positive and negative sides. But we advise you to read attentively all conditions because they vary depending on the country and, of course, online place. We represent the payments that are selected by many features: mobility, availability, high speed, security, and diversity. Learn more information about it in the section ‘Payments methods’.</p>
 {{</ code >}}
+
 Before each player stands a question of seeking an informative resource that will contain definite information, relating to features of software producers, characteristics of their products, and worthwhileness of using online casino services. Among this diversity, it is hard to feel confident in virtual space. That’s why this website is created to share our knowledge, experience, and skills with our users.
 
  A little bit below, you will find out the big amount of questions and information, which every gambler should know, in order to play mentioned non-slot games correctly, without any loss.
