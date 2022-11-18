@@ -25,5 +25,5 @@ hugo server -D
 
 ## Build project
 ```
-hugo --minify
+hugo --minify --cleanDestinationDir 
 ```
