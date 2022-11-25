@@ -3,6 +3,10 @@ languageCode = 'en'
 title = 'Real Money Slots Online 2022. Play Slots And Win Real Money!'
 theme = 'basic'
 DefaultContentLanguage = 'gb'
+enableRobotsTXT = true
+disableHugoGeneratorInject = true
+paginate = 50 
+
 
 summaryLength = 30
 
