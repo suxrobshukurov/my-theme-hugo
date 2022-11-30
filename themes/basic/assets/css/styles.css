@@ -3067,6 +3067,16 @@ body {
   overflow: hidden;
   transition: border 0.3s linear;
 }
+.load-more-bnt {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  background: transparent;
+  text-decoration: underline;
+  font-weight: 700;
+  cursor: pointer;
+}
+
 .slots-list .slot-item:hover {
   border-color: #a5a5a5;
 }
@@ -4681,6 +4691,8 @@ body {
   color: #484848;
   font-size: 16px;
   border-radius: 20px;
+  text-align: left;
+  text-transform: none;
 }
 .faq .faq-header:before {
   content: '';
@@ -10766,7 +10778,11 @@ td amp-img {
 .grid-1-4 .item-img {
   background-position: left;
 }
-
+.p-sticky {
+  position: sticky;
+  height: auto;
+  top: 0;
+}
 .list-item--img,
 .item-img {
   background-size: contain;

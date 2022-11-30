@@ -4,12 +4,17 @@
 <script custom-element="amp-base-carousel" src="https://cdn.ampproject.org/v0/amp-base-carousel-0.1.js" async></script>
 <script custom-element="amp-lightbox-gallery" src="https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js"
   async></script>
+
 <script type="application/ld+json">
-  {
-    "@context" : "http://schema.org",
-    "@type" : "Organization",
-    "name" : "{{ .Site.Params.SiteName }}",
-    "url" : "",
-    "logo" : "images/favicons/logo-512.png"
-  }
-  </script>
+      {
+        "@context" : "http://schema.org",
+        "@type" : "Article",
+        "headline" : "{{.Title}}",
+        "author" : {
+          "@type" : "Person",
+          "name" : "{{ .Params.author | default .Site.Params.author}}"
+        },
+        "datePublished" : "{{.PublishDate}}",
+        "image" : "{{ .Params.thumbnail | default .Site.Params.logo }}"
+      }
+</script>

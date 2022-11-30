@@ -29,8 +29,8 @@
     <div class="container">
       <div class="block-with-sidebar">
         {{ partial "sidebar/software.html" . }}
-        {{$slots := where .Site.RegularPages "Type" "slots"}}
-        {{$casino := shuffle (where site.RegularPages "Type" "in" "casino") }}
+        {{$slots := first 20 (shuffle (where .Site.RegularPages "Type" "slots"))}}
+        {{$casino := first 10 (shuffle (where site.RegularPages "Type" "in" "casino")) }}
         {{ if or $slots $casino }}
         <div class="content flex">
           <div class="content-block">
@@ -38,11 +38,7 @@
               {{ with i18n "top-slot" (dict "Date" $todayYear ) }}
               <h2 class="block-title">{{. }}</h2>
               {{ end }}
-              {{ with $btnText := i18n "see-all" }}
-              {{ with $.Site.GetPage "slots" }}
-              <a href="{{ .Permalink }}" class="btn-more">{{$btnText}}</a>
-              {{ end }}
-              {{ end }}
+
             </div>
             <div class="rows slots-list">
               {{ range $item := $slots.ByWeight }}
@@ -50,7 +46,15 @@
               {{ partial "parts/slot-card.html" . }}
               {{ end }}
               {{ end }}
+
             </div>
+            {{ with $btnText := i18n "see-all" }}
+            {{ with $.Site.GetPage "slots" }}
+            <div class="title-with-btn " style="justify-content: center;margin-bottom: 20px;">
+              <a href="{{ .Permalink }}" class="btn-more">{{$btnText}}</a>
+            </div>
+            {{ end }}
+            {{ end }}
             {{ with i18n "top-casino" }}
             <h2>{{.}}</h2>
             {{ end }}

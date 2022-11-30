@@ -19,7 +19,7 @@
         <div class="casino-logo logo-shine"
           data-link="{{cond (gt  (len $.Params.Referral) 1) $.Params.Referral $.Site.Params.Referral }}">
           {{$casinoImage := cond (gt (len .Params.Thumbnail) 1) .Params.Thumbnail .Site.Params.DefaultImg }}
-          <amp-img src="{{ $casinoImage }}" data-src="{{ $casinoImage }}" alt="{{ .Params.Name }}"
+          <amp-img loading="lazy" src="{{ $casinoImage }}" data-src="{{ $casinoImage }}" alt="{{ .Params.Name }}"
             title="{{ .Params.Name }}" width="240" height="180" data-loaded="true"></amp-img>
         </div>
       </div>
@@ -258,8 +258,8 @@
             {{$title := echoParam $item "title"}}
             {{$alt := echoParam $item "alt"}}
             {{$src := echoParam $item "src"}}
-            <amp-img src="{{$src}}" data-src="{{$src}}" width="1060" height="560" class="screen-item" data-loaded="true"
-              layout="responsive" alt="{{$alt}}">
+            <amp-img loading="lazy" src="{{$src}}" data-src="{{$src}}" width="1060" height="560" class="screen-item"
+              data-loaded="true" layout="responsive" alt="{{$alt}}">
             </amp-img>
             {{ end }}
           </amp-base-carousel>

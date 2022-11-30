@@ -25,16 +25,16 @@
       <div class="content">
         <div class="content-block">
           <div class="soft-page-logo">
-            <amp-img src="{{.Params.thumbnail}}" data-src="{{.Params.thumbnail}}" alt="{{.Params.Name}}"
-              title="{{.Params.Name}}" width="200" height="50" data-loaded="true"></amp-img>
+            <amp-img loading="lazy" src="{{.Params.thumbnail}}" data-src="{{.Params.thumbnail}}" alt="{{.Params.Name}}"
+              title="{{.Params.Name}}" width="400" height="120" data-loaded="true"></amp-img>
           </div>
           <div class="rows slots-list">
 
             {{$slots := where .Site.RegularPages "Type" "slots"}}
+
             {{ range $item := $slots.ByDate }}
             {{ if eq $item.Params.software $.Params.Name }}
             {{ partial "parts/slot-card.html" . }}
-
             {{ end }}
             {{ end }}
           </div>
@@ -49,14 +49,15 @@
               <div class="head-bonus">{{i18n "welcome-bonus"}}</div>
               <div class="head-btns"></div>
             </div>
+            {{$casino := shuffle (where site.RegularPages "Type" "in" "casino") }}
+
             <div class="table-body">
-              {{$casino := shuffle (where site.RegularPages "Type" "in" "casino") }}
               {{ range $item := $casino }}
               {{ if in $item.Params.software $.Params.Name }}
               <div class="casino-item">
                 <div class="item-logo-wrap">
                   <a href="{{.Permalink}}" class="item-logo logo-shine" rel="nofollow">
-                    <amp-img src="{{.Params.Icon}}" title="{{.Params.Name}}" data-src="{{.Params.Icon}}"
+                    <amp-img loading="lazy" src="{{.Params.Icon}}" title="{{.Params.Name}}" data-src="{{.Params.Icon}}"
                       alt="{{.Params.Name}}" width="100" height="50">
                     </amp-img>
                   </a>

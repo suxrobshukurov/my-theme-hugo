@@ -15,7 +15,7 @@
     {{$src := echoParam . "src"}}
     {{$alt := echoParam . "alt"}}
     <div class="image-item">
-      <amp-img src="{{$src}}" data-src="{{$src}}" width="50" height="20" alt="{{$alt}}" title="{{$alt}}">
+      <amp-img loading="lazy" src="{{$src}}" data-src="{{$src}}" width="50" height="20" alt="{{$alt}}" title="{{$alt}}">
       </amp-img>
     </div>
     {{ end }}

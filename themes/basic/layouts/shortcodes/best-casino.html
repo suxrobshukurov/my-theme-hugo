@@ -1,5 +1,8 @@
 {{$path := .Get "casino"}}
 {{$casino := .Site.GetPage $path}}
+{{ if $casino }}
+
+
 <div class="best-online-casinos">
   <div class="boc-wrap">
     {{ with .Get "title" }}
@@ -9,7 +12,7 @@
     <div class="boc-item">
       <div class="boc-left">
         <div class="casino-logo logo-shine">
-          <amp-img src="{{.Params.thumbnail | default `/images/default.png`}}"
+          <amp-img loading="lazy" src="{{.Params.thumbnail | default `/images/default.png`}}"
             data-src="{{.Params.thumbnail | default `/images/default.png`}}" title="{{.Params.Name}}"
             alt="{{.Params.Name}}" data-loaded="true" width="240" height="180" layout="responsive"></amp-img>
         </div>
@@ -58,3 +61,4 @@
     {{ end }}
   </div>
 </div>
+{{ end }}

@@ -1,8 +1,8 @@
 <div class="card-contributor">
   {{ with .Get "img" }}
   <div class="card-img">
-    <amp-img src="{{.}}" data-src="{{.}}" alt="{{ $.Get `name` | default `author`}}" width="80" height="80"
-      data-loaded="true"></amp-img>
+    <amp-img loading="lazy" src="{{.}}" data-src="{{.}}" alt="{{ $.Get `name` | default `author`}}" width="80"
+      height="80" data-loaded="true"></amp-img>
   </div>
   {{ end }}
 

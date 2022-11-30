@@ -6,7 +6,7 @@
       <div class="casino-main-info accepted">
         <div class="cmi-left">
           <a href="{{.Permalink}}" rel="nofollow" class="casino-logo logo-shine">
-            <amp-img src="{{.Params.thumbnail}}" data-src="{{.Params.thumbnail}}" alt="{{.Params.Name}}"
+            <amp-img loading="lazy" src="{{.Params.thumbnail}}" data-src="{{.Params.thumbnail}}" alt="{{.Params.Name}}"
               title="{{.Params.Name}}" width="240" height="180">
             </amp-img>
           </a>
@@ -50,11 +50,18 @@
               <div class="param-name"><i class="param-soft"></i>{{ i18n "soft" . }}:</div>
               <div class="param-value soft-list">
                 {{ range $pageTerms := ($item.GetTerms "software") }}
+                {{ if $pageTerms.Params.thumbnail }}
                 <div class="image-item">
-                  <amp-img title="{{$pageTerms.Params.Name}}" src="{{$pageTerms.Params.thumbnail}}"
-                    data-src="{{$pageTerms.Params.thumbnail}}" alt="{{$pageTerms.Params.title}}" width="100"
-                    height="25"></amp-img>
+                  <a href="{{$pageTerms.Permalink}}">
+                    <amp-img loading="lazy" title="{{$pageTerms.Params.Name}}" src="{{$pageTerms.Params.thumbnail}}"
+                      data-src="{{$pageTerms.Params.thumbnail}}" alt="{{$pageTerms.Params.title}}" width="70"
+                      height="25"></amp-img>
+                  </a>
                 </div>
+                {{else}}
+                {{$pageTerms.Params.Name}}
+                {{ end }}
+
                 {{ end }}
               </div>
             </div>

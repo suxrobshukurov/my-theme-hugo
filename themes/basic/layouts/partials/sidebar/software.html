@@ -1,5 +1,5 @@
 <aside class="sidebar">
-  <div class="sb-block">
+  <div class="sb-block p-sticky">
     {{ with i18n "software-sidebar" }}
     <div class="sb-block-title">{{.}}</div>
     {{ end }}
@@ -9,17 +9,20 @@
       {{ range $item := $software.ByWeight }}
       {{$tagCount := 0}}
       {{$softName := lower .Params.Name}}
-      <a href="{{.Permalink}}" rel="nofollow" class="software-item">
+      <a href="{{.Permalink}}" class="software-item">
         <span class="item-info">
           <span class="item-logo">
-            <amp-img src="{{.Params.Icon | default `/images/default.png`}}"
+            <amp-img loading="lazy" src="{{.Params.Icon | default `/images/default.png`}}"
               data-src="{{.Params.Icon | default `/images/default.png`}}" alt="{{.Params.Name}}"
-              title="{{.Params.Name}}" width="30" height="30" data-loaded="true"></amp-img>
+              title="{{.Params.Name}}" width="70" height="30" data-loaded="true"></amp-img>
           </span>
           <span class="item-title">{{.Params.Name}}</span>
         </span>
         <span class="item-game-count">
           {{ range $name, $taxonomy := $.Site.Taxonomies.software }}
+          {{ $softName = replace $softName " " "-" }}
+          {{ $softName = replace $softName "'" "" }}
+          {{ $name = replace $name " " "-" }}
           {{ if eq $softName $name }}
           {{ range $soft := $taxonomy.Pages }}
           {{ if eq $soft.Type "slots" }}

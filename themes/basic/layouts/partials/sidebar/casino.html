@@ -1,5 +1,5 @@
 <aside class="sidebar">
-  <div class="sb-block">
+  <div class="sb-block p-sticky">
     {{ with i18n "slot-sidebar" }}
     <div class="sb-block-title mh-62">{{.}}</div>
     {{ end }}
@@ -9,7 +9,7 @@
       {{ range sort $casinos ".Params.rating" "desc" }}
       <div class="tc-item">
         <a href="{{ .Permalink}}" class="item-logo logo-shine" rel="nofollow">
-          <amp-img src="{{ .Params.Icon | default `/images/default.png`}}"
+          <amp-img loading="lazy" src="{{ .Params.Icon | default `/images/default.png`}}"
             data-src="{{ .Params.Icon | default `/images/default.png` }}" title="{{ .Params.Name }}"
             alt="{{ .Params.Name }}" width="120" height="60" layout="responsive">
           </amp-img>

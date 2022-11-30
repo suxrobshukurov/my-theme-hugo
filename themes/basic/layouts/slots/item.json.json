@@ -1,0 +1,11 @@
+{
+  "name": "{{ .Params.Name }}",
+  "image" : "{{.Params.Icon | default `/images/default.png`}}",
+  "permalink" : "{{ .Permalink }}",
+  "lines" : "{{.Params.Lines}}",
+  "linesTitle" : "{{i18n `lines`}}",
+  "reels" : "{{.Params.reels}}",
+  "reelsTitle" : "{{i18n `reels`}}",
+  "freeSpin" : "{{.Params.reels}}",
+  "freeSpinTitle" : "{{i18n `free-spins`}}"
+}

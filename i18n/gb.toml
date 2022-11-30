@@ -91,19 +91,19 @@
   other = "Compatible with"
 #slots
 [lines]
-  other = "Lines"
+  other = "RTP"
 [reels]
-  other = "Reels"
+  other = "Jackpots"
 [free-spins]
-  other = "Free Spins"
+  other = "Volatility"
 [wild-symbol]
-  other = "Wild Symbol"
+  other = "Bonus Feature"
 [risk-symbol]
   other = "Risk Game"
 [minmax-bet]
-  other = "Min/Max Bet"
+  other = "Maximum Win"
 [max-win]
-  other = "Max Win"
+  other = "Theme"
 [play]
   other = "Play"
 [popular-casino-for-slot] 
@@ -118,6 +118,8 @@
   other = "Software"
 [all-slots]
   other = "All Online Slots"
+[load-more]
+  other = "Load more slots"
 
 
 [slot-sidebar]

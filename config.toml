@@ -4,9 +4,6 @@ title = 'Real Money Slots Online 2022. Play Slots And Win Real Money!'
 theme = 'basic'
 DefaultContentLanguage = 'gb'
 enableRobotsTXT = true
-disableHugoGeneratorInject = true
-paginate = 50 
-
 
 summaryLength = 30
 
@@ -17,12 +14,10 @@ summaryLength = 30
   defaultImg = '/images/default.png'
   footerLogo = 'images/logo_footer.png'
   description = "Play real money slots online➡ with exclusive bonuses✅ offered by the best casinos✅ – Find detailed reviews of casino games with winning tips and make cash gambling"
-  keywords = 'slot, casino'
   author = 'Barnaba Bianchi'
   siteName = 'BestMoneySlots'
-  copyright = "BestMoneySlots | All rights reserved."
-  email = "contact@bestmoneyslots.com"
   referral = 'https://redirectid.com/click.php?key=42t5uehm7vx8tk6nibtr&split='
+  CPU = 'https://sitename.com/'
 
 
 [languages.gb]
@@ -49,6 +44,12 @@ summaryLength = 30
   weight = 3
   [languages.gb.menu.main.params]
       icon = "images/icons/nav-bonus.svg"
+[[languages.gb.menu.main]]
+  name = 'Software'
+  pageref = '/software'
+  weight = 4
+  [languages.gb.menu.main.params]
+      icon = "images/icons/nav-slot.svg"
 
 # FOOTER 1 MENU
 [[languages.gb.menu.footer]]
@@ -68,18 +69,19 @@ summaryLength = 30
   pageref = '/slots'
   weight = 1
 
+#
+#[languages.ru]
+#  languageName = 'Русский'
+#  weight = 2
+#  title = 'Слоты на реальные деньги онлайн 2022. Играйте в слоты и выигрывайте реальные деньги!'
+#  description = 'Играйте в слоты на реальные деньги онлайн➡ с эксклюзивными бонусами✅, предлагаемыми лучшими казино✅ - Найдите подробные обзоры игр казино с советами по выигрышу и зарабатывайте деньги на азартных играх'
+# [[languages.ru.menu.main]]
+#  url = '/ru/'
+#  name = 'Главная'
+#  weight = 1
+#  [languages.ru.menu.main.params]
+#    icon = "images/icons/nav-slot.svg"
 
-[languages.ru]
-  languageName = 'Русский'
-  weight = 2
-  title = 'Слоты на реальные деньги онлайн 2022. Играйте в слоты и выигрывайте реальные деньги!'
-  description = 'Играйте в слоты на реальные деньги онлайн➡ с эксклюзивными бонусами✅, предлагаемыми лучшими казино✅ - Найдите подробные обзоры игр казино с советами по выигрышу и зарабатывайте деньги на азартных играх'
-[[languages.ru.menu.main]]
-  url = '/ru/'
-  name = 'Главная'
-  weight = 1
-  [languages.ru.menu.main.params]
-    icon = "images/icons/nav-slot.svg"
 
 [taxonomies]
   category = 'categories'
@@ -89,3 +91,8 @@ summaryLength = 30
 # [markup.goldmark.renderer]
 
 #   unsafe = true
+
+[outputs]
+  page = ["html", "json", "rss"] # A player
+  section = ["html", "json", "rss"] # All players
+  home = ["html", "json", "rss"] # Everything

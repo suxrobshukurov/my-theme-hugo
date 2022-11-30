@@ -28,13 +28,14 @@
           {{ with i18n "all-slots"}}
           <div class="h2">{{.}}</div>
           {{ end }}
-          <div class="rows slots-list">
+          <div class="rows slots-list" id="slots">
             {{$slots := where .Site.RegularPages "Type" "slots"}}
-            {{ range $slots.ByDate }}
+            {{/* {{ range $slots.ByDate }}
             {{ partial "parts/slot-card.html" . }}
+            {{ end }} */}}
 
-            {{ end }}
           </div>
+          <button class="load-more-bnt load-more-js" onclick="loadData()">{{i18n "load-more"}}</button>
         </div>
       </div>
       {{ partial "sidebar.html" . }}

@@ -1,4 +1,4 @@
-{{$count := .Get "count"}}
+{{$count := .Get "count" | default 6}}
 {{$software := .Get "software"}}
 {{$slotsArray := "" }}
 

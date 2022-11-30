@@ -8,7 +8,7 @@
     {{ range $item := $page }}
     <a href="{{.Permalink}}" class="paysys-item-wrap">
       <span class="paysys-item">
-        <amp-img src="{{.Params.thumbnail}}" data-src="{{.Params.thumbnail}}" alt="{{.Params.Name}}"
+        <amp-img loading="lazy" src="{{.Params.thumbnail}}" data-src="{{.Params.thumbnail}}" alt="{{.Params.Name}}"
           title="{{.Params.Name}}" class="paysys-img" data-loaded="true" width="100" height="50">
         </amp-img>
       </span>

@@ -3,8 +3,8 @@
 <div class="casino-reviewer">
   <div class="reviewer-info">
     {{ with $src := .Get "img" }}
-    <amp-img alt="{{$authorName}}" title="{{$authorName}}" class="reviewer-img" data-src="{{$src}}" src="{{$src}}"
-      width="80" height="80"></amp-img>
+    <amp-img loading="lazy" alt="{{$authorName}}" title="{{$authorName}}" class="reviewer-img" data-src="{{$src}}"
+      src="{{$src}}" width="80" height="80"></amp-img>
     {{ end }}
 
     <div class="reviewed-by">
@@ -23,8 +23,8 @@
     {{ with $path }}
     {{ with $page := $.Site.GetPage . }}
     <div class="casino-logo logo-shine">
-      <amp-img src="" data-src="{{ $page.Params.icon }}" src="{{ $page.Params.icon }}" width="120" height="60"
-        alt="{{ $page.Params.Name }}" title="{{ $page.Params.Name }}"></amp-img>
+      <amp-img loading="lazy" src="" data-src="{{ $page.Params.icon }}" src="{{ $page.Params.icon }}" width="120"
+        height="60" alt="{{ $page.Params.Name }}" title="{{ $page.Params.Name }}"></amp-img>
     </div>
     {{ end }}
     {{ end }}

@@ -1,30 +1,31 @@
-<div class="slot-item">
-  <a href="{{.Permalink}}" class="item-head">
-    <span class="item-logo">
-      <amp-img src="{{.Params.Icon | default `/images/default.png`}}"
-        data-src="{{.Params.Icon | default `/images/default.png`}}" title="{{.Params.Name}}" alt="{{.Params.Name}}"
-        width="162" height="126" data-loaded="true"></amp-img>
-    </span>
-    <span class="item-title">{{.Params.Name}}</span>
-  </a>
-  <div class="item-params">
-    {{ with .Params.Lines }}
-    <div class="param-row">
-      <div class="param-name">{{i18n "lines"}}:</div>
-      <div class="param-value">{{.}}</div>
+{{/* <div class="slot-item" data-id="slot" data-show="false"> */}}
+  <div class="slot-item">
+    <a href="{{.Permalink}}" class="item-head">
+      <span class="item-logo">
+        <amp-img loading="lazy" src="{{.Params.Icon | default `/images/default.png`}}"
+          data-src="{{.Params.Icon | default `/images/default.png`}}" title="{{.Params.Name}}" alt="{{.Params.Name}}"
+          width="162" height="126" data-loaded="true"></amp-img>
+      </span>
+      <span class="item-title">{{.Params.Name}}</span>
+    </a>
+    <div class="item-params">
+      {{ with .Params.Lines }}
+      <div class="param-row">
+        <div class="param-name">{{i18n "lines"}}:</div>
+        <div class="param-value">{{.}}</div>
+      </div>
+      {{ end }}
+      {{ with .Params.reels }}
+      <div class="param-row">
+        <div class="param-name">{{i18n "reels"}}:</div>
+        <div class="param-value">{{.}}</div>
+      </div>
+      {{end}}
+      {{ with .Params.FreeSpins }}
+      <div class="param-row">
+        <div class="param-name">{{i18n "free-spins"}}:</div>
+        <div class="param-value">{{.}}</div>
+      </div>
+      {{end}}
     </div>
-    {{ end }}
-    {{ with .Params.reels }}
-    <div class="param-row">
-      <div class="param-name">{{i18n "reels"}}:</div>
-      <div class="param-value">{{.}}</div>
-    </div>
-    {{end}}
-    {{ with .Params.FreeSpins }}
-    <div class="param-row">
-      <div class="param-name">{{i18n "free-spins"}}:</div>
-      <div class="param-value">{{.}}</div>
-    </div>
-    {{end}}
   </div>
-</div>
