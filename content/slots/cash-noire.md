@@ -5,8 +5,8 @@ title: "Cash Noire Slot Review, Bonus, RTP"
 description: "Mit der unabhängigen Überprüfung des Cash Noire -Slot von Netent können Sie hier kostenlos oder echtes Geld spielen und hier einen Bonus erhalten!"
 h1: "Cash Noire Slot"
 iframe: "https://netent-static.casinomodule.com/games/cashnoire-client/game/cashnoire-client.xhtml?launchType=iframe&iframeSandbox=allow-scripts%20allow-popups%20allow-popups-to-escape-sandbox%20allow-top-navigation%20allow-top-navigation-by-user-activation%20allow-same-origin%20allow-forms%20allow-pointer-lock&applicationType=browser&gameId=cashnoire_not_mobile&server=https%3A%2F%2Fnetent-game.casinomodule.com%2F&lang=en&sessId=DEMO-5142660701-EUR&operatorId=netent&statisticEndpointURL=https://gcl-int.netentcdn.com/gcs/reportData&logsId=f3d83176-1a44-4294-a48f-2cdf445490a9&loadStarted=1605702772353&giOperatorConfig=%7B%22staticServer%22%3A%22https%3A%2F%2Fnetent-static.casinomodule.com%2F%22%2C%22targetElement%22%3A%22netentgame%22%2C%22launchType%22%3A%22iframe%22%2C%22iframeSandbox%22%3A%22allow-scripts%20allow-popups%20allow-popups-to-escape-sandbox%20allow-top-navigation%20allow-top-navigation-by-user-activation%20allow-same-origin%20allow-forms%20allow-pointer-lock%22%2C%22applicationType%22%3A%22browser%22%2C%22gameId%22%3A%22cashnoire_not_mobile%22%2C%22server%22%3A%22https%3A%2F%2Fnetent-game.casinomodule.com%2F%22%2C%22lang%22%3A%22en%22%2C%22sessId%22%3A%22DEMO-5142660701-EUR%22%2C%22operatorId%22%3A%22netent%22%7D&casinourl=https://games.netent.com"
-thumbnail: "https://objects.kaxmedia.com/auto/o/92463/32e520cb1b.PNG"
-icon: "https://objects.kaxmedia.com/auto/o/92463/32e520cb1b.PNG"
+thumbnail: "/images/auto/o/92463/32e520cb1b.PNG"
+icon: "/images/auto/o/92463/32e520cb1b.PNG"
 name: "Cash Noire"
 home: true
 weight: 1

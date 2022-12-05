@@ -5,8 +5,8 @@ title: "Hot Slot Slot Review, Bonus, RTP"
 description: "Mit einer unabhängigen Bewertung des Hot Slot Slot aus Barcrest können Sie kostenlos oder echtes Geld spielen und hier einen Bonus erhalten!"
 h1: "Hot Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/90201/1d70c1ab3d.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/90201/1d70c1ab3d.jpeg"
+thumbnail: "/images/auto/o/90201/1d70c1ab3d.jpeg"
+icon: "/images/auto/o/90201/1d70c1ab3d.jpeg"
 name: "Heiß"
 home: true
 weight: 1

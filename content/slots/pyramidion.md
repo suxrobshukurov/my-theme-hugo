@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Pyramidion Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Pyramidion Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/80860/7f1bea4cd9.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/80860/7f1bea4cd9.jpeg"
+thumbnail: "/images/auto/o/80860/7f1bea4cd9.jpeg"
+icon: "/images/auto/o/80860/7f1bea4cd9.jpeg"
 name: "Pyramidion"
 home: true
 weight: 1

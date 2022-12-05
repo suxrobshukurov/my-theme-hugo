@@ -5,8 +5,8 @@ title: "Bronco Spirit Online Slot Review und Canada Casino Bonus"
 description: "Entdecken Sie den Online Slot des Bronco Spirits aus dem pragmatischen Spiel mit einschließlich Features und RTP und erhalten Sie hier einen Casino -Bonus und kostenlose Spins!"
 h1: "Bronco Spirit Slot"
 iframe: "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?lang=en&cur=USD&gameSymbol=vs75bronco"
-thumbnail: "https://objects.kaxmedia.com/auto/o/90277/44a2045f9f.png"
-icon: "https://objects.kaxmedia.com/auto/o/90277/44a2045f9f.png"
+thumbnail: "/images/auto/o/90277/44a2045f9f.png"
+icon: "/images/auto/o/90277/44a2045f9f.png"
 name: "Bronco Spirit"
 home: true
 weight: 1

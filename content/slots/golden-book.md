@@ -5,8 +5,8 @@ title: "Golden Book Slot Review & Bonus -"
 description: "Genießen Sie 576 Möglichkeiten, um bis zu 250.000 Münzen im Golden Book Slot von Amatic zu gewinnen! Beinhaltet Wilds & Free Spins! Lesen Sie unsere Rezension für alle Details."
 h1: "Golden Book Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/107223/7edd79cf4b.Png"
-icon: "https://objects.kaxmedia.com/auto/o/107223/7edd79cf4b.PNG"
+thumbnail: "/images/auto/o/107223/7edd79cf4b.Png"
+icon: "/images/auto/o/107223/7edd79cf4b.PNG"
 name: "Goldenes Buch"
 home: true
 weight: 1

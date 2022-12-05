@@ -5,8 +5,8 @@ title: "Lucky Bells Slot Review & Bonus -"
 description: "Lesen Sie unsere Rezension von The Lucky Bells Slot von Amatic, um herauszufinden, wie man 150.000 Münzen gewinnt! Zu den Merkmalen gehören die Erweiterung von Wilds! Lesen Sie unsere Rezension für die Informationen, die Sie benötigen."
 h1: "Lucky Bells Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/107595/9f2559d303.Png"
-icon: "https://objects.kaxmedia.com/auto/o/107595/9f2559d303.PNG"
+thumbnail: "/images/auto/o/107595/9f2559d303.Png"
+icon: "/images/auto/o/107595/9f2559d303.PNG"
 name: "Glückliche Glocken"
 home: true
 weight: 1

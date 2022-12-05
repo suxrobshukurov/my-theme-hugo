@@ -5,8 +5,8 @@ title: "Immortal Glory Slot Review & Canada -Boni"
 description: "Lesen Sie alles über den unsterblichen Online Slot des Microgaming. Wir haben Details zu den Funktionen, Gameplay, RTP, Volatilität und den besten Canada -Casino -Boni."
 h1: "Immortal Glory Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/93248/a9975645e6.png"
-icon: "https://objects.kaxmedia.com/auto/o/93248/a9975645e6.png"
+thumbnail: "/images/auto/o/93248/a9975645e6.png"
+icon: "/images/auto/o/93248/a9975645e6.png"
 name: "Unsterbliche Herrlichkeit"
 home: true
 weight: 1
@@ -17,7 +17,7 @@ freeSpins: "Hoch"
 wildSymbol: "Ja"
 minMaxBet: "250.000 Dollar.00"
 maxWin: "Gold/Goldmünzen, Juwelen, altes Rom"
-screenshots: ["https://objects.kaxmedia.com/auto/o/93253/2582866db8.jpeg"]
+screenshots: ["/images/auto/o/93253/2582866db8.jpeg"]
 ---
 
 {{< code >}}<h2>Immortal Glory Online Slot Review</h2><p>Die Aktion findet innerhalb eines riesigen Stadions statt. Smart Graphics, ein allgegenwärtiges Feature in Microgaming-Titeln, siehe die Charaktersymbole, die in verschiedenen Sportarten beteiligt sind, zusammen mit Symbolen von Lorbeerkronen, Fackeln, Sandalen und Diskus.</p><p>Einige dieser Symbolen starten eine Vielzahl von Bonusfunktionen, darunter gestapelte Wildsymbole, Multiplikatoren, Rollennudges, kostenlose Spiele und Jackpot -Preise. Sie können 2.500.000 gewinnen.00 in einem einzigen Dreh der Rollen oder 10.000 x die Gesamtwette aus der perfekten Mischung aus Symbolen und Multiplikatoren.</p><h2>Wie man einen unsterblichen Ruhm Slot spielt</h2><p>Spielen Sie den unsterblichen Glory -Slot auf einem PC oder im Landschaftsmodus auf einem mobilen Gerät in einem mobilen Casino, und die Steuerelemente sitzen rechts von den Rollen. Diese sind einfach zu bedienen und geben Ihnen viele Wetten- und Kontrolloptionen. Minimale Einsätze beginnen bei nur 0.10 pro Spin, steigt auf maximal 25.00. Klicken Sie einfach auf das Symbol"$", um zu entscheiden, welches BET -Level zu Ihrem Budget passt.</p><p>Es wird mit einer automatischen Spins -Option geliefert, und Sie können den Soundtrack hören oder insgesamt stummigen. Der Immortal Glory Slot ist mit iOS-, Android- und Windows -Handys kompatibel, und Sie werden keine der Funktionen beim Spielen auf Ihrem Telefon oder Tablet verpassen.</p><p>Schauen Sie sich das Paytable an, bevor Sie spielen. Es wird über die Taste Einstellungen zugegriffen und listet auf, wie viel jedes Symbol beim Überqueren einer Linie von der linken Seite zahlt. Die Sportlerin ist die wertvollste der 3 Charaktere und zahlt 5x Ihre Beteiligung zurück, wenn sie direkt über eine Linie gesehen wird. Die 4 niedrigeren Symbole geben alle maximal 1x Ihr Pfahl zurück.</p><h2>Immortal Glory Slot Jackpots, freie Spins und andere Boni</h2><p>Der Online Slot des unsterblichen Ruhms ist mit zusätzlichen Funktionen gefüllt. Eine flammende Fackel ist das wilde Symbol, das bei Bedarf andere ersetzen kann. Es ist ein weiteres gestapeltes Symbol, daher ist es wahrscheinlicher, dass es einen Sieg beendet, obwohl es auch nur 1 oder 2 Reihen gleichzeitig abdecken kann.</p><p>Wenn die Wildnis gleichzeitig auf den Rollen 1 und anderen anderen erscheint, startet sie 5 kostenlose Spins. Während der Runde haben alle Wildniss, die das Feature -Stups nach oben oder unten ausgelöst haben, jeweils um 1 Reihe.</p><p>Am Ende der 5 kostenlosen Spiele, wenn es einen Teil eines wilden Symbols gibt, verdienen Sie einen glorreichen Spin. Diese Wildniss dehnen sich über alle drei Reihen ihrer Rollen aus, da sich die verbleibenden Rollen wieder drehen. Alle Siege aus einem Glory -Spin werden mit 2x und 10x multipliziert, und Sie können 2000x Ihre Wette aus dieser Funktion gewinnen.</p><p>Land 3 Bonus -Symbole für die Jackpot -Runde des unsterblichen Glory Online Slot. Wählen Sie ein Jackpot -Symbol, um entweder 20x, 100x oder einen riesigen 10.000 -fachen Ihrer Gesamtwette zu gewinnen.</p><h3>

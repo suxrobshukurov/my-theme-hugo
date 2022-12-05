@@ -5,8 +5,8 @@ title: "Scarabas Treasure Slot Review & Bonus -"
 description: "Entdecken Sie eine einzigartige Erfahrung im Scarabas Treasure Slot von Amatic! Unsere Bewertung enthält alle Informationen, die Sie benötigen, einschließlich Volatilität, RTP, Funktionen, Boni und mehr!"
 h1: "Scaraba Treasure Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/107683/7cca54a22d.Png"
-icon: "https://objects.kaxmedia.com/auto/o/107683/7cca54a22d.PNG"
+thumbnail: "/images/auto/o/107683/7cca54a22d.Png"
+icon: "/images/auto/o/107683/7cca54a22d.PNG"
 name: "Scaraba Treasure"
 home: true
 weight: 1

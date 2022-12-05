@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Vögel! Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Vögel! Slot"
 iframe: "https://democasino.betsoftgaming.com/cwguestlogin.do?bankId=675&CDN=AUTO&gameId=654"
-thumbnail: "https://objects.kaxmedia.com/auto/o/86756/6ffcd62c8d.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/86756/6ffcd62c8d.jpeg"
+thumbnail: "/images/auto/o/86756/6ffcd62c8d.jpeg"
+icon: "/images/auto/o/86756/6ffcd62c8d.jpeg"
 name: "Vögel!"
 home: true
 weight: 1

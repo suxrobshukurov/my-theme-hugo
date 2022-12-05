@@ -5,8 +5,8 @@ title: "Pink Elephants 2 Slot Review & Canada Bonus"
 description: "Erfahren Sie mehr über den Pink Elephants 2 Slot von Thunderkick, einschließlich Funktionen, Auszahlungen, Volatilität, RTP & erhalten Sie kostenlose Spins und Casino -Bonus von den besten kanadischen Online -Casinos!"
 h1: "Pink Elefanten 2 Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/90729/fd0faddd8b.png"
-icon: "https://objects.kaxmedia.com/auto/o/90729/fd0faddd8b.png"
+thumbnail: "/images/auto/o/90729/fd0faddd8b.png"
+icon: "/images/auto/o/90729/fd0faddd8b.png"
 name: "Pink Elefanten 2"
 home: true
 weight: 1

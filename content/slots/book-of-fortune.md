@@ -5,8 +5,8 @@ title: "Buch des Fortune Slot Review & Bonus -"
 description: "Entdecken Sie das Buch des Glücksschlitzes von Amatic und gewinnen Sie bis zu 500.000 Münzen! Lesen Sie unsere Rezension für alle Informationen, die Sie wie RTP, Funktionen, Jackpot & Boni benötigen!"
 h1: "Buch des Glücksschlitzes"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/107102/76f9fb1c8b.Png"
-icon: "https://objects.kaxmedia.com/auto/o/107102/76f9fb1c8b.PNG"
+thumbnail: "/images/auto/o/107102/76f9fb1c8b.Png"
+icon: "/images/auto/o/107102/76f9fb1c8b.PNG"
 name: "Buch des Glücks"
 home: true
 weight: 1

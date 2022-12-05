@@ -5,8 +5,8 @@ title: "Lovely Lady Slot Review & Bonus -"
 description: "Kostenlose Spins & Wild Ladies können bis zu 900.000 Münzen im Lovely Lady Slot von Amatic freischalten! Lesen Sie unsere Rezension, um herauszufinden, wie Sie gewinnen können! Enthält alle Details & RTP."
 h1: "Schöne Dame Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/107594/887782179f.Png"
-icon: "https://objects.kaxmedia.com/auto/o/107594/887782179f.PNG"
+thumbnail: "/images/auto/o/107594/887782179f.Png"
+icon: "/images/auto/o/107594/887782179f.PNG"
 name: "Liebenswerte Frau"
 home: true
 weight: 1

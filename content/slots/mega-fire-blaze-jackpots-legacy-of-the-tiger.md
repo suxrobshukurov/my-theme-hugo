@@ -5,8 +5,8 @@ title: "Erbe des Tiger Slot Review, Bonus, RTP"
 description: "Mit unabhängiger Bewertung von Mega Fire Blaze Jackpots: Vermächtnis des Tigerschlitzes von Playtech können Sie kostenlos oder echtes Geld spielen und hier einen Bonus bekommen!"
 h1: "Mega Fire Blaze Jackpots - Vermächtnis des Tiger -Online Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/95585/c6de830fc9.png"
-icon: "https://objects.kaxmedia.com/auto/o/95585/c6de830fc9.png"
+thumbnail: "/images/auto/o/95585/c6de830fc9.png"
+icon: "/images/auto/o/95585/c6de830fc9.png"
 name: "Mega Fire Blaze Jackpots - Vermächtnis des Tigers"
 home: true
 weight: 1

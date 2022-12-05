@@ -7,8 +7,8 @@
       <h1 class="mb-0">{{.Params.H1}}</h1>
       <div class="under-header-text">{{.Params.Subtitle | safeHTML}}</div>
       <div class="game-placeholder">
-        <amp-img loading="lazy" src="{{.Params.thumbnail}}" data-src="{{.Params.thumbnail}}" alt="{{.Params.Name}}"
-          class="img" width="1050" height="811" data-loaded="true" layout="responsive"></amp-img>
+        <amp-img src="{{.Params.thumbnail}}" src="{{.Params.thumbnail}}" alt="{{.Params.Name}}" class="img"
+          width="1050" height="811" data-loaded="true" layout="responsive"></amp-img>
         <span id="loadFrame" class="btn btn-yellow start-game" data-iframe="{{.Params.Iframe}}">{{i18n "play"}}</span>
       </div>
     </div>
@@ -20,7 +20,7 @@
         {{$path := print "/software/" .Params.Software ".md" | urlize}}
         {{ with .Site.GetPage $path }}
         <a href="{{.Permalink}}" class="soft">
-          <amp-img loading="lazy" src="{{.Params.Thumbnail}}" data-src="{{.Params.Thumbnail}}" title="{{.Params.Name}}"
+          <amp-img src="{{.Params.Thumbnail}}" src="{{.Params.Thumbnail}}" title="{{.Params.Name}}"
             alt="{{.Params.Name}}" width="100" height="25" data-loaded="true"></amp-img>
         </a>
         {{ end }}
@@ -104,7 +104,7 @@
       <h2>{{i18n "screenshots" (dict "Name" .Params.Name)}}</h2>
       <div class="game-screenshots">
         {{ range $key, $item :=.Params.Screenshots }}
-        <amp-img loading="lazy" src="{{$item}}" data-src="{{$item}}"
+        <amp-img src="{{$item}}" src="{{$item}}"
           alt="{{i18n `screenshots` (dict `Name` $.Params.Name)}} {{add $key 1}}"
           title="{{i18n `screenshots` (dict `Name` $.Params.Name)}} {{add $key 1}}" class="game-screen" width="320"
           height="250" data-loaded="true" layout="responsive"></amp-img>
@@ -117,9 +117,8 @@
         {{ range $item := .Params.Symbols }}
         <div class="item-symbol">
           <div class="symbol-info">
-            <amp-img loading="lazy" src="{{$item.img}}" data-src="{{$item.img}}"
-              alt="{{.Params.Name}} - {{$item.title}}" title="{{.Params.Name}} - {{$item.title}}" class="symbol-img"
-              width="64" height="64" data-loaded="true">
+            <amp-img src="{{$item.img}}" src="{{$item.img}}" alt="{{.Params.Name}} - {{$item.title}}"
+              title="{{.Params.Name}} - {{$item.title}}" class="symbol-img" width="64" height="64" data-loaded="true">
             </amp-img>
             <div class="symbol-params">
               <div class="param-row">

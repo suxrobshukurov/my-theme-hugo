@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Juwel der Künste Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Juwel des Künsteschlitzes"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/80417/319e2fd30a.png"
-icon: "https://objects.kaxmedia.com/auto/o/80417/319e2fd30a.png"
+thumbnail: "/images/auto/o/80417/319e2fd30a.png"
+icon: "/images/auto/o/80417/319e2fd30a.png"
 name: "Juwel der Künste"
 home: true
 weight: 1

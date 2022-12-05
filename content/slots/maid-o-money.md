@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Maid O'Money Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Maid O'Money Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/87901/7f6ead1CCC.png"
-icon: "https://objects.kaxmedia.com/auto/o/87901/7f6ead1ccc.png"
+thumbnail: "/images/auto/o/87901/7f6ead1CCC.png"
+icon: "/images/auto/o/87901/7f6ead1ccc.png"
 name: "Maid O'Money"
 home: true
 weight: 1

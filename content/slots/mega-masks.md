@@ -5,8 +5,8 @@ title: "Mega Masken Slot Review, Bonus, RTP"
 description: "Mit einer unabhängigen Bewertung des Mega -Masken -Slot von Relax Gaming können Sie kostenlos oder echtes Geld spielen und hier einen Bonus erhalten!"
 h1: "Mega -Masken Slot"
 iframe: "https://d2drhksbtcqozo.cloudfront.net/casino/launcher.html?channel=web&gameid=megamasks&moneymode=fun&jurisdiction=MT"
-thumbnail: "https://objects.kaxmedia.com/auto/o/90943/f66f3303ed.png"
-icon: "https://objects.kaxmedia.com/auto/o/90943/f66f3303ed.png"
+thumbnail: "/images/auto/o/90943/f66f3303ed.png"
+icon: "/images/auto/o/90943/f66f3303ed.png"
 name: "Mega -Masken"
 home: true
 weight: 1

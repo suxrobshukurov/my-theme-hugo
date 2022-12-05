@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Bar X Magic 7 Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Bar X Magic 7 Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/78271/b94c105034.png"
-icon: "https://objects.kaxmedia.com/auto/o/78271/b94c105034.png"
+thumbnail: "/images/auto/o/78271/b94c105034.png"
+icon: "/images/auto/o/78271/b94c105034.png"
 name: "Bar X Magic 7"
 home: true
 weight: 1

@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Starmania Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Starmania Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/88158/01ddae767d.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/88158/01ddae767d.jpeg"
+thumbnail: "/images/auto/o/88158/01ddae767d.jpeg"
+icon: "/images/auto/o/88158/01ddae767d.jpeg"
 name: "Starmania"
 home: true
 weight: 1

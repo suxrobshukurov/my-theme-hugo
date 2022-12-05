@@ -1,18 +1,4 @@
-{{ $style := resources.Get "css/styles.css" | minify | fingerprint }}
-{{ $i18n := resources.Get "css/i18n.css" | minify | fingerprint }}
-{{ $fontWoff2 := resources.GetMatch "fonts/BebasNeueBold.woff2"}}
-{{ $fontWoff := resources.GetMatch "fonts/BebasNeueBold.woff"}}
-{{ $favicon := resources.Get .Site.Params.Favicon }}
-
-<link rel="preload" href="{{ $style.Permalink }}" as="style">
-<link rel="preload" href="{{$fontWoff2.Permalink}}" as="font" type="font/woff2" crossorigin="">
-<link rel="preload" href="{{$fontWoff.Permalink}}" as="font" type="font/woff" crossorigin="">
-<link rel="stylesheet" href="{{ $style.Permalink }}" type="text/css">
-<link rel="stylesheet" href="{{ $i18n.Permalink }}" type="text/css">
-
-
 <link rel="canonical" href="{{ .Permalink }}" />
-
 {{ if .Page.IsTranslated }}
 <link rel="alternate" href="http:{{ .Permalink }}" hreflang="x-default">
 {{ range .Page.Translations }}

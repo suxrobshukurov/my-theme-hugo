@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Oil Mania Online Slot -Bewertung"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Oil Mania Online Slot Review Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/88084/49dd19e785.png"
-icon: "https://objects.kaxmedia.com/auto/o/88084/49dd19e785.png"
+thumbnail: "/images/auto/o/88084/49dd19e785.png"
+icon: "/images/auto/o/88084/49dd19e785.png"
 name: "Oil Mania Online Slot -Bewertung"
 home: true
 weight: 1

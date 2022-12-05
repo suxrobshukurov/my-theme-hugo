@@ -5,8 +5,8 @@ title: "Lucky Zodiac Slot Review & Bonus -"
 description: "Entdecken Sie viele Möglichkeiten, um mit wilden Sonnen, freien Spins und Multiplikatoren im glücklichen Zodiac -Slot von Amatic zu gewinnen! Unsere Bewertung enthüllt alle Details, die Sie benötigen."
 h1: "Glücklicher Zodiac Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/107691/cff6aace09.Png"
-icon: "https://objects.kaxmedia.com/auto/o/107691/cff6aace09.PNG"
+thumbnail: "/images/auto/o/107691/cff6aace09.Png"
+icon: "/images/auto/o/107691/cff6aace09.PNG"
 name: "Lucky Zodiac"
 home: true
 weight: 1

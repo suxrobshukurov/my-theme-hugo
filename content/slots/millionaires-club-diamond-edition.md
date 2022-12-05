@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Millionaires Club Diamond Edition Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Millionaires Club Diamond Edition Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/87961/30ccf4f273.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/87961/30ccf4f273.jpeg"
+thumbnail: "/images/auto/o/87961/30ccf4f273.jpeg"
+icon: "/images/auto/o/87961/30ccf4f273.jpeg"
 name: "Millionaires Club Diamond Edition"
 home: true
 weight: 1

@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Ghostbusters Triple Slime Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Ghostbusters Triple Slime Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/79399/2e77863ffa.png"
-icon: "https://objects.kaxmedia.com/auto/o/79399/2e77863ffa.png"
+thumbnail: "/images/auto/o/79399/2e77863ffa.png"
+icon: "/images/auto/o/79399/2e77863ffa.png"
 name: "Ghostbusters Triple Slime"
 home: true
 weight: 1

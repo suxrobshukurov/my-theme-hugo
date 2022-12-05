@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Manic Millionen Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Manic Millionen Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/87900/a9b228ab5a.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/87900/a9b228ab5a.jpeg"
+thumbnail: "/images/auto/o/87900/a9b228ab5a.jpeg"
+icon: "/images/auto/o/87900/a9b228ab5a.jpeg"
 name: "Manische Millionen"
 home: true
 weight: 1

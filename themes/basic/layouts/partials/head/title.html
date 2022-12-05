@@ -1,9 +1,3 @@
-{{if .IsHome}}
-<title>{{ .Site.Title}}</title>
-{{else}}
 {{ with .Params.title }}
 <title>{{ . }}</title>
-{{else}}
-<title>{{ .Site.Title}}</title>
-{{ end }}
 {{end}}

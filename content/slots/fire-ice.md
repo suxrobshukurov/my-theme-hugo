@@ -5,8 +5,8 @@ title: "Fire & Ice Slot Review & Bonus -"
 description: "Entdecken Sie, wie man brutzelnde heiße Preise gewinnt und gleichzeitig Eiscool Action in Fire & Ice von Amatic genießt! Unser Führer zeigt Ihnen, wie! Lesen Sie unsere Rezension für Details."
 h1: "Fire & Ice Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/107219/cf4d35055c.Png"
-icon: "https://objects.kaxmedia.com/auto/o/107219/cf4d35055c.PNG"
+thumbnail: "/images/auto/o/107219/cf4d35055c.Png"
+icon: "/images/auto/o/107219/cf4d35055c.PNG"
 name: "Feuer Eis"
 home: true
 weight: 1

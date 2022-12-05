@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Champion Raceway Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Champion Raceway Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/78532/8d0d829958.png"
-icon: "https://objects.kaxmedia.com/auto/o/78532/8d0d829958.png"
+thumbnail: "/images/auto/o/78532/8d0d829958.png"
+icon: "/images/auto/o/78532/8d0d829958.png"
 name: "Champion Raceway"
 home: true
 weight: 1

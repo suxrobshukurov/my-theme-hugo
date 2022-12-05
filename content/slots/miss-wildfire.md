@@ -5,8 +5,8 @@ title: "Fräulein Wildfire Slot - Spielen & holen Sie Boni"
 description: "Entdecken Sie die glühenden Funktionen und das Gameplay des Miss Wildfire Online-Slot mit unserer vollständigen Bewertung. Wir sehen uns auch an, wo wir mit den besten Casino -Angeboten spielen können."
 h1: "Fräulein Wildfire Slot"
 iframe: "https://nogs-gl-stage.nyxmalta.com/game/?clienttype=flash&nogscurrency=USD&nogsgameid=110054&nogslang=en_us&nogsmode=demo&nogsoperatorid=241"
-thumbnail: "https://objects.kaxmedia.com/auto/o/103866/0de6266660.png"
-icon: "https://objects.kaxmedia.com/auto/o/103866/0de6266660.png"
+thumbnail: "/images/auto/o/103866/0de6266660.png"
+icon: "/images/auto/o/103866/0de6266660.png"
 name: "Fräulein Wildfire"
 home: true
 weight: 1

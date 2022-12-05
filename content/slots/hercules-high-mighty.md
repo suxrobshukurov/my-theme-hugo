@@ -5,8 +5,8 @@ title: "Hercules High & Mighty Slot Review, Bonus, RTP"
 description: "Mit einer unabhängigen Überprüfung des Hercules High & Mighty Slot aus Barcrest können Sie kostenlos oder echtes Geld spielen und hier einen Bonus erhalten!"
 h1: "Hercules High & Mighty Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/89062/3a4ba0d6dd.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/89062/3a4ba0d6dd.jpeg"
+thumbnail: "/images/auto/o/89062/3a4ba0d6dd.jpeg"
+icon: "/images/auto/o/89062/3a4ba0d6dd.jpeg"
 name: "Hercules hoch und mächtig"
 home: true
 weight: 1

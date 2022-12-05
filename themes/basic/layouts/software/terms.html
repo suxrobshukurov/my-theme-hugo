@@ -1,19 +1,19 @@
 {{ define "main" }}
 <main class="main">
   {{/* {{ partial "breadcrumbs.html" . }} */}}
+
   <div class="container">
     <div class="content-block content-text">
       {{ with .Params.H1 }}
       <h1>{{.}}</h1>
       {{ end }}
-      {{ with .Content }}
-      <div class="toc-container">
-        <div class="toc-title">{{i18n "page-nav"}}:<span class="show-toc" data-show="Show"
-            data-hide="Hide">[Show]</span>
+      <div class="toc-container" id="page-nav">
+        <div class="toc-title">{{i18n "page-nav"}}:<span class="show-toc" data-show="[Show]" data-hide="[Hide]"
+            on="tap:page-nav.toggleClass(class='open')" role="button" tabindex="0"></span>
         </div>
-        <div class="toc-list-wrap" id="page-navigation"></div>
+        <div class="toc-list-wrap" id="page-navigation">
+        </div>
       </div>
-      {{ end }}
       {{ with .Params.Subtitle }}
       <p style="text-align: center;">{{. | safeHTML}}</p>
       {{ end }}
@@ -43,12 +43,13 @@
       {{ with i18n "faq" }}
       <h2 id="navigation_faq">{{.}}</h2>
       {{ end }}
-      <div class="faq-blocks" itemscope="" itemtype="https://schema.org/FAQPage">
+      <amp-accordion expand-single-section animate class="faq-blocks" itemscope="" itemtype="https://schema.org/FAQPage">
         {{ range .Params.Faqs }}
         {{ partial "parts/faq.html" . }}
         {{ end }}
-      </div>
+      </amp-accordion>
     </div>
   </div>
+
 </main>
 {{ end }}

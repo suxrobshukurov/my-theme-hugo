@@ -5,8 +5,8 @@ title: "Mega Moolah Online Slot Review, Bonus, RTP"
 description: "Lesen Sie unsere Rezension des Mega Moolah Progressive Jackpot Slot. Entdecken Sie die RTP, kostenlose Spins, Boni und die besten kanadischen Online -Casinos, um echtes Geld zu spielen."
 h1: "Mega Moolah Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/34749/48b2cea2b3.png"
-icon: "https://objects.kaxmedia.com/auto/o/34749/48b2cea2b3.png"
+thumbnail: "/images/auto/o/34749/48b2cea2b3.png"
+icon: "/images/auto/o/34749/48b2cea2b3.png"
 name: "Mega Moolah"
 home: true
 weight: 1
@@ -17,7 +17,7 @@ freeSpins: "Mittel"
 wildSymbol: "Ja"
 minMaxBet: "56.250 USD.00"
 maxWin: "Tiere, Geld/Millionen, Safari"
-screenshots: ["https://objects.kaxmedia.com/auto/o/13908/eb2b2d9977.jpeg"]
+screenshots: ["/images/auto/o/13908/eb2b2d9977.jpeg"]
 ---
 
 {{< code >}}<h2>Mega Moolah Progressive Jackpot Slot History</h2><p>Der Mega Moolah -Online Slot wurde 2006 von dem führenden Entwickler Microgaming ins Leben gerufen, um das größte Online- und Mobile Progressive Jackpot Slot -Spiel in der Geschichte zu werden. Es hat dieses Ziel sicherlich erreicht, mit über 1 Milliarde C $ Preisen, die seit seiner Veröffentlichung ausgezahlt wurden. Einzelne Jackpots trafen oft 1 Million C $, wobei die Top -Gewinner Preise von 10 Millionen C $ oder mehr sammeln. Es ist offiziell im Guinness Book of Records für die Zahlung des größten Online -Progressive Jackpot aufgeführt.</p><p>Mega Moolah ist ein 5-Rollen-25-Pay-Spiel mit einem afrikanischen Wildlife-Thema. Die Cartoon -Tiere führen zu Merkmalen wie Wildsubstitutionen und einer freien Spins mit Gewinnen, die mit einem Wert multipliziert werden. Aber es ist die Chance, einen großen progressiven Jackpot -Preis zu sammeln, der den Mega Moolah -Slot beliebt hat.</p><p>Es ist so erfolgreich in Online -Casinos, dass Sie jetzt eine ganze Reihe von Mega Moolah -Slots spielen können, die jeweils ihr eigenes Thema wie den absolutrückenden Mega Moolah Online Slot haben, aber alle mit demselben Jackpot verknüpft sind.</p><h2>Mega Moolah -Gewinner - die größten Jackpot -Gewinner der Welt</h2><p>Gewinner von Multimillionen-Jackpots aus dem Mega Moolah-Slot aus dem Microgaming enthalten Folgendes:</p><ul><li>John Orchard aus Lincolnshire, England, bekam am 9. Dezember 2012 ein frühes Weihnachtsgeschenk.</li><li>Im Juni 2016 landete ein glücklicher Spieler in Wariri Pou, Neuseeland, 10.144.395 NZ $.82 aus dem Mega Moolah Slot -Spiel.</li><li>Zwei kanadische Spieler sammelten in den folgenden Monaten jeweils über 11.000.000 C $.</li><li>April 2016 wurde der Mobile Jackpot -Rekord zertrümmert, als ein Spieler, der sich entschied, Anonymous zu bleiben, einen Sieg von 8 Millionen € erzielte.</li><li>März 2019 sammelte ein Spielerland 12 US -Dollar.9 Millionen im Mega Moolah Slot -Spiel. Es ist der größte Sieg in US -Dollar, obwohl der tatsächliche Ort des Spielers nicht bekannt gegeben wurde.</li><li>Die Siege gehen weiter, mit einem weiteren großen Sieg in Kanada. April 2020 war der glückliche Monat für einen Spieler, der 16.469.347 C $ beträgt.95 reicher, nachdem er die Rollen des Mega Moolah Slots -Spiels gedreht hat.</li><li>Der britische Soldat Jonathan Heywood ist der aktuelle Rekordhalter. Seine <strong>£ 13.213.838.68 Jackpot</strong>, Im Jahr 2015 ist im Guinness Book of Records als größter Online -Progressive -Jackpot -Preis statt. Es ist eine unglaubliche Rückkehr bei seinem Anteil von nur 0 £.25 auf dem auslösenden Spin.</li></ul><h2>Mega Moolah RTP & Volatilität</h2><p>Der Mega Moolah Online Slot ist ein Spiel mit mittlerer Varianz. Einschließlich des Jackpot.</p><h3>

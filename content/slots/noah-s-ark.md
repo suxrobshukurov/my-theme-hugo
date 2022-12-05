@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Noahs Arche Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Noahs Ark -Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/80426/56b3e975f0.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/80426/56b3e975f0.jpeg"
+thumbnail: "/images/auto/o/80426/56b3e975f0.jpeg"
+icon: "/images/auto/o/80426/56b3e975f0.jpeg"
 name: "Arche Noah"
 home: true
 weight: 1

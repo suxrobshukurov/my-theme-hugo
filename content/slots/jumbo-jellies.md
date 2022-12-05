@@ -5,8 +5,8 @@ title: "Jumbo -Jellies Slot - Play & Bonus"
 description: "Entdecken Sie das süße Gameplay und die Funktionen der Jumbo Gelees Online Slot in unserer vollständigen Bewertung. Wir zeigen auch, wo wir es mit dem besten Casino -Bonus spielen können."
 h1: "Jumbo Gelees Slot"
 iframe: "https://staticdemo.yggdrasilgaming.com/init/launchClient.html?lang=en&currency=EUR&org=Demo&key=&fullscreen=yes&gameid=10199"
-thumbnail: "https://objects.kaxmedia.com/auto/o/126403/33650d0b92.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/126403/33650d0b92.jpeg"
+thumbnail: "/images/auto/o/126403/33650d0b92.jpeg"
+icon: "/images/auto/o/126403/33650d0b92.jpeg"
 name: "Jumbo -Gelees"
 home: true
 weight: 1

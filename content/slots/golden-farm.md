@@ -5,8 +5,8 @@ title: "Golden Farm Slot Review, Bonus, RTP"
 description: "Mit einer unabhängigen Überprüfung des Golden Farm Slot aus Relax Gaming können Sie kostenlos oder echtes Geld spielen und hier einen Bonus erhalten."
 h1: "Golden Farm Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/91004/30f5d4cda5.png"
-icon: "https://objects.kaxmedia.com/auto/o/91004/30f5d4cda5.png"
+thumbnail: "/images/auto/o/91004/30f5d4cda5.png"
+icon: "/images/auto/o/91004/30f5d4cda5.png"
 name: "Goldene Farm"
 home: true
 weight: 1

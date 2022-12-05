@@ -5,8 +5,8 @@ title: "Chicago Gold Slot - Spiel & Bonus"
 description: "Treffen Sie die Mobster in unserem Rückblick auf den Chicago Gold Online Slot. Wir betrachten das Gameplay, die Funktionen und die, wo Sie es mit den besten Casino -Boni spielen können."
 h1: "Chicago Gold Slot"
 iframe: "https://redirector32.valueactive.eu/Casino/Default.aspx?applicationid=4023&sext1=demo&sext2=demo&serverid=22619&gameid=chicagoGoldDesktop&ul=en&variant=UAT-demo&lobby"
-thumbnail: "https://objects.kaxmedia.com/auto/o/107770/ad04e2990d.png"
-icon: "https://objects.kaxmedia.com/auto/o/107770/ad04e2990d.png"
+thumbnail: "/images/auto/o/107770/ad04e2990d.png"
+icon: "/images/auto/o/107770/ad04e2990d.png"
 name: "Chicago Gold"
 home: true
 weight: 1
@@ -17,7 +17,7 @@ freeSpins: "Hoch"
 wildSymbol: "Ja"
 minMaxBet: "250.000 Dollar.00"
 maxWin: "Polizei und Räuber"
-screenshots: ["https://objects.kaxmedia.com/auto/o/107979/17d040c24e.jpeg"]
+screenshots: ["/images/auto/o/107979/17d040c24e.jpeg"]
 ---
 
 {{< code >}}<h2>Chicago Gold Online Slot Review</h2><p>Cartoon -Mobster, Polizisten und glamouröse Frauen erscheinen im Chicago Gold Online Slot aus Mikrogaming und Pearfiction. Basierend auf Chicago aus der Prohibitionszeit ist es ein Desktop und ein Handyspiel, bei dem Sie einen Jackpot im Wert von 5.000 x Ihre Wette gewinnen können. Schließen Sie sich den Banden an und sammeln Sie Bargeld, Respins und Multiplikatoren aus den verschiedenen Charakteren.</p><p>Während der kostenlosen Spins -Bonus -Runde ist es einfacher, eine Geldkollektionsfunktion auszulösen, und Jackpot -Siege sind in einem großen Boss -Spiel garantiert. Der Chicago Gold Slot ist ein 5-Rollen-, 40-Zeilen-Spiel mit hoher Volatilität mit durchschnittlichen Renditen von 96%.</p><h2>Wie man das Chicago Gold Slots -Spiel spielt</h2><p>Laden Sie den Chicago Gold Slot auf Ihren PC, iOS, Android oder Windows Mobile über die besten Microgaming -Sites. Es transportiert Sie zurück in die 1920er Jahre, als Polizisten und Mobster die Straßen kontrollieren, aber alles ist in einem Cartoon -Stil erledigt. Neben den verschiedenen Charaktersymbolen sehen Sie farbenfroh.</p><p>Die Rollen sitzen auf einer dunklen Stadtstraße, die von Neonschildern zur Seite und die 4 Jackpot -Werte auf die andere Seite gerahmt sind.</p><p>Ein einfacher Satz von Steuerelementen läuft am unteren Rand der Rollen und Sie wählen eine Wette aus einem Bereich von 0.20 bis 50.00 mit Klicks auf Plus- oder Minus -Schaltflächen. Drücken.</p><p>Bewegen Sie sich mit einem Klick auf die Schaltfläche"I" zum Paytable, um zu sehen, wie viel Sie aus den verschiedenen Symbolen gewinnen und wie die Funktionen funktionieren. In den Basisspielen müssen Sie genügend Beispiele für denselben Symboltyp über eine der 40 Zeilen landen, beginnend von der linken Rolle.</p><p>Der Chef ist bis zu 10x Ihre Wette wert, wenn er eine Payline füllt, wobei das am wenigsten wertvolle Kartensymbol 1x zurückzahlt. Die 4 Zeichen erscheinen als gestapelte Symbole, was es ein wenig einfacher macht, sie über Zeilen zu sehen.</p><h2>Kostenlose Spins, Jackpots und andere Chicago Gold Slot -Funktionen</h2><p>Ein wildes Symbol fungiert als andere, um Siege zu vervollständigen. Achten Sie auf Stapel von Banknoten an allen Stellen, da diese Multiplikatoren zwischen 1x und 25x Ihr Wette tragen. Sie gewinnen diese nur, wenn sie gleichzeitig mit 1 von 3 Emblemen landen. Das Respin Collection -Symbol sieht einen Mobster mit seinem Baseballschläger die Rollen und verursacht alle außer den Geldsymbolen, um wegzufallen. Die Bargeldstäbe für einen einzigen Bedenken, bei dem Sie mehr Bargeldmultiplikatoren landen können.</p><p>Der COP hilft aus, wenn das Multi -Sammel -Symbol erscheint. Er dreht ein Multiplikatorrad, um alle Barwerte um bis zu 5x zu steigern. Das Standard -Sammelemblem bedeutet, dass Sie die kombinierten Barwerte ohne Extras beanspruchen, aber zumindest die Dame bläst Ihnen einen Kuss aus.</p>

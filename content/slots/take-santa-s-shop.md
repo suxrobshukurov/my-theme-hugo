@@ -5,8 +5,8 @@ title: "Nehmen Sie Santa's Shop Slot Review, Bonus, RTP"
 description: "Mit der unabhängigen Bewertung von Take Santa's Shop Slot von Betsoft können Sie kostenlos oder echtes Geld spielen und hier einen Bonus erhalten!"
 h1: "Nehmen Sie Santa's Shop Slot"
 iframe: "https://democasino.betsoftgaming.com/cwguestlogin.do?bankId=675&CDN=AUTO&gameId=836"
-thumbnail: "https://objects.kaxmedia.com/auto/o/99197/3d05da6da5.PNG"
-icon: "https://objects.kaxmedia.com/auto/o/99197/3d05da6da5.PNG"
+thumbnail: "/images/auto/o/99197/3d05da6da5.PNG"
+icon: "/images/auto/o/99197/3d05da6da5.PNG"
 name: "Nehmen Sie Santa's Shop"
 home: true
 weight: 1

@@ -5,8 +5,8 @@ title: "Dim Sum Prize Slot Review & CA Bonus"
 description: "Erfahren Sie mehr über Dim Sum -Preis -Prize -Slot von Betsoft -Funktionen, Auszahlungen, Volatilität, RTP und erhalten Sie kostenlose Spins und Casino -Bonus von den besten CA -Online -Casinos!"
 h1: "Dim Sum Prize -Slot"
 iframe: "https://democasino.betsoftgaming.com/cwguestlogin.do?bankId=675&CDN=AUTO&gameId=828"
-thumbnail: "https://objects.kaxmedia.com/auto/o/95867/46b596bd95.png"
-icon: "https://objects.kaxmedia.com/auto/o/95867/46b596bd95.png"
+thumbnail: "/images/auto/o/95867/46b596bd95.png"
+icon: "/images/auto/o/95867/46b596bd95.png"
 name: "Dim Sum Prize"
 home: true
 weight: 1

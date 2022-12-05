@@ -1,7 +1,7 @@
 <h2 {{ with .Get "id" }} id="{{.}}" {{ end }} style="text-align: center;">
   {{ with .Get "img1" }}
-  <amp-img loading="lazy" style="display:inline-block;" class="content_emoji" alt="❓" widht="32" height="32"
-    data-src="{{.}}" src="{{.}}" data-loaded="true">
+  <amp-img style="display:inline-block;" class="content_emoji" alt="❓" widht="32" height="32" src="{{.}}"
+    src="{{.}}" data-loaded="true">
   </amp-img>
   {{ end }}
 
@@ -9,8 +9,8 @@
   {{.}}
   {{ end }}
   {{ with .Get "img2" }}
-  <amp-img loading="lazy" style="display:inline-block;" class="content_emoji" alt="❓" widht="32" height="32"
-    data-src="{{.}}" src="{{.}}" data-loaded="true">
+  <amp-img style="display:inline-block;" class="content_emoji" alt="❓" widht="32" height="32" src="{{.}}"
+    src="{{.}}" data-loaded="true">
   </amp-img>
   {{ end }}
   {{ with .Get "text2" }}

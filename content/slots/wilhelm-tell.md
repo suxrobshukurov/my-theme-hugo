@@ -5,8 +5,8 @@ title: "Wilhelm Tell Slot Review, Bonus, RTP"
 description: "Mit der unabhängigen Bewertung von Wilhelm Tell Slot von Yggdrasil können Sie kostenlos oder echtes Geld spielen und hier einen Bonus erhalten!"
 h1: "Wilhelm erzählen Slot"
 iframe: "https://staticpff.yggdrasilgaming.com/init/launchClient.html?gameid=7362"
-thumbnail: "https://objects.kaxmedia.com/auto/o/89996/7f475f9063.PNG"
-icon: "https://objects.kaxmedia.com/auto/o/89996/7f475f9063.PNG"
+thumbnail: "/images/auto/o/89996/7f475f9063.PNG"
+icon: "/images/auto/o/89996/7f475f9063.PNG"
 name: "Wilhelm erzählen"
 home: true
 weight: 1
@@ -17,7 +17,7 @@ freeSpins: "Mittel"
 wildSymbol: "Ja"
 minMaxBet: "376.000 Dollar.00"
 maxWin: "Fantasie, Juwelen"
-screenshots: ["https://objects.kaxmedia.com/auto/o/90001/94e0db0192.jpeg"]
+screenshots: ["/images/auto/o/90001/94e0db0192.jpeg"]
 ---
 
 {{< code >}}<h2>Wilhelm Tell Online Slot Review</h2><p>Kurz gesagt, die Geschichte, die im Wilhelm Tell Slot erzählt wurde, ist eine von Tyrannei und Gier, Ehre und Rebellion. Laut Legende ermordet Albrecht Gessler, ein brutaler Herrscher und Mitglied des Habsburg Royal House of Österreich.</p><p>Die Ermordung fungierte als Katalysator für den gesellschaftlichen Wandel und führte schließlich zur Unabhängigkeit für die alte Schweizer Konföderation - der Vorläufer für den modernen Zustand der Schweiz. Sie werden beim Spielen Hinweise auf all dies sehen - Tatsächlich ist Gessler eines der Symbole (Versuchen Sie zu erraten, welches!))</p><p>Die vielleicht berühmteste Geschichte von Wilhelm Tell ist, als er einen Apfel von seinem Sohn mit einer Armbrust schoss. Dies nickte im wilden Symbol des Schlitzes, das einen nervösen jungen Mann zeigt, der an einen Baum gebunden ist und der Frucht auf seinem Kopf saß.</p><p>Mit seinen 20 verschiedenen Möglichkeiten, einen Sieg zu verbringen, kann das Wilhelm Tell Slot -Spiel an mehreren Fronten liefern. Sie können den Wilhelm Tell Slot auf einem Desktop -Computer oder falls vorgeschlagen, ein Android oder ein iPhone -Handy spielen.</p><h2>Wilhelm Tell Online Slot Setup & Controls</h2><p>Wenn Sie ein häufiger Online Slot -Spieler sind, werden die Steuerelemente von Wilhelm nicht schwer zu verstehen. Das klassische Yggdrasil -Gaming -Setup ist hier - mit Zeilen, Münzwert, Bargeldwette, Max -Wette, Spin -Taste, Autoplay -Taste, Gewinnanzeige und Ausgleich am unteren Rand des Bildschirms.</p><p>Andere Informationen wie Paytable & Free Spins -Informationen und -einstellungen können zunächst schwer zu finden sein. Suchen Sie nach einer kleinen, erweiterbaren Schaltfläche "+" unten rechts auf dem Bildschirm. Nach dem Klicken oder Tippen finden Sie die Registerkarte"Paytable","Einstellungen", zur Registerkarte und deaktivieren Sie Sounds -Optionen.</p><p>Eine der zusätzlichen Einstellungsoptionen, die wir geliebt haben, ist die Fähigkeit, die Spingeschwindigkeit zu ändern. Dies ist praktisch, wenn Sie nicht viel Zeit zum Spielen oder im Gegenteil haben, wenn Sie eine entspanntere Spielesitzung wünschen. Die Währung für Wilhelm Tell ist standardmäßig Euro, aber dies unterscheidet sich je nach Casino, bei dem Sie spielen. Wenn Sie möchten, können Sie zwischen Münzen und Euro als Währung tauschen, während Sie die kostenlose Version des Wilhelm Tell Slot spielen.</p><p>Wenn Sie während der Verwendung von Autoplay einige Stoppbedingungen live einsetzen möchten. Stellen Sie sicher, dass Sie dies zuerst ausprobieren - da Sie nach dem Klicken auf Autoplay nicht mit diesen Einstellungen aufgefordert werden, werden sich die Rollen sofort drehen (im Gegensatz zu anderen Slots).</p><p>Die Erfahrung, die Wilhelm Tell auf Android und iPhone spielt. Die Einstellungen befinden sich unten rechts auf dem Bildschirm auf dem Handy, während das Setup so gestapelt ist. Dies bedeutet, dass alle wichtigen Merkmale des Steckplatzes über einen einzelnen Fass zugänglich sind.</p><h2>Wilhelm erzählen kostenlose Spins und Funktionen erklärt</h2><h3>

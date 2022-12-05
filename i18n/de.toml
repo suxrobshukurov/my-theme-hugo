@@ -1,0 +1,158 @@
+#head
+[lng-cde] # lang
+  other = "de"
+[lng-lcl] # meta local
+  other = "de-DE"
+
+#header
+[header-card-title]
+  other = "Editor's choice"
+[header-card-subtitle]
+  other = "List of Top Online Casinos that you should pay attention to. Our team thinks they stand out in a crowd!"
+
+#footer
+[footer-copyright]
+  other = "{{.Name}} ist eine informative Website zum Thema Glücksspiele und Bewertungen von Online-Casinos. Die auf unserer Website dargestellten Informationen dienen nur zur Orientierung. Die Autoren der Website sind nicht verantwortlich für die Handlungen der Benutzer und Leser. Lesen Sie unsere Nutzungsbedingungen und Datenschutzbestimmungen aufmerksam durch. © {{.Date}} Alle Rechte vorbehalten."
+[fm-title]
+  other = "Am besten Slots"
+[sm-title]
+  other = "OBEN Kasino"
+[thm-title]
+  other = "Beliebt"
+
+#home
+[see-all]
+  other = "Alles sehen"
+[top-slot]
+  other = "Top-Slots zum Online-Spielen {{.Date}}"
+[top-casino]
+  other = "Casino-Liste mit Slots für echtes Geld"
+
+#blog
+[also-like]
+  other = "Das könnte dir auch gefallen"
+[last-update]
+  other = "Zuletzt aktualisiert"
+[read-btn]
+  other = "Weiterlesen"
+
+#casino
+[show]
+  other = 'Anzeigen'
+[hide]
+  other = 'Ausblenden'
+[website]
+  other = "Url"
+[soft]
+  other = 'Weich'
+[reg-btn]
+  other = 'Casino besuchen'
+[get-bonus]
+  other = 'Bonus erhalten'
+[play-now]
+  other = "Jetzt spielen"
+[review]
+  other = 'Überprüfung'
+[read-comment-btn]
+  other = 'Kommentar hinterlassen'
+[bonus-code]
+  other = 'Bonuscode'
+[casino-info]
+  other = 'Casino-Info'
+[bonus]
+  other = 'Bonus'
+[slots]
+  other = 'Slots'
+[other-games]
+  other = 'Andere Spiele'
+[live-games]
+  other = 'Live-Spiele'
+[casino-games]
+  other = 'Casinospiele'
+[welcome-bonus]
+  other = 'Willkommensbonus'
+[casino-rank]
+  other = 'Casino-Rang'
+[popular-slots-for-casino] 
+  other = "Beliebteste {{ .Name }} Online-Slots"
+[financial]
+  other = "Finanzinformationen"
+[hits]
+  other = "Hits"
+[gaps]
+  other = "Gaps"
+[provider]
+  other = "Provider"
+[author]
+  other = "Überprüft von"
+[online-casino]
+  other = "Online-Casino"
+[rating]
+  other = "Bewertung"
+[term]
+  other = "AGB gelten"
+[compatible]
+  other = "Kompatibel mit"
+#slots
+[lines]
+  other = "RTP"
+[reels]
+  other = "Jackpots"
+[free-spins]
+  other = "Volatility"
+[wild-symbol]
+  other = "Bonusfunktion"
+[risk-symbol]
+  other = "Risikospiel"
+[minmax-bet]
+  other = "Maximaler Gewinn"
+[max-win]
+  other = "Thema"
+[play]
+  other = "Spielen"
+[popular-casino-for-slot] 
+  other = "Spielen Sie {{.Name}} Slot um echtes Geld in diesen Casinos"
+[symbol] 
+  other = "{{.Name}} Symbole" 
+[screenshots] 
+  other = "{{.Name}} Screenshots" 
+[slot-info]
+  other = "Besonderheiten von {{.Name}}"
+[software]
+  other = "Software"
+[all-slots]
+  other = "Alle Online-Slots"
+[load-more]
+  other = "Weitere Slots laden"
+
+
+[slot-sidebar]
+  other = "Top Casinos"
+[software-sidebar]
+  other = "Slots by software"
+[page-nav]
+  other = "Table of content"
+[faq]
+  other = "Frequently Asked Questions"
+
+#shordcode
+[head-casino]
+  other = "Top-Casinos"
+[head-rating]
+  other = "Bewertung"
+[head-bonus]
+  other = "Willkommensbonus"
+[head-wager]
+  other = "Gültigkeit"
+[head-valid]
+  other = "Validity"
+[head-btns]
+  other = "Sicherer Link"
+
+#404
+[404-title]
+  other = "Error 404. This page can not be found"
+[404-subtitle]
+  other = "This page can not be found"
+[404-button]
+  other = "Go to home page"

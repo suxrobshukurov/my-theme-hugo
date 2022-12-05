@@ -5,8 +5,8 @@ title: "El Dorado Infinity Reels Slot - Play & Bonus"
 description: "Entdecken Sie den El Dorado Infinity Reels Online Slot in unserer besonderen Bewertung. Wir werden uns den Stil, die Funktionen und den besten Casino -Bonus ansehen, um den besten Casino -Bonus zu finden."
 h1: "El Dorado Infinity Reels Slot"
 iframe: "https://d2drhksbtcqozo.cloudfront.net/casino/launcher.html?channel=web&gameid=eldorado&moneymode=fun&jurisdiction=MT"
-thumbnail: "https://objects.kaxmedia.com/auto/o/102794/44efa92366.png"
-icon: "https://objects.kaxmedia.com/auto/o/102794/44efa92366.png"
+thumbnail: "/images/auto/o/102794/44efa92366.png"
+icon: "/images/auto/o/102794/44efa92366.png"
 name: "El Dorado Infinity Reels"
 home: true
 weight: 1
@@ -17,7 +17,7 @@ freeSpins: "Hoch"
 wildSymbol: "Ja"
 minMaxBet: "625.000 $.00"
 maxWin: "Dschungel, Aztec, Wild West"
-screenshots: ["https://objects.kaxmedia.com/auto/o/102799/30de3562c8.jpeg"]
+screenshots: ["/images/auto/o/102799/30de3562c8.jpeg"]
 ---
 
 {{< code >}}<h2>El Dorado Infinity Reels Online Slot Preview</h2><p>Bunte Steineffektsymbole und geschnitzte Azteken-Idole werden über das 3x3-Startgitter vor dem Getriebe vor dem Hintergrund von Dschungeln und Wasserfällen ausgerichtet. Dieser beeindruckende Anblick entspricht den ebenso spektakulären Gameplay- und Bonusfunktionen auf den Online Slots -Websites. Match -Symbole für einen Sieg und eine zusätzliche Rolle erscheint auf der rechten Seite. Wenn dies den Sieg verbessert, treten mehr Rollen auf und ein Multiplikator steigt, beide ohne obere Grenzen.</p><h2>Wie man die El Dorado Infinity Reels Slot Machine spielt</h2><p>Sie gewinnen, indem Sie Symbole auf einer der 3 Zeilen abhalten, die von der linken Rolle beginnen. Die Wette -Reichweite des Online -Steckplatzes von El Dorado Infinity Reels erstreckt sich von nur 0.20 pro Spin bis bis zu 40.00. Schauen Sie sich beim Start der Paylines -Tabelle an, wie viel Sie aus jedem Symbol gewinnen.</p><h2>Kostenlose Spins und andere El Dorado Infinity Reels Slot -Funktionen</h2><p>Die expandierende Reihe von Rollen und steigenden Multiplikators fahren so lange fort, wie die Symbole den Auslöser gewinnen. Sobald Sie eine Rolle sehen, die das Auslösersymbol nicht enthält, endet der Infinity Reels -Mechanismus und Sie werden bezahlt, bevor die Rollen wieder zu einem 3x3 -Layout zurückkehren.</p><p>Tempelstreuungssymbole starten eine kostenlose Spins -Bonus -Runde. Sie können die Spiele sofort starten, und wie bei den Basisspielen beginnt der Multiplikator der Infinity Reels bei 1x. Es besteht auch die Möglichkeit, die kostenlosen Spiele für später zu speichern, und Sie werden dann mit einem 2x -Multiplikator beginnen. Die Niveaus steigen in dieser Runde, wobei mehr Tempel Multiplikatoren noch weiter erhöhen.</p><h3>

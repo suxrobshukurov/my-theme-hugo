@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Millionär Genie Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Millionär Genie Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/34646/e445be02fa.png"
-icon: "https://objects.kaxmedia.com/auto/o/34646/e445be02fa.png"
+thumbnail: "/images/auto/o/34646/e445be02fa.png"
+icon: "/images/auto/o/34646/e445be02fa.png"
 name: "Millionär Genie"
 home: true
 weight: 1

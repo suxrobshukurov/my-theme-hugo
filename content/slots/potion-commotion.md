@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Trankgemagerung Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Trankgefehlsschlitz"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/88078/f16dc7c89d.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/88078/f16dc7c89d.jpeg"
+thumbnail: "/images/auto/o/88078/f16dc7c89d.jpeg"
+icon: "/images/auto/o/88078/f16dc7c89d.jpeg"
 name: "Trankmut"
 home: true
 weight: 1

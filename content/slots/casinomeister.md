@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Casinomeister Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Casinomeister -Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/83913/dc53775dd4.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/83913/dc53775dd4.jpeg"
+thumbnail: "/images/auto/o/83913/dc53775dd4.jpeg"
+icon: "/images/auto/o/83913/dc53775dd4.jpeg"
 name: "Casinomeister"
 home: true
 weight: 1

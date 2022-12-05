@@ -5,8 +5,8 @@ title: "Hot Twenty Slot Review & Bonus -"
 description: "Ein brutzelnder heißer Preis von 1 Million Münzen wird im heißen zwanzig Slot von Amatic angeboten! Lesen Sie unsere Rezension, um herauszufinden, wie Sie gewinnen können! Beinhaltet RTP, Boni und mehr."
 h1: "Heiße zwanzig Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/107590/9d0897709f.Png"
-icon: "https://objects.kaxmedia.com/auto/o/107590/9d0897709f.PNG"
+thumbnail: "/images/auto/o/107590/9d0897709f.Png"
+icon: "/images/auto/o/107590/9d0897709f.PNG"
 name: "Heiße zwanzig"
 home: true
 weight: 1

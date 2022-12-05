@@ -5,8 +5,8 @@ title: "Weihnachtsbaum -Slot -Bewertung, Bonus, RTP"
 description: "Mit einer unabhängigen Rezension des Weihnachtsbaumschlitzes von Yggdrasil können Sie kostenlos oder echtes Geld spielen und hier einen Bonus erhalten!"
 h1: "Weihnachtsbaumschlitz"
 iframe: "https://staticpff.yggdrasilgaming.com/init/launchClient.html?gameid=1024&lang=en&currency=&key=&channel=pc"
-thumbnail: "https://objects.kaxmedia.com/auto/o/98019/f1620c39c7.png"
-icon: "https://objects.kaxmedia.com/auto/o/98019/f1620c39c7.png"
+thumbnail: "/images/auto/o/98019/f1620c39c7.png"
+icon: "/images/auto/o/98019/f1620c39c7.png"
 name: "Weihnachtsbaum"
 home: true
 weight: 1

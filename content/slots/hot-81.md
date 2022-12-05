@@ -5,8 +5,8 @@ title: "Hot 81 Slot Review & Bonus -"
 description: "Entdecken Sie 81 Wege, um zu gewinnen, wenn Sie den Hot 81 Slot von Amatic spielen! Unsere Bewertung enthält alle Informationen, die Sie wie Funktionen, Volatilität, RTP, Bonus und mehr benötigen!"
 h1: "Heißer 81 Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/107218/a5001a0c86.Png"
-icon: "https://objects.kaxmedia.com/auto/o/107218/a5001a0c86.PNG"
+thumbnail: "/images/auto/o/107218/a5001a0c86.Png"
+icon: "/images/auto/o/107218/a5001a0c86.PNG"
 name: "Heiß 81"
 home: true
 weight: 1

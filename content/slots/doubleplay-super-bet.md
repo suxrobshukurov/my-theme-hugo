@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Doubleplay Super Bet Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Doubleplay Super Bet Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/84233/3AC919554f.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/84233/3ac919554f.jpeg"
+thumbnail: "/images/auto/o/84233/3AC919554f.jpeg"
+icon: "/images/auto/o/84233/3ac919554f.jpeg"
 name: "Doubleplay Super Bet"
 home: true
 weight: 1

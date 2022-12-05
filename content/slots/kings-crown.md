@@ -5,8 +5,8 @@ title: "King's Crown Slot Review & Bonus -"
 description: "Spielen Sie den Kronschlitz des Königs von Amatic, um 100.000 Münzen in einem Spin zu gewinnen! Unsere Rezension zeigt Ihnen, wie! Beinhaltet RTP, Regeln, Boni und Funktionen."
 h1: "King's Crown Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/107591/581ebb048f.Png"
-icon: "https://objects.kaxmedia.com/auto/o/107591/581ebb048f.PNG"
+thumbnail: "/images/auto/o/107591/581ebb048f.Png"
+icon: "/images/auto/o/107591/581ebb048f.PNG"
 name: "King's Crown"
 home: true
 weight: 1

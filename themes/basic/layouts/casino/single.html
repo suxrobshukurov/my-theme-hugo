@@ -19,8 +19,8 @@
         <div class="casino-logo logo-shine"
           data-link="{{cond (gt  (len $.Params.Referral) 1) $.Params.Referral $.Site.Params.Referral }}">
           {{$casinoImage := cond (gt (len .Params.Thumbnail) 1) .Params.Thumbnail .Site.Params.DefaultImg }}
-          <amp-img loading="lazy" src="{{ $casinoImage }}" data-src="{{ $casinoImage }}" alt="{{ .Params.Name }}"
-            title="{{ .Params.Name }}" width="240" height="180" data-loaded="true"></amp-img>
+          <amp-img src="{{ $casinoImage }}" alt="{{ .Params.Name }}"
+            title="{{ .Params.Name }}" width="240" height="180" ></amp-img>
         </div>
       </div>
       <div class="cmi-center">
@@ -94,7 +94,7 @@
         {{ range $anchors }}
         <div class="anchor-item">
           {{ range $elem_key, $elem_val := . }}
-          <span data-anchor="#{{ $elem_key }}">{{ $elem_val }}</span>
+          <span on="tap:{{- $elem_key -}}.scrollTo(duration=200)" role="button" tabindex="0">{{ $elem_val }}</span>
           {{ end }}
         </div>
         {{ end }}
@@ -108,25 +108,28 @@
       {{ with i18n "casino-info" . }}
       <h2>{{.}}</h2>
       {{ end }}
-      <div class="tabs l-2007">
-        <div class="tabs-control">
+      <div class="tabs">
+        <amp-selector class="tabs-control" role="tablist" on="select:myTabPanels.toggle(index=event.targetOption, value=true)" keyboard-select-mode="focus">
           {{ range $key, $item := .Params.tabs }}
-          <div class="tabs-switcher {{if eq $key 0}}active{{end}}" data-target="{{ echoParam $item `id`}}"><i
-              class="tabs-{{ echoParam $item `id`}}"></i>{{ echoParam $item "title"}}
+          {{ $sectionID := echoParam $item `id`}}
+          {{ $sectionPanel := printf "%s%s" $sectionID "-panel"}}
+          <div class="tabs-switcher {{if eq $key 0}}active{{end}}" id="{{$sectionID}}" role="tab" aria-controls="{{$sectionPanel}}" option="{{$key}}" {{if eq $key 0}}selected{{end}}>
+            <i class="tabs-{{ echoParam $item `id`}}"></i>{{ echoParam $item "title"}}
           </div>
           {{ end }}
-        </div>
-        <div class="tabs-content">
+        </amp-selector>
+        <amp-selector class="tabs-content"  id="myTabPanels">
           {{ range $key, $item := .Params.tabs }}
-          {{ $section := echoParam $item `id`}}
-          <div class="tabs-item {{if eq $key 0}}open{{end}}" data-tab="{{ $section }}">
+          {{ $sectionID := echoParam $item `id`}}
+          {{ $sectionPanel := printf "%s%s" $sectionID "-panel"}}
+          <div class="tabs-item {{if eq $key 0}}open{{end}}" id="{{ $sectionPanel }}" role="tabpanel" aria-labelledby="{{ $sectionID }}" option {{if eq $key 0}}selected{{end}}>
             <div class="casino-tabs-params">
               {{ range $params := $.Params.CasinoInfo }}
               {{ $id := echoParam $params `id` }}
               {{ $title := echoParam $params `title` }}
               {{ $value := echoParam $params `value` }}
               {{ $itemSection := echoParam $params `section` }}
-              {{if(eq $section $itemSection)}}
+              {{if(eq $sectionID $itemSection)}}
               <div class="param-row">
                 <div class="param-name"><i class="param-{{$id}}"></i>{{$title}}:</div>
                 <div class="param-value">{{$value}}</div>
@@ -136,7 +139,7 @@
             </div>
           </div>
           {{ end }}
-        </div>
+        </amp-selector>
       </div>
 
       <div class="casino-three-blocks">
@@ -190,7 +193,6 @@
               {{- with $.Params.Term -}}{{ . }}{{- end -}}
             </div>
 
-
             <div class="btn-wrap">
               <button class="btn btn-yellow"
                 data-link="{{cond (gt  (len $.Params.Referral) 1) $.Params.Referral $.Site.Params.Referral }}"
@@ -234,53 +236,16 @@
       <h2>{{.}}</h2>
       {{ end }}
       <div class="slots-list">
-        {{/* {{ range $pageTerms := (.GetTerms "software") }}
-        {{ range $slotsArray := first 6 (shuffle (where $pageTerms.Pages "Section" "slot")) }}
-        {{ partial "partials/parts/slots-6.html" . }}
-        {{ end }}
-        {{ end }} */}}
         {{ range $page := .Params.Slots }}
-        {{ with $.Site.GetPage $page }}
-        {{ partial "partials/parts/slots-6.html" . }}
-        {{ end }}
+          {{ with $.Site.GetPage $page }}
+            {{ partial "partials/parts/slots-6.html" . }}
+          {{ end }}
         {{ end }}
       </div>
-      {{ with i18n "screenshot" . }}
-      <h2>{{.}}</h2>
-
-      {{ end }}
-      {{ with $screemshot := .Params.screenshot }}
-      <div class="casino-screenshots">
-        <amp-inline-gallery layout="container">
-          <amp-base-carousel class="casino-screenshots" width="1060" height="560" layout="responsive"
-            snap-align="center" loop visible-count="1" lightbox>
-            {{ range $item := $screemshot }}
-            {{$title := echoParam $item "title"}}
-            {{$alt := echoParam $item "alt"}}
-            {{$src := echoParam $item "src"}}
-            <amp-img loading="lazy" src="{{$src}}" data-src="{{$src}}" width="1060" height="560" class="screen-item"
-              data-loaded="true" layout="responsive" alt="{{$alt}}">
-            </amp-img>
-            {{ end }}
-          </amp-base-carousel>
-          <amp-inline-gallery-pagination layout="nodisplay" inset>
-          </amp-inline-gallery-pagination>
-        </amp-inline-gallery>
-
-        <div class="hidden">
-          <button class="btn btn-yellow"
-            data-link="{{cond (gt  (len $.Params.Referral) 1) $.Params.Referral $.Site.Params.Referral }}"
-            style="cursor: initial;">{{ i18n "reg-btn" .}}</button>
-        </div>
-
-      </div>
-      {{ end }}
 
       {{ with i18n "financial" . }}
       <h2>{{.}}</h2>
       {{ end }}
-
-
       <div class="financial-info">
         {{ if .Params.withdrawalT }}
         {{ partial "partials/parts/withdrawal-time.html" . }}
@@ -295,7 +260,6 @@
         {{ partial "partials/parts/advantages.html" . }}
         {{ end }}
       </div>
-
       {{ if or (.Params.Hits) (.Params.Gaps) }}
       {{ partial "partials/parts/hits-gaps.html" . }}
       {{ end }}
@@ -306,7 +270,6 @@
           style="cursor: initial;">{{ i18n "reg-btn" .}}</button>
       </div>
     </div>
-    {{/* {{Content}} */}}
     <div class="content-block">
       <div class="content-text">
         {{.Content}}

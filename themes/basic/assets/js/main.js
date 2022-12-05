@@ -6255,7 +6255,7 @@
         i('img[data-lazy]', e).each(function () {
           var e = i(this),
             t = i(this).attr('data-lazy'),
-            o = i(this).attr('data-srcset'),
+            o = i(this).attr('srcset'),
             s = i(this).attr('data-sizes') || n.$slider.attr('data-sizes'),
             r = document.createElement('img');
           (r.onload = function () {
@@ -6272,7 +6272,7 @@
                     },
                     200,
                     function () {
-                      e.removeAttr('data-lazy data-srcset data-sizes').removeClass('slick-loading');
+                      e.removeAttr('data-lazy srcset data-sizes').removeClass('slick-loading');
                     },
                   ),
                   n.$slider.trigger('lazyLoaded', [n, e, t]);
@@ -6393,13 +6393,13 @@
       d.length
         ? ((t = d.first()),
           (o = t.attr('data-lazy')),
-          (s = t.attr('data-srcset')),
+          (s = t.attr('srcset')),
           (n = t.attr('data-sizes') || l.$slider.attr('data-sizes')),
           ((r = document.createElement('img')).onload = function () {
             s && (t.attr('srcset', s), n && t.attr('sizes', n)),
               t
                 .attr('src', o)
-                .removeAttr('data-lazy data-srcset data-sizes')
+                .removeAttr('data-lazy srcset data-sizes')
                 .removeClass('slick-loading'),
               !0 === l.options.adaptiveHeight && l.setPosition(),
               l.$slider.trigger('lazyLoaded', [l, t, o]),
@@ -7284,14 +7284,14 @@ $(q).hover(
             t.getAttribute('data-alt') && (e.alt = t.getAttribute('data-alt')),
             t.append(e);
         }
-        if ('video' === t.nodeName.toLowerCase() && !t.getAttribute('data-src') && t.children) {
+        if ('video' === t.nodeName.toLowerCase() && !t.getAttribute('src') && t.children) {
           for (var r = t.children, a = void 0, o = 0; o <= r.length - 1; o++)
-            (a = r[o].getAttribute('data-src')) && (r[o].src = a);
+            (a = r[o].getAttribute('src')) && (r[o].src = a);
           t.load();
         }
         if (
-          (t.getAttribute('data-src') && (t.src = t.getAttribute('data-src')),
-          t.getAttribute('data-srcset') && t.setAttribute('srcset', t.getAttribute('data-srcset')),
+          (t.getAttribute('src') && (t.src = t.getAttribute('src')),
+          t.getAttribute('srcset') && t.setAttribute('srcset', t.getAttribute('srcset')),
           t.getAttribute('data-background-image'))
         )
           t.style.backgroundImage =
@@ -8089,7 +8089,7 @@ function copyPromocode() {
   }
 }
 $(document).ready(function () {
-  const observer = lozad('[data-src]', {
+  const observer = lozad('[src]', {
     rootMargin: '10px 0px',
     threshold: 0.1,
     enableAutoReload: true,

@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Lucky 7 Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Lucky 7 Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/87238/c9d9beca04.png"
-icon: "https://objects.kaxmedia.com/auto/o/87238/c9d9beca04.png"
+thumbnail: "/images/auto/o/87238/c9d9beca04.png"
+icon: "/images/auto/o/87238/c9d9beca04.png"
 name: "Lucky 7"
 home: true
 weight: 1

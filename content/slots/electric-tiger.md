@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Electric Tiger Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Electric Tiger Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/78903/d685452977.png"
-icon: "https://objects.kaxmedia.com/auto/o/78903/d685452977.png"
+thumbnail: "/images/auto/o/78903/d685452977.png"
+icon: "/images/auto/o/78903/d685452977.png"
 name: "Elektrischer Tiger"
 home: true
 weight: 1

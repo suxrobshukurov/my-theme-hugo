@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Blood Lore Wolf Pack Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Blood Lore Wolf Pack Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/83887/ef92f60eb0.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/83887/ef92f60eb0.jpeg"
+thumbnail: "/images/auto/o/83887/ef92f60eb0.jpeg"
+icon: "/images/auto/o/83887/ef92f60eb0.jpeg"
 name: "Blood Lore Wolf Pack"
 home: true
 weight: 1

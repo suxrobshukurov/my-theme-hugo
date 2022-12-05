@@ -5,8 +5,8 @@ title: "Da Vincis Treasure Slot Review & Canada Bonus von Pragmatic Play"
 description: "Gewinnen Sie einen massiven 48.000x Multiplikator in Da Vincis Schatz durch pragmatisches Spiel. Beinhaltet Wilds, kostenlose Spins und einzigartige Bonusspiele! Überprüfen Sie unten mit Regeln, RTP & mehr."
 h1: "Da Vincis Schatzschlitz"
 iframe: "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?lang=&cur=&gameSymbol=vs25davinci&websiteUrl=https%3A%2F%2Fdemogamesfree.pragmaticplay.net&jurisdiction=99&lobbyURL=https%3A%2F%2Fwww.pragmaticplay.com"
-thumbnail: "https://objects.kaxmedia.com/auto/o/91546/eaec40cbf6.png"
-icon: "https://objects.kaxmedia.com/auto/o/91546/eaec40cbf6.png"
+thumbnail: "/images/auto/o/91546/eaec40cbf6.png"
+icon: "/images/auto/o/91546/eaec40cbf6.png"
 name: "Da Vincis Schatz"
 home: true
 weight: 1

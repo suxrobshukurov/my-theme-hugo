@@ -5,8 +5,8 @@ title: "Suncatcher Gigablox Slot Review & Bonus"
 description: "Entdecken Sie alles über Suncatcher Gigablox Slot von Yggdrasils Volatilität, Funktionen, RTP, Auszahlungen und kostenlose Spins und Boni von den besten Online -Casinos!"
 h1: "Suncatcher Gigablox Slot"
 iframe: "https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=7406&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes"
-thumbnail: "https://objects.kaxmedia.com/auto/o/112541/a6491e8728.webp"
-icon: "https://objects.kaxmedia.com/auto/o/112541/a6491e8728.webp"
+thumbnail: "/images/auto/o/112541/a6491e8728.webp"
+icon: "/images/auto/o/112541/a6491e8728.webp"
 name: "Suncatcher Gigablox"
 home: true
 weight: 1
@@ -17,7 +17,7 @@ freeSpins: "Mittel"
 wildSymbol: "Ja"
 minMaxBet: "715.000 US -Dollar.00"
 maxWin: "Platz"
-screenshots: ["https://objects.kaxmedia.com/auto/o/112544/ba45fed589.webp"]
+screenshots: ["/images/auto/o/112544/ba45fed589.webp"]
 ---
 
 {{< code >}}<h2>Suncatcher Gigablox Online Slot -Bewertung</h2><p>Sobald Sie Yggdrasils neueste Slot -Release -Release Suncatcher Gigablox, die vierte Ausgabe der Gigablox -Serie, geladen haben, werden Sie die unheimliche Ähnlichkeit mit dem legendären Starburst von Netent sofort bemerken.</p><p>Die beiden sind nicht nur ähnlich in Bezug auf Grafiken, Symbole und das Raumthema, sondern ihr Gameplay ist fast identisch. Sie werden sehen, dass The Wild die Hauptaufgabe im Steckplatz spielt, und Sie werden feststellen. Der einzige Unterschied ist jedoch die Gigablox -Mechanik, die Symbole in Blöcken von bis zu 3x3 ermöglicht, auf den Rollen zu landen. Wenn Sie mehr darüber erfahren möchten, bleiben Sie bei uns, während wir unsere Suncatcher Gigablox Review durchlaufen.</p><h2>Wie man Suncatcher Gigablox Slot spielt</h2><p>Der schwarze Hintergrund betont sicherlich die leuchtenden Farben der auf den Rollen in Suncatcher Gigablox vorhandenen Symbole, und Sie werden dies unabhängig davon feststellen, ob Sie das Spiel auf Ihrem Handy- oder Desktop -Gerät laden. In Anbetracht der Those eines HTML5 -Steckplatzes können Sie dies unabhängig von der Größe Ihres Gerätebildschirms bemerken.</p><p>Unterhalb der Rollen befinden sich alle Steuertasten. Der erste ist die + Taste, bei der Sie die Regeln, Einstellungen und die Paytable des Spiels finden. Im Inneren sehen Sie Edelsteine in verschiedenen Formen und Farben, türkis, grün, blau, lila, gelb, rosa und rot, wodurch Sie die Auszahlung von 2x bis 20 -fachen den Pfahl erhalten. The Wild ist ein funkelnder Diamant, der Ihnen 50-fache den Pfahl für eine 5-of-A-Com-Kombination verleiht. Die Anzeige der Linien ist als nächstes und zeigt Ihnen die 10 festen Paylines im Spielen an. Das Feld der Münzwertkonfiguration folgt, wo Sie eine Wette von 0 platzieren können.10 bis 500 Credits pro Spin. Das Cash -BET -Display findet als nächst.</p><h2>Suncatcher Gigablox Bonus -Funktionen</h2><p>Das erste, was wir näher erläutern müssen, ist die Gigablox -Funktion, falls Sie noch nie Gigablox -Slots gespielt haben. Dies ist ein Merkmal, bei dem sich mindestens eine Reihe von synchmäßigen Rollen in große Symbole Blöcke an jedem Spin, 2x2 oder 3x3 -Blöcke verwandeln. Das heißt, Sie können mehr als einen Satz synchronisierter Rollen gleichzeitig erhalten, daher ein Bildschirm voller gleicher Symbol. Und als solche zahlen alle Siegerkombinationen, die Sie in den Steckplatz in beide Richtungen erstellen.</p><p>Nachdem Sie nun wissen, wie die Gigablox -Funktion funktioniert. Wenn der Diamond Wild land. Dann wird es klebrig, sperrt sich an Ort und Stelle und belohnt einen Respin.</p><p>Wenn Sie sich während des Respins befinden, werden Sie eine weitere Wildnis landen, diese Wild wird auch an Ort und Stelle gesperrt und bleiben für den nächsten Respin. Diese expandierenden Wilds können auf jeder Rolle landen. In einem einzigen Dreh können Sie den gesamten Bildschirm mit Wilds füllen und zusätzlich zum regulären Sieg 500x den Anteil erhalten.</p><h3>

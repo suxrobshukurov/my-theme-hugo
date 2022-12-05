@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Joker Jester Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Joker Jester Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/87714/214865731f.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/87714/214865731f.jpeg"
+thumbnail: "/images/auto/o/87714/214865731f.jpeg"
+icon: "/images/auto/o/87714/214865731f.jpeg"
 name: "Joker Jester"
 home: true
 weight: 1

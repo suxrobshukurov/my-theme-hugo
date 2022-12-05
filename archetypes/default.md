@@ -11,5 +11,6 @@ name: "{{ replace .Name "-" " " | title }}"
 keywords: ""
 thumbnail: ""
 icon: ""
+
 ---
 

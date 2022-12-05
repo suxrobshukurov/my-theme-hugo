@@ -2,15 +2,15 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Mega Boy Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Mega Boy Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/34683/384ad7b687.png"
-icon: "https://objects.kaxmedia.com/auto/o/34683/384ad7b687.png"
+thumbnail: "/images/auto/o/34683/384ad7b687.png"
+icon: "/images/auto/o/34683/384ad7b687.png"
 name: "Mega -Junge"
 home: true
 weight: 1
-software: "https://objects.kaxmedia.com/auto/o/26380/c6e3b7bc96.png"
+software: "/images/auto/o/26380/c6e3b7bc96.png"
 lines: "95.54%"
 reels: "Ja"
 freeSpins: "Mittel"

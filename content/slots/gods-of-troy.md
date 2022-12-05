@@ -5,8 +5,8 @@ title: "Götter des Troy Slot - Spielen & Bonus"
 description: "Entdecken Sie den epischen Stil und die Merkmale der Götter des Troy -Slot in unserer vollständigen Bewertung. Wir zeigen Ihnen auch, wo Sie es mit dem besten Casino -Bonus spielen können."
 h1: "Götter des Troy Slot"
 iframe: "https://gserver-rtg.redtiger.com/rtg/launcher/GodsofTroy"
-thumbnail: "https://objects.kaxmedia.com/auto/o/147702/65918de731.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/147702/65918de731.jpeg"
+thumbnail: "/images/auto/o/147702/65918de731.jpeg"
+icon: "/images/auto/o/147702/65918de731.jpeg"
 name: "Götter von Troy"
 home: true
 weight: 1
@@ -17,7 +17,7 @@ freeSpins: "Hoch"
 wildSymbol: "Ja"
 minMaxBet: "61.570 $.00"
 maxWin: "Altes Griechenland"
-screenshots: ["https://objects.kaxmedia.com/auto/o/147705/372f11b635.jpeg"]
+screenshots: ["/images/auto/o/147705/372f11b635.jpeg"]
 ---
 
 {{< code >}}<h2>Götter von Troy Online Slot Review</h2><p>Ein berühmter Krieg kommt zu den besten Online -Casinos mit den Göttern des Troy Slot aus dem Red Tiger. Dieses epische Spiel mit griechischem Thema spielt sich über Zyklen von 10 Spins ab, bei denen sich Symbole am Ende jeder Sequenz in Wildnis verwandeln.</p><p>Weitere aufregende Funktionen sind kostenlose Spins. Drehen. </p><p>Der Online Slot der Götter von Troy ist ein Hochvolatilitätsspiel mit durchschnittlichen Renditen von 95.74% und ein maximales Gewinnpotential von 6.175x den Anteil. Sie können es auf den besten Casinos auf PCs und Handys spielen, die hier vorgestellt werden.</p><h2>Wie man die Götter der Troy Slot -Maschine spielt</h2><p>Wenn Sie die Bücher gelesen, die Filme gesehen oder die Gedichte angehört haben, werden Sie über die Trojanischen Kriege kennen. Die Götter von Troy Online Slot-Rollen sitzen in einem imposanten Marmor-Effekt-Rahmen vor dem Hintergrund dieses alten griechischen Kampf ein wildes 'W' Schild.</p><p>Es ist eine angemessene epische Sicht auf Android, iOS und Windows -Mobile oder PCs und andere Desktop -Plattformen. Schauen Sie sich das Bedienfeld an und finden Sie einen Steckknopf mit Plus- und Minus -Indikatoren auf beiden Seiten. Klicken Sie auf diese, um aus einem begrenzten Bereich von 0 auszuwählen.10 bis 10.00 an jedem Spin. Auto- und Turbastenknöpfe sind ebenfalls vorgestellt.</p><p>Die Registerkarte"Zahlung" öffnet die Götter des Troy -Slot -Paytable, bei denen Sie Details zu den Preisen sehen, die Sie aus jedem Symbol gewinnen. Dies ist ein 30-Zeilen-Spiel mit 4 Zeilen, bei dem Sie 3, 4 oder 5 übereinstimmende Symbole für eine Pay-Linie benötigen, um einen Preis zu gewinnen. Ein gestapeltes Bild von Helen und dem Wildschild zahlen am meisten mit bis zu 10 -fachen den Pfahl.</p><h2>Freie Spins und andere Götter von Troy Slot -Features</h2><p>Ein Zähler oben in den Rollenaufzeichnungen, in denen Sie sich in jedem Zyklus von 10 Spins befinden. Wenn ein goldener Schild auf den Rollen land Erstellen Sie Gewinnkombinationen. Wenn ein Schild auf einer Position landet, die bereits mit einem Kranz hervorgehoben ist, wird ein anderer zufälliger Punkt markiert. Der Zähler setzt dann zurück und Sie starten eine weitere Sequenz von 10 Spins. </p><p>Drei, 4 oder 5 Troy Spins -Streuungssymbole auslösen die kostenlose Spiele. Bevor sie anfangen, drehen Sie ein Feature -Rad, das feststellt. Dies sind die bestmöglichen Ergebnisse:</p><ul><li>3 Streuungen - bis zu 15 freie Drehungen mit maximal 10 wilden Symbolen</li><li>4 Streuungen - bis zu 25 freie Drehungen mit maximal 12 wilden Symbolen</li><li>5 Streuungen - bis zu 50 freie Drehungen mit maximal 15 wilden Symbolen</li></ul><p>Wilds können während der Bonusrunde klebrig bleiben oder zufällig um die Rollen herumlaufen, aber Sie haben immer die gleiche Zahl zur Verfügung. Alle neuen Streuungssymbole verleihen Ihrem Gesamtbetrag 1 zusätzlichen Spin, obwohl der Zyklusmechanismus und Kranztransformationen nicht aktiv sind. </p><h3>

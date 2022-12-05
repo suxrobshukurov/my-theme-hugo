@@ -5,8 +5,8 @@ title: "Wild Respin Slot Review & Bonus -"
 description: "Spielen Sie den Wild Respin Slot von Amatic & gewinnen Big 1 Million Münzen! Unsere Bewertung wird zeigen, wie man gewinnt! Beinhaltet RTP, Funktionen, Regeln und Boni."
 h1: "Wild Respin Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/107690/9dae4dfd83.Png"
-icon: "https://objects.kaxmedia.com/auto/o/107690/9dae4dfd83.PNG"
+thumbnail: "/images/auto/o/107690/9dae4dfd83.Png"
+icon: "/images/auto/o/107690/9dae4dfd83.PNG"
 name: "Wild Respin"
 home: true
 weight: 1

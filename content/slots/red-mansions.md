@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Rote Villen Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Rote Villen Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/80868/86b87519c0.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/80868/86b87519c0.jpeg"
+thumbnail: "/images/auto/o/80868/86b87519c0.jpeg"
+icon: "/images/auto/o/80868/86b87519c0.jpeg"
 name: "Rote Villen"
 home: true
 weight: 1

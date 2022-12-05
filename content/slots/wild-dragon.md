@@ -5,8 +5,8 @@ title: "Wild Dragon Slot Review & Bonus -"
 description: "Spielen Sie diesen atemberaubenden orientalischen Slot, um 100.000 Münzen in einem einzigen Dreh zu gewinnen! Wild Dragon von Amatic hat Wilds & Scatters, die Ihnen helfen, zu gewinnen! Lesen Sie unsere Rezension für Details."
 h1: "Wild Dragon Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/Auto/o/107689/1347E0EACAC.Png"
-icon: "https://objects.kaxmedia.com/auto/o/107689/1347e0eeac.PNG"
+thumbnail: "/images/Auto/o/107689/1347E0EACAC.Png"
+icon: "/images/auto/o/107689/1347e0eeac.PNG"
 name: "Wild Drache"
 home: true
 weight: 1

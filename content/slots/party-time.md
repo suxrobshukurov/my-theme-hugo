@@ -5,8 +5,8 @@ title: "Party Time Slot Review & Bonus -"
 description: "Beginnen Sie die Party mit kostenlosen Spins und Multiplikatoren! Es gibt 243 Möglichkeiten, um den Party -Zeitfenster von Amatic zu gewinnen! Lesen Sie unsere Rezension für RTP, Boni und Details."
 h1: "Party -Zeit -Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/107681/15421f76b0.Png"
-icon: "https://objects.kaxmedia.com/auto/o/107681/15421f76b0.PNG"
+thumbnail: "/images/auto/o/107681/15421f76b0.Png"
+icon: "/images/auto/o/107681/15421f76b0.PNG"
 name: "Party Zeit"
 home: true
 weight: 1

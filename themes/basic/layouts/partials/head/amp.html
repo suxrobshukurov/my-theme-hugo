@@ -1,0 +1,11 @@
+<script async src="https://cdn.ampproject.org/v0.js"></script>
+<script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
+<script async custom-element="amp-position-observer" src="https://cdn.ampproject.org/v0/amp-position-observer-0.1.js"></script>
+<script async custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js"></script>
+{{ if eq .Page.Type "software" }}
+<script async custom-element="amp-script" src="https://cdn.ampproject.org/v0/amp-script-0.1.js"></script>
+<meta name="amp-script-src" content="sha384-2El5Nigj4u9hw2YXyIIJf3z24fQ0PKzNzMzg-Pu_zReNWT2Zvry_SAnuvvU4L1eF">
+{{end}}
+{{ if eq .Page.Type "casino" }}
+<script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
+{{end}}

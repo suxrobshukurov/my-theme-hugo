@@ -5,8 +5,8 @@ title: "Dragon's Pearl Slot Review & Bonus -"
 description: "Lesen Sie unsere Rezension über den Perlschlitz des Drachen von Amatic & entdecken Sie, wie Sie 500.000 Münzen gewinnen können! Wir teilen die besten Tipps, RTP, Funktionen und alle Details, die Sie benötigen!"
 h1: "Dragon's Pearl Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/107108/bf5dc13a03.Png"
-icon: "https://objects.kaxmedia.com/auto/o/107108/bf5dc13a03.PNG"
+thumbnail: "/images/auto/o/107108/bf5dc13a03.Png"
+icon: "/images/auto/o/107108/bf5dc13a03.PNG"
 name: "Dragon's Pearl"
 home: true
 weight: 1

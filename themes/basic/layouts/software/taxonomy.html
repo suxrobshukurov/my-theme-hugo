@@ -1,19 +1,18 @@
 {{ define "main" }}
 <main class="main">
   {{/* {{ partial "breadcrumbs.html" . }} */}}
+
   <div class="container">
     <div class="content-block content-text">
       {{ with .Params.H1 }}
       <h1>{{.}}</h1>
       {{ end }}
-      {{ with .Content }}
-      <div class="toc-container">
-        <div class="toc-title">{{i18n "page-nav"}}:<span class="show-toc" data-show="Show"
-            data-hide="Hide">[Show]</span>
+      <div class="toc-container" id="page-nav">
+        <div class="toc-title">{{i18n "page-nav"}}:<span class="show-toc" data-show="[Show]" data-hide="[Hide]"
+            on="tap:page-nav.toggleClass(class='open')" role="button" tabindex="0"></span>
         </div>
         <div class="toc-list-wrap" id="page-navigation"></div>
       </div>
-      {{ end }}
       {{ with .Params.Subtitle }}
       <p style="text-align: center;">{{. | safeHTML}}</p>
       {{ end }}
@@ -25,7 +24,7 @@
       <div class="content">
         <div class="content-block">
           <div class="soft-page-logo">
-            <amp-img loading="lazy" src="{{.Params.thumbnail}}" data-src="{{.Params.thumbnail}}" alt="{{.Params.Name}}"
+            <amp-img src="{{.Params.thumbnail}}" src="{{.Params.thumbnail}}" alt="{{.Params.Name}}"
               title="{{.Params.Name}}" width="400" height="120" data-loaded="true"></amp-img>
           </div>
           <div class="rows slots-list">
@@ -57,7 +56,7 @@
               <div class="casino-item">
                 <div class="item-logo-wrap">
                   <a href="{{.Permalink}}" class="item-logo logo-shine" rel="nofollow">
-                    <amp-img loading="lazy" src="{{.Params.Icon}}" title="{{.Params.Name}}" data-src="{{.Params.Icon}}"
+                    <amp-img src="{{.Params.Icon}}" title="{{.Params.Name}}" src="{{.Params.Icon}}"
                       alt="{{.Params.Name}}" width="100" height="50">
                     </amp-img>
                   </a>
@@ -98,12 +97,11 @@
       {{ with i18n "faq" }}
       <h2 id="navigation_faq">{{.}}</h2>
       {{ end }}
-      <div class="faq-blocks" itemscope="" itemtype="https://schema.org/FAQPage">
+      <amp-accordion expand-single-section animate class="faq-blocks" itemscope="" itemtype="https://schema.org/FAQPage">
         {{ range .Params.Faqs }}
         {{ partial "parts/faq.html" . }}
         {{ end }}
-
-      </div>
+      </amp-accordion>
 
     </div>
   </div>

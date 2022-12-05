@@ -5,19 +5,19 @@ title: "Sonnige Früchte: Halten und Gewinnen Sie Slot Review, Bonus, RTP"
 description: "Mit der unabhängigen Bewertung von sonnigen Früchten: Halten und Gewinnen Sie Slot vom Playson, können Sie kostenlos oder echtes Geld spielen und hier einen Bonus erhalten!"
 h1: "Sonnige Früchte - Halten und gewinnen Sie Online Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/91082/3fde7f9e3d.png"
-icon: "https://objects.kaxmedia.com/auto/o/91082/3fde7f9e3d.png"
+thumbnail: "/images/auto/o/91082/3fde7f9e3d.png"
+icon: "/images/auto/o/91082/3fde7f9e3d.png"
 name: "Sonnige Früchte - halten und gewinnen"
 home: true
 weight: 1
-software: "https://objects.kaxmedia.com/auto/o/89022/bfba7c7376.png"
+software: "/images/auto/o/89022/bfba7c7376.png"
 lines: "95.05%"
 reels: "Nein"
 freeSpins: "Mittel"
 wildSymbol: "Ja"
 minMaxBet: "Ca $ 100.000.00"
 maxWin: "Früchte, Sevens"
-screenshots: ["https://kaxmedia.com/cdn-cgi/image/h=480,w=640/https://objects.kaxmedia.com/auto/o/91087/a028b05efd.jpeg"]
+screenshots: ["https://kaxmedia.com/cdn-cgi/image/h=480,w=640//images/auto/o/91087/a028b05efd.jpeg"]
 ---
 
 {{< code >}}<h2>Sonnige Früchte: Online Slot -Bewertung halten und gewinnen</h2><p>Entspricht dem traditionellen und Retro -Thema, The Sunny Fruits: Halten und Gewinnen Sie den Slot von Playson, besteht aus einem regulären 5x3 -Gitter. Mit dem Spiel können Sie Auszahlungen von links nach rechts mit 10 verschiedenen Paylines generieren. Es gibt eine Vielzahl von Weber -Optionen, aus denen Sie auswählen können, und Sie können Ihre Gewinne mit bis zu 1000x multiplizieren. Dies bedeutet, dass das Spiel Ihnen einen Jackpot-Preis von 10.000 Coin bietet, um Ihre Lieblings-Retro-Früchte zu drehen. Das Spiel bietet eine einfache Slot -Spinning -Action sowie einige moderne Elemente. Diese modernen Elemente umfassen Funktionen wie Streuungen, Wilds und eine Bonusrunde mit einem Mini-, Major- und Grand Jackpot.</p><h2>Wie man sonnige Früchte spielt: Halten und gewinnen Sie Online Slot</h2><p>Playson ist bestrebt, ihre Spiele auf einer Vielzahl von Plattformen wie vielen der besten Online Slots verfügbar zu machen. Aus diesem Grund können Sie auf alle Geräte wie Desktop-, Mobil- und Tablet -Geräte auf dieses Spiel zugreifen. Alle mobilen Geräte können das Spiel unterstützen. Dazu gehören Android- und iOS -Geräte. Um das Spiel zu spielen, bestimmen Sie einfach Ihre gewünschte Einstellung und drehen Sie die Rollen, um bis zu 10.000 Münzen zu gewinnen. Sie sehen alle Steuerelemente unter dem Raster, das den Paytable in der unteren rechten Ecke enthält. Sie können die Registerkarte"Wette" unter dem Raster verwenden, um Ihre gewünschte Einstellung auszuwählen. Fühlen Sie sich frei, eine Wette von nur 0 zu setzen.10 bis maximal 100 pro Spin. Sie können einfach die maximale Wette auswählen, indem Sie auf die Registerkarte"max" klicken. Sie sehen die Option, das Spiel zu beginnen oder automatische Spins rechts von den Rollen auszuwählen.</p><h2>Sonnige Früchte: Bonus halten und gewinnen und freie Spins</h2><p>Der Spaß beginnt in den sonnigen Früchten: Halten- und Gewinnen Sie Basisspiel, das einige großartige Preise für Sie zu sichern, wenn Sie es auf den besten Online Slots -Websites spielen. Die fruchtigen Symbole teilen sich in eine Vielzahl von Symbolen mit höherer und niedrigerer Bezahlung. Zu den niedrigeren zahlenden Früchten gehören Kirschen, Orangen, Zitronen und Pflaumen. Land 3 bis 5 Symbole zusammen auf den Rollen und Sie können bis zu 500 Münzen verdienen. Die höher bezahlten Früchte umfassen die Melonen, Trauben und Birnen.</p><p>Diese Auszahlung bis zu 1500 Münzen für eine Zeile von 3 oder mehr passenden Symbolen. Das leuchtend rote 7 ist das Symbol mit dem höchsten Wert. Es kann Sie mit bis zu 2500 Münzen in einem einzigen Dreh belohnen. Die wilden Chili können andere Symbole mit Ausnahme des Bonussymbols ersetzen. Es wird nur auf den Rollen 2, 3, 4 und 5 erscheinen. Die strahlende Sonne ist das Bonus -Symbol. Sie benötigen 6 oder mehr, um die Bonusrunde auszulösen. Das Bonusspiel enthält klebrige Symbole und Respins. Es gibt nur Bonus -Symbole auf den Rollen und die Runde wird fortgesetzt, bis es keine Respins mehr gibt. Am Ende des Bonusspiels erhalten Sie einen Mini-, Major- oder Grand Jackpot -Preis.</p><h3>

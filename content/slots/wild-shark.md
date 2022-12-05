@@ -5,8 +5,8 @@ title: "Wild Shark Slot Review & Bonus -"
 description: "Tauchen! Unsere Bewertung umfasst RTP, Boni, Funktionen und mehr. Lesen Sie unten!"
 h1: "Wild Shark Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/107692/07bd42c21f.Png"
-icon: "https://objects.kaxmedia.com/auto/o/107692/07bd42c21f.PNG"
+thumbnail: "/images/auto/o/107692/07bd42c21f.Png"
+icon: "/images/auto/o/107692/07bd42c21f.PNG"
 name: "Wild Shark"
 home: true
 weight: 1

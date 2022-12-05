@@ -2,8 +2,8 @@
   <div class="features-item">
     {{ with .Get "img" }}
     <div class="feature-img">
-      <amp-img loading="lazy" src="{{.}}" data-src="{{.}}" alt="{{ $.Get `title`}}" title="{{$.Get `title`}}"
-        data-loaded="true" width="175" height="87"></amp-img>
+      <amp-img src="{{.}}" src="{{.}}" alt="{{ $.Get `title`}}" title="{{$.Get `title`}}" data-loaded="true"
+        width="175" height="87"></amp-img>
     </div>
     {{ end }}
     {{ with .Get "title"}}

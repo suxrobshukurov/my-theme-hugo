@@ -69,8 +69,6 @@
   other = 'Casino rank'
 [popular-slots-for-casino] 
   other = "Most Popular {{ .Name }} Online Slots"
-[screenshot]
-  other = "Screenshots"
 [financial]
   other = "Financial info"
 [hits]

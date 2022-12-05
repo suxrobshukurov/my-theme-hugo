@@ -5,8 +5,8 @@ title: "Fruchtfeier Slot Review, Bonus, RTP"
 description: "Mit der unabhängigen Überprüfung des Fruchtparty -Slot von Pragmatic können Sie hier kostenlos oder echtes Geld spielen und hier einen Bonus erhalten!"
 h1: "Obstparty -Slot"
 iframe: "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?lang=&cur=&gameSymbol=vs20fruitparty&websiteUrl=https%3A%2F%2Fdemogamesfree.pragmaticplay.net&jurisdiction=99&lobbyURL=https%3A%2F%2Fwww.pragmaticplay.com"
-thumbnail: "https://objects.kaxmedia.com/auto/o/91728/8c4bca3a6a.png"
-icon: "https://objects.kaxmedia.com/auto/o/91728/8c4bca3a6a.png"
+thumbnail: "/images/auto/o/91728/8c4bca3a6a.png"
+icon: "/images/auto/o/91728/8c4bca3a6a.png"
 name: "Obstparty"
 home: true
 weight: 1

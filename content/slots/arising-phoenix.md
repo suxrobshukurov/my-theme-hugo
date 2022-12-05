@@ -5,8 +5,8 @@ title: "Auftreten von Phoenix Slot Review & Bonus -"
 description: "Entdecken Sie den entstehenden Phoenix -Slot von Amatic und lesen Sie über Funktionen, Boni, Volatilität und Auszahlungen von Top -Online -Casinos!"
 h1: "Entstehen Phoenix -Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/105787/14f6418435.Png"
-icon: "https://objects.kaxmedia.com/auto/o/105787/14f6418435.PNG"
+thumbnail: "/images/auto/o/105787/14f6418435.Png"
+icon: "/images/auto/o/105787/14f6418435.PNG"
 name: "Entstehen Phönix"
 home: true
 weight: 1

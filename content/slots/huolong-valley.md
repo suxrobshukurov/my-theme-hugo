@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Huolong Valley Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Huolong Valley Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/84762/5d85761b01.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/84762/5d85761b01.jpeg"
+thumbnail: "/images/auto/o/84762/5d85761b01.jpeg"
+icon: "/images/auto/o/84762/5d85761b01.jpeg"
 name: "Huolong Valley"
 home: true
 weight: 1

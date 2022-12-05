@@ -5,8 +5,8 @@ title: "Gladiator: Straße nach Rom Online Slot"
 description: "Vergleicht die besten Online -Glücksspiel -Sites und -spiele Kanadas.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Gladiator - Straße nach Rom Online Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/34721/a2c0ab9631.png"
-icon: "https://objects.kaxmedia.com/auto/o/34721/a2c0ab9631.png"
+thumbnail: "/images/auto/o/34721/a2c0ab9631.png"
+icon: "/images/auto/o/34721/a2c0ab9631.png"
 name: "Gladiator - Straße nach Rom"
 home: true
 weight: 1

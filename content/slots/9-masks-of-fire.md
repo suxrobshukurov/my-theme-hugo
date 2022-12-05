@@ -5,8 +5,8 @@ title: "9 Masken des Feuerschlitzes - Spiel & Bonus"
 description: "Lesen Sie unsere Rezension der 9 Masken of Fire Online Slot und entdecken Sie das Gameplay und die Funktionen dieses Spiels. Wir sehen uns auch an, wo wir den besten Casino -Bonus finden können."
 h1: "9 Masken des Feuerschlitzes"
 iframe: "https://redirector32.valueactive.eu/Casino/Default.aspx?applicationid=4023&sext1=demo&sext2=demo&serverid=22619&ul=en&variant=UAT-demo&lobbyURL=http://www.microgaming.co.uk/games&gameid=9MasksOfFireDesktop"
-thumbnail: "https://objects.kaxmedia.com/auto/o/107758/8b3284d26a.PNG"
-icon: "https://objects.kaxmedia.com/auto/o/107758/8b3284d26a.PNG"
+thumbnail: "/images/auto/o/107758/8b3284d26a.PNG"
+icon: "/images/auto/o/107758/8b3284d26a.PNG"
 name: "9 Masken des Feuers"
 home: true
 weight: 1
@@ -17,7 +17,7 @@ freeSpins: "Mittel"
 wildSymbol: "Ja"
 minMaxBet: "360.000 $.00"
 maxWin: "Schrullig/seltsam, Safari"
-screenshots: ["https://objects.kaxmedia.com/auto/o/107974/d8d02c175f.jpeg"]
+screenshots: ["/images/auto/o/107974/d8d02c175f.jpeg"]
 ---
 
 {{< code >}}<h2>9 Masken von Feuer Online Slot Review</h2><p>Eine afranisch. 9 von Microgaming und GameBurger Studios entwickelt, sind 9 FIRS-Masken ein Desktop und einen mobilen kompatiblen Steckplatz mit 5 Rollen und 20 Zeilen, wo Sie bis zu 2.000x Ihre Wette gewinnen können. Vielleicht nicht überraschend, dass diese Top -Belohnung gleichzeitig aus der Landung 9 Maskensymbole entsteht.</p><p>Dies ist nicht die einzige Funktion, da Sie auch bis zu 30 kostenlose Drehungen genießen können, wobei sich alle Siege verdreifacht haben. Landen Sie in dieser Runde genug Masken, um eine riesige 6.000 -fache Wette oder 360 zu erhalten.000.00 bei maximalen Einsätzen. 9 Masken des Feuers haben eine mittlere Volatilität und großzügige Durchschnittsrenditen von 96.24%.</p><h2>Wie man die 9 Masken von Fire Slot Machine spielt</h2><p>Stammesdrums spielen sich ab, wenn sich die Rollen auf Ihrem PC, Android, iOS oder Windows Mobile drehen. Flackernde Glut erheben sich hinter dem 5x3 -Symbol -Netz, wo Sie traditionelle Früchte, Glocke, Bar und 7s -Embleme sehen werden. Die Goldene Maske ist ein spezielles Streuungssymbol, und ein blau-weißer Diamant ist wild und kann als andere als Kombinationen in einer der 20 Paylines bei den besten Online-Casinos dienen, um Kombinationen zu vervollständigen.</p><p>Der Wettenbereich stammt von nur 0.20 bis 60.00 für jeden Spin, obwohl dieses Maximum etwas weniger ist, als wir gerne sehen. Wählen Sie Ihren Anteil aus, indem Sie auf den Registerkarten Plus oder Minus auf beiden Seiten des Wager -Anzeigers klicken. Es ist ein schnelles und einfaches System, das bedeutet.</p><p>Es gibt einige andere Steuerungsoptionen, z. Klicken.</p><p>Die Auszahlungen variieren von nur 1x Ihre Wette für eine vollständige Linie von Kirschen bis hin zu beeindruckenden 125x für das wilde Diamantsymbol.</p><h2>Kostenlose Spins und andere 9 Masken von Feuerschlitzfunktionen</h2><p>Ein Preismesser zur Seite der Rollen zeigt Ihnen, wie viel Maskensymbole wert sind. Sie benötigen 3 Masken in den Positionen in den mittleren 3 Rollen, um einen Preis zu gewinnen, der der Wette entspricht, wobei die Werte bis zu 2.000x steigen, wenn Sie maximal 9 Masken gleichzeitig landen.</p><p>Ein afrikanischer Stammesschild ist das Streuungssymbol, und alle 3 oder mehr vergeben 1x Ihre Wette sowie eine kostenlose Spins -Funktion. Bevor die Bonusspiele beginnen. Drehen Sie das Rad, um alles von 10 Spins mit einem 2x -Multiplikator auf 30 Drehungen zu sammeln, wobei alle Siege verdreifacht sind. Wenn 3 weitere Schilde frei.</p><h3>

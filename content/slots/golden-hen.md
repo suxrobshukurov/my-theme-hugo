@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Golden Henne Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Goldener Henne Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/84774/332ce5ea4d.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/84774/332ce5ea4d.jpeg"
+thumbnail: "/images/auto/o/84774/332ce5ea4d.jpeg"
+icon: "/images/auto/o/84774/332ce5ea4d.jpeg"
 name: "Goldene Henne"
 home: true
 weight: 1

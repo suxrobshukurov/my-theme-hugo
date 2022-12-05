@@ -5,8 +5,8 @@ title: "Buch der Aztec Slot Review & Bonus -"
 description: "Lesen Sie unsere Rezension des Buches Aztec Slot von Amatic, um RTP, Features, Jackpot & More zu entdecken. Wir haben alle Informationen, die Sie von den besten Online -Casinos benötigen!"
 h1: "Buch des Aztec Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/107101/807a9b2856.Png"
-icon: "https://objects.kaxmedia.com/auto/o/107101/807a9b2856.PNG"
+thumbnail: "/images/auto/o/107101/807a9b2856.Png"
+icon: "/images/auto/o/107101/807a9b2856.PNG"
 name: "Buch von Azteken"
 home: true
 weight: 1

@@ -5,8 +5,8 @@ title: "Anna van Helsing Monster Huntress Slot"
 description: "Mit einem Vampirjäger in unserer Rezension des Anna Van Helsing Monster Huntress Online Slot mit. Wir sehen uns das Gameplay und wo man den besten Casino -Bonus finden."
 h1: "Anna van Helsing Monster Huntress Slot"
 iframe: "https://redirector3.valueactive.eu/Casino/Default.aspx?playmode=demo&ul=en&applicationid=4123&serverid=28786&&gameid=annavanhelsingmonsterhuntressDesktop"
-thumbnail: "https://objects.kaxmedia.com/auto/o/108222/2a35f2702d.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/108222/2a35f2702d.jpeg"
+thumbnail: "/images/auto/o/108222/2a35f2702d.jpeg"
+icon: "/images/auto/o/108222/2a35f2702d.jpeg"
 name: "Anna van Helsing Monster Huntress"
 home: true
 weight: 1
@@ -17,7 +17,7 @@ freeSpins: "Mittel"
 wildSymbol: "Ja"
 minMaxBet: "$ 187.500.00"
 maxWin: "Horror, Vampire"
-screenshots: ["https://objects.kaxmedia.com/auto/o/108226/688e9708f0.jpeg"]
+screenshots: ["/images/auto/o/108226/688e9708f0.jpeg"]
 ---
 
 {{< code >}}<h2>Anna van Helsing Monster Huntress Online Slot Review</h2><p>Vampire, Werwölfe und eine mutige Frau, die entschlossen ist, sie zu zerstören. Dieses 5-Reel-Spiel hat 25 Paylines, eine mittlere Volatilität und durchschnittliche Renditen von 96.18%.</p><p>Sie können auf PCs, Android, iOS oder Windows Mobiles für eine Vielzahl von Einsätzen spielen und bis zu 187.500 gewinnen.00 auf höchstem Wette -Ebene. Bonusmerkmale des Anna Van Helsing Monster Hunttress Slots -Spiels umfassen die Erweiterung von wilden Symbolen, die Respins auslösen, und kostenlose Spiele mit allen Siegen verdoppelt sich. Lösen Sie die Verbannungsfunktion der Dracula aus, um andere Symbole dramatisch in zusätzliche Wildnis zu verwandeln.</p><h2>Wie man den Anna Van Helsing Monster Huntress Slot spielt</h2><p>Horrorfans werden den hier verwendeten gotischen Stil lieben. Das 5x3 -Gitter aus metallischen Hochkartensymbolen, goldenen Monstern, Spiegeln und Wölfen sitzt vor dem Hintergrund eines gruseligen Friedhofs. Ana van Helsing ist mit einer Armbrust bewaffnet, und Dracula ist ein kluger aussehender Kerl mit einem finsteren Grinsen. Es gibt einige nette Animationen, die aus wachsenden Symbolen ausdehnen.</p><p>Die großzügige Verbreitung der Wettenoptionen geht von 0 ab.25 bis 150.00 pro Spin, mit vielen Optionen dazwischen in den höchsten Online-Casinos. Sie wählen eine Wette über die goldenen Pfeiltasten an den Steuerelementen aus, wodurch sie schnell und einfach gestartet werden kann. Die kreisförmige Pfeil -Registerkarte löst Autoplay -Spins aus, und die 3 kleinen Linien öffnen ein Paytable.</p><p>Sie gewinnen, indem Sie 3, 4 oder 5 Symbole über eine der 25 Paylines von der linken Seite abhalten, obwohl mehrere Wildniss helfen. Das wertvollste Symbol ist ein Wolf, und wenn dies direkt über eine Linie land.</p><h2>Kostenlose Spins und andere Anna van Helsing Monster Hunting Slot Features</h2><p>Dracula, Anna van Helsing und ein heulender Wolf sind alle wilde Symbole. Jede Wild hat eine eigene Sonderfunktion, in der sie sich erweitern kann, um ganze Rollen zu füllen. Wenn Van Helsing auf den Rollen 1, 2 oder 3 auftritt. Es gibt Ihnen einen zweiten Schuss, um einen Sieg zu erhalten, und kann auch zum Wolf -Angriffsfunktion führen, bei dem der wilde Wolf ganze Rollen füllt.</p><p>Alle 3 Blutmondstreuungssymbole vergeben 8 kostenlose Spins mit einem 2x -Gewinn -Multiplikator, der durchgehend aktiv ist. Sie können die Verbannungsfunktion der Dracula aus den kostenlosen Spielen auslösen. Wenn Dracula auf der mittleren Rolle landet, wird er zu einem erweiterten wilden Symbol, und alle anderen höher bezahlten Symbole verwandeln sich auch in zusätzliche Wildnis. Mehr Blood Moon Scatter Symbole Award Weitere kostenlose Spins, sodass Sie viel mehr als die ersten 8 Bonusspiele erhalten können.</p><h3>

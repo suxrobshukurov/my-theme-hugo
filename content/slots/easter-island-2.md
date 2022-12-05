@@ -5,8 +5,8 @@ title: "Osterinsel 2 Slot - Spiel & Bonus"
 description: "Schauen Sie sich unsere vollständige Überprüfung des Online Slot des Easter Island 2 an, um das Gameplay, die Boni, RTP und das Spielen mit den besten Casino -Angeboten zu entdecken."
 h1: "Osterinsel 2 Slot"
 iframe: "https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=7396&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes"
-thumbnail: "https://objects.kaxmedia.com/auto/o/107482/768d535056.png"
-icon: "https://objects.kaxmedia.com/auto/o/107482/768d535056.png"
+thumbnail: "/images/auto/o/107482/768d535056.png"
+icon: "/images/auto/o/107482/768d535056.png"
 name: "Osterinsel 2"
 home: true
 weight: 1
@@ -17,7 +17,7 @@ freeSpins: "Mittel"
 wildSymbol: "Ja"
 minMaxBet: "750.000 Dollar.00"
 maxWin: "Tropeninsel, Komödie"
-screenshots: ["https://objects.kaxmedia.com/auto/o/107487/d5fd56b676.jpeg"]
+screenshots: ["/images/auto/o/107487/d5fd56b676.jpeg"]
 ---
 
 {{< code >}}<h2>Osterinsel 2 Online Slot -Bewertung</h2><p>Die riesigen Steinköpfe der Osterinsel sind zurück und diesmal sind sie im Urlaub. Der Online-Slot von Oster Island 2 stammt aus Yggdrasil und ist die Fortsetzung eines ihrer größten Hits. Cartoonschildkröten, Füchse und Schlangen gehören zu den Symbolen des 6x4 -Symbolgitters, flankiert von den lebhaften, animierten Statuen. Der Comic -Stil passt auf spannende Boni, wie Respins bei jedem Sieg, kolossalen Symbolen und Wilds.</p><p>Sie können bis zu 2.500x Ihre Wette oder 750.000 gewinnen.00 bei maximalen Einsätzen. Das Slots -Spiel von Easter Island 2 hat eine mittlere Volatilität und zahlt sich mit durchschnittlicher Rate von 96% zurück. Nehmen Sie den Spaß auf PCs, iOS, Android und Windows-Handys an den am besten bewerteten Yggdrasil-Websites, die hier vorgestellt wurden.</p><h2>Wie man den Easter Island 2 Slot spielt</h2><p>Dieses Spiel verwendet fantastische computeranimierte Grafiken, um viel Humor zu verleihen. Die Steinköpfe der Osterinsel genießen ihren Urlaub in Sonnenhüten, Farben und Westen in einer Strandumgebung. Eine Cartoon Möwa sieht häufig aus und hilft bei der Vervollständigung der Siege.</p><p>Höher bezahlte Tiersymbole tragen zum Cartoon-Stil bei, wobei kleinere Siege aus den verschiedenen Spielkartenanzügen stammen.</p><p>Es ist sehr einfach, sich einzurichten und zu spielen. Klicken Sie auf die Schaltfläche Münzenwert und Sie können die Rollen für zwischen 0 drehen.25 und 300.U. Der blaue Pfeil in einem Kreis startet eine automatische Spins -Option und drücken Sie die Registerkarte"+", gefolgt von"I", um zum Paytable zu gelangen.</p><p>Sie sehen. Die Preise reichen von 2x der Einsatz, wenn die am niedrigsten bezahlten Symbole eine Linie füllen, bis 40x, wenn ein roter Vogel über eine ganze Payline landet.</p><h2>Respins & andere Easter Island 2 Slot -Merkmale</h2><p>Die Boni beginnen jedes Mal, wenn Sie eine gewinnende Kombination landen. Ein Symbol Swap Respins -Feature beginnt, obwohl das, was als nächstes passiert.</p><p>Wenn Symbole für niedrige Kartenanzugsanklage Teil eines Siegs werden, saugen die Statuen alle Beispiele anderer Kartenanzüge von den Rollen ab, und ein Respin spielt mit nur hohen Emblemen und dem Gewinnsymbol im Spiel ab. Gleiches gilt mit einem Sieg aus einem hochbezahlten Tiersymbol, wobei nur 1 Tiertyp im Respin vorgestellt wird.</p><p>Ein 4 einer Art Sieg am auslösenden Spin sieht 2x2 kolossale Blocksymbole im Respin aktiv. Wenn der erste Sieg mit 5 übereinstimmenden Symbolen war, erscheinen 3x3 -Blöcke, und es werden riesige 4x4 -Symbole angezeigt, wenn der Sieg für 6 von einer Art war. Siege von 6 Symbolen erweitern auch die Rollen auf 8 Reihen hoch, wobei die Anzahl der Linien für den Respin von 25 auf 55 erhöht wurde.</p><p>Die Möwen fliegt in jedem Respin auf die Rollen und verwandeln sich in ein goldenes Wildsymbol, das als andere fungieren kann. Es wird zu einem kolossalen Block der gleichen Größe wie andere.</p><h3>

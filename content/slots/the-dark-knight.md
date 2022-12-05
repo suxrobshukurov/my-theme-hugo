@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "The Dark Knight Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Der dunkle Ritterschlitz"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/37292/8aee78a9df.png"
-icon: "https://objects.kaxmedia.com/auto/o/37292/8aee78a9df.png"
+thumbnail: "/images/auto/o/37292/8aee78a9df.png"
+icon: "/images/auto/o/37292/8aee78a9df.png"
 name: "Der dunkle Ritter"
 home: true
 weight: 1

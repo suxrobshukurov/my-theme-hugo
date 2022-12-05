@@ -5,8 +5,8 @@ title: "Herr. Macau Slot Review & Bonus"
 description: "Erfahren Sie mehr über MR. Macau Slot von Betsofts Volatilität, Funktionen, RTP, Auszahlungen und kostenlosen Spins und Casino -Boni bei den Premier Online -Casinos!"
 h1: "Herr. Macau Slot"
 iframe: "https://democasino.betsoftgaming.com/cwguestlogin.do?bankId=675&CDN=AUTO&gameId=844"
-thumbnail: "https://objects.kaxmedia.com/auto/o/112094/c590ec7e78.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/112094/c590ec7e78.jpeg"
+thumbnail: "/images/auto/o/112094/c590ec7e78.jpeg"
+icon: "/images/auto/o/112094/c590ec7e78.jpeg"
 name: "Herr. Macau"
 home: true
 weight: 1
@@ -17,7 +17,7 @@ freeSpins: "Mittel"
 wildSymbol: "Ja"
 minMaxBet: "104.112 $.00"
 maxWin: "Asiaten, Showbiz, Sevens"
-screenshots: ["https://objects.kaxmedia.com/auto/o/112097/3eeace5fab.jpeg"]
+screenshots: ["/images/auto/o/112097/3eeace5fab.jpeg"]
 ---
 
 {{< code >}}<h2>Herr. Macau Online Slot -Bewertung</h2><p>Die Las Vegas aus dem Osten, Macau, erwartet alle, die Sie alle unterhalten, und MR. Macau selbst begrüßt Sie auf dem neuen Slot von Betsoft.</p><p>Entworfen mit der typischen Liebe zum Detail des Entwicklers, MR, MR. Macau Online Slot bringt Sie zu Asiens Unterhaltungshauptstadt, um Ihnen eine wirklich gute Zeit zu zeigen. Der Schlitz ist mit einem eher Standard -Gitterformat reich an Merkmalen, und die klebrigen Wilds, der Wild Boost und die Triple 7 Free -Spins sowie die Respins werden Sie zu Gewinnen von 4.338x den Einsatz bringen. Möchte mehr darüber erfahren? Lesen Sie diesen gründlichen MR weiter. MACAU -Bewertung!</p><h2>Wie man MR spielt. Macau -Slot</h2><p>Sie sehen den Showrunner MR. Macau begrüßt Sie im Steckplatz auf der rechten Seite der Rollen, wenn Sie es auf jedem Gerät laden, sei es ein Handy oder ein Desktop in den obersten Online-Casinos.</p><p>Unter den Rollen sehen Sie die Steuertasten. Der erste, den Sie von links nach rechts sehen, ist die Drei-Punkte. Dann sehen Sie den"I" -Button, an dem der Paytable ist. Das Doppel -8. Macau selbst, die Chips, die Würfel, die Brennen 7 und die Kirschen. Die Spielkartenroyals von A bis J sind die niedrig bezahlten Symbole. Es gibt auch eine wilde und eine dreifache Streuung, die bald erklärt werden kann.</p><p>Jetzt, unter der Schaltfläche"I", sehen Sie die Balance -Anzeige und sehen nach rechts, Sie sehen das Feld der Wagerkonfiguration. Sie können eine Wette von 0 platzieren.16 bis 24 Credits pro Spin. Das Sieg Display erfolgt als nächstes, gefolgt vom Autoplay und dem großen Wiedergabetaste.</p><h2>Herr. Macau Funktionen und kostenlose Spins</h2><p>Wie bereits erwähnt, Mr. Macau ist eines der besten Slot -Spiele für Funktionen. Wenn es keine Siege bei einem Dreh gibt, erhalten Sie die Chance, dass ein zufälliger hochbezahlter Symbol ausgewählt wird, um ein klebriges Symbol auf den Rollen zu werden und Sie mit einem Respin zu belohnen. Die Respins stoppen nur, wenn Sie mit dem gewählten klebrigen Symbol einen Sieg bringen!</p><p>Mit jedem nicht ausgezeichneten Spin besteht jedoch auch die Möglichkeit, dass eine Grenze um die Rollen um die wilde Kraft zufällig beleuchtet wird. Das ist MR. Macaus Wild Boost -Merkmal, das die Chancen für klebrige Wilds erhöht, auf den Rollen zu erscheinen, 5, 6 oder 7 dieser Wildnis. Wenn diese klebrigen Wilds landen, bleiben sie für 2 Drehungen klebrig! Wenn Sie mehr klebrige Wildnis auf dem Respin bekommen, wird der Spinschalter auf 7 Spins zurückgesetzt! Die Wildnis können auf allen Rollen landen, aber der erste.</p><p>Wenn Sie genug Triple 7 -Streuung landen, lösen Sie die freien Spins aus. Wenn Sie die Funktion mit 3 Streuungen auslösen, erhalten Sie 10 kostenlose Drehungen, bei denen alle Wildniss klebrig sind. Wenn Sie es mit 4 Streuungen auslösen, erhalten Sie 10 freie Drehungen, wobei die klebrigen Wildniss öfter erscheinen und Ihnen die Möglichkeit haben, Multiplikatorwilde von 1x bis 3x zu landen! Die Triple 7 -Streuung erscheint auch auf allen Rollen, aber die erste.</p><h3>

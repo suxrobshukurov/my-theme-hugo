@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Eisige Wilds Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Eisiger Wilds Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/79557/b3635d75e1.png"
-icon: "https://objects.kaxmedia.com/auto/o/79557/b3635d75e1.png"
+thumbnail: "/images/auto/o/79557/b3635d75e1.png"
+icon: "/images/auto/o/79557/b3635d75e1.png"
 name: "Eisige Wildnis"
 home: true
 weight: 1

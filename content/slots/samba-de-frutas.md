@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Samba de Frutas Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Samba de Frutas Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/80879/87Dea0E7DC.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/80879/87dea0e7dc.jpeg"
+thumbnail: "/images/auto/o/80879/87Dea0E7DC.jpeg"
+icon: "/images/auto/o/80879/87dea0e7dc.jpeg"
 name: "Samba de Frutas"
 home: true
 weight: 1

@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Big Foot Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Big Foot Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/83880/73e3c9c2c9.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/83880/73e3c9c2c9.jpeg"
+thumbnail: "/images/auto/o/83880/73e3c9c2c9.jpeg"
+icon: "/images/auto/o/83880/73e3c9c2c9.jpeg"
 name: "Großer Fuß"
 home: true
 weight: 1

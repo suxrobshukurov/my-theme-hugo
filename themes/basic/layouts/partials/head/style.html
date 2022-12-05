@@ -68,3 +68,18 @@
 
   </style>
 </noscript>
+{{ if eq .Page.Type "slots" }}
+{{- partial "styles/slots.html" . -}}
+{{ end }}
+{{ if eq .Page.Type "casino" }}
+{{- partial "styles/casinos.html" . -}}
+{{ end }}
+{{ if eq .Page.Type "blog" }}
+{{- partial "styles/blog.html" . -}}
+{{ end }}
+{{ if eq .Page.Type "software" }}
+{{- partial "styles/software.html" . -}}
+{{ end }}
+{{ if and (ne .Page.Type "slots") (ne .Page.Type "casino") (ne .Page.Type "blog" ) (ne .Page.Type "software") }}
+{{- partial "styles/other.html" . -}}
+{{ end }}

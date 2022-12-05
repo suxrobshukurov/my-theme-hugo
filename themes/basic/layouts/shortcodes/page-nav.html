@@ -1,5 +1,12 @@
-<div class="toc-container">
-  <div class="toc-title">Table of content:<span class="show-toc" data-show="Show" data-hide="Hide">[Show]</span>
+<div class="toc-container" id="page-nav">
+  <div class="toc-title">{{i18n "page-nav"}}:<span class="show-toc" data-show="[Show]" data-hide="[Hide]"
+      on="tap:page-nav.toggleClass(class='open')" role="button" tabindex="0"></span>
   </div>
-  <div class="toc-list-wrap" id="page-navigation"></div>
+  <div class="toc-list-wrap">
+    {{$toc := .Page.TableOfContents}}
+    {{$toc = replace $toc `ul` `ol`}}
+    {{$toc = replace $toc `<ol>` `<ol class='toc-list'>`}}
+    {{$toc = replace $toc `<a` "<amp-img alt='✅' class='menu_emoji' width='16' height='16' src='/images/ficons/icons/svg/1828/1828614.svg'></amp-img><a" }} 
+    {{$toc | safeHTML}} 
+  </div>
 </div>

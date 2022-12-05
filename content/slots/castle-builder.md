@@ -2,15 +2,15 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Castle Builder Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Castle Builder Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/34673/a6ed8b2d60.png"
-icon: "https://objects.kaxmedia.com/auto/o/34673/a6ed8b2d60.png"
+thumbnail: "/images/auto/o/34673/a6ed8b2d60.png"
+icon: "/images/auto/o/34673/a6ed8b2d60.png"
 name: "Castle Builder"
 home: true
 weight: 1
-software: "https://objects.kaxmedia.com/auto/o/11042/0f6379185d.png"
+software: "/images/auto/o/11042/0f6379185d.png"
 lines: "96.47%"
 reels: "Nein"
 freeSpins: "Mittel"

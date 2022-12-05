@@ -5,8 +5,8 @@ title: "Grand Tiger Slot Review & Bonus -"
 description: "Massive Belohnungen und 720 Möglichkeiten, um den Grand Tiger Slot von Amatic zu gewinnen! Unsere Bewertung umfasst RTP, Funktionen, Volatilität, Auszahlungen und mehr! Hier finden Sie die vollständige Bewertung hier!"
 h1: "Grand Tiger Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/107225/2792661db7.Png"
-icon: "https://objects.kaxmedia.com/auto/o/107225/2792661db7.PNG"
+thumbnail: "/images/auto/o/107225/2792661db7.Png"
+icon: "/images/auto/o/107225/2792661db7.PNG"
 name: "Grand Tiger"
 home: true
 weight: 1

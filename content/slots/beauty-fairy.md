@@ -5,8 +5,8 @@ title: "Beauty Fairy Slot Review & Bonus -"
 description: "Gewinnen Sie 250.000 Münzen in einem Spin! Lesen Sie unsere Rezension über den Schönheitsfeden von Amatic, um herauszufinden, wie! Unsere Bewertung umfasst RTP, Funktionen, Boni und mehr."
 h1: "Schönheitsfee Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/107096/42a909c9d1.Png"
-icon: "https://objects.kaxmedia.com/auto/o/107096/42a909c9d1.PNG"
+thumbnail: "/images/auto/o/107096/42a909c9d1.Png"
+icon: "/images/auto/o/107096/42a909c9d1.PNG"
 name: "Schönheitsfee"
 home: true
 weight: 1

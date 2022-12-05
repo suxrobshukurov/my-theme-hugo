@@ -5,8 +5,8 @@ title: "Stapeled Online Slot Canada Review und Bonus"
 description: "Möchten Sie mehr über gestapelte Online Slot -Funktionen und -auszahlungen erfahren? Unabhängig bewertet Slot -Spiele hier unabhängig!"
 h1: "Gestapelter Slot"
 iframe: "https://democasino.betsoftgaming.com/cwguestlogin.do?bankId=675&CDN=AUTO&gameId=840"
-thumbnail: "https://objects.kaxmedia.com/auto/o/99137/3123815db8.PNG"
-icon: "https://objects.kaxmedia.com/auto/o/99137/3123815db8.PNG"
+thumbnail: "/images/auto/o/99137/3123815db8.PNG"
+icon: "/images/auto/o/99137/3123815db8.PNG"
 name: "Gestapelt"
 home: true
 weight: 1

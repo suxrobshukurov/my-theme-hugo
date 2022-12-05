@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Spanische Augen Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Spanische Augenschlitz"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/88141/a35cada39c.png"
-icon: "https://objects.kaxmedia.com/auto/o/88141/a35cada39c.png"
+thumbnail: "/images/auto/o/88141/a35cada39c.png"
+icon: "/images/auto/o/88141/a35cada39c.png"
 name: "Spanische Augen"
 home: true
 weight: 1

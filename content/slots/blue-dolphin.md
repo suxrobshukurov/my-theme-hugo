@@ -5,8 +5,8 @@ title: "Blue Dolphin Slot Review & Bonus -"
 description: "Lesen Sie unsere Rezension des Blue Delphin Slot von Amatic und finden Sie heraus, wie Sie 200.000 Münzen gewinnen können! Wir enthalten alle Informationen, die Sie wie RTP, Funktionen, kostenlose Spins und mehr benötigen."
 h1: "Blauer Delphinschlitz"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/Auto/o/107100/62C02D43A5.Png"
-icon: "https://objects.kaxmedia.com/auto/o/107100/62c02d43a5.PNG"
+thumbnail: "/images/Auto/o/107100/62C02D43A5.Png"
+icon: "/images/auto/o/107100/62c02d43a5.PNG"
 name: "Blauer Delphin"
 home: true
 weight: 1

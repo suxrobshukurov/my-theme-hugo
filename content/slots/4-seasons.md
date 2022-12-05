@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "4 Jahreszeiten Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "4 Seasons Slot"
 iframe: "//democasino.betsoftgaming.com/cwguestlogin.do?bankId=675&CDN=AUTO&gameId=637"
-thumbnail: "https://objects.kaxmedia.com/auto/o/34680/05250e1d99.png"
-icon: "https://objects.kaxmedia.com/auto/o/34680/05250e1d99.png"
+thumbnail: "/images/auto/o/34680/05250e1d99.png"
+icon: "/images/auto/o/34680/05250e1d99.png"
 name: "4 Jahreszeiten"
 home: true
 weight: 1

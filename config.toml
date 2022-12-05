@@ -1,11 +1,11 @@
 baseURL = '/'
 languageCode = 'en'
-title = 'Real Money Slots Online 2022. Play Slots And Win Real Money!'
 theme = 'basic'
-DefaultContentLanguage = 'gb'
+DefaultContentLanguage = 'de'
 enableRobotsTXT = true
-
+disableHugoGeneratorInject = true
 summaryLength = 30
+paginate = 28
 
 [params]
   mainSections = ['casino', 'slots', 'software']
@@ -13,60 +13,112 @@ summaryLength = 30
   logo = 'images/logo.png'
   defaultImg = '/images/default.png'
   footerLogo = 'images/logo_footer.png'
-  description = "Play real money slots online➡ with exclusive bonuses✅ offered by the best casinos✅ – Find detailed reviews of casino games with winning tips and make cash gambling"
   author = 'Barnaba Bianchi'
   siteName = 'BestMoneySlots'
   referral = 'https://redirectid.com/click.php?key=42t5uehm7vx8tk6nibtr&split='
-  CPU = 'https://sitename.com/'
+  CPU = 'https://bgcsavannah.org'
+  
 
 
-[languages.gb]
+[languages.de]
   languageName = 'English'
   weight = 1
 
-[[languages.gb.menu.main]]
-  name = 'Free Slots'
+[[languages.de.menu.main]]
+  name = 'Freie Slots'
   pageref = '/slots'
   weight = 1
-  [languages.gb.menu.main.params]
+  [languages.de.menu.main.params]
     icon = "images/icons/nav-slot.svg"
 
-[[languages.gb.menu.main]]
-  name = 'Casinos'
+[[languages.de.menu.main]]
+  name = 'Kasino'
   pageref = '/casino'
   weight = 2
-  [languages.gb.menu.main.params]
+  [languages.de.menu.main.params]
       icon = "images/icons/nav-chip.svg"
 
-[[languages.gb.menu.main]]
-  name = 'Blog'
+[[languages.de.menu.main]]
+  name = 'Bloggen'
   pageref = '/blog'
   weight = 3
-  [languages.gb.menu.main.params]
+  [languages.de.menu.main.params]
       icon = "images/icons/nav-bonus.svg"
-[[languages.gb.menu.main]]
+[[languages.de.menu.main]]
   name = 'Software'
   pageref = '/software'
   weight = 4
-  [languages.gb.menu.main.params]
+  [languages.de.menu.main.params]
       icon = "images/icons/nav-slot.svg"
 
 # FOOTER 1 MENU
-[[languages.gb.menu.footer]]
-  name = 'Free Slots'
-  pageref = '/slots'
+[[languages.de.menu.footer]]
+  name = 'Book of RA'
+  pageref = '/slots/book-of-ra'
+  weight = 1
+[[languages.de.menu.footer]]
+  name = 'Eye of Horus'
+  pageref = '/slots/eye-of-horus'
+  weight = 1
+[[languages.de.menu.footer]]
+  name = 'Book of Dead'
+  pageref = '/slots/book-of-dead'
+  weight = 1
+[[languages.de.menu.footer]]
+  name = 'Sweet Bonanza'
+  pageref = '/slots/sweet-bonanza'
+  weight = 1
+[[languages.de.menu.footer]]
+  name = 'Big Bass Bonanza'
+  pageref = '/slots/big-bass-bonanza'
   weight = 1
 
 # FOOTER 2 MENU
-[[languages.gb.menu.second]]
-  name = 'Free Slosts'
-  pageref = '/slots'
+[[languages.de.menu.second]]
+  name = 'ICE Casino'
+  pageref = '/casino/ice-casino'
+  weight = 1
+[[languages.de.menu.second]]
+  name = 'Vulkan Vegas'
+  pageref = '/casino/vulkan-vegas'
+  weight = 1
+[[languages.de.menu.second]]
+  name = 'GGBet'
+  pageref = '/casino/ggbet'
   weight = 1
 
 # FOOTER 3 MENU
-[[languages.gb.menu.three]]
-  name = 'Free Slosts'
-  pageref = '/slots'
+[[languages.de.menu.three]]
+  name = 'Yggdrasil'
+  pageref = '/software/yggdrasil'
+  weight = 1
+[[languages.de.menu.three]]
+  name = 'Blueprint'
+  pageref = '/software/blueprint'
+  weight = 1
+[[languages.de.menu.three]]
+  name = 'Pragmatic Play'
+  pageref = '/software/pragmatic-play'
+  weight = 1
+[[languages.de.menu.three]]
+  name = 'Novomatic'
+  pageref = '/software/novomatic'
+  weight = 1
+[[languages.de.menu.three]]
+  name = 'Evolution Gaming'
+  pageref = '/software/evolution-gaming'
+  weight = 1
+[[languages.de.menu.three]]
+  name = 'Aristocrat'
+  pageref = '/software/aristocrat'
+  weight = 1
+[[languages.de.menu.three]]
+  name = 'IGT'
+  pageref = '/software/igt'
+  weight = 1
+[[languages.de.menu.three]]
+  name = 'Nextgen'
+  pageref = '/software/nextgen'
   weight = 1
 
 #
@@ -84,15 +136,9 @@ summaryLength = 30
 
 
 [taxonomies]
-  category = 'categories'
   software = 'software'
-  tag = 'tags'
 
-# [markup.goldmark.renderer]
-
-#   unsafe = true
-
-[outputs]
-  page = ["html", "json", "rss"] # A player
-  section = ["html", "json", "rss"] # All players
-  home = ["html", "json", "rss"] # Everything
+[markup]
+  [markup.tableOfContents]
+    endLevel = 2
+    startLevel = 2

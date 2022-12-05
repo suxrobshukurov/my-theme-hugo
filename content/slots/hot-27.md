@@ -5,8 +5,8 @@ title: "Hot 27 Slot Review & Bonus -"
 description: "Finden Sie heraus! Enthält Volatilität, Funktionen, RTP, Bonusangebote und alle Details, die Sie benötigen."
 h1: "Heißer 27 Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/107217/e83f3bec2d.Png"
-icon: "https://objects.kaxmedia.com/auto/o/107217/e83f3bec2d.PNG"
+thumbnail: "/images/auto/o/107217/e83f3bec2d.Png"
+icon: "/images/auto/o/107217/e83f3bec2d.PNG"
 name: "Heiß 27"
 home: true
 weight: 1

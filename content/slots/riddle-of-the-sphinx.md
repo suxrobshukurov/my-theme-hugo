@@ -5,8 +5,8 @@ title: "Rätsel des Sphinx -Slot - Spielen & Bonus"
 description: "Enthüllen Sie das Rätsel des Sphinx mit unserer vollständigen Slot -Bewertung. Wir behandeln das Gameplay, zusätzliche Funktionen und wo Sie es mit den Top -Casino -Boni spielen können."
 h1: "Rätsel des Sphinx -Slot"
 iframe: "https://gserver-rtg.redtiger.com/rtg/launcher/riddleofthesphinx"
-thumbnail: "https://objects.kaxmedia.com/auto/o/110925/a5dbf562f7.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/110925/a5dbf562f7.jpeg"
+thumbnail: "/images/auto/o/110925/a5dbf562f7.jpeg"
+icon: "/images/auto/o/110925/a5dbf562f7.jpeg"
 name: "Rätsel der Sphinx"
 home: true
 weight: 1
@@ -17,7 +17,7 @@ freeSpins: "Hoch"
 wildSymbol: "Ja"
 minMaxBet: "800.000 Dollar.00"
 maxWin: "Antikes Ägypten"
-screenshots: ["https://objects.kaxmedia.com/auto/o/110929/2cf7f4d06e.jpeg"]
+screenshots: ["/images/auto/o/110929/2cf7f4d06e.jpeg"]
 ---
 
 {{< code >}}<h2>Rätsel des Sphinx Online Slot Review</h2><p>Eine goldene Pharao -Maske, Scarab -Käfer und Eye of RA gehören zu den klassischen Emblemen des alten Ägypten. Dieses 5-Reel-Spiel hat 20 Paylines und die wunderschönen Grafiken, die wir vom Entwickler Red Tiger erwartet haben.</p><p>Die Verbreitung von wilden Symbolen trägt dazu bei, Kombinationen über die Rollen dieses Desktops und dieses Handyspiels zu vervollständigen. Das Rätsel des Sphinx -Steckplatzes verfügt außerdem über eine Auswahl an kostenlosen Spins -Bonusfunktionen, bei denen Sie aus einer unterschiedlichen Anzahl von Drehungen mit verschiedenen Mengen an verfügbaren Wildniss auswählen.</p><p>Sie können über 8.000 x Ihren Einsatz gewinnen, wenn Sie dieses Spiel spielen. Es gibt eine hohe Volatilität und durchschnittliche Renditen von 95.66% aus diesem großzügigen Pharao.</p><h2>Wie man das Rätsel des Sphinx -Slot spielt</h2><p>Rollende Sanddünen und Pyramiden mit goldenem und weißen Stein bilden einen beeindruckenden Kulisse für den 5x4 -Rollenset. Ein reich verzierter Goldrahmen umgibt die Symbole, und Sie werden hohe Kartensymbole im ägyptischen Stil sowie eine Vielzahl von Juwelenkäfern, Kreuzen und anderen Gegenständen sehen. Es ist ein gut aussehendes Beispiel für dieses äußerst beliebte Thema und funktioniert in PCs, iOS, Android und Windows Mobiles.</p><p>Es ist sehr einfach, sich einzurichten und das Rätsel des Sphinx -Steckplatzes ist für Spieler mit jedem Maß an Geschicklichkeit und Erfahrung geeignet. Klicken Sie auf die Schaltfläche"Einsatz" und Sie sehen alle Wettenoptionen von 0 aus.20 bis 100.00, Auto- und Turbo -Modi werden durch einen Klick auf die relevanten Registerkarten ausgelöst und Sie greifen auf den Paytable zu, indem Sie auf den drei kleinen Zeilen oben im Spiel auf den Tipp auf Tippen stehen.</p><p>Dies zeigt Ihnen, wie viel Sie gewinnen, wenn 3 oder mehr übereinstimmende Symbole auf einer Payline landen, beginnend von der linken Rolle. Es gibt auch nützliche Informationen zu den Boni, wie z.</p><h2>Kostenlose Spiele und andere Rätsel der Sphinx -Slot -Funktionen</h2><p>Das wilde Symbol des goldenen Pharao ist alles entscheidend. Eine Dynastie -Wildnis -Merkmal.</p><p>Ein Streuungssymbol an 3 Stellen gleichzeitig zeigt mehrere kostenlose Spins -Optionen. Wenn nur eine einzige Streuung landet, sperrt es für den nächsten Dreh, um Ihnen eine zweite Chance zu geben, den Bonus auszulösen. Sie können nur 6 kostenlose Spiele mit Wildmultiplikatoren von 8x oder 12 Bonusspiele auswählen, bei denen sich Wilds mit 4x multiplizieren,. Eine andere Option löst 24 Spins an den Top -Online Slots -Websites aus, und alle Siege mit der Wildnis werden sich im Wert verdoppelt.</p><p>Es gibt eine vierte, mysteriöse Option, und wenn Sie dies nehmen, können Sie Glück haben und 24 Spins mit einem 8 -fachen Multiplikator oder Pech und den 2x -Multiplikator und nur 6 kostenlose Spiele erhalten. Extra Dynasty Wilds erscheinen in der Runde, obwohl Sie diese Funktion des Rätsels des Sphinx -Slots -Spiels nicht abrufen können.</p><h3>

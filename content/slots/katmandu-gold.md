@@ -5,8 +5,8 @@ title: "Katmandu Gold Slot Review, Bonus, RTP"
 description: "Mit der unabhängigen Bewertung des Katmandu -Gold -Slot von Elk Studios können Sie kostenlos oder echtes Geld spielen und hier einen Bonus erhalten!"
 h1: "Katmandu Gold Slot"
 iframe: "https://gamelauncher-stage.contentmedia.eu/1.0/game/?operatorid=44&mode=demo&currency=EUR&device=desktop&token=EUR&language=en_US&gameid=10051"
-thumbnail: "https://objects.kaxmedia.com/auto/o/99163/3cb98bc5db.png"
-icon: "https://objects.kaxmedia.com/auto/o/99163/3cb98bc5db.png"
+thumbnail: "/images/auto/o/99163/3cb98bc5db.png"
+icon: "/images/auto/o/99163/3cb98bc5db.png"
 name: "Katmandu Gold"
 home: true
 weight: 1

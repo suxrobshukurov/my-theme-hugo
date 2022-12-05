@@ -5,8 +5,8 @@ title: "Hot Choice Slot Review & Bonus -"
 description: "Gewinnen Sie Multiplikatoren und kostenlose Spins im Hot Choice Slot von Amatic! Lesen Sie unsere Rezension, um herauszufinden, wie Sie 150.000 Münzen in einem Spin gewinnen können! Beinhaltet RTP & mehr."
 h1: "Hot Choice Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/107586/c01c9ee1a7.Png"
-icon: "https://objects.kaxmedia.com/auto/o/107586/c01c9ee1a7.PNG"
+thumbnail: "/images/auto/o/107586/c01c9ee1a7.Png"
+icon: "/images/auto/o/107586/c01c9ee1a7.PNG"
 name: "Heiße Wahl"
 home: true
 weight: 1

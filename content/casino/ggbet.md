@@ -33,7 +33,7 @@ pageAnchor: [
   {navigation_faq: "FAQ"}
 ]
 
-slots: ["slots/achilies.md"]
+slots: ["slots/book-of-ra.md", "slots/razor-shark.md", "slots/eye-of-horus.md", "slots/book-of-dead.md", "slots/sizzling-hot.md", "slots/sweet-bonanza.md", "slots/el-torero.md", "slots/ramses-book.md", "slots/big-bass-bonanza.md"]
 
 games: {
   slots: "+200",

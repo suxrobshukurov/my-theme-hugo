@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Bobby 7s Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Bobby 7s Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/83891/81417b3c2e.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/83891/81417b3c2e.jpeg"
+thumbnail: "/images/auto/o/83891/81417b3c2e.jpeg"
+icon: "/images/auto/o/83891/81417b3c2e.jpeg"
 name: "Bobby 7s"
 home: true
 weight: 1

@@ -13,4 +13,4 @@ Disallow: */comment
 Disallow: */attachment/*
 Disallow: */wp-json/*
 Host: {{ .Site.Params.CPU }}
-Sitemap: {{ .Site.Params.CPU }}sitemap.xml
+Sitemap: {{ .Site.Params.CPU }}/sitemap.xml

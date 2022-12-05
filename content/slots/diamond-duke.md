@@ -5,8 +5,8 @@ title: "Diamond Duke Slot Review, Bonus, RTP"
 description: "Mit der unabhängigen Bewertung des Diamond Duke Slot von QuickSpin können Sie kostenlos oder echtes Geld spielen und hier einen Bonus erhalten!"
 h1: "Diamond Duke Slot"
 iframe: "https://d1k6j4zyghhevb.cloudfront.net/casino/games/diamondduke/index.html?gameid=diamondduke&channel=web&moneymode=fun&partnerid=13&lang=en_US"
-thumbnail: "https://objects.kaxmedia.com/auto/o/89425/e52a61c9ee.PNG"
-icon: "https://objects.kaxmedia.com/auto/o/89425/e52a61c9ee.PNG"
+thumbnail: "/images/auto/o/89425/e52a61c9ee.PNG"
+icon: "/images/auto/o/89425/e52a61c9ee.PNG"
 name: "Diamond Duke"
 home: true
 weight: 1
@@ -17,7 +17,7 @@ freeSpins: "Hoch"
 wildSymbol: "Ja"
 minMaxBet: "800.000 Dollar.00"
 maxWin: "Früchte, Sevens, Bars und Glocken"
-screenshots: ["https://objects.kaxmedia.com/auto/o/89430/b9736ebead.png"]
+screenshots: ["/images/auto/o/89430/b9736ebead.png"]
 ---
 
 {{< code >}}<h2>Diamond Duke Online Slot Review</h2><p>Das Thema des Diamond Duke Slot widerspiegelt eine der größten Epochen von Americana. Wenn Sie nach einer Nostalgie -Reise suchen, werden Sie sie definitiv hierher bekommen, da dies ein klassischer Slot mit Symbolen wie Sevens, Kirschen und natürlich Diamanten ist - Diamanten.</p><p>Es hat die Form eines einfachen 3x3 -Schlitz. Die Kirsche, Traube, Banane, sieben, Melonen, Glocken und Diamantsymbole haben alle unterschiedliche Werte, die von 3 Kirschen reichen, die ein 1 -fach Ihr Anteil bis zu 3 Diamanten entsprechen, die 160 -fache Ihres Einsatzes entsprechen. Diamond Duke ist wirklich ein klassischer Slot; Sogar der Soundtrack bringt Sie in die Zeit zu einem 50er -Jahre -Diner.</p><h2>So spielen Sie Diamond Duke Online Slot</h2><p>Diamond Duke ist für diejenigen erhältlich, die gerne sowohl auf Mobiltelefon als auch auf dem Desktop spielen und auf Top -Online Slots -Websites auf iOS und Android verfügbar sind. Wie die vorherigen Nostalgie -Freisetzungen von Quickspin, wie z. B. Sevens High, befinden sich die Steuerungen im unteren Drittel des Bildschirms.</p><p>Sie können Diamond Duke so einstellen, dass Sie automatisch spielen, wenn Sie dies wünschen. Wenn Sie sicherstellen möchten, dass Ihr Gleichgewicht nicht übergeht oder unter einem bestimmten Betrag, können Sie Autoplay -Stoppbedingungen einrichten. Dazu müssen Sie auf die Schaltfläche Autoplay klicken und dann die Schaltfläche"Erweiterte" Optionen auswählen.</p><p>Die aufmerksamkeitsbewegungsbezogenen Kontrollen des Spiels werden von dem Moment an, an dem Sie es starten, erkennbar sein. Es ist offensichtlich, dass QuickSpin mit Diamond Duke viel Sorgfalt in die Benutzererfahrung einbrachte. Zum Beispiel: Wenn Sie auf dem Desktop spielen und das Spiel auf eine andere Registerkarte klicken, wird die Musik gestoppt. Wenn Sie ein häufiger Online Slot -Player sind, wissen Sie, dass es sich um kleine Details wie diese handelt, die dazu beitragen, ein besseres Spielerlebnis zu machen.</p><h2>Diamond Duke Features, kostenlose Spins und Boni</h2><p>Wenn Sie auf dem Diamond Duke -Slot sitzen, werden Sie nicht einen, sondern zwei Bonusräder bemerken, die beim Spielen des Basisspiels ausgelöst werden können. Es gibt auch ein Pick & Click -Bonusspiel.</p><h3>

@@ -5,8 +5,8 @@ title: "Hengst Strike Slot Review & Canada Bonus"
 description: "Erfahren Sie mehr über den Hengst -Streik -Slot von Playtech, einschließlich der Funktionen, Auszahlungen, Volatilität, RTP und erhalten Sie kostenlose Spins und Casino -Bonus von den besten kanadischen Online -Casinos!"
 h1: "Hengstreikschlitz"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/91706/76C109242d.png"
-icon: "https://objects.kaxmedia.com/auto/o/91706/76c109242d.png"
+thumbnail: "/images/auto/o/91706/76C109242d.png"
+icon: "/images/auto/o/91706/76c109242d.png"
 name: "Hengstreik"
 home: true
 weight: 1

@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Der unsichtbare Mann Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Der unsichtbare Mann Slot"
 iframe: "https://netent-static.casinomodule.com/games/invisibleman_mobile_html/game/invisibleman_mobile_html.xhtml?staticServer=https%3A%2F%2Fnetent-static.casinomodule.com%2F&gameName=the-invisible-man.desktop&targetElement=game&flashParams.bgcolor=000000&mobileParams.lobbyURL=https%253A%252F%252Fwww.netent.com%252Fen%252Fsection%252Fentertain%252F&gameId=invisibleman_not_mobile&server=https%3A%2F%2Fnetent-game.casinomodule.com%2F&lang=en&sessId=DEMO-1532378321979&operatorId=default"
-thumbnail: "https://objects.kaxmedia.com/auto/o/34639/7ed5d0a671.png"
-icon: "https://objects.kaxmedia.com/auto/o/34639/7ed5d0a671.png"
+thumbnail: "/images/auto/o/34639/7ed5d0a671.png"
+icon: "/images/auto/o/34639/7ed5d0a671.png"
 name: "Der unsichtbare Mann"
 home: true
 weight: 1

@@ -5,8 +5,8 @@ title: "3 Tiny Gods Slot Review, Bonus, RTP"
 description: "Mit einer unabhängigen Bewertung von 3 Tiny Gods Slot aus dem Mikrogaming können Sie kostenlos oder echtes Geld spielen und hier einen Bonus erhalten!"
 h1: "3 Tiny Gods Slot"
 iframe: "https://redirector32.valueactive.eu/Casino/Default.aspx?applicationid=4023&sext1=demo&sext2=demo&serverid=22619&gameid=3tinyGodsDesktop&ul=en&variant=UAT-demo"
-thumbnail: "https://objects.kaxmedia.com/auto/o/94619/c9a1483f9e.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/94619/c9a1483f9e.jpeg"
+thumbnail: "/images/auto/o/94619/c9a1483f9e.jpeg"
+icon: "/images/auto/o/94619/c9a1483f9e.jpeg"
 name: "3 winzige Götter"
 home: true
 weight: 1
@@ -17,7 +17,7 @@ freeSpins: "Mittel"
 wildSymbol: "Ja"
 minMaxBet: "375.000 Dollar.00"
 maxWin: "Tiere, Juwelen, altes Ägypten"
-screenshots: ["https://objects.kaxmedia.com/auto/o/94624/fa7a8da9c2.jpeg"]
+screenshots: ["/images/auto/o/94624/fa7a8da9c2.jpeg"]
 ---
 
 {{< code >}}<h2>3 winzige Götter Online Slot -Bewertung</h2><p>3 kleine Götter spielt im alten Ägypten und machen seit seiner Veröffentlichung Wellen, dank der Merkmale, die Microgaming in sie gepackt haben, um es hervorzuheben.</p><p>30 aktive Paylines -Funktionen auf den 5 Rollen und Preisen können bis zu dem 5.000 -fachen Ihres Anteils steigen, was auf maximaler Ebene 50 sein kann.00 Wette.</p><p>Wie wir bereits erwähnt haben, gibt es eine Reihe interessanter und aufregender Merkmale im 3 winzigen Gods Slot -Spiel, aber mit einer durchschnittlichen Trefferfrequenz von 24.22%, es könnte argumentiert werden, dass das Spiel nicht das großzügigste ist, wenn es um die Regelmäßigkeit der Auszahlung geht.</p><p>Es hat jedoch einige innovative Merkmale, einschließlich eines leistungsstarken Wildsymbols, das den Spielern hilft. Es ist auch Teil der größten Auszahlungen des Steckplatzes mit 100 -fachen der Einsatz pro Zeile, was darauf hinweist, wie wichtig es ist, diese wilden Logos zu sehen!</p><h2>Wie man den 3 winzigen Götter Online Slot spielt</h2><p>Vor dem Drehen der Rollen können die Spieler über das Menü unten links auf das Paytable zugreifen. Hier finden Sie alle wichtigen Informationen zu den Payline- und hochbezahlten Symbolen wie Pharao, Königin, Horus, Anubis und Bastet.</p><p>Mit dieser Menü -Taste können die Spieler auch ihren Einsatzbetrag einstellen und, wenn Sie sich lieber zurücklehnen und sich die Aktion ansehen möchten, bis zu 100 Autospins einrichten.</p><p>Alle Geräte, von Desktops über Laptops und Handys bis hin zu Tischen, sind mit dem Layout des Spiels kompatibel, und das Mikrogaming hat sichergestellt. Dies gilt sowohl für das Standard -Gameplay als auch für die Steuerelemente wie Autoplay und Anpassung Ihres Anteils.</p><h2>3 winzige Göttermerkmale und freie Spins</h2><p>Freie Spins -Boni können durch die Bonusymbole erhalten werden, die auf einem Trio der Rollen erscheinen, und dieses Merkmal ist als Zorn von Anubis bekannt. Andere Merkmale wie das Geheimnis von Horus, das 2 oder 3 Rollen in Mystery -Ikonen verwandelt, und das Geschenk von Bastet, wo die Rollen gemischt werden, um den Spielern die Chance zu geben, eine Gewinnkombination zu erreichen, sind ebenfalls zu sehen und das Gameplay aufregend zu halten hindurch.</p><p>Das andere Hauptmerkmal im 3 Tiny Gods Slot -Spiel ist das Potenzial, einen Jackpot zu schöpfen. Während der Spins im Basisspiel können Symbole mit einem Stapel Münzen erscheinen. Die Landung dieser Münzen kann einen der drei Jackpots des Spiels für Spieler auslösen.</p><h3>

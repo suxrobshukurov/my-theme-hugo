@@ -5,8 +5,8 @@ title: "Break da Bank wieder Megaways Slot"
 description: "Lesen Sie unsere vollständige Rezension der Break Da Bank erneut Megaways Online Slot, wo wir das Gameplay, die Funktionen und das Spielen mit dem besten Casino -Bonus enthüllen."
 h1: "Break da Bank wieder Megaways Slot"
 iframe: "https://redirector3.valueactive.eu/Casino/Default.aspx?Applicationid=4123&Serverid=28771&Gameid=breakDaBankAgainMegawaysDesktop&ul=en&LobbyURL=Rizkse&Playmode=demo"
-thumbnail: "https://objects.kaxmedia.com/auto/o/112865/3737fa8592.webp"
-icon: "https://objects.kaxmedia.com/auto/o/112865/3737fa8592.webp"
+thumbnail: "/images/auto/o/112865/3737fa8592.webp"
+icon: "/images/auto/o/112865/3737fa8592.webp"
 name: "Break da Bank wieder Megaways"
 home: true
 weight: 1

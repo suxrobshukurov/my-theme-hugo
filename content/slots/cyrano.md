@@ -5,8 +5,8 @@ title: "Cyrano Slot Review & Bonus -"
 description: "Der Cyrano -Slot von High 5 Games wird Sie mit stürzenden Rollen und großen Belohnungen bezaubern! Lesen Sie unsere Rezension für den Insider Scoop! Beinhaltet RTP & Auszahlungen."
 h1: "Cyrano Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/111415/4E66898f59.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/111415/4e66898f59.jpeg"
+thumbnail: "/images/auto/o/111415/4E66898f59.jpeg"
+icon: "/images/auto/o/111415/4e66898f59.jpeg"
 name: "Cyrano"
 home: true
 weight: 1
@@ -17,7 +17,7 @@ freeSpins: "Mittel"
 wildSymbol: "Ja"
 minMaxBet: "1.000.000 Dollar.00"
 maxWin: "Showbiz, Luxus -Lebensstil"
-screenshots: ["https://objects.kaxmedia.com/auto/o/111419/c51394737d.jpeg"]
+screenshots: ["/images/auto/o/111419/c51394737d.jpeg"]
 ---
 
 {{< code >}}<h2>Cyrano Online Slot -Bewertung</h2><p>Diese tragische Liebesgeschichte wurde in vielen Animationsfilmen und Filmen dargestellt. Dank High 5 -Spielen wurde es auch auf den Rollen des Cyrano -Slot abgebildet.</p><p>Cyrano bietet 20 nicht fixierte Paylines an. In High 5 Games Style bietet der Steckplatz in Bezug auf das Gameplay Wilds, Streue und Bonusspiele, aber auch die Funktionen von Tumbling -Rollen, mit denen Sie aufeinanderfolgende Siege bringen können. Wenn Sie mit der Liebesgeschichte des Kadetten nicht vertraut sind und auf unterhaltsame Weise mehr darüber erfahren möchten, können Sie jedes mobile oder Desktop -Gerät einnehmen und das Spiel laden. Es ist auf jedem Gerät erhältlich, laden Sie es also einfach und tauchen Sie in ein echtes mittelalterliches Abenteuer in einem unserer hochrangigen Online-Casinos ein.</p><h2>Wie man Cyrano Online Slot spielt</h2><p>Cyrano von High 5 Games ist auf allen Geräten spielbar. Unabhängig davon.</p><p>Das erste auf der Anzeige ist das Feld der Wagerkonfiguration. Sie müssen zunächst die Anzahl der Paylines und den Wette pro Zeile festlegen. Sie haben 20 nicht fixierte Paylines, aber Sie können mit 1, 5, 9, 15 oder allen 20 spielen. Die Einstellung pro Zeile kann zwischen 0 liegen.01 bis 10 Credits. Die Gesamtwette kann zwischen 0 liegen.01 bis 200 Credits. Das Feld Gewinn und Credits erfolgt als nächst. Das nächste Feld zeigt Ihnen die Wiederholung "?”, Sprecher, Autospin und Spin -Tasten. Klicken Sie auf die Autopin -Schaltfläche, um bis zu 25 Autospins und die Spin -Taste zu platzieren, um die Rollen manuell zu drehen. Das"?”Die Schaltfläche bringt Sie zum Paytable.</p><h2>Cyrano zeigt und kostenlose Spins</h2><p>Die Tumbling -Rollen haben Sie begrüßt Sie, wenn Sie anfangen, die Rollen zu drehen. Sie werden sehen, dass die Symbole fallen und wenn Sie eine Gewinnerkombination bilden, verschwinden diese Symbole. Neue Symbole fallen von oben und füllen die Lücken aus. Die Tasten werden fortgesetzt, bis keine neuen Combos gebildet werden. Die Feel -Funktionen der Tumbling -Rollen gilt sowohl für das Basisspiel als auch für die Bonusspiele.</p><p>Die Wildnis erscheint nur auf den Mittelrollen und ersetzt alle regulären Symbole. Die Streuung erscheint nur in den ersten drei Rollen. Wenn drei Streuungen erscheinen, auslösen Sie 6 freie Spins. Während des Bonus können Sie jedoch zusätzliche freie Spins auslösen. Während der freien Drehungen wird die blaue Streuung golden. Wenn 3 goldene Streuungen erscheinen, erhalten Sie 2, 3 oder 4 kostenlose Spins. Wenn 4 goldene Streuungen erscheinen, erhalten Sie 4, 6 oder 8 zusätzliche kostenlose Spins, aber wenn 5 erscheinen, erhalten Sie 6, 8, 10, 12 oder bis zu 15 kostenlose Spins! Auf diese Weise können bis zu 300 kostenlose Spins gewonnen werden! Während der freien Spins werden alle Symbole, außer Cyrano, Roxane und Christian, Ihnen die gleichen Auszahlungen wie im Basisspiel geben. Die drei Hauptfiguren geben Ihnen 600.00, 500.00 und 400.00.</p><h3>

@@ -1,16 +1,20 @@
-<!DOCTYPE html>
-<html amp lang="{{ .Site.Language }}">
+<!doctype html>
+<html amp {{ with i18n `lng-cde`}}lang="{{.}}" {{ end }}>
 {{- partial "head.html" . -}}
 
 <body>
-  <amp-script script="app">
-    {{- partial "header.html" . -}}
+  {{- partial "header.html" . -}}
+  {{ if eq .Page.Type "software" }}
+  <amp-script layout="container" script="navigation" >
+  {{end}}
     <div id="content">
       {{- block "main" . }}{{- end }}
     </div>
-    {{- partial "footer.html" . -}}
+  {{ if eq .Page.Type "software" }}
   </amp-script>
-  {{- partial "amp-script.html" -}}
+  {{end}}
+  {{- partial "footer.html" . -}}
+  {{- partial "scripts.html" . -}}
 </body>
 
 </html>

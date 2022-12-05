@@ -1,15 +1,16 @@
 <header class="header">
+  <span id="top"></span>
   <div class="container">
     <div class="header-left">
       <div title="iMoneySlots" class="site-logo">
         {{$logo := resources.GetMatch .Site.Params.Logo }}
         <a href="/">
-          <img src="{{ $logo.Permalink }}" data-src="{{ $logo.Permalink }}" title=" {{ .Site.Params.SiteName}}"
-            alt="{{ .Site.Params.SiteName}}" width="126" height="62">
+          <amp-img src="{{ $logo.Permalink }}" src="{{ $logo.Permalink }}" title=" {{ .Site.Params.SiteName}}"
+            alt="{{ .Site.Params.SiteName}}" width="126" height="35"></amp-img>
         </a>
       </div>
     </div>
-    <nav class="main-navigation">
+    <nav class="main-navigation" id="main-navigation">
       <ul>
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
@@ -30,7 +31,8 @@
     {{$casino := where (where .Site.RegularPages "Type" "in" "casino") "Params.header" "==" true }}
     {{ if $casino }}
     <div class="header-right">
-      <div class="editors-chose">
+      <div class="editors-chose" id="best-casinos" role="button" tabindex="0"
+        on="tap:best-casinos.toggleClass(class='opened')">
         <div class="ec-icon">
           <i class="best-star" data-count="{{len $casino}}"></i>
         </div>
@@ -50,7 +52,7 @@
 
               <a href="{{.Permalink}}" class="item-body">
                 <span class="item-logo logo-shine">
-                  <img src="{{.Params.Icon}}" data-src="{{.Params.Icon}}" title="{{.Params.name}}"
+                  <img src="{{.Params.Icon}}" src="{{.Params.Icon}}" title="{{.Params.name}}"
                     alt="{{.Params.name}}" width="120" height="60" data-loaded="true">
                 </span>
                 <span class="item-info">
@@ -68,7 +70,7 @@
           </div>
         </div>
       </div>
-      <div class="mob-nav-btn">
+      <div class="mob-nav-btn" id="mob-nav-btn" role="button" tabindex="0" on="tap:mob-nav-btn.toggleClass(class='opened'),main-navigation.toggleClass(class='opened')">
         <span></span>
         <span></span>
         <span></span>
@@ -77,4 +79,43 @@
     {{ end }}
 
   </div>
+<amp-position-observer on="enter:hideAnim.start; exit:showAnim.start" layout="nodisplay"></amp-position-observer>
 </header>
+
+<amp-animation id="showAnim" layout="nodisplay">
+  <script type="application/json">
+    {
+      "duration": "200ms",
+       "fill": "both",
+       "iterations": "1",
+       "direction": "alternate",
+       "animations": [
+         {
+           "selector": "#scrollToTopButton",
+           "keyframes": [
+             { "opacity": "1", "visibility": "visible" }
+           ]
+         }
+       ]
+    }
+  </script>
+</amp-animation>
+<!-- ... and the second one is for adding the button.-->
+<amp-animation id="hideAnim" layout="nodisplay">
+  <script type="application/json">
+    {
+     "duration": "200ms",
+       "fill": "both",
+       "iterations": "1",
+       "direction": "alternate",
+       "animations": [
+         {
+           "selector": "#scrollToTopButton",
+           "keyframes": [
+             { "opacity": "0", "visibility": "hidden" }
+           ]
+         }
+       ]
+   }
+  </script>
+</amp-animation>

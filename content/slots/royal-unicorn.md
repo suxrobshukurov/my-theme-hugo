@@ -5,8 +5,8 @@ title: "Royal Unicorn Slot Review & Bonus -"
 description: "Verdienen Sie Royal Rewards von bis zu 100.000 Münzen im Royal Unicorn Slot von Amatic! Zeigt wilde Einhörner und gestapelte Wilds! Lesen Sie unsere Rezension für Details & RTP."
 h1: "Royal Unicorn Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/107682/cdf21368e0.Png"
-icon: "https://objects.kaxmedia.com/auto/o/107682/cdf21368e0.PNG"
+thumbnail: "/images/auto/o/107682/cdf21368e0.Png"
+icon: "/images/auto/o/107682/cdf21368e0.PNG"
 name: "Royal Unicorn"
 home: true
 weight: 1

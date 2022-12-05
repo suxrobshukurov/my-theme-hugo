@@ -5,8 +5,8 @@ title: "Fat Santa Slot Review, Bonus, RTP"
 description: "Mit einer unabhängigen Bewertung des Fat Santa Slot aus Relax Gaming können Sie kostenlos oder echtes Geld spielen und hier einen Bonus erhalten!"
 h1: "Fat Santa Slot"
 iframe: "https://d3nsdzdtjbr5ml.cloudfront.net/casino/relax/fatsanta/index.html?&moneymode=fun"
-thumbnail: "https://objects.kaxmedia.com/auto/o/90992/8774e0c908.png"
-icon: "https://objects.kaxmedia.com/auto/o/90992/8774e0c908.png"
+thumbnail: "/images/auto/o/90992/8774e0c908.png"
+icon: "/images/auto/o/90992/8774e0c908.png"
 name: "Fat Santa"
 home: true
 weight: 1
@@ -17,7 +17,7 @@ freeSpins: "Mittel"
 wildSymbol: "Ja"
 minMaxBet: "$ 640.500.00"
 maxWin: "Tiere, Fantasie, Weihnachten"
-screenshots: ["https://objects.kaxmedia.com/auto/o/90997/8310064987.jpeg"]
+screenshots: ["/images/auto/o/90997/8310064987.jpeg"]
 ---
 
 {{< code >}}<h2>Ein Blick auf den Online Slot des fetten Weihnachtsmanns</h2><p>Sie können sich Fat Santa von Push Gaming und seinen süßen 3D -Freunden anschließen, während Sie die Rollen auf der 5 -Raster -Raster, 5 Row Grid, drehen. Das Spiel hat feste 50 feste Paylines, damit Sie diese Siege ansammeln können. Reise in ein Winterwunderland und erleben Sie ein weißes Weihnachtsfest, in dem Sie bis zu 160.000 Münzen gewinnen können. Zu den schönen 3D -Grafiken gehören einige der Lieblingsfreunde des Weihnachtsmanns wie Rudolph, Elfen und ein Schneemann. Das Spiel enthält eine einzigartige Feat Santa Free -Spins mit expandierenden Symbolen, die bis zu 5 Rollen vertuschen können. Weitere Merkmale sind Wilds, Multiplikatoren, Santa Sleigh -Feature, Streue und supergestapelte Symbole. Um das Ganze abzurunden, haben Sie einen entzückenden Soundtrack, der Ihr Gameplay begleitet.</p><h2>Wie man Fat Santa Online Slot spielt</h2><p>Sie haben die Möglichkeit, auf vielen unserer besten Online Slots auf den Fat Santa Slot auf verschiedene Geräte zugreifen zu können. Sie können das Spiel auf Desktop-, Mobil- oder Tablet -Geräten spielen. Wenn Sie Ihr Mobiltelefon verwenden, können Sie sicher sein, dass Sie das Spiel auf jedem Gerät wie Android- und iOS -Geräte abspielen können. Sobald Sie das Spiel geöffnet haben, sehen Sie ein 5x5 -Gitter mit einer Reihe von Steuerelementen unten. Sie können die erste Steuerung links verwenden, um auf das Menü und das Paytable zuzugreifen. Mit der Option "Total -Wette" können Sie Ihre Wette anpassen. Das Spiel besteht aus 50 festen Paylines und bietet Ihnen die Möglichkeit, zwischen 0 zu wetten.25 Münzen bis zu einer maximalen Wette von 100 Münzen pro Spin. Mit den Steuerelementen rechts können Sie das Spiel beginnen oder bis zu 100 automatische Spins auswählen. Bei der Max -Bet können Sie bis zu 6405X Ihren Anteil gewinnen.</p><h2>Wie man Fat Santa Online Slot spielt</h2><p>Sie können Ihre Belohnungsreise im Basisspiel beginnen, wo Sie Gewinner von festlichen Gegenständen bilden können. Dazu gehören 3D -Symbole für Weihnachtsdekorationen, Geschenke, Elfen und Schneemänner. Der Weihnachtsmann ist das wilde Symbol und kann die anderen Symbole mit Ausnahme des zweiten wilden und Streuungssymbols ersetzen. Das zweite wilde Symbol wird durch den Weihnachtskuchen dargestellt.</p><h3>

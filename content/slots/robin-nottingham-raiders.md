@@ -5,8 +5,8 @@ title: "Robin Nottingham Raiders Review & Bonus"
 description: "Wissen!"
 h1: "Robin Nottingham Raiders Slot"
 iframe: "https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10035&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes"
-thumbnail: "https://objects.kaxmedia.com/auto/o/112764/f0d53bdf76.webp"
-icon: "https://objects.kaxmedia.com/auto/o/112764/f0d53bdf76.webp"
+thumbnail: "/images/auto/o/112764/f0d53bdf76.webp"
+icon: "/images/auto/o/112764/f0d53bdf76.webp"
 name: "Robin Nottingham Raiders"
 home: true
 weight: 1
@@ -17,7 +17,7 @@ freeSpins: "Hoch"
 wildSymbol: "Ja"
 minMaxBet: "1.215.000 USD.00"
 maxWin: "Mythen und Legenden, mittelalterlich"
-screenshots: ["https://objects.kaxmedia.com/auto/o/112767/6a34ea7a99.jpeg"]
+screenshots: ["/images/auto/o/112767/6a34ea7a99.jpeg"]
 ---
 
 {{< code >}}<h2>Robin Nottingham Raiders Online Slot Review</h2><p>Yggdrasil hat in Zusammenarbeit mit Peter & Sons einen neuen Titel veröffentlicht, der zweite mit dem epischen Robin Hood und seinen fröhlichen Männern in den Hauptrollen, genannt Robin Nottingham Raiders.</p><p>Das Spiel führt Sie in die Stadt Robin Nottingham Raiders, wo Sie mit Hilfe von mächtigen kostenlosen Spins -Boni Boostern und Wilds einige erstaunliche Auszahlungen erhalten können. Das 5x4 -Spiel bietet 20 Paylines an. Wenn Sie jedoch mehr darüber erfahren möchten, bleiben Sie bei uns über diese Bewertung von Robin Nottingham Raiders.</p><h2>Wie man Robin Nottingham Raiders Slot spielt</h2><p>Sobald Sie Robin Nottingham Raiders Slot auf einem mobilen oder Desktop -Gerät laden, werden Sie aufgefordert, die Wette auszuwählen, die Sie für Ihren ersten Dreh ab 0 platzieren möchten, von 0 aus 0.20 bis 10 Credits. Wenn Sie das Spiel betreten.</p><p>Unter den Rollen sehen Sie die Steuertasten und wichtigen Anzeigen. Wenn Sie von links nach rechts gehen, sehen Sie zuerst die Drei-Tanne-Taste. Klicken Sie auf oder tippen Sie darauf, und Sie werden sehen, dass Sie die Klänge des Spiels ausschalten oder eingeschaltet werden können, die Spielregeln sehen und den Paytable eingeben können.</p><p>Die niedrigen Bezahlung sind Symbole wie Schwerter, Hühnerbeine, Bögen, Schlagstöcke, Tassen und Pfeile. Das hochbezahlte wird ein eisernen Mann sein, Friar Tuck, König John, Robin und Maid Marian. Die blaue Münze wird die Wildnis sein und Ihnen eine der besten Auszahlungen von 25x den Pfahl für die Top -Kombination verleiht. Die Streuung wird jedoch die höchste Bezahlung sein und Ihnen 100-fache den Pfahl für eine 5-von-A-Com-Kombination erhalten.</p><p>Wenn Sie die Taste mit drei Tieren verlassen, sehen Sie die Anzeigen aus Balance, Gewinn und Wette, gefolgt von der Schnellspin-Taste, die auf einem der Top-Online-Slots-Sites aktiviert oder deaktiviert werden kann.</p><h2>Robin Nottingham Raiders und kostenlose Spins</h2><p>Im Basisspiel des Robin Nottingham Raiders Slot ist nicht viel passiert, außer der Anwesenheit der Wild.</p><p>Wenn Sie 9 spezielle Wilds sammeln, aktivieren Sie einen Respin, wobei 9 Wilds zufällig auf das Panel platziert sind. Wenn Sie mindestens 3 Streuungen landen, erhalten Sie nicht nur eine Auszahlung, sondern gewinnen auch 15 kostenlose Drehungen mit Panel -Multiplikatoren und durchstreifen Wilds.</p><p>Während des Bonu -Spiels Robin Nottingham Raiders für alle 3 gesammelten Spezialwilden erhalten Sie 3 zusätzliche kostenlose Drehungen mit 3 Roaming Wilds. 3 oder mehr Wildnis in derselben Rolle, die einem Panel -Multiplikator hinzugefügt werden. Diese Rolle, auf der sie gelandet sind, erhält einen Multiplikator von 2x oder 3x. Ihre Werte werden multipliziert, wenn Sie mehr als einen Multiplikator gleichzeitig erhalten und auf Ihren Sieg angewendet werden.</p><h3>

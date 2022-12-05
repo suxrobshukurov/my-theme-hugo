@@ -5,8 +5,8 @@ title: "Hot Neon Slot Review & Bonus -"
 description: "Ein umwerfender 1 Million Münzen wird im heißen Neonschlitz von Amatic angeboten! Unsere Bewertung zeigt, wie Sie groß gewinnen können! Beinhaltet RTP, Funktionen, Bonus und mehr!"
 h1: "Heißer Neonschlitz"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/107588/034ed579b6.Png"
-icon: "https://objects.kaxmedia.com/auto/o/107588/034ed579b6.PNG"
+thumbnail: "/images/auto/o/107588/034ed579b6.Png"
+icon: "/images/auto/o/107588/034ed579b6.PNG"
 name: "Heißes Neon"
 home: true
 weight: 1

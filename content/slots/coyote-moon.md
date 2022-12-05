@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Coyote Moon Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Coyote Moon Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/78613/6977080c46.png"
-icon: "https://objects.kaxmedia.com/auto/o/78613/6977080c46.png"
+thumbnail: "/images/auto/o/78613/6977080c46.png"
+icon: "/images/auto/o/78613/6977080c46.png"
 name: "Coyote Moon"
 home: true
 weight: 1

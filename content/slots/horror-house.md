@@ -5,8 +5,8 @@ title: "Horror House Slot Review, Bonus, RTP"
 description: "Mit der unabhängigen Rezension des Horror -House -Slot aus boomenden Spielen können Sie kostenlos oder echtes Geld spielen und hier einen Bonus erhalten!"
 h1: "Horrorhaus Slot"
 iframe: "https://operator.eu.booming-games.com/promotion/play/5ed60223d04d62001db4906e/desktop/demo-links/en"
-thumbnail: "https://objects.kaxmedia.com/auto/o/97603/a025d02dd8.png"
-icon: "https://objects.kaxmedia.com/auto/o/97603/a025d02dd8.png"
+thumbnail: "/images/auto/o/97603/a025d02dd8.png"
+icon: "/images/auto/o/97603/a025d02dd8.png"
 name: "Horrorhaus"
 home: true
 weight: 1
@@ -17,7 +17,7 @@ freeSpins: "Hoch"
 wildSymbol: "Ja"
 minMaxBet: "480.000 Dollar.00"
 maxWin: "Halloween, Horror"
-screenshots: ["https://objects.kaxmedia.com/auto/o/97608/3a9ea72db7.jpeg"]
+screenshots: ["/images/auto/o/97608/3a9ea72db7.jpeg"]
 ---
 
 {{< code >}}<h2>Horrorhaus Online Slot -Bewertung</h2><p>Booming Games liefert einen gut aussehenden Spielautomaten für PCs, iOS, Windows und Android-Geräte über einige der besten Online-Casinos. Ein verfallenes Haus im Familienstil im addams familienstil mit herrschierten Fenstern umgibt die 5 Rollen, und Sie werden viele Symbole zum Thema Horror-Themen im Gitter sehen. Geistere grüne Spielkartensymbole werden sowie gut gestaltete Bilder von Spinnen, Katzen, bluttrinkenden Vampiren und anderen gruseligen Kreaturen verwendet.</p><p>Sie beginnen mit ersten 45 Möglichkeiten zum Gewinnen, aber bei jedem Sieger -Spin werden zusätzliche Symbolpositionen in einer Reihe von Respins freigeschaltet. Mit mehr freigeschaltetem Weg wird es immer einfacher, auf den empfohlenen Online Slots -Websites zu landen, um Gewinnkombinationen über die Rollen zu landen. Sobald alle Plätze aktiv sind, gehen Sie als Belohnung an einer kostenlosen Bonus -Runde ein.</p><h2>Wie man das House of Horrors Slots -Spiel spielt</h2><p>Wenn Sie es gewohnt sind, Spielautomaten zu spielen, ist das unkomplizierte Bedienfeld ziemlich vertraut, aber selbst Anfänger haben keine Probleme. Plus und Minus -Registerkarten sitzen zu beiden Seiten der Wette -Ebene -Steuerelemente, und Sie können Ihre Einsätze von nur 0 anpassen.10 bis 100.00 pro Spin.</p><p>Das Plus -Symbol an der Seite der Hauptspin -Taste aktiviert einen Autoplay -Modus, der so lange läuft, wie Sie möchten, und die Registerkarte"I" öffnet den Paytable. Dies zeigt, wie viel Sie aus jedem Symbol gewinnen können und wie die ungewöhnliche Anzahl von Gewinnmethoden funktioniert. Passen Sie 3 Symbole über das 1-3-5-3-1-Muster überein, um einen Preis zu sammeln.</p><p>Eine verkehrte Fledermaus ist das wilde Symbol der Spiele, und es wird nach Möglichkeit als jeder andere eine Gewinnsequenz vervollständigen.</p><h2>Horror House Slot Free Spins & andere Boni</h2><p>Ein Sieg entfernt auch einige der Bilder von zerbrochenen Fenstern aus dem Netz. Dies erweitert die Anzahl der Möglichkeiten, um 135 zu gewinnen, und Sie erhalten einen freien Respin der Rollen. Wenn Sie eine weitere Gewinnkombination landen, werden weitere Möglichkeiten zum Gewinn mit 405, 675, 1125 und schließlich 3125 Wege hinzugefügt, die in jeder Respins -Reihe entsperrt wurden. Ein Verlustspin an jedem Punkt setzt die Rollen wieder auf die grundlegenden 45 Wege zurück.</p><p>Es wird einfacher, Gewinnkombinationen auszurichten, da Blocker von den Rollen verschwinden und mehr Symbolpositionen aktiv werden. Wenn Sie 5 Siege in Folge erzielen und die Rollen auf 3125 Wege zum Gewinnen ausgeweitet werden, erhalten Sie einen 8 kostenlosen Spins -Bonus, der sich auf dem vollständig erweiterten Rollenset abspielt.</p><h3>

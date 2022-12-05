@@ -5,8 +5,8 @@ title: "Blood Lust Slot Review, Bonus, RTP"
 description: "Mit einer unabhängigen Überprüfung des Blood Lust Slot von Elk Studios können Sie kostenlos oder echtes Geld spielen und hier einen Bonus erhalten!"
 h1: "Blutlustschlitz"
 iframe: "https://gamelauncher-stage.contentmedia.eu/1.0/game/?operatorid=44&mode=demo&currency=EUR&device=desktop&token=webdemo&language=en_gb&gameid=10043"
-thumbnail: "https://objects.kaxmedia.com/auto/o/89848/14ae633a05.PNG"
-icon: "https://objects.kaxmedia.com/auto/o/89848/14ae633a05.PNG"
+thumbnail: "/images/auto/o/89848/14ae633a05.PNG"
+icon: "/images/auto/o/89848/14ae633a05.PNG"
 name: "Blutlust"
 home: true
 weight: 1
@@ -17,7 +17,7 @@ freeSpins: "Hoch"
 wildSymbol: "Ja"
 minMaxBet: "250.000 Dollar.00"
 maxWin: "Fantasie, Juwelen, Vampire"
-screenshots: ["https://objects.kaxmedia.com/auto/o/89853/611aa0da59.jpeg"]
+screenshots: ["/images/auto/o/89853/611aa0da59.jpeg"]
 ---
 
 {{< code >}}<h2>Blutlust Online Slot -Bewertung</h2><p>Blood Lust by Elk Studios spielt auf dem Gelände von Draculas Schloss, bietet die Art von Online -Spielerlebniserfahrung, die wir von modernen Spielspielen erwarten, insbesondere von Spielen aus diesem Genre, wie Blood Suckers von Netent

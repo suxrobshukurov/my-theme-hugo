@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Aztec Power Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Aztec Power Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/88435/03CDE119F1.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/88435/03cde119f1.jpeg"
+thumbnail: "/images/auto/o/88435/03CDE119F1.jpeg"
+icon: "/images/auto/o/88435/03cde119f1.jpeg"
 name: "Aztec Power"
 home: true
 weight: 1

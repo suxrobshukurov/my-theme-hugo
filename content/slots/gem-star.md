@@ -5,8 +5,8 @@ title: "Gem Star Slot Review & Bonus -"
 description: "Drehen Sie Edelsteine im Weltraum, um 500.000 Münzen zu gewinnen! Lesen Sie unsere Rezension von Gem Star von Amatic, um herauszufinden, wie! Beinhaltet Funktionen, RTP & vollständige Details."
 h1: "Edelstar -Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/107222/8b1b6e33b1.Png"
-icon: "https://objects.kaxmedia.com/auto/o/107222/8b1b6e33b1.PNG"
+thumbnail: "/images/auto/o/107222/8b1b6e33b1.Png"
+icon: "/images/auto/o/107222/8b1b6e33b1.PNG"
 name: "Edelstar"
 home: true
 weight: 1

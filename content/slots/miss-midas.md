@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Miss Midas Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Miss Midas Slot"
 iframe: "https://dga1sy052ek6h.cloudfront.net/html5/wrapper3.html?token=Free%3Ampa85t4op65e6lef6r6k9mlkgnn%40241&language=en_us&currency=EUR&type=nextgen&gamename=missmidas&secure=true&mode=demo&lobbyurl=http%3A%2F%2Fdemo.nyxinteractive.com%3Fsession%3D&depositurl=&nyxroot=nogs-gdm-stage.nyxmalta.com/nextgen/&"
-thumbnail: "https://objects.kaxmedia.com/auto/o/34645/7079ee11f8.png"
-icon: "https://objects.kaxmedia.com/auto/o/34645/7079ee11f8.png"
+thumbnail: "/images/auto/o/34645/7079ee11f8.png"
+icon: "/images/auto/o/34645/7079ee11f8.png"
 name: "Miss Midas"
 home: true
 weight: 1

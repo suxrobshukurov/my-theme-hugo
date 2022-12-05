@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Samurai Split Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Samurai Split Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/88147/b221d103ea.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/88147/b221d103ea.jpeg"
+thumbnail: "/images/auto/o/88147/b221d103ea.jpeg"
+icon: "/images/auto/o/88147/b221d103ea.jpeg"
 name: "Samurai Split"
 home: true
 weight: 1

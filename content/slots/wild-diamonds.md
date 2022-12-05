@@ -5,8 +5,8 @@ title: "Wild Diamonds Slot Review & Bonus -"
 description: "Genießen Sie schnelle Action im Wild Diamonds Slot von Amatic! Bis zu 200.000 Münzen zur Erzielung! Lesen Sie unsere Rezension, um die Informationen zu entdecken, die Sie benötigen, um Mega -Auszahlungen zu gewinnen."
 h1: "Wild Diamonds Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/107688/a87685f260.Png"
-icon: "https://objects.kaxmedia.com/auto/o/107688/a87685f260.PNG"
+thumbnail: "/images/auto/o/107688/a87685f260.Png"
+icon: "/images/auto/o/107688/a87685f260.PNG"
 name: "Wilde Diamanten"
 home: true
 weight: 1

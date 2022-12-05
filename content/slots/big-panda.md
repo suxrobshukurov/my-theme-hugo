@@ -5,8 +5,8 @@ title: "Big Panda Slot Review & Bonus -"
 description: "Versuchen Sie Ihr Glück für bis zu massive 500.000 Münzen im Big Panda Slot von Amatic! Lesen Sie unsere Rezension für RTP, Tipps, Boni und alles, was Sie brauchen, um groß zu gewinnen."
 h1: "Big Panda Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/107098/cb356d47b0.Png"
-icon: "https://objects.kaxmedia.com/auto/o/107098/cb356d47b0.PNG"
+thumbnail: "/images/auto/o/107098/cb356d47b0.Png"
+icon: "/images/auto/o/107098/cb356d47b0.PNG"
 name: "Big Panda"
 home: true
 weight: 1

@@ -5,8 +5,8 @@
         <div class="footer-site-logo">
           {{ $footerLogo := resources.GetMatch .Site.Params.FooterLogo }}
           <a href="/">
-            <img src="{{ $footerLogo.Permalink }}" title="{{ .Site.Params.SiteName }}"
-              data-src="{{ $footerLogo.Permalink }}" alt="{{ .Site.Params.SiteName }}" width="124" height="63">
+            <amp-img src="{{ $footerLogo.Permalink }}" title="{{ .Site.Params.SiteName }}"
+               alt="{{ .Site.Params.SiteName }}" width="125" height="34"></amp-img>
           </a>
         </div>
         <div class="plus18-wrap">
@@ -81,47 +81,17 @@
     <div class="container">
       <div class="footer-icons">
         <div class="gpwa">
-          <a rel="nofollow" href="//certify.gpwa.org/verify/en/imoneyslots.com/" id="GPWASeal">
-            <img alt="GPWA" data-src="{{ .Site.BaseURL }}images/gpwa.gif" width="86" height="32">
-          </a>
+          <!--footer link -->
         </div>
-        <a href="//www.dmca.com/Protection/Status.aspx?ID=1f7de2e8-9aa6-4706-a82b-65fc8fb9c5cd"
-          title="DMCA.com Protection Status" class="dmca-badge" rel="nofollow">
-          <img alt="DMCA.com Protection Status" width="121" height="35"
-            data-src="https://images.dmca.com/Badges/dmca_protected_11_120.png?ID=1f7de2e8-9aa6-4706-a82b-65fc8fb9c5cd">
-        </a>
-        <!--noindex-->
-        <a rel="nofollow noreferrer noopener" href="https://www.begambleaware.org/" target="_blank">
-          <img alt="begamble" data-src="{{ .Site.BaseURL }}images/be-gamble.png" width="148" height="58">
-          <span class="hover">GambleAware offer players and their families advice and guidance on gambling. They offer
-            information and advice to encourage responsible gambling, both to players and casino operators, and give
-            help tothose whomight have a gambling problem.</span>
-        </a>
-        <a rel="nofollow noreferrer noopener" href="https://www.ecogra.org" target="_blank" class="with_hover">
-          <img alt="ecogra" data-src="{{ .Site.BaseURL }}images/ecogra.png" width="152" height="46">
-          <span class="hover">eCOGRA is an international testing agency that accredits and regulates the world of
-            online gambling. It checks to see whether online casinos are honest, fair and safe. eCOGRA is the word on
-            responsible gambling and protects players against unfair practices.</span>
-        </a>
-        <!--/noindex-->
-      </div>
-      {{$todayYear := now.Format "2006" }}
-      {{$siteName := .Site.Params.SiteName }}
-      {{ with i18n "footer-copyright" (dict "Name" $siteName "Date" $todayYear)}}
-      <div class="copyright">{{.}}</div>
-      {{ end }}
+        {{$todayYear := now.Format "2006" }}
+        {{$siteName := .Site.Params.SiteName }}
+        {{ with i18n "footer-copyright" (dict "Name" $siteName "Date" $todayYear)}}
+        <div class="copyright">{{.}}</div>
+        {{ end }}
 
-      <div class="btnTop_wrap">
-        <a href="#" class="btnTop"></a>
+        <div class="btnTop_wrap">
+          <button id="scrollToTopButton" on="tap:top.scrollTo(duration=200)" class=" scrollToTop"></button>
+        </div>
       </div>
     </div>
-  </div>
 </footer>
-{{- partial "head/scripts.html" . -}}
-
-{{ $main := resources.Get "js/main.js" | minify | fingerprint }}
-{{ $contentnav := resources.Get "js/contentnav.js" | minify | fingerprint }}
-{{ $app := resources.Get "js/app.js" | minify | fingerprint }}
-<script src="{{ $main.Permalink }}" defer="defer"></script>
-<script src="{{ $contentnav.Permalink }}" defer="defer"></script>
-<script src="{{ $app.Permalink }}" defer="defer"></script>

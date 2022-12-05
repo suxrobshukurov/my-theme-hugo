@@ -5,8 +5,8 @@ title: "Straßennetz Slot - Spiel & Bonus"
 description: "Lesen. Wir sehen auch, wo wir es mit dem besten Casino -Bonus spielen können."
 h1: "Straßennetz Slot"
 iframe: "https://nolimitcity.com/affiliates/?game=RoadRage&device=mobile"
-thumbnail: "https://objects.kaxmedia.com/auto/o/147252/7ff7c66ccf.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/147252/7ff7c66ccf.jpeg"
+thumbnail: "/images/auto/o/147252/7ff7c66ccf.jpeg"
+icon: "/images/auto/o/147252/7ff7c66ccf.jpeg"
 name: "Straßenwut"
 home: true
 weight: 1

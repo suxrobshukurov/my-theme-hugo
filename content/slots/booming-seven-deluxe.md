@@ -5,8 +5,8 @@ title: "Boomt sieben Deluxe Slot Review, Bonus, RTP"
 description: "Mit unabhängiger Bewertung von boomenden sieben Deluxe -Slot aus boomenden Spielen können Sie kostenlos oder echtes Geld spielen und hier einen Bonus erhalten!"
 h1: "Boomt sieben Deluxe -Slot"
 iframe: "https://redirector3.valueactive.eu/Casino/Default.aspx?siteID=MIT&playmode=demo&serverid=1866&ul=en&applicationID=7217&currency=EUR&ModuleID=19661&ClientID=50300&ProductID=30&gameID=58231b3d381e0c00c400000d"
-thumbnail: "https://objects.kaxmedia.com/auto/o/90865/09416bd30e.png"
-icon: "https://objects.kaxmedia.com/auto/o/90865/09416bd30e.png"
+thumbnail: "/images/auto/o/90865/09416bd30e.png"
+icon: "/images/auto/o/90865/09416bd30e.png"
 name: "Sieben deluxe boomt"
 home: true
 weight: 1

@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "5 Knights Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "5 Ritter Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/83859/07f49873ca.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/83859/07f49873ca.jpeg"
+thumbnail: "/images/auto/o/83859/07f49873ca.jpeg"
+icon: "/images/auto/o/83859/07f49873ca.jpeg"
 name: "5 Ritter"
 home: true
 weight: 1

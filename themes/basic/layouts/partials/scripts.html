@@ -1,0 +1,46 @@
+<script type="application/ld+json">
+      {
+        "@context" : "http://schema.org",
+        "@type" : "Article",
+        "headline" : "{{.Title}}",
+        "author" : {
+          "@type" : "Person",
+          "name" : "{{ .Params.author | default .Site.Params.author}}"
+        },
+        "datePublished" : "{{.PublishDate}}",
+        "image" : "{{ .Params.thumbnail | default .Site.Params.logo }}"
+      }
+</script>
+
+{{ if eq .Page.Type "software" }}
+<script id="navigation" type="text/plain" target="amp-script">
+let contents = '';
+let hasContent = false;
+const elHeaders = document.querySelectorAll('h2');
+const tocBtn = document.querySelector('.show-toc')
+const container = document.querySelector('#page-navigation')
+if(container && tocBtn) {
+tocBtn.addEventListener('click', () => {
+  elHeaders.forEach((el, index) => {
+    if (!el.id) {
+    el.id = `id-${index}`;
+    }
+    const url = `${location.href.split('#')[0]}#${el.id}`;
+    contents += `<li><amp-img alt="✅" class="menu_emoji" width="16" height="16" src="/images/ficons/icons/svg/1828/1828614.svg">
+    </amp-img><span on="tap:${el.id}.scrollTo(duration=200)" role="button" tabindex="0">
+      ${el.textContent}
+    </span></li>`;
+  });
+  if (!hasContent) {
+  const ol = document.createElement('ol');
+  ol.classList.add('toc-list');
+  ol.innerHTML = contents;
+  container.appendChild(ol);
+  hasContent = true;
+  } else {
+    return;
+  }
+});
+}
+</script>
+{{ end }}

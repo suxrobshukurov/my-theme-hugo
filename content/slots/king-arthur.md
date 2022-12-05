@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "König Arthur Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "König Arthur Slot"
 iframe: "https://nogs-gl-stage.nyxmalta.com/game/?nogsoperatorid=241&nogsgameid=70435&sessionid=&accountid=&nogsmode=demo&nogslang=en_us&nogscurrency=EUR&clienttype=html5&lobbyurl=http://demo.nyxinteractive.com?session="
-thumbnail: "https://objects.kaxmedia.com/auto/o/87708/c4071e6499.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/87708/c4071e6499.jpeg"
+thumbnail: "/images/auto/o/87708/c4071e6499.jpeg"
+icon: "/images/auto/o/87708/c4071e6499.jpeg"
 name: "König Arthur"
 home: true
 weight: 1

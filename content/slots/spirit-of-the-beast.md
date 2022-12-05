@@ -5,8 +5,8 @@ title: "Geist des Biestschlitzes - Spiel & Bonus"
 description: "Lesen."
 h1: "Geist des Tierschlitzes"
 iframe: "https://d2drhksbtcqozo.cloudfront.net/casino/games-mt/spiritofthebeast/index.html?gameid=spiritofthebeast&jurisdiction=MT&channel=web&moneymode=fun&partnerid=1"
-thumbnail: "https://objects.kaxmedia.com/auto/o/111536/effe6dbb4c.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/111536/effe6dbb4c.jpeg"
+thumbnail: "/images/auto/o/111536/effe6dbb4c.jpeg"
+icon: "/images/auto/o/111536/effe6dbb4c.jpeg"
 name: "Geist des Tieres"
 home: true
 weight: 1
@@ -17,7 +17,7 @@ freeSpins: "Hoch"
 wildSymbol: "Ja"
 minMaxBet: "800.000 Dollar.00"
 maxWin: "Tiere, wild westlich, Geschichte"
-screenshots: ["https://objects.kaxmedia.com/auto/o/111540/470c0d8e4d.jpeg"]
+screenshots: ["/images/auto/o/111540/470c0d8e4d.jpeg"]
 ---
 
 {{< code >}}<h2>Geist des Tieres Online Slot -Bewertung</h2><p>Beschwören Sie Eagles, Wölfe und wilde Pferde, wenn Sie den Geist des Biestschlitzes aus entspannen Spielen spielen. Dieses 5-Zeilen-Spiel mit 5-zeiligen Spielen bietet wunderschöne Bilder von nordamerikanischen Wildtieren und indianischen Emblemen. Zu den Funktionen gehören wilde Totemsymbole und kostenlose Spins, bei denen Sie Multiplikatoren von bis zu 10.000 x Ihre Wette bauen können.</p><p>Sie können den Geist der Biestschlitzmaschine auf PCs, iOS, Android oder Windows -Handys spielen. Dieses Spiel mit hoher Volatilität bietet eine hervorragende Rendite zu Spielern von 96.52%.</p>

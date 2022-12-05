@@ -5,8 +5,8 @@ title: "Der Rift Slot Review, Bonus, RTP"
 description: "Mit der unabhängigen Bewertung des Rift -Slot von Thunderkick können Sie kostenlos oder echtes Geld spielen und hier einen Bonus erhalten!"
 h1: "Der Rift -Slot"
 iframe: "https://ext-qa-gameservice.thunderkick.com/gamelauncher/desktopLauncher/external-lobby?gameId=tk-s1-g1&container=container&operatorId=2"
-thumbnail: "https://objects.kaxmedia.com/auto/o/95660/553e63ad44.png"
-icon: "https://objects.kaxmedia.com/auto/o/95660/553e63ad44.png"
+thumbnail: "/images/auto/o/95660/553e63ad44.png"
+icon: "/images/auto/o/95660/553e63ad44.png"
 name: "Der Graben"
 home: true
 weight: 1

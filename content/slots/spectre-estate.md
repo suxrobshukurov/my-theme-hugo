@@ -5,8 +5,8 @@ title: "Spectre Estate Slot Review, Bonus, RTP"
 description: "Mit der unabhängigen Überprüfung des Spectre Estate Slot aus dem Microgaming können Sie kostenlos oder echtes Geld spielen und hier einen Bonus erhalten!"
 h1: "Spectre Estate Slot"
 iframe: "https://redirector32.valueactive.eu/Casino/Default.aspx?applicationid=4023&serverid=22619&gameid=spectreEstateDesktop&ul=en&variant=uat-demo&sext1=demo&sext2=demo&lobby"
-thumbnail: "https://objects.kaxmedia.com/auto/o/94468/cbaad4a536.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/94468/cbaad4a536.jpeg"
+thumbnail: "/images/auto/o/94468/cbaad4a536.jpeg"
+icon: "/images/auto/o/94468/cbaad4a536.jpeg"
 name: "Spectre Estate"
 home: true
 weight: 1
@@ -17,7 +17,7 @@ freeSpins: "Hoch"
 wildSymbol: "Ja"
 minMaxBet: "221.900 USD.00"
 maxWin: "Halloween, Horror"
-screenshots: ["https://objects.kaxmedia.com/auto/o/96567/99b3f4c3fa.jpeg"]
+screenshots: ["/images/auto/o/96567/99b3f4c3fa.jpeg"]
 ---
 
 {{< code >}}<h2>Spectre Estate Online Slot Review</h2><p>Microgaming und Partnerstudio Nur für den Sieg haben dem Spectre Estate Online Slot einen Cartoon -Stil gegeben, wobei das 5x4 -Gitter der Symbole gegen ein Grab festgelegt ist. Diese Symbole umfassen Kartenanzüge, die 2 Ermittler sowie männliche und weibliche Geister. Schauen Sie sich über den Rollen an und Sie sehen 5 Spiegelrahmen, mit denen die Mehrfachfunktionen bei den besten Online -Casinos entsperren werden können.</p><p>Wildmultiplikatoren, kostenlose Spiele, Sofortige Bargeldauszahlungen und Respins können jederzeit auslösen und kombinieren, um ihre Kräfte zu steigern, wenn ein gruseliger Geist auf die Rollen schwebt.</p><p>Ein breiter Wette -Bereich läuft ab 0.10 bis 100.00 pe spin und sorgt dafür. Sie können den Spectre Estate Slot auf einem PC oder Mobiltelefonen mit den iOS-, Windows- oder Android -Betriebssystemen abspielen.</p><h2>So spielen Sie das Spectre Estate Slots -Spiel</h2><p>Sie können in nur ein paar Klicks beginnen. Verwenden Sie das $ -Symbol, um Einsätze auszuwählen, die von nur 0 variieren können.10 bis 100.00 für jeden Spin, was dies zu einem Spiel für die meisten Budgets macht. Andere Schaltflächen aktivieren den Autoplay -Modus und Sie können die Lautstärke des eindringlichen Soundtracks auswählen oder ausschalten.</p><p>Die 3 Punkte auf den Steuerelementen öffnen den Paytable, wo Sie sehen, wie viel Sie gewinnen, indem Sie Symbole über eine Zeile von der linken Seite übereinstimmen. Die niedrigsten Spielkartensymbole kehren bis zu 2x Ihre Wette zurück, wobei das gespenstische wilde Symbol bis zu 8x wert ist.</p><p>Wenn Sie gerne auf Handys spielen, müssen Sie keine Kompromisse eingehen, da der Spectre Estate Slot alle Funktionen, Stil und Potenzial hat, um große Preise auf allen Plattformen in den Top Mobile Casinos zu zahlen.</p><h2>Kostenlose Spins und andere Specter Estate Boni</h2><p>Jedes Mal, wenn sich die Rollen drehen, erscheint auf jedem der 5 Spiegel über den Rollen ein gespenstischer Wirbel. Ein Bonusmerkmal landet dann auf jedem und wenn der weibliche Geist auf mindestens 2 Rollen im Spin erscheint, aktiviert sie beide. Es ist möglich, dass 5 Boni gleichzeitig kombiniert werden und insgesamt 7 verschiedene potenzielle Belohnungen verfügbar sind.</p><p>Sie können 1x oder 2x Ihre Wette gewinnen, einen Respin auslösen, wilde Symbole über ganze Rollen expandieren, zusätzliche Wildniss erscheinen oder von 2x- und 3x -Multiplikator -Wildsymbolen profitieren. Die Specter Estate Slot Machine verfügt außerdem über eine kostenlose Spins -Runde, wobei erste 8 Bonusspiele ausgelöst werden. Zusätzliche kostenlose Spiele können hinzugefügt werden. Alle Boni aus dem auslösenden Spin werden übertragen und bleiben während der gesamten freien Spins aktiv.</p><h3>

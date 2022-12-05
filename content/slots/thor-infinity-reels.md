@@ -5,8 +5,8 @@ title: "Thor Infinity Reels Slot - Play & Bonus"
 description: "Lesen. Wir decken auch die besten Casino -Boni ab."
 h1: "Thor Infinity Reels Slot"
 iframe: "https://d2drhksbtcqozo.cloudfront.net/casino/games-mt/thorinfinityreels/index.html?gameid=thorinfinityreels&jurisdiction=MT&channel=web&moneymode=fun&partnerid=1"
-thumbnail: "https://objects.kaxmedia.com/auto/o/107798/619e7da8f8.png"
-icon: "https://objects.kaxmedia.com/auto/o/107798/619e7da8f8.png"
+thumbnail: "/images/auto/o/107798/619e7da8f8.png"
+icon: "/images/auto/o/107798/619e7da8f8.png"
 name: "Thor Infinity Reels"
 home: true
 weight: 1
@@ -17,7 +17,7 @@ freeSpins: "Hoch"
 wildSymbol: "Ja"
 minMaxBet: "242.200 $.00"
 maxWin: "Mythen und Legenden, nordische Mythologie"
-screenshots: ["https://objects.kaxmedia.com/auto/o/107986/911432ff4a.jpeg"]
+screenshots: ["/images/auto/o/107986/911432ff4a.jpeg"]
 ---
 
 {{< code >}}<h2>Thor Infinity Reels Online Slot Review</h2><p>Yggdrasil bringt einen mächtigen nordischen Gott auf Desktop- und Mobile Casinos mit ihrem Online Slot von Thor Infinity Reels. In Zusammenarbeit mit Reel Play entwickelt sich Thor Infinity Reels als 3-Reel-Spiel mit 4 Reihen Symbole. Die Anzahl der Rollen wächst mit einem Sieg und steigt immer wieder an, solange Sie die auslösenden Kombinationen verbessern.</p><p>Ein progressiver Multiplikator steigt zum Erscheinungsbild jeder neuen Rolle. Wenn Sie das Spiel auf 12 Rollen erweitern, gibt es einen besonderen Bonuspreis im Wert von 888x Ihre Wette. Wildsymbole helfen bei der Vervollständigung der Siege, und ein Respin -Merkmal kann zu Jackpots von 2.000x den Pfahl führen.</p><p>Thor Infinity Reels ist ein hochvolatiles Spiel mit einem durchschnittlichen Rückzahlungsprozentsatz von 96.2%. Sie können alle Stil-, Funktionen und potenziellen Belohnungen für PCs, Android, iOS und Windows -Handys genießen.</p><h2>Wie man den Thor Infinity Reels Slot spielt</h2><p>Ein frostiger Nordwald, gefüllt mit den übrig gebliebenen Schwertern des Kampfes, erstreckt sich hinter dem 3x4 -Symbolgitter. Dieses dramatisch. Karten -Embleme in einem Wikinger -Stil spielen, schließen. Er ist ein wildes Symbol und kann als andere für die Fertigstellung von Siegen fungieren.</p><p>Die Thor Infinity Reels Slot Machine ist schön und einfach zu errichten und ist für die am wenigsten erfahrenen Spieler keine große Herausforderung für die am wenigsten erfahrenen Spieler. Sie können zwischen 0 spielen.20 und 40.U.</p><p>Autoplay- und Fast-Spin-Schaltflächen passen das Gameplay an, und die Schaltfläche"I" zeigt den Paytable an. Dies zeigt Ihnen, wie viel Sie gewinnen, wenn 3 Beispiele desselben Symbols über die Rollen landen, obwohl jeder Sieg, wie wir sehen werden, ein aufregendes Bonusfunktion auslöst.</p><h2>Respins & andere Thor Infinity Reels Slot Bonies</h2><p>Wenn 3 Symbole mit oder ohne Hilfe des wilden Symbols übereinstimmten, scheint es den Mechanismus für Infinity -Rollen auszulösen. Auf der rechten Seite wird eine zusätzliche Rolle hinzugefügt, und wenn sich der Sieg durch das gleiche Symbol oder die gleiche Wildnis verbessert, erscheint eine andere Rolle.</p><p>Dies führt weiter. Außerdem steigt der Wert einer Kombination für jede zusätzliche Rolle um 1x, was zu enormen Auszahlungen führen kann. Wenn Sie insgesamt 12 Rollen erstellen, erhalten Sie auch einen Jackpot von 888x Ihre Wette über alle Gewinne an den Top -Online Slots -Sites.</p><p>Thors 'Hammer, Mjolnir, löst einen Respins aus, wenn es an mindestens 6 Stellen auf einmal landet. Die auslösenden Symbole sperren die Rollen und nur farbenfrohe Hämmer oder leere Räume erscheinen für eine Reihe von Respins. Sie erhalten zunächst 3 Spins. Das Merkmal endet auf 3 Respins ohne das Aussehen von Mjolnir, oder alle Symbolpositionen werden gefüllt. Anschließend sammeln Sie Cash -Preise zwischen 1x und 100x für jeden Hammer, während die Grün-, Blau-, Rot- und Goldsymbole Jackpots von 10x, 50x, 250x oder 2.000x zahlen.</p><h3>

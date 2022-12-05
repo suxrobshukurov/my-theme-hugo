@@ -5,8 +5,8 @@ title: "Bonanza Megapays Slot - Spiel & Bonus"
 description: "Entdecken Sie den Bonanza -Megapays -Online Slot mit unserer Bewertung des Gameplays, Bonus -Funktionen und wo Sie es mit den besten Casino -Angeboten spielen können."
 h1: "Bonanza Megapays Slot"
 iframe: "https://d1k6j4zyghhevb.cloudfront.net/casino/games/bonanzamegapays/index.html?gameid=bonanzamegapays&channel=web&moneymode=fun&partnerid=83&lang=en"
-thumbnail: "https://objects.kaxmedia.com/auto/o/112756/a258d1167e.webp"
-icon: "https://objects.kaxmedia.com/auto/o/112756/a258d1167e.webp"
+thumbnail: "/images/auto/o/112756/a258d1167e.webp"
+icon: "/images/auto/o/112756/a258d1167e.webp"
 name: "Bonanza Megapays"
 home: true
 weight: 1

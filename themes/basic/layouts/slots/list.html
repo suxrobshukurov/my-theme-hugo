@@ -7,43 +7,51 @@
       {{ with .Params.H1 }}
       <h1>{{.}}</h1>
       {{ end }}
-      {{ with .Content }}
-      <div class="toc-container">
-        <div class="toc-title">{{i18n "page-nav"}}:<span class="show-toc" data-show="Show"
-            data-hide="Hide">[Show]</span>
+      <div class="toc-container" id="page-nav">
+        <div class="toc-title">{{i18n "page-nav"}}:<span class="show-toc" data-show="[Show]" data-hide="[Hide]"
+            on="tap:page-nav.toggleClass(class='open')" role="button" tabindex="0"></span>
         </div>
-        <div class="toc-list-wrap" id="page-navigation"></div>
+        <div class="toc-list-wrap" >
+          {{$toc := .TableOfContents}}
+          {{$toc = replace $toc `ul` `ol`}}
+          {{$toc = replace $toc `<ol>` `<ol class='toc-list'>`}}
+          {{$toc = replace $toc `<a` "<amp-img alt='✅' class='menu_emoji' width='16' height='16' src='/images/ficons/icons/svg/1828/1828614.svg'></amp-img><span" }} 
+          {{$toc = replace $toc `href="#` `on=tap:` }} 
+          {{$toc = replace $toc `"` `.scrollTo(duration=200)` }} 
+          {{$toc = replace $toc `<span` `<span role="button" tabindex="0" ` }} 
+          {{$toc | safeHTML}}  
+        </div>
       </div>
-      {{ end }}
-      {{ with .Params.Subtitle }}
-      <p style="text-align: center;">{{. | safeHTML}}</p>
-      {{ end }}
-      {{ with .Params.blockquote }}
-      <blockquote>{{. | safeHTML}}</blockquote>
-      {{ end }}
-    </div>
-    <div class="block-with-sidebar reverse">
-      <div class="content">
-        <div class="content-block">
-          {{ with i18n "all-slots"}}
-          <div class="h2">{{.}}</div>
-          {{ end }}
-          <div class="rows slots-list" id="slots">
-            {{$slots := where .Site.RegularPages "Type" "slots"}}
-            {{/* {{ range $slots.ByDate }}
-            {{ partial "parts/slot-card.html" . }}
-            {{ end }} */}}
 
+        {{ with .Params.Subtitle }}
+        <p style="text-align: center;">{{. | safeHTML}}</p>
+        {{ end }}
+        {{ with .Params.blockquote }}
+        <blockquote>{{. | safeHTML}}</blockquote>
+        {{ end }}
+      </div>
+      <div class="block-with-sidebar reverse">
+        <div class="content">
+          <div class="content-block">
+            {{ with i18n "all-slots"}}
+            <div class="h2">{{.}}</div>
+            {{ end }}
+              {{ $paginator := .Paginate (where .Pages "Type" "slots") }}
+              <div class="rows slots-list" id="slots">
+                {{ range $paginator.Pages }}
+                {{ partial "parts/slot-card.html" . }}
+                {{ end }}
+              </div>
+              {{ template "_internal/pagination.html" . }}
+            {{/*  <button class="load-more-bnt load-more-js">{{i18n "load-more"}}</button>  */}}
           </div>
-          <button class="load-more-bnt load-more-js" onclick="loadData()">{{i18n "load-more"}}</button>
         </div>
+        {{ partial "sidebar.html" . }}
       </div>
-      {{ partial "sidebar.html" . }}
-    </div>
-    {{ with .Content }}
-    <div class="content-block content-text">{{.}}</div>
-    {{ end }}
+      {{ with .Content }}
+      <div class="content-block content-text">{{.}}</div>
+      {{ end }}
 
-  </div>
+    </div>
 </main>
 {{ end }}

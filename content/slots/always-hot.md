@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Immer heißer Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Immer heißer Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/88331/2DA78C60CF.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/88331/2da78c60cf.jpeg"
+thumbnail: "/images/auto/o/88331/2DA78C60CF.jpeg"
+icon: "/images/auto/o/88331/2da78c60cf.jpeg"
 name: "Immer heiß"
 home: true
 weight: 1

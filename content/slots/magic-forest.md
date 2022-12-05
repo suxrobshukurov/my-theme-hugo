@@ -5,8 +5,8 @@ title: "Magic Forest Slot Review & Bonus-"
 description: "Gewinnen Sie eine magische 375.000 Münzen in einem Spin, wenn Sie den Magic Forest Slot von Amatic spielen! Unsere Bewertung zeigt, wie man groß gewinnt! Beinhaltet Funktionen, Regeln, RTP & mehr."
 h1: "Magic Forest Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/107676/91CBE28ec6.Png"
-icon: "https://objects.kaxmedia.com/auto/o/107676/91cbe28ec6.PNG"
+thumbnail: "/images/auto/o/107676/91CBE28ec6.Png"
+icon: "/images/auto/o/107676/91cbe28ec6.PNG"
 name: "Magischer Wald"
 home: true
 weight: 1

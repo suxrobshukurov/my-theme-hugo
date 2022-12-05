@@ -5,8 +5,8 @@ title: "Bells on Fire Slot Review & Bonus -"
 description: "Diese flammenden heißen Glocken haben massive Preise für Grenzen! Finden Sie heraus. Beinhaltet RTP, Funktionen, Bonus und mehr!"
 h1: "Glocken zum Feuerschlitz"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/107097/32b07a5f9f.Png"
-icon: "https://objects.kaxmedia.com/auto/o/107097/32b07a5f9f.PNG"
+thumbnail: "/images/auto/o/107097/32b07a5f9f.Png"
+icon: "/images/auto/o/107097/32b07a5f9f.PNG"
 name: "Glocken in Brand"
 home: true
 weight: 1

@@ -9,7 +9,7 @@
       {{ with .Params.subtitle }}{{. | safeHTML }}{{ end }}
       {{ with .Params.blockquote }}{{ . | safeHTML }}{{ end }}
       {{ with .Params.thumbnail }}
-      <p><img alt="{{$.Params.Name}}" width="95%" data-src="{{.}}" src="{{.}}" data-loaded="true"></p>
+      <p><amp-img alt="{{$.Params.Name}}" width="1" height="0.5" layout="responsive"  src="{{.}}"></amp-img></p>
       {{ end }}
     </div>
     {{ with .Content }}
@@ -28,9 +28,9 @@
           {{ range first 3 $posts }}
           <div class="article-item">
             <a href="{{.Permalink}}" rel="nofollow" class="article-img">
-              <img src="{{.Params.Icon | default `/images/default.png`}}"
-                data-src="{{.Params.Icon | default `/images/default.png`}}" title="{{.Params.name}}"
-                alt="{{.Params.name}}" data-loaded="true"></a>
+              <amp-img src="{{.Params.Icon | default `/images/default.png`}}" title="{{.Params.name}}"
+                alt="{{.Params.name}}" height="120" width="250"></amp-img>
+            </a>
             <div class="article-info">
               <a href="{{.Permalink}}" class="article-title">{{.Params.Name}}</a>
               {{ with .Params.subtitle }}

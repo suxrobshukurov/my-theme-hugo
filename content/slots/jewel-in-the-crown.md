@@ -5,8 +5,8 @@ title: "Juwel im Crown Slot Review, Bonus, RTP"
 description: "Mit einer unabhängigen Überprüfung von Jewel im Crown Slot von Barcrest können Sie kostenlos oder echtes Geld spielen und hier einen Bonus erhalten!"
 h1: "Juwel im Kronschlitz"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/90537/18f3bad4c6.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/90537/18f3bad4c6.jpeg"
+thumbnail: "/images/auto/o/90537/18f3bad4c6.jpeg"
+icon: "/images/auto/o/90537/18f3bad4c6.jpeg"
 name: "Juwel in der Krone"
 home: true
 weight: 1

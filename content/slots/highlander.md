@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Highlander Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Highlander Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/34654/801dad95cc.png"
-icon: "https://objects.kaxmedia.com/auto/o/34654/801dad95cc.png"
+thumbnail: "/images/auto/o/34654/801dad95cc.png"
+icon: "/images/auto/o/34654/801dad95cc.png"
 name: "Highlander"
 home: true
 weight: 1

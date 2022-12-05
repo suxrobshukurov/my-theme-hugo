@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Delphin -Riff Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Delphin -Reef -Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/84236/57616264bc.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/84236/57616264bc.jpeg"
+thumbnail: "/images/auto/o/84236/57616264bc.jpeg"
+icon: "/images/auto/o/84236/57616264bc.jpeg"
 name: "Delphinriff"
 home: true
 weight: 1

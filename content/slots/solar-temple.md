@@ -5,19 +5,19 @@ title: "Solar Temple Slot Rreview, Bonus, RTP"
 description: "Mit der unabhängigen Überprüfung des Solar -Tempelschlitzes vom Playson können Sie kostenlos oder echtes Geld spielen und hier einen Bonus erhalten!"
 h1: "Solar Temple Slot"
 iframe: "https://cdn.ps-gamespace.com/h5/solar_temple/games/solar_temple/index.html?key=TEST1100000&config_id=playsonsite-prod-h5d&lang=en&wl=pl_gate&server_url=https%3A%2F%2Fplaysonsite-prod.ps-gamespace.com%2Fcgi%2Fserver.cgi&platform=desk&game=solar_temple&t=1601305402610"
-thumbnail: "https://objects.kaxmedia.com/auto/o/89798/5e0da59ff9.png"
-icon: "https://objects.kaxmedia.com/auto/o/89798/5e0da59ff9.png"
+thumbnail: "/images/auto/o/89798/5e0da59ff9.png"
+icon: "/images/auto/o/89798/5e0da59ff9.png"
 name: "Solartempel"
 home: true
 weight: 1
-software: "https://objects.kaxmedia.com/auto/o/89022/bfba7c7376.png"
+software: "/images/auto/o/89022/bfba7c7376.png"
 lines: "95.22%"
 reels: "Nein"
 freeSpins: "Mittel"
 wildSymbol: "Ja"
 minMaxBet: "200.000 Dollar.00"
 maxWin: "Tiere, Gold/Goldmünzen, Azteken"
-screenshots: ["https://objects.kaxmedia.com/auto/o/89803/f7bb94ac96.jpeg"]
+screenshots: ["/images/auto/o/89803/f7bb94ac96.jpeg"]
 ---
 
 {{< code >}}<h2>Bewertung für einen neuen Online Slot -Solar -Tempel</h2><p>Der Solar Temple wurde im März 2020 veröffentlicht und wurde dank seines hellen, farbenfrohen Spielerlebnisses schnell zu einem Hit bei Online -Spielern.</p><p>Egal, ob Sie vorhaben, 20p oder 100 Pfund echtes Geld zu erreichen, es gibt die Möglichkeit, groß zu gewinnen, während es auch keinen Mangel an kostenlosen Spins. Die Flaming Frames Feature, bei der potenzielle Wilds in Flammen steigen, ist in der Regel einzigartig von Providers Playson, die erneut ein alternatives Slot -Thema geliefert haben.</p><p>Was der Solartempel an Grafiken fehlt, macht es in anderen Merkmalen wie Sticky Wilds wieder wett, während die maximale Auszahlung eine der höchsten ist, die wir je auf einem Playson-Slot gesehen haben. Der Mangel an progressiver Jackpot wird jedoch wahrscheinlich den erfahreneren Slot -Spieler abschrecken.</p><h2>Wie spielt man Solar Temple Online Slot?</h2><p>Das Ziel des Solartempels ist es, so viele Sonnenikonen auf den 5 Rollen wie möglich zu bekommen. Das Gameplay ist in Blöcke von 10 Spins aufgeteilt und sammelt auf dem Weg"Flammenrahmen", die sich in Ihrem letzten Block von Spins in Wildnis verwandeln.</p><p>Wenn Sie Ihre Sonnensymbole mehrmals in derselben Position landen können, noch besser, da dies Multiplikatoren von bis zu 10x aktiviert. In diesen Multiplikatoren sind die großen Dollars und am 10. Spin können Sie dem Jackpot näher kommen.</p><p>In Bezug auf die Benutzererfahrung sollten die Spieler Schwierigkeiten darstellen, ob Sie auf einem Mobilfunk, einem Tablet oder einem Desktop spielen. Sowohl iOS- als auch Android -Geräte sind für diejenigen von uns kompatibel, die mobiles Casino bevorzugen.</p><h2>Solartempelmerkmale und kostenlose Spins</h2><p>Der ansprechendste Aspekt des Solar -Tempels aus Sicht der Spieleerfahrung ist zweifellos die neue Funktion "Flaming Frames", die eine Fülle von Wildniss bietet.</p><p>Wenn eines dieser Wildniss mehr als einmal auf einem Rahmen landet, aktivieren Sie einen Multiplikator für Ihren letzten Spinsblock. Diese progressiven Multiplikatoren halten Sie auf der Suche nach einer anständigen Rückkehr.</p><p>In Bezug auf freie Spins verdienen Sie 10, wenn Sie drei Aztek -Tempelstreuungen - das Streuungssymbol, mit einem goldenen Tempel übereinstimmen können - im Raster repräsentiert. Diese Leistung wird eine Bonusrunde auslösen, aus der Sie das Potenzial haben, eine größere Auszahlung zu verdienen.</p><p>Playson hat hervorragende Arbeit geleistet, um die Benutzer mit dem Aztec -Thema beschäftigt zu haben, während die Funktion "Flaming Frames" mit einer der besten neuen Initiativen in Online Slots vorhanden ist.</p><h3>

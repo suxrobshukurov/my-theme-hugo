@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Fünf -mal Online Slot zahlen"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Fünf -mal Pay Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/79302/1332990310.png"
-icon: "https://objects.kaxmedia.com/auto/o/79302/1332990310.png"
+thumbnail: "/images/auto/o/79302/1332990310.png"
+icon: "/images/auto/o/79302/1332990310.png"
 name: "Fünfmal zahlen"
 home: true
 weight: 1

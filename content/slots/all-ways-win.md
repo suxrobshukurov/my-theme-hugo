@@ -5,8 +5,8 @@ title: "Alle Wege gewinnen Slot Review & Bonus -"
 description: "Entdecken Sie ein traditionelles Spiel mit aufregenden Bonusfunktionen in jeder Hinsicht von Amatic gewinnen. Unser praktischer Leitfaden enthält RTP, Funktionen, Gameplay und alles, was Sie wissen müssen!"
 h1: "Alle Wege gewinnen Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/105786/957ddc185c.Png"
-icon: "https://objects.kaxmedia.com/auto/o/105786/957ddc185c.PNG"
+thumbnail: "/images/auto/o/105786/957ddc185c.Png"
+icon: "/images/auto/o/105786/957ddc185c.PNG"
 name: "Alle Wege gewinnen"
 home: true
 weight: 1

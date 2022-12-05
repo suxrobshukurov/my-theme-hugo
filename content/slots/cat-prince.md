@@ -5,8 +5,8 @@ title: "Cat Prince Slot Review & Bonus -"
 description: "Stapelte Symbole, Wilds & Bonus -Spiele helfen dabei, die Auszahlungen im Katzenprinzen -Slot durch High 5 Games zu steigern! Lesen Sie unsere Rezension für alle Details, RTP, Boni, Tipps und mehr."
 h1: "Katzenprinzschlitz"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/111325/6f65c65d08.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/111325/6f65c65d08.jpeg"
+thumbnail: "/images/auto/o/111325/6f65c65d08.jpeg"
+icon: "/images/auto/o/111325/6f65c65d08.jpeg"
 name: "Katzenprinz"
 home: true
 weight: 1
@@ -17,7 +17,7 @@ freeSpins: "Mittel"
 wildSymbol: "Ja"
 minMaxBet: "400.000 Dollar.00"
 maxWin: "Tiere, Juwelen, altes Ägypten"
-screenshots: ["https://objects.kaxmedia.com/auto/o/111329/8b0d97ae6f.jpeg"]
+screenshots: ["/images/auto/o/111329/8b0d97ae6f.jpeg"]
 ---
 
 {{< code >}}<h2>Cat Prince Online Slot Review</h2><p>Uns wurde uns alle ein Märchen über Prinzen und Prinzessinnen mit dem Intro"Es war einmal" erzählt. High 5 Games beschlossen, das Royal/Fairytale -Thema in eines seiner Slot -Spiele, Cat Prince, umzusetzen. Der Prinz hier ist eine wilde Katze, die sich gelegentlich in einen Menschen verwandelt. Sie werden teure Schmuck auf den Rollen und einem Wald sehen.</p><p>Der Steckplatz kann ziemlich anständige und häufige Siege liefern. Cat Prince bietet Multiplikatoren, Bonusspiele, supergestapelte Symbole, Wildnis und Streue an. Sie können es auf jedem Gerät genießen, da es sowohl mit mobilen als auch mit Desktop -Geräten kompatibel ist. Laden Sie es daher, wo immer Sie sind, einfach und nutzen Sie alle Funktionen, die es zu bieten hat, um die bestmöglichen Auszahlungen zu erhalten!</p><h2>Wie man Katzenprinzen -Online Slot spielt</h2><p>Laden Sie Cat Prince auf Ihr iOS- oder Android -Mobilgerät oder Ihr Desktop. Sie sehen die Einstellungen unter den Rollen. Sie können sich für 1 bis 40 Paylines für eine Wette pro Zeile von 0 entscheiden, die von 0 stammt.01 bis 10 Credits. Die minimale Wette beträgt 0.01, während die maximalen 400 Credits. Als nächstes sehen Sie Ihren aktuellen Sieg Total- und Kreditsaldo.</p><p>Dann sehen Sie die Wiederholungsknopf. Darunter sehen Sie den Lautsprecher und die Fragezeichenschaltflächen. Drücken Sie den Lautsprecher, um die Geräusche zu ändern. Tippen Sie auf das Fragezeichen, und Sie öffnen den Paytable. Wenn Sie weiterziehen, kann der Purple Autoplay -Taste bis zu 25 Autospin in Cat Prince Online Slot in Bewegung setzen. Der letzte Knopf, den Sie sehen, ist der blaue Spin -Knopf.</p><h2>Katzenprinzen und kostenlose Spins</h2><p>Die Wildnis erscheint auf allen Rollen und Substitute für alle Symbole Bar die Streuung. Sie werden sehen, dass im Basisspiel die wilden und alle regulären Symbole in Stapeln erscheinen, die möglicherweise eine ganze Rolle abdecken. Wenn 3 oder mehr der hochbezahlten Symbole erscheinen und eine Gewinnerkombination bilden, gilt die Multiplikator-Funktion. Alle Siege werden mit 2x, 3x oder 5x für diesen Spin multipliziert. Die Wildnis kann die hochbezahlten Symbole in dieser Funktion nicht ersetzen.</p><p>Die Streuung erscheint nur auf den Mittelrollen. Es kann auch in Stapeln erscheinen. Land 9 Streuung, um die freien Spins auszulösen. Sie erhalten 8 kostenlose Spins, bei denen die Wild 500 zahlt.00 für eine 5-von-A-A-Com-Kombination. Zu Beginn der freien Spins müssen Sie aus den Streuungen auf dem Bildschirm auswählen, was eines der hochbezahlten Symbole zeigt. Mystery -Symbole werden erscheinen und verwandeln. Auch hier gilt die Multiplikatorfunktion, was bedeutet, dass 3 oder mehr hochbezahlte Symbole auf aufeinanderfolgenden Rollen erscheinen, die einen Sieg bilden.</p><h3>

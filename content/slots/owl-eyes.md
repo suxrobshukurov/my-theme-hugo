@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Eulen Augen Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Eulenaugenschlitz"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/88094/cf8657134f.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/88094/cf8657134f.jpeg"
+thumbnail: "/images/auto/o/88094/cf8657134f.jpeg"
+icon: "/images/auto/o/88094/cf8657134f.jpeg"
 name: "Eulenaugen"
 home: true
 weight: 1

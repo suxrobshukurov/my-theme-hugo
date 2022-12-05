@@ -5,8 +5,8 @@ title: "Eagles Flight Slot Review & Bonus -"
 description: "Preise steigen auf satte 800.000 Münzen im Eagles -Flugplatz durch High 5 Games. Lesen Sie unsere Rezension für die Informationen, die Sie benötigen, um groß zu gewinnen! Beinhaltet Volatilität & RTP."
 h1: "Eagles Flugschlitz"
 iframe: "https://partnerdemo.high5games.com/high5html/launch.html?debug=true&slamEnabled=on&slamWaitTime=0&playMode=R&currencyCode=USD&languageCode=en&siteId=FlashLobby&engine=default&quality=HIGH&userId=tester43168933&gameID=1415"
-thumbnail: "https://objects.kaxmedia.com/auto/o/108744/67e572edc6.PNG"
-icon: "https://objects.kaxmedia.com/auto/o/108744/67e572edc6.PNG"
+thumbnail: "/images/auto/o/108744/67e572edc6.PNG"
+icon: "/images/auto/o/108744/67e572edc6.PNG"
 name: "Eagles Flug"
 home: true
 weight: 1
@@ -17,7 +17,7 @@ freeSpins: "Mittel"
 wildSymbol: "Ja"
 minMaxBet: "800.000 Dollar.00"
 maxWin: "Tiere, Gold/Goldmünzen, Wild West"
-screenshots: ["https://objects.kaxmedia.com/auto/o/108790/9ab629d237.png"]
+screenshots: ["/images/auto/o/108790/9ab629d237.png"]
 ---
 
 {{< code >}}<h2>Eagles Flug Online Slot Review</h2><p>Es ist keine Frage, dass der Adler eine mächtige Kreatur ist. Als Symbol wurde der Adler in vielen Kulturen verehrt und oft in der Kunst dargestellt. Die Online -Gaming -Branche hat oft den Bird of Birt als Inspiration für großartige Slots genutzt, wie Eagles 'Flug von Hi 5 Games.

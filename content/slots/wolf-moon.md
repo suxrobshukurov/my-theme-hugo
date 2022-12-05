@@ -5,8 +5,8 @@ title: "Wolf Moon Slot Review & Bonus -"
 description: "Genießen Sie Bonus -Runden und mehrere gestapelte Wilds im Wolf Moon Slot von Amatic! Lesen Sie unsere Rezension für die Informationen, die Sie wissen müssen! Beinhaltet Volatilität, Funktionen und RTP."
 h1: "Wolf Moon Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/107694/c88b5af8c3.Png"
-icon: "https://objects.kaxmedia.com/auto/o/107694/c88b5af8c3.PNG"
+thumbnail: "/images/auto/o/107694/c88b5af8c3.Png"
+icon: "/images/auto/o/107694/c88b5af8c3.PNG"
 name: "Wolfmond"
 home: true
 weight: 1

@@ -5,8 +5,8 @@ title: "Drei -Sterne -Fortune -Slot -Bewertung, Bonus, RTP"
 description: "Mit einer unabhängigen Bewertung des drei Sterne -Fortune -Slot vom pragmatischen Spiel können Sie kostenlos oder echtes Geld spielen und hier einen Bonus erhalten!"
 h1: "Drei -Sterne -Glücksschlitz"
 iframe: "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?lang=en&cur=EUR&gameSymbol=vs10threestar&websiteUrl=http%3A%2F%2Fdemogamesfree.pragmaticplay.net"
-thumbnail: "https://objects.kaxmedia.com/auto/o/92238/265945eb28.png"
-icon: "https://objects.kaxmedia.com/auto/o/92238/265945eb28.png"
+thumbnail: "/images/auto/o/92238/265945eb28.png"
+icon: "/images/auto/o/92238/265945eb28.png"
 name: "Drei -Sterne -Glück"
 home: true
 weight: 1
@@ -17,7 +17,7 @@ freeSpins: "Hoch"
 wildSymbol: "Ja"
 minMaxBet: "500.000 Dollar.00"
 maxWin: "Essen, Gold/Goldmünzen, asiatisch"
-screenshots: ["https://objects.kaxmedia.com/auto/o/92243/ce61ba3897.png"]
+screenshots: ["/images/auto/o/92243/ce61ba3897.png"]
 ---
 
 {{< code >}}<h2>Drei -Sterne -Fortune -Online Slot -Bewertung</h2><p>Der Drei -Sterne -Fortune -Online Slot sieht für Spieler, die zuvor in ihren echten Geldspielen asiatische Themen gesehen haben, ziemlich vertraut aus. Ein klassisches 3-Reihen-Basisspiel mit 10 Paylines begrüßt Spieler, die über Top-Online-Spielseiten in diesem Spiel ankommen

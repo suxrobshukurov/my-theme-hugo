@@ -5,6 +5,21 @@
   <div class="container">
     <div class="content-block content-text">
       <h1>{{.Params.H1}}</h1>
+      <div class="toc-container" id="page-nav">
+        <div class="toc-title">{{i18n "page-nav"}}:<span class="show-toc" data-show="[Show]" data-hide="[Hide]"
+            on="tap:page-nav.toggleClass(class='open')" role="button" tabindex="0"></span>
+        </div>
+        <div class="toc-list-wrap" >
+          {{$toc := .TableOfContents}}
+          {{$toc = replace $toc `ul` `ol`}}
+          {{$toc = replace $toc `<ol>` `<ol class='toc-list'>`}}
+          {{$toc = replace $toc `<a` "<amp-img alt='✅' class='menu_emoji' width='16' height='16' src='/images/ficons/icons/svg/1828/1828614.svg'></amp-img><span" }} 
+          {{$toc = replace $toc `href="#` `on=tap:` }} 
+          {{$toc = replace $toc `"` `.scrollTo(duration=200)` }} 
+          {{$toc = replace $toc `<span` `<span role="button" tabindex="0" ` }} 
+          {{$toc | safeHTML}} 
+        </div>
+      </div>
       {{.Content}}
     </div>
   </div>

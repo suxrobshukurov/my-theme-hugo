@@ -5,8 +5,8 @@ title: "Double Da Vinci Diamonds Slot Review & Bonus -"
 description: "Verdoppeln Sie Ihre Auszahlungen auf satte 200.000.00 im Double Da Vinci Diamonds Slot von High 5 Games! Tumbling Rollen helfen Ihnen, groß zu gewinnen! Lesen Sie unsere Rezension für Details."
 h1: "Double da Vinci Diamonds Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/111489/72b2a1f07d.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/111489/72b2a1f07d.jpeg"
+thumbnail: "/images/auto/o/111489/72b2a1f07d.jpeg"
+icon: "/images/auto/o/111489/72b2a1f07d.jpeg"
 name: "Doppelte da Vinci Diamanten"
 home: true
 weight: 1

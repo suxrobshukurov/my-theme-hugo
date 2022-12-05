@@ -2,11 +2,11 @@
 draft: false
 date: 2022-11-09T16:17:38+03:00
 title: "Renegades Online Slot"
-description: "Glücksspiel.COM vergleicht die besten Online -Glücksspiel -Sites und -spiele der Kanada.  Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
+description: "Beliebte Spielautomaten in Deutschland. Unabhängige Produktbewertungen und exklusive Anmeldeangebote. Jetzt spielen!"
 h1: "Renegades Slot"
 iframe: ""
-thumbnail: "https://objekte.kaxmedia.com/auto/o/88151/82f63e9b35.jpeg"
-icon: "https://objects.kaxmedia.com/auto/o/88151/82f63e9b35.jpeg"
+thumbnail: "/images/auto/o/88151/82f63e9b35.jpeg"
+icon: "/images/auto/o/88151/82f63e9b35.jpeg"
 name: "Abtrünnige"
 home: true
 weight: 1

@@ -33,7 +33,7 @@ pageAnchor: [
   {navigation_faq: "FAQ"}
 ]
 
-slots: ["slots/achilies.md"]
+slots: ["slots/book-of-ra.md", "slots/razor-shark.md", "slots/eye-of-horus.md", "slots/book-of-dead.md", "slots/sizzling-hot.md", "slots/sweet-bonanza.md", "slots/el-torero.md", "slots/ramses-book.md", "slots/big-bass-bonanza.md"]
 
 games: {
   slots: "563",
@@ -485,7 +485,7 @@ gaps: [
 <strong>Zuverlässiger technischer Support</strong>. Ice Casino wäre kein Top -Online -Casino in Kanada und weltweit, wenn wir den Kundenunterstützung nicht ernst nehmen würden. Unsere Agenten sind immer rund um die Uhr verfügbar, um Ihnen die Hand anzubieten, wenn Sie Hilfe benötigen. Sie freuen sich auch zu wissen zu wissen, dass wir ein mehrsprachiges Support -System haben, mit dem Sie uns schnell per E -Mail oder Live -Chat in Ihrer Muttersprache erreichen können.</li> 
 <li>
 <strong>Breite Palette von schnellen und sicheren Zahlungsoptionen</strong>. Wie auch immer Sie Geld zu und von einem Online -Casino bewegen möchten, Sie finden es im Ice Casino. Je nachdem, was Sie bequem finden, können Sie E-Wallets, Bankkarten, direkte Kabelübertragungen und Prepaid-Karten verwenden.</li></ul> 
-<p>Wenn Sie jemals Vorschläge dafür haben, wie wir Ihnen besser dienen können, können Sie uns gerne an uns wenden, da wir immer offen für die Verbesserung unserer Dienstleistungen sind. Wir halten uns an einen „Kunden ist Königspolitik“, der sicherstellt, dass alle unsere Mitglieder nur das Beste von den Besten in unserem Casino bekommen.</p> 
+<p>Wenn Sie jemals Vorschläge dafür haben, wie wir Ihnen besser dienen können, können Sie uns gerne an uns wenden, da wir immer offen für die Verbesserung unserer Dienstleistungen sind. Wir halten uns an einen „Kunden ist Königspolitik", der sicherstellt, dass alle unsere Mitglieder nur das Beste von den Besten in unserem Casino bekommen.</p> 
 <h2>Online -Casino -Boni und -Schürigkeiten</h2> 
 <p>Eine der Liebessprachen, auf die wir im Ice Casino schwören, ist schenken, weil wir verstehen, wie wichtig Boni für das kanadische Online -Casino -Erlebnis sind. Und natürlich gilt dies auch für unsere Kunden aus allen anderen Teilen der Welt. Im Folgenden finden Sie die Boni und Werbeaktionen, die uns von anderen Online -Casinos anderswo abheben:</p> 
 <h3>Das Ice Casino Willkommensbonus</h3> 

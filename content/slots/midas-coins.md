@@ -5,8 +5,8 @@ title: "Midas Coins Slot - Spiel & Boni"
 description: "Lesen."
 h1: "Midas Münzen Slot"
 iframe: "https://d2drhksbtcqozo.cloudfront.net/casino/games-mt/midascoins/index.html?gameid=midascoins&jurisdiction=MT&channel=web&moneymode=fun&partnerid=1"
-thumbnail: "https://objects.kaxmedia.com/auto/o/108712/d057012cdb.png"
-icon: "https://objects.kaxmedia.com/auto/o/108712/d057012cdb.png"
+thumbnail: "/images/auto/o/108712/d057012cdb.png"
+icon: "/images/auto/o/108712/d057012cdb.png"
 name: "Midas Münzen"
 home: true
 weight: 1
@@ -17,7 +17,7 @@ freeSpins: "Mittel"
 wildSymbol: "Ja"
 minMaxBet: "500.000 Dollar.00"
 maxWin: "Altes Griechenland, griechische Mythologie"
-screenshots: ["https://objects.kaxmedia.com/auto/o/108716/2500cc8be7.jpeg"]
+screenshots: ["/images/auto/o/108716/2500cc8be7.jpeg"]
 ---
 
 {{< code >}}<h2>Midas Münzen Online Slot Review</h2><p>Die Legende von King Midas kommt zu Desktop- und Mobile Casinos in den Midas Münzen Online Slot von QuickSpin. Basierend auf der Geschichte eines Königs, der alles, was er berührte, in Gold verwandeln könnte.</p><p>Es handelt.02%. Zu den Boni zählen Wilds Substitutionen, eine Münzkollektion und eine kostenlose Spiele, bei der der König Gewinnmultiplikatoren aufbaut.</p><h2>Wie man das Midas Coins Slots -Spiel spielt</h2><p>Die Slate-Effect-Symbolpositionen sitzen in den Palastgärten. Verschiedene goldene Schmuckstücke erscheinen zusammen mit Kartensymbolen im unteren Wert, ein Satyr (Zauberer-Typ) und King Midas. Die Legende sagt, wie er alles, was er berührte. Sie tritt als wildes Symbol auf, das als andere wirken kann, um Siege zu vervollständigen.</p><p>Sie können den Midas -Münzen -Slot auf PCs, iOS, Android und Windows -Handys spielen. Wie auch immer Sie darauf zugreifen möchten, die Steuerelemente sind einfach zu bedienen, sodass Sie in Sekunden beginnen können. Ein Wettenbereich von 0.25 bis 100.00 passt die meisten Spieler an den oberen Online Slots -Sites und Sie wählen Einsätze mit einem Klick auf den Stapel der Münzen -Taste. Der Midas -Münzen -Slot verfügt über eine automatische Spins -Funktion. Wenn Sie die Taste drücken, die wie ein Hurrikan aussieht, drehen sich die Rollen im Turbo -Modus.</p><p>Das Paytable, der mit einem Klick auf die 3 Zeilen oben in den Steuerelementen erreicht ist, listet auf, wie viel Sie auf Ihrem aktuellen Wette -Level gewinnen, wenn 3 oder mehr Symbole von links über eine Zeile stoppen. Die Preise reichen von 4x die Wette für Karten -Embleme bis 32x für Halskette und Ringelblume.</p><h2>Kostenlose Spins und andere Midas -Münzen -Bonusfunktionen</h2><p>Münzsymbole können an jedem Punkt auf den Rollen 1 bis 4 landen. Es gibt 4 verschiedene Silbermünzen, und sie tragen Multiplikatoren mit bis zu 5x für das am wenigsten wertvolle und 500x für die höchste Bezahlung. Wenn Midas auf Reel 5 landet, sammelt er die kombinierten Werte aller Münzen im selben Dreh und in der Praxis, können Sie mehrere gleichzeitig sehen.</p><p>Der Satyr auf den Rollen 1, 3 und 5 zahlt einen Gewinn von 2x Ihre Wette, gefolgt von 12 freien Spins der Midas Coins Slots -Spielrollen. Diese kostenlosen Spiele "All is Golden" beginnen mit dem Auftreten eines Münzhaufens links von den Rollen. Alle Münzen, die auf dem Auslöser -Spin in diesem Stapel in Betracht gezogen werden und ihre kombinierten Werte beginnen mit einem 3x -Multiplikator.</p><p>Sie gewinnen diesen Preis jedes Mal, wenn Midas während der Runde auf Reel 5 landet, während weitere Münzen den Stapel erhöhen und seinen Wert erhöhen. Sie erhalten 1, 2 oder 5 zusätzliche Spins, wenn Sie 1, 2 oder 3 Satyr -Symbole in einem kostenlosen Spiel sehen.</p><h3>
